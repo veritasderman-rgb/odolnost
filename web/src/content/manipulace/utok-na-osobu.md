@@ -61,4 +61,4 @@ Zkuste si jednou větou shrnout, co bylo řečeno. Pokud to nejde, protože tam 
 - **Ověřte samotné tvrzení.** Je jedno, kdo ho řekl. Podívejte se, jestli sedí s fakty z ověřených zdrojů.
 - **Nenálepkujte ani vy.** Když s někým nesouhlasíte, řekněte proč. Nesouhlas není zrada, víc na stránce [Nesouhlas není zrada](/manipulace/nesouhlas-neni-zrada).
 
-Techniku si brzy vyzkoušíte i ve hře „Kdo tahá za nitky?“. [OVĚŘIT: adresa stránky hry M-12, až bude hotová]
+Techniku si brzy vyzkoušíte i ve hře „Kdo tahá za nitky?“, kterou připravujeme.

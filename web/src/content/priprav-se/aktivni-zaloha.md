@@ -33,13 +33,13 @@ zdroje:
   - nazev: "Do armády: Dobrovolné předurčení"
     url: "https://doarmady.mo.gov.cz/koho-hledame/vojak-v-zaloze/dobrovolne-predurceni"
     datum: "ověřeno 2026-10-19"
-  - nazev: "Zákon č. 45/2016 Sb., o službě vojáků v záloze"
+  - nazev: "Zákon č. 45/2016 Sb., o službě vojáků v záloze (§ 35 vyřazení z aktivní zálohy)"
     url: "https://www.zakonyprolidi.cz/cs/2016-45"
-    datum: "ověřeno 2026-10-19"
+    datum: "znění k 2025-07-01, ověřeno 2026-10-19"
   - nazev: "Zákoník práce, § 53 (zákaz výpovědi v ochranné době)"
     url: "https://www.zakonyprolidi.cz/cs/2006-262"
     datum: "ověřeno 2026-10-19"
-  - nazev: "Zákon č. 585/2004 Sb., branný zákon (§ 5 a § 7)"
+  - nazev: "Zákon č. 585/2004 Sb., branný zákon (§ 3, § 5 a § 7)"
     url: "https://www.zakonyprolidi.cz/cs/2004-585"
     datum: "znění k 2025-08-19, ověřeno 2026-10-19"
 autor: "Redakce Víme, co dělat"
@@ -70,7 +70,7 @@ Podle zákona a Ministerstva obrany musíte splnit tyto podmínky:
 - čestné prohlášení, že nepodporujete hnutí potlačující práva a svobody nebo hlásající zášť,
 - složení vojenské přísahy.
 
-[OVĚŘIT: zda platí horní věková hranice pro první zařazení do aktivní zálohy, krajské vojenské velitelství nebo doarmady.mo.gov.cz]
+Horní věkovou hranici pro první zařazení zákon nestanoví. Z aktivní zálohy vás ale vyřadí, když dosáhnete důchodového věku. Na vlastní žádost můžete zůstat i déle, pokud to schválí ředitel krajského vojenského velitelství. Starší články uvádějí hranici 60 let. Podle současného znění zákonů to už neplatí: voják v aktivní záloze má brannou povinnost i po šedesátce, dokud ho ze zálohy nevyřadí. Jste-li blízko důchodového věku, zeptejte se rekrutéra, jestli má přihláška smysl.
 
 Do aktivní zálohy vás zařadí krajské vojenské velitelství nejvýš na 5 let, poprvé zpravidla na 2 roky. Pak můžete zařazení prodloužit.
 

@@ -282,6 +282,47 @@ blockquote {
   color: var(--cerna);
 }
 
+.razitko {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+  margin: 0.15rem 0 0.55rem;
+  padding: 0.35rem 0.75rem 0.3rem;
+  border: 3px solid currentColor;
+  outline: 1px solid currentColor;
+  outline-offset: 2px;
+  font-family: var(--pismo-mono);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.razitko__hlavni {
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.razitko__kdo {
+  font-size: 0.62rem;
+}
+
+/* Barvy razítka jsou pevné, aby fungovalo i v tmavém režimu. */
+.razitko--potvrzeno {
+  color: #2f4600;
+  background: var(--akcent);
+  transform: rotate(-3deg);
+}
+
+.razitko--podezreni {
+  color: var(--text-2);
+  border-style: dashed;
+  outline-style: dashed;
+  transform: rotate(2deg);
+}
+
 mark.overit {
   background: #ffe08a;
   color: #3a2a00;

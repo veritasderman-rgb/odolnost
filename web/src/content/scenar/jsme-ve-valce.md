@@ -117,6 +117,12 @@ zdroje:
   - nazev: "Aktuálně.cz: Zůna varuje před hybridními operacemi"
     url: "https://zpravy.aktualne.cz/domaci/tohle-se-okamurovi-libit-nebude-zuna-varuje-pred-hybridnimi-operacemi-ruska/r~aaa29d3d1616663b1eeb279255888a6f/"
     datum: "2026-09"
+  - nazev: "Pardubický deník: Kauza požáru v Pardubicích má další posun, čtvrtý podezřelý skončil ve vazbě"
+    url: "https://pardubicky.denik.cz/zpravy_region/kauza-pozaru-v-pardubicich-ma-dalsi-posun-ctvrty-podezrely-skoncil-ve-vazbe-2026.html"
+    datum: "2026-03-28"
+  - nazev: "Wikipedie: Požár průmyslové haly v Pardubicích (stav vyšetřování)"
+    url: "https://cs.wikipedia.org/wiki/Po%C5%BE%C3%A1r_pr%C5%AFmyslov%C3%A9_haly_v_Pardubic%C3%ADch"
+    datum: "2026-09"
 autor: "Redakce Víme, co dělat"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
@@ -183,7 +189,7 @@ U některých případů nevíme, kdo za nimi stojí. Píšeme o nich, protože 
 - **Drony nad Dánskem (září 2025).** Letiště v Kodani bylo kvůli dronům na hodiny zavřené. Premiérka Mette Frederiksenová mluvila o nejvážnějším útoku na dánskou infrastrukturu a řekla, že nemůže vyloučit Rusko. Kreml to popírá.
 - **Kabely ve Finském zálivu (Vánoce 2024).** Poškozeno bylo pět podmořských kabelů, mezi nimi elektrické spojení Finska s Estonskem. Finsko stíhá posádku tankeru Eagle S, která podle obžaloby vlekla kotvu po dně. Obžalovaní úmysl popírají. Odvolací soud v roce 2026 vrátil případ k novému projednání.
 - **Dron nad severem Litvy (18. října 2026).** Nad okresem Pasvalys explodoval dron, lidé šli do krytů. Litevský prezident mluvil o válce, která se „přelévá na východní křídlo NATO“. Ukrajina ale uvedla, že mohlo jít o její dron, který ruské rušení odklonilo z kurzu. Přesně kvůli takovým případům je těžké útočníka rychle určit.
-- **Požár zbrojovky v Pardubicích (březen 2026).** Shořela hala firmy, která vyrábí mimo jiné drony pro Ukrajinu. K činu se přihlásila údajně protiizraelská skupina. Policie obvinila několik lidí z teroristického útoku. Bezpečnostní složky podle ČTK zvažují i to, že skupina kryje jiného aktéra, třeba stát. [OVĚŘIT: aktuální stav vyšetřování požáru LPP Holding v Pardubicích]
+- **Požár zbrojovky v Pardubicích (březen 2026).** Shořela hala firmy, která vyrábí mimo jiné drony pro Ukrajinu. K činu se přihlásila do té doby neznámá skupina, která se označuje za protiizraelskou. Policie zadržela celkem osm lidí v Česku, Polsku a Bulharsku a stíhá je kvůli teroristickému útoku. V červenci 2026 soud prodloužil vazbu čtyřem obviněným, ti vinu odmítají. Bezpečnostní složky prověřovaly i to, zda nejde o akci pod cizí vlajkou. Žádný stát ale úřady k říjnu 2026 jako objednavatele veřejně neoznačily.
 
 Ministr obrany Jaromír Zůna v září 2026 řekl: „My můžeme být pod napadením a nemusíme to vědět.“ Zároveň platí, že BIS sama píše, že u žádného incidentu v Česku, který v roce 2025 prověřovala, se podezření na sabotáž řízenou z Ruska nepodařilo spolehlivě potvrdit. I to patří k poctivému obrazu. Ne každý požár nebo výpadek je ruská akce.
 

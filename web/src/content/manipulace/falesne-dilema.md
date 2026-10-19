@@ -61,4 +61,4 @@ Zkuste si v duchu doplnit třetí, čtvrtou a pátou. Pokud je to snadné, dilem
 - **Ověřte, kdo zprávu napsal.** Kdo vám nabízí jen dvě možnosti, často prodává tu druhou.
 - **Promluvte si s lidmi z „druhého tábora“.** Většinou zjistíte, že nejsou tak daleko, jak tvrdí zpráva. Nesouhlas není zrada, víc o tom na stránce [Nesouhlas není zrada](/manipulace/nesouhlas-neni-zrada).
 
-Techniku si brzy vyzkoušíte i ve hře „Kdo tahá za nitky?“. [OVĚŘIT: adresa stránky hry M-12, až bude hotová]
+Techniku si brzy vyzkoušíte i ve hře „Kdo tahá za nitky?“, kterou připravujeme.

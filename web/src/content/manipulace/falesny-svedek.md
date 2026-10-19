@@ -63,6 +63,6 @@ Dvě minuty stačí na základní kontrolu. Pokud zdroj nejde ověřit, berte zp
 - **Neposílejte video dál, dokud nevíte, odkud je.** Ani s otazníkem.
 - **Nahlaste falešný účet platformě.** Většina sítí má u profilu volbu „nahlásit“ a možnost označit účet, který se vydává za někoho jiného.
 
-Jak ověřit fotku nebo video, ukážeme podrobně na samostatné stránce. [OVĚŘIT: adresa stránky M-10, až bude hotová]
+Jak ověřit fotku nebo video, ukážeme podrobně na samostatné stránce, kterou připravujeme.
 
-Techniku si brzy vyzkoušíte i ve hře „Kdo tahá za nitky?“. [OVĚŘIT: adresa stránky hry M-12, až bude hotová]
+Techniku si brzy vyzkoušíte i ve hře „Kdo tahá za nitky?“, kterou připravujeme.

@@ -24,6 +24,12 @@ zdroje:
   - nazev: "WHO: Doing What Matters in Times of Stress (příručka zvládání stresu, existuje i v češtině)"
     url: "https://www.who.int/publications/i/item/9789240003927"
     datum: "2020-04-29"
+  - nazev: "WHO: Mental health and psychosocial considerations during the COVID-19 outbreak (anglicky; omezit zprávy, které vyvolávají úzkost, informace hledat v určených časech jednou nebo dvakrát denně)"
+    url: "https://www.who.int/publications/i/item/WHO-2019-nCoV-MentalHealth-2020.1"
+    datum: "2020-03-18"
+  - nazev: "CNN Prima News: Ministerstvo zdravotnictví a NUDZ radí po tragédii omezit média a sociální sítě, před spaním je vynechat"
+    url: "https://cnn.iprima.cz/jak-se-vyrovnat-s-tragedii-ministerstvo-radi-omezit-media-socialni-site-i-alkohol-421054"
+    datum: "2023-12-22"
 autor: "Redakce Víme, co dělat"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
@@ -50,9 +56,9 @@ Světová zdravotnická organizace vydala příručku [Doing What Matters in Tim
 
 ## Kdy vypnout zprávy
 
-Být informovaný je důležité. Sledovat zprávy celý den ale obvykle nepřidá nic, co byste potřebovali vědět. Zato vás může vyčerpat. [OVĚŘIT: odborné doporučení k omezení sledování zpráv u dospělých v krizi, zdroj NUDZ/opatruj.se nebo Česká asociace pro psychické zdraví]
+Být informovaný je důležité. Sledovat zprávy celý den ale obvykle nepřidá nic, co byste potřebovali vědět. Zato vás může vyčerpat. Světová zdravotnická organizace v krizi radí omezit zprávy, ze kterých máte úzkost, a hledat informace v určených časech, jednou nebo dvakrát denně. Ministerstvo zdravotnictví s Národním ústavem duševního zdraví po střelbě na Filozofické fakultě v roce 2023 radilo podobně: omezit média a sociální sítě, dát si od zpráv pauzu a před spaním je vynechat.
 
-- **Dvakrát až třikrát denně stačí.** Vyberte si pevné časy a jeden nebo dva ověřené zdroje, třeba Český rozhlas.
+- **Jednou nebo dvakrát denně stačí.** Vyberte si pevné časy a jeden nebo dva ověřené zdroje, třeba Český rozhlas.
 - **Vypněte upozornění.** Zpravodajské aplikace nemusí pípat každých deset minut.
 - **Ne před spaním.** Poslední hodinu před spaním zprávy vynechte.
 - **Pozor na videa na sítích.** Drastické nebo šokující záběry bývají sestříhané tak, aby vás vyděsily. Některé jsou falešné. Jak je poznat, ukazuje [kapesní karta](/manipulace/karta).
