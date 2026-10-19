@@ -1,0 +1,10 @@
+---
+import Jednoducha from '../components/Jednoducha.astro';
+---
+<Jednoducha title="Hledat" popis="Vyhledávání na webu Víme, co dělat.">
+  <div id="hledani"></div>
+  <noscript><p>Vyhledávání potřebuje JavaScript. Projděte prosím <a href="/lehka">lehkou verzi webu</a> s přehledem všech stránek.</p></noscript>
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline src="/js/hledani.js"></script>
+</Jednoducha>

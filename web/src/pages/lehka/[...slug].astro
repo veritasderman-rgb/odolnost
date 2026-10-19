@@ -1,0 +1,20 @@
+---
+import { getCollection, render } from 'astro:content';
+import Lehka from '../../layouts/Lehka.astro';
+export async function getStaticPaths() {
+  return (await getCollection('obsah')).map((stranka) => ({ params: { slug: stranka.id }, props: { stranka } }));
+}
+const { stranka } = Astro.props;
+const { Content } = await render(stranka);
+const d = stranka.data;
+---
+<Lehka title={d.title}>
+  <h1>{d.title}</h1>
+  {d.druh === 'modelovy' && <p><strong>Modelový příběh</strong> (fiktivní postava v realistické situaci)</p>}
+  {d.druh === 'svedectvi' && <p><strong>Skutečné svědectví</strong></p>}
+  <p><em>{d.popis}</em></p>
+  <Content />
+  {d.krok && <p class="krok">Krok na dnes: {d.krok}</p>}
+  {d.zdroje.length > 0 && (<><h2>Odkud to víme</h2><ul>{d.zdroje.map((z) => <li>{z.url ? <a href={z.url}>{z.nazev}</a> : z.nazev}</li>)}</ul></>)}
+  <p><a href={`/${stranka.id}`}>Plná verze stránky</a></p>
+</Lehka>

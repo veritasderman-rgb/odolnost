@@ -1,0 +1,187 @@
+---
+import '@fontsource/atkinson-hyperlegible-next/400.css';
+import '@fontsource/atkinson-hyperlegible-next/700.css';
+import '@fontsource-variable/source-serif-4/index.css';
+import '../styles/global.css';
+import Logo from '../components/Logo.astro';
+import Odber from '../components/Odber.astro';
+
+interface Props {
+  title: string;
+  popis?: string;
+  obrazek?: string;
+  bezOdberu?: boolean;
+}
+
+const { title, popis = 'Klidně, pravdivě a prakticky: co by pro nás znamenala vážná krize, jak se o sebe a blízké postarat a jak poznat manipulaci.', obrazek = '/og/vychozi.png', bezOdberu = false } = Astro.props;
+const plnyTitulek = title === 'Víme, co dělat' ? title : `${title} · Víme, co dělat`;
+const kanonicka = new URL(Astro.url.pathname, Astro.site);
+const cesta = Astro.url.pathname;
+const aktivni = (prefix: string) => (cesta === prefix || cesta.startsWith(prefix + '/') ? 'page' : undefined);
+
+const menu = [
+  { href: '/zacit', nazev: 'Začít' },
+  { href: '/scenar', nazev: 'Scénář' },
+  { href: '/pribehy', nazev: 'Příběhy' },
+  { href: '/priprav-se', nazev: 'Připrav se' },
+  { href: '/manipulace', nazev: 'Manipulace' },
+];
+---
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{plnyTitulek}</title>
+    <meta name="description" content={popis} />
+    <link rel="canonical" href={kanonicka} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#1d2b36" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="cs_CZ" />
+    <meta property="og:site_name" content="Víme, co dělat" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={popis} />
+    <meta property="og:url" content={kanonicka} />
+    <meta property="og:image" content={new URL(obrazek, Astro.site)} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script is:inline src="/js/nastaveni.js"></script>
+  </head>
+  <body>
+    <a class="preskocit" href="#obsah">Přeskočit na obsah</a>
+    <header class="hlavicka">
+      <div class="obal radek">
+        <a href="/" class="domu" aria-label="Víme, co dělat: úvodní stránka"><Logo /></a>
+        <nav aria-label="Hlavní" class="menu">
+          {menu.map((p) => <a href={p.href} aria-current={aktivni(p.href)}>{p.nazev}</a>)}
+        </nav>
+        <div class="nastroje">
+          <a href="/hledat" class="ikona" aria-label="Hledat">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </a>
+          <button type="button" class="ikona" id="velke-pismo" aria-pressed="false" title="Větší písmo">
+            <span aria-hidden="true">A<span class="velke">A</span></span><span class="vizualne-skryte">Větší písmo</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="obsah">
+      <slot />
+    </main>
+
+    <footer class="paticka">
+      <div class="obal mrizka">
+        <div>
+          <Logo />
+          <p>Nezávislý a nadstranický projekt o připravenosti na vážnou krizi. Praktické seznamy zásob najdete na státním webu <a href="https://www.72h.gov.cz/cs">72h.gov.cz</a>, na který navazujeme.</p>
+          <p class="mensi">V nouzi volejte <strong>112</strong>. Podezření na sabotáž hlaste na <strong>158</strong>.</p>
+        </div>
+        <div>
+          <p class="nadpis">O projektu</p>
+          <ul>
+            <li><a href="/o-nas/o-nas">Kdo jsme</a></li>
+            <li><a href="/o-nas/financovani">Kdo nás financuje</a></li>
+            <li><a href="/o-nas/redakcni-pravidla">Redakční pravidla</a></li>
+            <li><a href="/o-nas/opravy">Opravy</a></li>
+            <li><a href="/o-nas/ochrana-soukromi">Ochrana soukromí</a></li>
+            <li><a href="/oficialni-kanaly">Naše oficiální kanály</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="nadpis">Pro násobitele</p>
+          <ul>
+            <li><a href="/pro-media">Pro média</a></li>
+            <li><a href="/pro-obce-a-skoly">Pro obce a školy</a></li>
+            <li><a href="/lehka">Lehká verze webu</a></li>
+          </ul>
+        </div>
+        {!bezOdberu && <div><Odber /></div>}
+      </div>
+      <div class="obal licence">
+        <p>Obsah můžete volně šířit a upravovat pod licencí <a href="https://creativecommons.org/licenses/by/4.0/deed.cs" rel="license">CC BY 4.0</a> s uvedením zdroje „Víme, co dělat“. Nepoužíváme cookies ani sledovací nástroje.</p>
+      </div>
+    </footer>
+
+    <nav class="spodni-lista" aria-label="Rychlá navigace">
+      <a href="/zacit" aria-current={aktivni('/zacit')}>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Začít
+      </a>
+      <a href="/pribehy" aria-current={aktivni('/pribehy')}>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h7a2 2 0 012 2v12a2 2 0 00-2-2H4zM20 5h-7a2 2 0 00-2 2v12a2 2 0 012-2h7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>Příběhy
+      </a>
+      <a href="/priprav-se/rodinny-plan" class="plan" aria-current={aktivni('/priprav-se/rodinny-plan')}>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 8h6M9 12h6M9 16h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Můj plán
+      </a>
+      <a href="/priprav-se" aria-current={aktivni('/priprav-se')}>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Připrav se
+      </a>
+      <a href="/manipulace" aria-current={aktivni('/manipulace')}>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Manipulace
+      </a>
+    </nav>
+  </body>
+</html>
+
+<style>
+  .hlavicka { background: var(--pozadi); border-bottom: 1px solid var(--linka); position: sticky; top: 0; z-index: 10; }
+  .radek { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 64px; }
+  .domu { text-decoration: none; }
+  .menu { display: flex; gap: 0.25rem; }
+  .menu a { color: var(--text); text-decoration: none; font-weight: 700; font-size: 1rem; padding: 0.5rem 0.75rem; border-radius: 999px; }
+  .menu a:hover { background: var(--papir-2); }
+  .menu a[aria-current='page'] { background: var(--inkoust); color: var(--papir); }
+  .nastroje { display: flex; gap: 0.25rem; }
+  .ikona { display: inline-grid; place-items: center; width: 44px; height: 44px; border-radius: 999px; border: 0; background: transparent; color: var(--text); font: inherit; font-weight: 700; cursor: pointer; }
+  .ikona:hover { background: var(--papir-2); }
+  .ikona[aria-pressed='true'] { background: var(--inkoust); color: var(--papir); }
+  .velke { font-size: 1.3em; }
+
+  .paticka { --obrys-loga: #4a6070; background: var(--inkoust); color: #e9e2d4; margin-top: 4rem; padding: 3rem 0 6rem; font-size: 0.95rem; }
+  .paticka :global(.nazev) { color: #f6f1e7; }
+  .paticka a { color: #f0be62; }
+  .mrizka { display: grid; gap: 2rem; grid-template-columns: 2fr 1fr 1fr 2fr; }
+  .paticka ul { list-style: none; padding: 0; margin: 0; }
+  .paticka li { margin: 0.4rem 0; }
+  .nadpis { font-weight: 700; color: #f6f1e7; margin-top: 0; }
+  .mensi { font-size: 0.9rem; }
+  .licence { border-top: 1px solid #33434f; margin-top: 2rem; padding-top: 1rem; font-size: 0.85rem; color: #b9c0c6; }
+
+  .spodni-lista { display: none; }
+
+  @media (max-width: 960px) {
+    .mrizka { grid-template-columns: 1fr 1fr; }
+  }
+
+  @media (max-width: 760px) {
+    .menu { display: none; }
+    .mrizka { grid-template-columns: 1fr; }
+    .spodni-lista { display: grid; grid-template-columns: repeat(5, 1fr); position: fixed; bottom: 0; left: 0; right: 0; z-index: 20; background: var(--plocha); border-top: 1px solid var(--linka); padding-bottom: env(safe-area-inset-bottom); }
+    .spodni-lista a { display: flex; flex-direction: column; align-items: center; gap: 0.15rem; padding: 0.45rem 0.25rem; font-size: 0.72rem; font-weight: 700; color: var(--text); text-decoration: none; }
+    .spodni-lista svg { width: 24px; height: 24px; }
+    .spodni-lista a[aria-current='page'] { color: var(--odkaz); }
+    .spodni-lista .plan { color: var(--inkoust); background: var(--lampa); }
+    .paticka { padding-bottom: 7rem; }
+  }
+</style>
+
+<script>
+  const tlacitko = document.getElementById('velke-pismo');
+  const koren = document.documentElement;
+  const nastav = (velke: boolean) => {
+    if (velke) koren.dataset.pismo = 'velke';
+    else delete koren.dataset.pismo;
+    tlacitko?.setAttribute('aria-pressed', String(velke));
+  };
+  nastav(koren.dataset.pismo === 'velke');
+  tlacitko?.addEventListener('click', () => {
+    const velke = koren.dataset.pismo !== 'velke';
+    nastav(velke);
+    try { localStorage.setItem('vcd-pismo', velke ? 'velke' : ''); } catch {}
+  });
+
+  if ('serviceWorker' in navigator && location.protocol === 'https:') {
+    navigator.serviceWorker.register('/sw.js').catch(() => {});
+  }
+</script>

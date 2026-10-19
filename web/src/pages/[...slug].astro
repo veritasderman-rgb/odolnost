@@ -1,0 +1,60 @@
+---
+import { getCollection, render } from 'astro:content';
+import Zaklad from '../layouts/Zaklad.astro';
+import KrokNaDnes from '../components/KrokNaDnes.astro';
+import OdkudToVime from '../components/OdkudToVime.astro';
+import Revize from '../components/Revize.astro';
+import StitekPribehu from '../components/StitekPribehu.astro';
+import KapesniKarta from '../components/KapesniKarta.astro';
+import Drobky from '../components/Drobky.astro';
+import Souvisejici from '../components/Souvisejici.astro';
+import { PILIRE, pilirZId } from '../lib/pilire';
+
+export async function getStaticPaths() {
+  const stranky = await getCollection('obsah');
+  return stranky.map((stranka) => ({ params: { slug: stranka.id }, props: { stranka } }));
+}
+
+const { stranka } = Astro.props;
+const { Content } = await render(stranka);
+const d = stranka.data;
+const pilir = pilirZId(stranka.id);
+const info = PILIRE[pilir];
+const jePribeh = pilir === 'pribehy';
+---
+<Zaklad title={d.title} popis={d.popis} obrazek={`/og/${pilir}.png`}>
+  <article class="obal stranka" style={`--barva-pilire: ${info.barva}`} data-pagefind-body>
+    <Drobky pilir={pilir} />
+    <header class="text">
+      <p class="pilir" data-pagefind-ignore>{info.cislo ? `${info.cislo} · ` : ''}{info.nazev}</p>
+      <h1>{d.title}</h1>
+      <div class="meta" data-pagefind-ignore>
+        <StitekPribehu druh={d.druh} />
+        {d.cteni && <span>{d.cteni} min čtení</span>}
+      </div>
+      <p class="perex">{d.popis}</p>
+    </header>
+    <div class:list={['text', 'telo', { cteni: jePribeh }]}>
+      <Content />
+    </div>
+    {stranka.id === 'manipulace/karta' && <KapesniKarta />}
+    {d.krok && <KrokNaDnes text={d.krok} />}
+    <OdkudToVime zdroje={d.zdroje} />
+    <Revize autor={d.autor} recenze={d.recenze} revidovano={d.revidovano} stav={d.stav} id={d.id} />
+    <Souvisejici pilir={pilir} aktualni={stranka.id} />
+  </article>
+</Zaklad>
+
+<style>
+  .stranka { padding-top: 1.5rem; }
+  .pilir { color: var(--barva-pilire); font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.85rem; margin: 0 0 0.5rem; }
+  :global([data-motiv]) .pilir, .pilir { filter: none; }
+  .meta { display: flex; gap: 1rem; align-items: center; color: var(--text-2); font-size: 0.9rem; margin-bottom: 1rem; flex-wrap: wrap; }
+  .perex { font-size: 1.25rem; line-height: 1.5; color: var(--text-2); margin: 0 0 1.5rem; }
+  .telo :global(h2) { border-top: 3px solid var(--barva-pilire); padding-top: 1rem; }
+  .telo :global(h2:first-child) { margin-top: 0.5rem; }
+  .telo :global(li) { margin: 0.35rem 0; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-motiv='svetly']) .pilir { color: var(--akcent-text); }
+  }
+</style>

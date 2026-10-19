@@ -14,6 +14,19 @@ Tento dokument je rozcestník plánu. Shrnuje, co spouštíme, v jakém pořadí
 | 05 | [Web a technika](05-web.md) | Struktura webu, interaktivní nástroje, technické řešení, bezpečnost |
 | 06 | [Tým, rozpočet, rizika a měření](06-tym-rozpocet-rizika.md) | Kdo co dělá, kolik to stojí, co se může pokazit, jak poznáme úspěch |
 
+## Priorita: nejdřív ukázat, pak oslovit
+
+Rozhodnutí z 19. 10. 2026: **nejdřív postavíme web, obsadíme sociální sítě a připravíme backoffice.** Správní rada, partneři a instituce přijdou na řadu, až budeme mít co ukázat (funkční web s prvním obsahem a ukázkami videí). Oslovení s hotovou ukázkou má mnohem větší šanci na úspěch než oslovení se záměrem.
+
+| Pořadí | Co | Stav |
+| --- | --- | --- |
+| 1 | Web: kostra, nástroje (rodinný plán, kontrolní seznam, karta, průvodce), první obsah | rozpracováno ve `web/` |
+| 2 | Sociální sítě: zabrat účty, profily, první příspěvky | podklady v `backoffice/socialni-site/` |
+| 3 | Backoffice: doména, e-maily, Brevo, hesla, účty, šablony | postup v `backoffice/` |
+| 4 | Videa: scénáře, výběr studia, první prebunkingová videa | scénáře ve `video/scenare/` |
+| 5 | Rešerše zahraničních příruček | `podklady/prirucky/` |
+| 6 | Správní rada, partneři, granty | až s ukázkou (brána B1 se tím posouvá) |
+
 ## Jedna věta
 
 Do 3. 3. 2027 spustíme klidný, nezávislý web s rodinným plánem, třemi příběhy, kapesní kartou a třemi prebunkingovými videy. Do konce června 2027 změříme, jestli lidem pomáhá, a teprve pak ho rozšíříme.
@@ -39,7 +52,7 @@ Do 3. 3. 2027 spustíme klidný, nezávislý web s rodinným plánem, třemi př
 
 | Fáze | Termín | Hlavní výstupy |
 | --- | --- | --- |
-| **F0 Založení** | 19. 10. – 30. 11. 2026 | Právní forma, správní rada, tvář projektu, doména a účty, redakční pravidla v návrhu, žádosti o granty, výběr designéra a video studia |
+| **F0 Založení** | 19. 10. – 30. 11. 2026 | Nejdřív web s prvním obsahem, doména, účty na sítích a backoffice. Pak s hotovou ukázkou: právní forma, správní rada, tvář projektu, granty, výběr designéra a video studia |
 | **F1 Brand a příprava** | 1. 12. 2026 – 31. 1. 2027 | Hotová vizuální identita, tón komunikace, design systém webu, scénáře a storyboardy videí, texty tří příběhů a klíčových stránek v první verzi |
 | **F2 Výroba MVP** | 1. 1. – 26. 2. 2027 (překryv s F1) | Web, rodinný plán, kontrolní seznam, kapesní karta, 3 příběhy s ilustracemi, 3 prebunkingová videa, úvodní video, materiály pro média a partnery |
 | **Spuštění** | 1.–3. 3. 2027 | 1. 3. je Světový den civilní ochrany. Ve středu 3. 3. ve 12:00 proběhne pravidelná zkouška sirén a ten den startuje Rodinná výzva |
@@ -51,7 +64,7 @@ Do 3. 3. 2027 spustíme klidný, nezávislý web s rodinným plánem, třemi př
 | Brána | Kdy | Podmínka splnění | Když splněno není |
 | --- | --- | --- | --- |
 | **B1 Můžeme začít utrácet** | 30. 11. 2026 | Podaný návrh na zápis spolku nebo ústavu. Aspoň 3 členové správní rady z různých oborů. Potvrzená tvář projektu (nebo dva finalisté). Zajištěno aspoň 1,5 mil. Kč na MVP (přislíbeno nebo na účtu). Registrovaná doména a účty. | Výroba se posune. Do té doby se dělá jen to, co nestojí peníze: texty, rešerše, oslovování partnerů. |
-| **B2 Můžeme spustit** | 19. 2. 2027 | Test s 30 čtenáři: aspoň 80 % uvede, že je obsah nevyděsil víc, než čekali, a že vědí, co mají udělat. Odborná revize všech MVP stránek. Bezpečnostní revize. Žádná kritická chyba na webu. | Spuštění se posune o 2–4 týdny (náhradní termín středa 7. 4. 2027, zkouška sirén). Spouštíme až s opraveným obsahem. |
+| **B2 Můžeme spustit** | 19. 2. 2027 | Test s 30 čtenáři: aspoň 80 % uvede, že je obsah nevyděsil víc, než čekali, a že vědí, co mají udělat. Odborná revize všech MVP stránek. Bezpečnostní revize. Žádná kritická chyba na webu. | Spuštění se posune na nejbližší další zkoušku sirén, středu 7. 4. 2027 (o 5 týdnů). Spouštíme až s opraveným obsahem. |
 | **B3 Můžeme rozšířit** | 30. 6. 2027 | Výsledky průzkumu před a po. Statisticky významné zlepšení v poznávání manipulace. Většina respondentů se necítí vyděšeněji. Aspoň 3 z 5 pilotních obcí a škol by sadu doporučily. | Rozšíření se nezastaví úplně. Nejdřív se ale přepracuje to, co nefungovalo, a teprve potom se pokračuje. |
 
 ## Rozsah MVP: co přesně spouštíme
@@ -80,6 +93,7 @@ MVP je nejmenší verze, která už lidem skutečně pomůže. Všechno ostatní
 | R5 | Newsletter | Ano. Je to jediný kanál, který nám platforma nevezme. Bez sledování otevření, s dvojitým potvrzením a u poskytovatele z EU. | 15. 12. |
 | R6 | Měření návštěvnosti | Jen agregované počty bez cookies a bez třetích stran (např. vlastní Plausible nebo GoatCounter). Na webu vysvětlíme, co měříme. | 15. 12. |
 | R7 | Placená reklama | Počítat s tím, že Meta a Google v EU nepouštějí reklamy na „společenská témata“ ([04](04-socialni-site.md#placená-podpora)). Do 15. 1. rozpočet otestovat a přerozdělit. | 15. 1. |
+| R9 | Rámec scénáře | **Rozhodnuto 19. 10.:** natvrdo počítáme s útokem Ruska a připravujeme se, jako by přišel. Rusko jmenujeme, data nevěštíme. Přidáváme pilíř „Zapoj se“ (aktivní záloha, dobrovolníci, kondice). | hotovo |
 | R8 | Datum spuštění | 1.–3. 3. 2027. Náhradní termín 7. 4. 2027. | B2 |
 
 ## Prvních 30 dní (do 18. 11. 2026)

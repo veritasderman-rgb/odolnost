@@ -1,0 +1,12 @@
+---
+import { PILIRE, type Pilir } from '../lib/pilire';
+interface Props { pilir: Pilir }
+const { pilir } = Astro.props;
+---
+<nav aria-label="Drobečková navigace" class="drobky netisknout" data-pagefind-ignore>
+  <a href="/">Úvod</a> <span aria-hidden="true">›</span> <a href={`/${pilir}`}>{PILIRE[pilir].nazev}</a>
+</nav>
+<style>
+  .drobky { font-size: 0.9rem; color: var(--text-2); margin-bottom: 1.25rem; }
+  .drobky a { color: var(--text-2); }
+</style>

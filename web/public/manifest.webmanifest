@@ -1,0 +1,15 @@
+{
+  "name": "Víme, co dělat",
+  "short_name": "Víme, co dělat",
+  "description": "Klidně, pravdivě, prakticky: příprava na vážnou krizi a obrana proti manipulaci.",
+  "lang": "cs",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f1e7",
+  "theme_color": "#1d2b36",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/ikony/ikona-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/ikony/ikona-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

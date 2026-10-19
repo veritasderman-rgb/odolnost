@@ -1,0 +1,46 @@
+---
+// Tiskový arch: 8 kapesních karet 85 × 55 mm na A4, k rozstříhání.
+import { TECHNIKY } from '../../lib/karta';
+import '@fontsource/atkinson-hyperlegible-next/400.css';
+import '@fontsource/atkinson-hyperlegible-next/700.css';
+---
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kapesní karty k tisku · Víme, co dělat</title>
+    <meta name="robots" content="noindex" />
+  </head>
+  <body>
+    <div class="ovladani">
+      <p>Arch s osmi kartami 85 × 55 mm. Tiskněte na A4 ve skutečné velikosti (100 %), pak rozstříhejte podle čar.</p>
+      <button type="button" id="tisk">Vytisknout</button> <a href="/manipulace/karta">Zpět</a>
+    </div>
+    <div class="arch">
+      {Array.from({ length: 8 }).map(() => (
+        <div class="karta">
+          <p class="titul">Poznej manipulaci</p>
+          <ol>{TECHNIKY.map((t) => <li><strong>{t.nazev}:</strong> {t.otazka}</li>)}</ol>
+          <p class="pata">Zastavte se, ověřte, zeptejte se. · vimecodelat.cz</p>
+        </div>
+      ))}
+    </div>
+  </body>
+</html>
+<style is:global>
+  @page { size: A4; margin: 10mm; }
+  body { margin: 0; font-family: 'Atkinson Hyperlegible Next', sans-serif; color: #000; background: #fff; }
+  .ovladani { padding: 1rem; font-size: 1rem; }
+  .ovladani button { font: inherit; font-weight: 700; padding: 0.6rem 1rem; border-radius: 999px; border: 0; background: #1d2b36; color: #fff; cursor: pointer; }
+  .arch { display: grid; grid-template-columns: repeat(2, 85mm); grid-auto-rows: 55mm; gap: 5mm; justify-content: center; }
+  .karta { box-sizing: border-box; border: 0.3mm dashed #888; padding: 3mm 4mm; font-size: 7.6pt; line-height: 1.3; overflow: hidden; }
+  .karta .titul { margin: 0 0 1mm; font-weight: 700; font-size: 10.5pt; color: #5e3a6e; }
+  .karta ol { margin: 0; padding-left: 4mm; }
+  .karta li { margin: 0.5mm 0; }
+  .karta .pata { margin: 1.2mm 0 0; font-size: 6.6pt; color: #333; }
+  @media print { .ovladani { display: none; } }
+</style>
+<script>
+  document.getElementById('tisk')?.addEventListener('click', () => window.print());
+</script>

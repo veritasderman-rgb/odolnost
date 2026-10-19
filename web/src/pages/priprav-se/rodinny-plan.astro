@@ -1,0 +1,268 @@
+---
+import Zaklad from '../../layouts/Zaklad.astro';
+import KrokNaDnes from '../../components/KrokNaDnes.astro';
+
+const lide = [1, 2, 3, 4, 5, 6];
+const deti = [1, 2, 3];
+const kontakty = [
+  { klic: 'spojka', nazev: 'Spojka mimo náš kraj', napoveda: 'Příbuzný nebo přítel jinde. Všichni mu dají vědět, že jsou v pořádku.' },
+  { klic: 'soused', nazev: 'Soused nebo sousedka', napoveda: '' },
+  { klic: 'lekar', nazev: 'Praktický lékař', napoveda: '' },
+  { klic: 'skola', nazev: 'Škola nebo školka', napoveda: '' },
+  { klic: 'prace', nazev: 'Zaměstnavatel', napoveda: '' },
+];
+---
+<Zaklad title="Rodinný plán" popis="Kde se sejdete, kdo vyzvedne děti, kontakty na papíře a plán bez signálu. Vyplníte za 15 minut, vytisknete na jednu stránku A4.">
+  <section class="obal plan-stranka netisknout">
+    <p class="pilir">3 · Připrav se</p>
+    <h1>Rodinný plán</h1>
+    <p class="perex text">Jedna stránka A4, která v krizi ušetří hodiny nejistoty. Vyplňte ji spolu s rodinou, vytiskněte a dejte na lednici. Každý dospělý ať má kopii v peněžence nebo v autě.</p>
+
+    <div class="soukromi text">
+      <strong>Vaše údaje zůstávají jen ve vašem zařízení.</strong> Nic se neodesílá. Rozepsaný plán se ukládá do tohoto prohlížeče, abyste se k němu mohli vrátit. Plán obsahuje citlivé údaje, proto ho nesdílejte na sítích.
+    </div>
+
+    <div class="akce">
+      <button type="button" class="tlacitko lampa" data-tisk="vyplneny">Vytisknout nebo uložit jako PDF</button>
+      <button type="button" class="tlacitko svetle" data-tisk="prazdny">Prázdný plán k ručnímu vyplnění</button>
+    </div>
+
+    <form id="plan" class="formular" autocomplete="off">
+      <fieldset>
+        <legend>1. Kdo jsme</legend>
+        <p class="napoveda">Všichni, kdo spolu bydlíte. Telefonní čísla na papíře jsou důležitá: když se vybije mobil, většina z nás si je nepamatuje.</p>
+        <div class="tabulka">
+          <span class="zahlavi">Jméno</span><span class="zahlavi">Mobil</span><span class="zahlavi">Kde bývá přes den</span>
+          {lide.map((i) => (
+            <>
+              <input name={`clen${i}_jmeno`} aria-label={`Člen domácnosti ${i}: jméno`} />
+              <input name={`clen${i}_tel`} type="tel" aria-label={`Člen domácnosti ${i}: mobil`} />
+              <input name={`clen${i}_den`} aria-label={`Člen domácnosti ${i}: kde bývá přes den`} placeholder={i === 1 ? 'práce, škola…' : ''} />
+            </>
+          ))}
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>2. Kde se sejdeme</legend>
+        <label>Blízko domova <span class="napoveda">(když se nedá zůstat doma, např. při požáru)</span><input name="setkani_blizko" placeholder="např. u lavičky před domem" /></label>
+        <label>Mimo naši čtvrť <span class="napoveda">(když se domů nedostaneme)</span><input name="setkani_daleko" placeholder="např. u babičky, u kostela v…" /></label>
+        <label>Kde můžeme přespat mimo domov<input name="setkani_prespani" placeholder="u koho, kde" /></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>3. Kdo vyzvedne děti</legend>
+        <div class="tabulka">
+          <span class="zahlavi">Dítě</span><span class="zahlavi">Škola nebo školka</span><span class="zahlavi">Vyzvedne / náhradník</span>
+          {deti.map((i) => (
+            <>
+              <input name={`dite${i}_jmeno`} aria-label={`Dítě ${i}: jméno`} />
+              <input name={`dite${i}_skola`} aria-label={`Dítě ${i}: škola nebo školka`} />
+              <input name={`dite${i}_kdo`} aria-label={`Dítě ${i}: kdo vyzvedne a náhradník`} />
+            </>
+          ))}
+        </div>
+        <p class="napoveda">Domluvte předem se školou, komu smí dítě předat, a řekněte to i dětem.</p>
+      </fieldset>
+
+      <fieldset>
+        <legend>4. Když nefungují telefony</legend>
+        <label>Sejdeme se každý den v<input name="bezsignalu_cas" placeholder="např. 18:00" /></label>
+        <label>Na místě<input name="bezsignalu_misto" placeholder="např. doma, nebo na místě setkání blízko domova" /></label>
+        <label>Kdo zkontroluje koho<input name="bezsignalu_kdo" placeholder="např. Petr dojde za babičkou, Jana za sousedkou" /></label>
+        <label>Kde necháme vzkaz<input name="bezsignalu_vzkaz" placeholder="např. lístek na dveřích bytu" /></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>5. Důležité kontakty</legend>
+        <div class="tabulka dve">
+          <span class="zahlavi">Kdo</span><span class="zahlavi">Jméno a telefon</span>
+          {kontakty.map((k) => (
+            <>
+              <span class="popisek">{k.nazev}{k.napoveda && <small>{k.napoveda}</small>}</span>
+              <input name={`kontakt_${k.klic}`} aria-label={k.nazev} />
+            </>
+          ))}
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>6. Léky, přístroje a zvířata</legend>
+        <label>Kdo bere jaké léky a kde jsou<input name="leky" placeholder="např. táta: léky na tlak, v kuchyni v horní skříňce" /></label>
+        <label>Přístroje na elektřinu a co dělat při výpadku<input name="pristroje" /></label>
+        <label>Kdo se postará o zvířata<input name="zvirata" /></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>7. Informace</legend>
+        <label>Rádio: stanice a frekvence u nás<input name="radio" placeholder="např. ČRo Radiožurnál, … MHz" /></label>
+        <p class="napoveda">Frekvenci zjistíte na <a href="https://www.mujrozhlas.cz/" rel="noopener">webu Českého rozhlasu</a> nebo naladěním. Další rady jsou na stránce <a href="/priprav-se/informace-bez-internetu">Informace bez internetu</a>.</p>
+      </fieldset>
+
+      <div class="akce">
+        <button type="button" class="tlacitko lampa" data-tisk="vyplneny">Vytisknout nebo uložit jako PDF</button>
+        <button type="button" class="tlacitko svetle" id="smazat">Smazat vše</button>
+        <span class="ulozeno" id="ulozeno" role="status" aria-live="polite"></span>
+      </div>
+    </form>
+
+    <KrokNaDnes text="Vytiskněte plán, dejte ho na lednici a večer ho ukažte celé rodině." />
+    <p class="text">Další krok: <a href="/priprav-se/kontrolni-seznam">kontrolní seznam zásob</a> a <a href="/priprav-se/rodinna-vyzva">Rodinná výzva</a> na pět víkendů.</p>
+  </section>
+
+  <!-- Tisková podoba na jednu stranu A4. Plní ji skript z formuláře. -->
+  <section class="list" id="list" aria-hidden="true">
+    <header>
+      <h1>Náš rodinný plán</h1>
+      <p>Vyplněno dne <span data-z="_datum"></span> · vimecodelat.cz</p>
+    </header>
+    <div class="dva">
+      <div class="blok">
+        <h2>Kdo jsme</h2>
+        <table>
+          <thead><tr><th>Jméno</th><th>Mobil</th><th>Přes den</th></tr></thead>
+          <tbody>{lide.map((i) => <tr><td data-z={`clen${i}_jmeno`}></td><td data-z={`clen${i}_tel`}></td><td data-z={`clen${i}_den`}></td></tr>)}</tbody>
+        </table>
+      </div>
+      <div class="blok">
+        <h2>Kde se sejdeme</h2>
+        <p><b>Blízko domova:</b> <span data-z="setkani_blizko"></span></p>
+        <p><b>Mimo čtvrť:</b> <span data-z="setkani_daleko"></span></p>
+        <p><b>Přespání:</b> <span data-z="setkani_prespani"></span></p>
+        <h2>Bez signálu</h2>
+        <p><b>Sejdeme se v</b> <span data-z="bezsignalu_cas"></span> <b>na místě</b> <span data-z="bezsignalu_misto"></span></p>
+        <p><b>Kdo zkontroluje koho:</b> <span data-z="bezsignalu_kdo"></span></p>
+        <p><b>Vzkaz necháme:</b> <span data-z="bezsignalu_vzkaz"></span></p>
+      </div>
+    </div>
+    <div class="dva">
+      <div class="blok">
+        <h2>Kdo vyzvedne děti</h2>
+        <table>
+          <thead><tr><th>Dítě</th><th>Škola</th><th>Vyzvedne / náhradník</th></tr></thead>
+          <tbody>{deti.map((i) => <tr><td data-z={`dite${i}_jmeno`}></td><td data-z={`dite${i}_skola`}></td><td data-z={`dite${i}_kdo`}></td></tr>)}</tbody>
+        </table>
+      </div>
+      <div class="blok">
+        <h2>Kontakty</h2>
+        <table class="kontakty"><tbody>{kontakty.map((k) => <tr><th>{k.nazev}</th><td data-z={`kontakt_${k.klic}`}></td></tr>)}</tbody></table>
+      </div>
+    </div>
+    <div class="blok">
+      <h2>Léky, přístroje, zvířata</h2>
+      <p><b>Léky:</b> <span data-z="leky"></span></p>
+      <p><b>Přístroje:</b> <span data-z="pristroje"></span></p>
+      <p><b>Zvířata:</b> <span data-z="zvirata"></span></p>
+    </div>
+    <footer class="pevne">
+      <p><b>Rádio:</b> <span data-z="radio"></span></p>
+      <p><b>Tísňová volání:</b> 112 jednotné · 150 hasiči · 155 záchranka · 158 policie</p>
+      <p>Když zní siréna kolísavým tónem: jděte dovnitř, zavřete okna, zapněte rádio. Podrobnosti na vimecodelat.cz/priprav-se/informace-bez-internetu</p>
+    </footer>
+  </section>
+</Zaklad>
+
+<style>
+  .plan-stranka { padding-top: 2rem; }
+  .pilir { color: var(--salvej); font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.85rem; margin: 0 0 0.5rem; }
+  .perex { font-size: 1.2rem; color: var(--text-2); }
+  .soukromi { background: var(--papir-2); border-radius: var(--radius); padding: 1rem 1.2rem; font-size: 0.98rem; }
+  .akce { display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; margin: 1.25rem 0; }
+  .formular { max-width: 52rem; }
+  fieldset { border: 1px solid var(--linka); border-radius: var(--radius); background: var(--plocha); padding: 1.1rem 1.3rem 1.3rem; margin: 0 0 1rem; }
+  legend { font-weight: 700; font-size: 1.2rem; padding: 0 0.4rem; }
+  label { display: block; font-weight: 700; margin: 0.75rem 0 0; }
+  .napoveda, small { font-weight: 400; color: var(--text-2); font-size: 0.92rem; }
+  small { display: block; }
+  input { display: block; width: 100%; min-height: 46px; font: inherit; font-size: 1rem; font-weight: 400; padding: 0.4rem 0.75rem; border: 1.5px solid var(--linka); border-radius: 8px; background: var(--pozadi); color: var(--text); margin-top: 0.3rem; }
+  input:focus { border-color: var(--petrol); }
+  .tabulka { display: grid; grid-template-columns: 1.2fr 1fr 1.3fr; gap: 0.4rem 0.5rem; align-items: center; }
+  .tabulka.dve { grid-template-columns: 1fr 1.6fr; }
+  .tabulka input { margin: 0; }
+  .zahlavi { font-weight: 700; font-size: 0.9rem; color: var(--text-2); }
+  .popisek { font-weight: 700; font-size: 0.98rem; }
+  .ulozeno { color: var(--text-2); font-size: 0.9rem; }
+  .list { display: none; }
+
+  @media (max-width: 640px) {
+    .tabulka { grid-template-columns: 1fr; }
+    .tabulka .zahlavi { display: none; }
+    .tabulka input:nth-of-type(3n + 1) { margin-top: 0.8rem; }
+    .tabulka.dve input { margin-bottom: 0.6rem; }
+  }
+
+  @media print {
+    @page { size: A4; margin: 10mm; }
+    .list { display: block; color: #000; font-family: var(--pismo); font-size: 10.5pt; line-height: 1.35; }
+    .list header { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1.5pt solid #000; margin-bottom: 3mm; }
+    .list h1 { font-size: 20pt; margin: 0; }
+    .list header p { margin: 0; font-size: 8pt; }
+    .list h2 { font-size: 12.5pt; margin: 4mm 0 1.5mm; border: 0; padding: 0; }
+    .list .dva { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+    .list p { margin: 2.2mm 0; }
+    .list table { display: table; width: 100%; margin: 0; font-size: 10pt; }
+    .list .kontakty th { width: 42%; }
+    .list th, .list td { padding: 1mm 1.2mm; border: 0.4pt solid #555; height: 8.5mm; }
+    .list th { background: #eee; font-weight: 700; }
+    .list span[data-z] { display: inline-block; min-width: 62mm; border-bottom: 0.4pt solid #555; min-height: 5.5mm; }
+    .list .pevne { margin-top: 5mm; border-top: 1.5pt solid #000; padding-top: 2mm; font-size: 10pt; }
+  }
+</style>
+
+<script>
+  const KLIC = 'vcd-rodinny-plan';
+  const formular = document.getElementById('plan') as HTMLFormElement;
+  const stav = document.getElementById('ulozeno') as HTMLElement;
+  const pole = () => Array.from(formular.querySelectorAll<HTMLInputElement>('input[name]'));
+
+  function nacti(): Record<string, string> {
+    try { return JSON.parse(localStorage.getItem(KLIC) || '{}'); } catch { return {}; }
+  }
+
+  function uloz() {
+    const data: Record<string, string> = {};
+    for (const p of pole()) if (p.value.trim()) data[p.name] = p.value.trim();
+    try {
+      localStorage.setItem(KLIC, JSON.stringify(data));
+      stav.textContent = 'Uloženo v tomto prohlížeči.';
+    } catch {
+      stav.textContent = 'Plán se nepodařilo uložit v prohlížeči. Před zavřením stránky ho vytiskněte.';
+    }
+  }
+
+  const ulozene = nacti();
+  for (const p of pole()) if (ulozene[p.name]) p.value = ulozene[p.name];
+
+  let casovac: number | undefined;
+  formular.addEventListener('input', () => {
+    clearTimeout(casovac);
+    casovac = window.setTimeout(uloz, 400);
+  });
+
+  function naplnList(prazdny: boolean) {
+    const hodnoty: Record<string, string> = {};
+    if (!prazdny) for (const p of pole()) hodnoty[p.name] = p.value.trim();
+    const dnes = new Date();
+    hodnoty._datum = prazdny ? '' : `${dnes.getDate()}. ${dnes.getMonth() + 1}. ${dnes.getFullYear()}`;
+    document.querySelectorAll<HTMLElement>('#list [data-z]').forEach((el) => {
+      el.textContent = hodnoty[el.dataset.z || ''] || '';
+    });
+  }
+
+  document.querySelectorAll<HTMLButtonElement>('[data-tisk]').forEach((tl) => {
+    tl.addEventListener('click', () => {
+      naplnList(tl.dataset.tisk === 'prazdny');
+      window.print();
+    });
+  });
+  window.addEventListener('beforeprint', () => {
+    if (!document.querySelector('#list [data-z="_datum"]')?.textContent) naplnList(false);
+  });
+
+  document.getElementById('smazat')?.addEventListener('click', () => {
+    if (!confirm('Opravdu smazat celý plán z tohoto prohlížeče?')) return;
+    formular.reset();
+    try { localStorage.removeItem(KLIC); } catch {}
+    stav.textContent = 'Plán byl smazán.';
+  });
+</script>

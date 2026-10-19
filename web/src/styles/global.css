@@ -1,0 +1,276 @@
+/* Design tokeny podle plan/01-brand.md. Pracovní verze do dodání manuálu značky. */
+:root {
+  --inkoust: #1d2b36;
+  --papir: #f6f1e7;
+  --papir-2: #ece4d3;
+  --bila: #fffdf8;
+  --lampa: #e8a93a;
+  --lampa-tmava: #8a5a0b;
+  --petrol: #1f5e6b;
+  --terakota: #a4492e;
+  --salvej: #3f6b4e;
+  --svestka: #5e3a6e;
+  --seda: #5b6670;
+  --linka: #d8cfbd;
+
+  --pozadi: var(--papir);
+  --plocha: var(--bila);
+  --text: var(--inkoust);
+  --text-2: var(--seda);
+  --odkaz: var(--petrol);
+  --akcent-text: var(--lampa-tmava);
+
+  --pismo: 'Atkinson Hyperlegible Next', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --pismo-cteni: 'Source Serif 4 Variable', Georgia, 'Times New Roman', serif;
+  --zakladni: 1.125rem;
+  --sirka: 72rem;
+  --sirka-textu: 40rem;
+  --radius: 10px;
+  --mezera: clamp(1rem, 3vw, 2rem);
+  color-scheme: light;
+}
+
+:root[data-pismo='velke'] {
+  --zakladni: 1.375rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-motiv='svetly']) {
+    --pozadi: #141f27;
+    --plocha: #1d2b36;
+    --text: #f1ebdf;
+    --text-2: #b9c0c6;
+    --odkaz: #8fc6d1;
+    --akcent-text: #f0be62;
+    --linka: #33434f;
+    --papir-2: #24343f;
+    color-scheme: dark;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--pozadi);
+  color: var(--text);
+  font-family: var(--pismo);
+  font-size: var(--zakladni);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--odkaz);
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--lampa);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  font-weight: 700;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin: 0 0 0.75rem;
+}
+
+h2 {
+  font-size: clamp(1.4rem, 3vw, 1.8rem);
+  margin: 2.2rem 0 0.75rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 1.6rem 0 0.5rem;
+}
+
+p,
+li {
+  text-wrap: pretty;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95em;
+  margin: 1.25rem 0;
+  display: block;
+  overflow-x: auto;
+}
+
+th,
+td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--linka);
+}
+
+th {
+  background: var(--papir-2);
+}
+
+blockquote {
+  margin: 1.5rem 0;
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  border-left: 4px solid var(--lampa);
+  color: var(--text-2);
+}
+
+.obal {
+  max-width: var(--sirka);
+  margin: 0 auto;
+  padding: 0 var(--mezera);
+}
+
+.text {
+  max-width: var(--sirka-textu);
+}
+
+.cteni {
+  font-family: var(--pismo-cteni);
+  font-size: 1.08em;
+  line-height: 1.7;
+}
+
+.cteni h2,
+.cteni h3 {
+  font-family: var(--pismo);
+}
+
+.preskocit {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: var(--inkoust);
+  color: var(--papir);
+  padding: 0.75rem 1rem;
+  z-index: 100;
+}
+
+.preskocit:focus {
+  left: 1rem;
+}
+
+.tlacitko {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 999px;
+  border: 2px solid var(--inkoust);
+  background: var(--inkoust);
+  color: var(--papir);
+  text-decoration: none;
+  cursor: pointer;
+  min-height: 48px;
+}
+
+.tlacitko.svetle {
+  background: transparent;
+  color: var(--text);
+  border-color: currentColor;
+}
+
+.tlacitko.lampa {
+  background: var(--lampa);
+  border-color: var(--lampa);
+  color: var(--inkoust);
+}
+
+.stitek {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  border: 1.5px solid currentColor;
+}
+
+mark.overit {
+  background: #ffe08a;
+  color: #3a2a00;
+  padding: 0 0.2em;
+  border-radius: 3px;
+  font-family: var(--pismo);
+  font-size: 0.85em;
+}
+
+.vizualne-skryte {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  :root {
+    --pozadi: #fff;
+    --plocha: #fff;
+    --text: #000;
+    --text-2: #333;
+    --odkaz: #000;
+  }
+
+  body {
+    font-size: 11pt;
+  }
+
+  .netisknout,
+  header.hlavicka,
+  footer.paticka,
+  nav.spodni-lista {
+    display: none !important;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

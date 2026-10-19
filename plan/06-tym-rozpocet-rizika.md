@@ -115,6 +115,8 @@ Rizika ze záměru (nálepka propagandy, politizace, šíření úzkosti, stigma
 | Tvář projektu odstoupí nebo se dostane do kauzy | nízká | vysoký | Dvě tváře, prověření před výběrem, smlouva s pravidly veřejného vystupování |
 | Spojení se zakladatelem a stranou | střední | vysoký | Zakladatel v pozadí, veřejně popsaná role, žádné stranické zdroje a kanály pro šíření |
 | Prebunkingové video působí stranicky | střední | vysoký | Nepolitické příklady, test se skupinami z různých názorových bublin |
+| Výzva k aktivní záloze posílí nálepku „náborová kampaň armády“ | střední | střední | Aktivní záloha je jedna z mnoha cest (vedle hasičů, první pomoci, Červeného kříže). Bez peněz a log MO, jen odkazy na oficiální informace. Jasně psát, že ne každý může a nemusí. |
+| Tvrdší rámec („počítáme s útokem“) zvýší úzkost části čtenářů | střední | střední | Každá stránka končí krokem, stránka Psychika, test s čtenáři v bráně B2 měří i strach |
 | Vyhoření nebo obtěžování týmu | střední | střední | Rotace moderace, psychologická podpora, bezpečnostní pravidla (níže) |
 | Nízký zájem o newsletter a WhatsApp | střední | nízký | Nabízet je u výstupů (plán, karta), ne vyskakovacím oknem |
 | Nedostatek peněz po pilotu | střední | vysoký | Grantový kalendář na 2. rok sestavit už v dubnu 2027, crowdfunding v pilotu |

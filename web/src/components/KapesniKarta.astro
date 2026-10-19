@@ -1,0 +1,38 @@
+---
+import { TECHNIKY } from '../lib/karta';
+---
+<section class="karta-sekce" aria-labelledby="karta-nadpis">
+  <h2 id="karta-nadpis">Kapesní karta</h2>
+  <div class="karta" id="kapesni-karta">
+    <div class="hlava">
+      <span class="okno" aria-hidden="true"></span>
+      <div><p class="male">Víme, co dělat</p><p class="titul">Poznej manipulaci</p></div>
+    </div>
+    <ol>
+      {TECHNIKY.map((t) => (
+        <li><a href={`/manipulace/${t.slug}`}><strong>{t.nazev}</strong></a><span class="otazka">{t.otazka}</span></li>
+      ))}
+    </ol>
+    <p class="pata">Než sdílíte: zastavte se, ověřte, zeptejte se. · vimecodelat.cz</p>
+  </div>
+  <div class="akce netisknout">
+    <a class="tlacitko" href="/manipulace/karta-tisk">Vytisknout karty (8 na A4)</a>
+    <a class="tlacitko svetle" href="/karta/poznej-manipulaci-telefon.png" download>Obrázek do telefonu</a>
+  </div>
+</section>
+
+<style>
+  .karta-sekce { margin: 2rem 0; }
+  .karta { background: var(--svestka); color: #fff; border-radius: 14px; padding: 1.25rem 1.4rem; max-width: 26rem; box-shadow: 0 10px 30px rgb(0 0 0 / 0.15); }
+  .hlava { display: flex; align-items: center; gap: 0.75rem; }
+  .okno { width: 2rem; height: 2rem; border-radius: 6px; background: linear-gradient(var(--inkoust), var(--inkoust)) padding-box; border: 0.35rem solid var(--inkoust); box-shadow: inset 0 0 0 0.35rem var(--lampa); }
+  .male { margin: 0; font-size: 0.8rem; opacity: 0.85; }
+  .titul { margin: 0; font-weight: 700; font-size: 1.3rem; }
+  .karta ol { padding-left: 1.3rem; margin: 1rem 0; }
+  .karta li { margin: 0.5rem 0; line-height: 1.35; }
+  .karta a { color: #fff; }
+  .otazka { display: block; font-size: 0.95rem; opacity: 0.92; }
+  .pata { margin: 0; font-size: 0.8rem; opacity: 0.85; }
+  .akce { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem; }
+
+</style>

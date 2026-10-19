@@ -14,4 +14,9 @@ Nezávislý český web o připravenosti domácností na vážnou krizi, včetn�
   - [05 Web a technika](plan/05-web.md)
   - [06 Tým, rozpočet, rizika a měření](plan/06-tym-rozpocet-rizika.md)
 
+- [`web/`](web/README.md): web vimecodelat.cz (Astro, statický)
+- [`video/`](video/): scénáře videí a podklady pro ilustrace
+- [`backoffice/`](backoffice/): účty, sociální sítě, šablony dokumentů
+- [`podklady/prirucky/`](podklady/prirucky/README.md): rešerše zahraničních příruček připravenosti
+
 Spuštění MVP je plánováno na 1.–3. 3. 2027.

@@ -1,0 +1,15 @@
+---
+import { formatDatum } from '../lib/pilire';
+interface Props { autor: string; recenze: string; revidovano?: string | Date; stav: string; id?: string }
+const { autor, recenze, revidovano, stav, id } = Astro.props;
+---
+<footer class="revize">
+  {stav !== 'schvaleno' && <p class="navrh">Pracovní verze: tato stránka zatím neprošla odbornou revizí.</p>}
+  <p>Napsal/a: {autor} · Recenze: {recenze}{revidovano && <> · Zkontrolováno {formatDatum(revidovano)}</>}{id && <> · {id}</>}</p>
+  <p><a href="/o-nas/opravy">Našli jste chybu? Napište nám.</a></p>
+</footer>
+<style>
+  .revize { max-width: var(--sirka-textu); border-top: 1px solid var(--linka); margin-top: 3rem; padding-top: 1rem; font-size: 0.9rem; color: var(--text-2); }
+  .revize p { margin: 0.3rem 0; }
+  .navrh { color: var(--akcent-text); font-weight: 700; }
+</style>

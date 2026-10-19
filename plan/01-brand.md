@@ -8,11 +8,13 @@ Zároveň musí značka obstát pod útokem. Kampaně, proti kterým stojíme, j
 
 ## Platforma značky
 
+> **Změna rámce (19. 10. 2026):** Projekt natvrdo počítá s tím, že útok Ruska na NATO a na Česko může opravdu přijít, a připravuje lidi, jako by přišel. Rusko jmenujeme. Nahrazuje to původní zásadu „scénář, ne proroctví“ ze záměru. Zachováváme ale tři věci: nevěštíme data, každá obava končí činem a nikoho nenálepkujeme. Součástí je i výzva zapojit se: aktivní záloha, dobrovolní hasiči, první pomoc, kondice.
+
 | | |
 | --- | --- |
 | **Poslání** | Pomáháme lidem v Česku připravit se na vážnou krizi, postarat se o své blízké a nenechat se v ní zmanipulovat. |
 | **Vize** | Země, kde většina domácností ví, co v krizi dělat, a kde je těžké lidi rozeštvat. |
-| **Slib** | Řekneme vám to klidně, pravdivě a s jedním krokem, který zvládnete ještě dnes. |
+| **Slib** | Řekneme vám to narovinu, klidně a pravdivě, a vždy s krokem, který zvládnete ještě dnes. |
 | **Pozice** | Nezávislý a nadstranický průvodce. Navazuje na státní 72h.gov.cz a přidává scénář, příběhy a odolnost vůči manipulaci. |
 | **Hodnoty** | Klid · Pravdivost · Péče · Soudržnost · Nezávislost |
 
@@ -54,6 +56,7 @@ Víme, co dělat
 │     └─ štítek: Skutečné svědectví
 ├── Připrav se             · Rodinný plán · Kontrolní seznam · Rodinná výzva
 ├── Poznej manipulaci      · Kapesní karta · Kdo tahá za nitky? (hra)
+├── Zapoj se               · Aktivní záloha · Dobrovolníci · Kondice (v pilíři Připrav se)
 ├── Týden v týlu           · interaktivní příběh
 └── Pro obce / Pro školy / Pro firmy / Pro média
 ```
@@ -64,15 +67,16 @@ Víme, co dělat
 
 1. **Krátce a přímo.** Věty do 20 slov, odstavce do 4 vět. Činný rod. Oslovujeme „vy“, malým písmenem.
 2. **Nejdřív uklidnit, pak informovat, nakonec krok.** Tohle pořadí platí pro každou stránku, video i příspěvek.
-3. **Pojmenovat a nestrašit.** Válku nazýváme válkou, ale nepopisujeme hrůzy. Mluvíme o důsledcích pro domácnost, ne o bojišti.
-4. **Přiznat nejistotu.** „Nevíme, jestli se to stane. Víme, co by pomohlo, kdyby ano.“
+3. **Pojmenovat narovinu a nestrašit.** Válku nazýváme válkou a Rusko Ruskem. Počítáme s tím, že útok může přijít, a říkáme, co by znamenal, včetně dronů, raket a sabotáží. Nepopisujeme hrůzy pro efekt. Mluvíme o tom, co se bude dít a co s tím uděláme.
+4. **Počítat s tím, ale nevěštit.** „Počítáme s tím, že Rusko může zaútočit na NATO, a tím i na nás. Kdy a jestli vůbec, nikdo neví. Připravujeme se, jako by to přišlo.“ Neuvádíme data ani jistoty, které nikdo nemá.
 5. **Nikoho nenálepkovat.** Popisujeme techniky a kampaně, ne lidi. Neříkáme „dezoláti“, „proruští šváby“ ani „ovce“.
 
 ### Takhle ano, takhle ne
 
 | Místo tohle | Píšeme tohle |
 | --- | --- |
-| Válka může přijít kdykoli. Jste připraveni? | Válka v Evropě je jeden z možných scénářů. Připravit se dá v klidu a postupně. |
+| Válka může přijít kdykoli. Jste připraveni? | Počítáme s tím, že Rusko může zaútočit na NATO, a tím i na nás. Proto se připravujeme už teď, v klidu a postupně. |
+| Za dva roky tu bude válka. | Kdy a jestli vůbec, nikdo neví. Je lepší být připraven než překvapen. |
 | 5 věcí, bez kterých nepřežijete | 5 věcí, které vám ulehčí první tři dny |
 | Nenechte se oblbnout dezinformátory! | Některé zprávy jsou udělané tak, aby vás vyděsily. Ukážeme vám, jak je poznat. |
 | Vláda vás chrání, věřte jí. | Ověřené informace najdete na webu HZS a v Českém rozhlase. Proč právě tam, vysvětlujeme níže. |
@@ -88,7 +92,7 @@ Víme, co dělat
 | týl, zázemí | fronta u nás (nepravdivé) |
 | připravenost, odolnost | přežití, prepping (subkultura, zbraně) |
 | manipulace, technika, kampaň | dezoláti, troll, ovce (nálepky lidí) |
-| scénář, jedna z možností | proroctví, „brzy“, „určitě“ |
+| počítáme s tím, připravujeme se, může přijít | proroctví, data útoku, „určitě v roce…“, odpočet |
 | nahlásit (158) | udat, odhalit souseda |
 | ověřené zdroje | „jediná pravda“, „oficiální pravda“ |
 | sousedé, komunita | „buďte ostražití vůči okolí“ |
@@ -99,7 +103,7 @@ Víme, co dělat
 
 | Pilíř | Hlavní sdělení | Důkaz / opora |
 | --- | --- | --- |
-| Scénář | Česko by nebylo frontou, ale týlem. Většina věcí by fungovala dál. | Veřejné analýzy BIS, MO, NATO (štítek „Odkud to víme“) |
+| Scénář | Počítáme s útokem Ruska na NATO. Česko by bylo hlavně týlem, ale ne v bezpečí: drony, rakety a sabotáže mohou zasáhnout i nás. Většina věcí by přesto fungovala dál. | Veřejné analýzy BIS, MO, NATO, zkušenost Ukrajiny a Polska (štítek „Odkud to víme“) |
 | Příběhy | Obyčejní lidé zvládli i horší věci. Pomohly jim jednoduché přípravy. | Svědectví Ukrajinců, povodně 2024, blackout 2025 |
 | Připrav se | Stačí pár kroků o víkendu. Plán na jedné stránce A4. | 72h.gov.cz, HZS |
 | Poznej manipulaci | Manipulace má opakující se triky. Když je znáte, nefungují. | Metaanalýza 33 experimentů, zkušenost z Česka 2022 |
@@ -229,7 +233,7 @@ Ikonový soubor: lineární ikony s tloušťkou čáry 2 px a zakulacenými konc
 
 ### Zvuková identita
 
-Klidný ženský nebo mužský hlas (ideálně tvář projektu), krátká zvuková značka 2–3 s (teplý akord, žádný úder ani siréna). Hudba je **zakázaná na objednávku nebo s licencí CC0/CC BY**. Obsah šíříme pod CC BY, takže běžná licence hudebních knihoven, která zakazuje další šíření, nestačí.
+Klidný ženský nebo mužský hlas (ideálně tvář projektu), krátká zvuková značka 2–3 s (teplý akord, žádný úder ani siréna). Hudba je **zakázková (na objednávku) nebo s licencí CC0/CC BY**. Obsah šíříme pod CC BY, takže běžná licence hudebních knihoven, která zakazuje další šíření, nestačí.
 
 ## Výstupy brandové práce (F1)
 
