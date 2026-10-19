@@ -93,6 +93,7 @@ MVP je nejmenší verze, která už lidem skutečně pomůže. Všechno ostatní
 | R5 | Newsletter | Ano. Je to jediný kanál, který nám platforma nevezme. Bez sledování otevření, s dvojitým potvrzením a u poskytovatele z EU. | 15. 12. |
 | R6 | Měření návštěvnosti | Jen agregované počty bez cookies a bez třetích stran (např. vlastní Plausible nebo GoatCounter). Na webu vysvětlíme, co měříme. | 15. 12. |
 | R7 | Placená reklama | Počítat s tím, že Meta a Google v EU nepouštějí reklamy na „společenská témata“ ([04](04-socialni-site.md#placená-podpora)). Do 15. 1. rozpočet otestovat a přerozdělit. | 15. 1. |
+| R9 | Rámec scénáře | **Rozhodnuto 19. 10.:** natvrdo počítáme s útokem Ruska a připravujeme se, jako by přišel. Rusko jmenujeme, data nevěštíme. Přidáváme pilíř „Zapoj se“ (aktivní záloha, dobrovolníci, kondice). | hotovo |
 | R8 | Datum spuštění | 1.–3. 3. 2027. Náhradní termín 7. 4. 2027. | B2 |
 
 ## Prvních 30 dní (do 18. 11. 2026)

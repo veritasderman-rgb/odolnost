@@ -8,7 +8,7 @@ import { PILIRE } from '../lib/pilire';
 const pribehy = (await getCollection('obsah', (s) => s.id.startsWith('pribehy/'))).sort((a, b) => a.data.poradi - b.data.poradi).slice(0, 3);
 const pilire = (['scenar', 'pribehy', 'priprav-se', 'manipulace'] as const).map((p) => ({ p, ...PILIRE[p] }));
 const popisy: Record<string, string> = {
-  scenar: 'Proč by Česko nebylo frontou, ale týlem. Co by fungovalo dál a co by se nás mohlo dotknout doma.',
+  scenar: 'Co by znamenal útok Ruska na NATO pro nás: drony, sabotáže, výpadky a panika. A co by fungovalo dál.',
   pribehy: 'Rodina u dálnice, paní Věra v paneláku, student a TikTok. Co jim pomohlo a co chybělo.',
   'priprav-se': 'Rodinný plán, kontrolní seznam, informace bez internetu a péče o ty, kdo potřebují pomoc.',
   manipulace: 'Šest triků, které by se v krizi objevily. Když je poznáte předem, přestanou fungovat.',
@@ -19,7 +19,7 @@ const popisy: Record<string, string> = {
     <div class="obal mrizka-uvod">
       <div class="text-uvodu">
         <h1>Když víme, co dělat, máme menší strach.</h1>
-        <p class="perex">Klidně a pravdivě vysvětlujeme, co by pro nás znamenala vážná krize, včetně války v Evropě. Ukážeme vám, jak se postarat o sebe i o své blízké a jak poznat manipulaci dřív, než na ni narazíte.</p>
+        <p class="perex">Počítáme s tím, že Rusko může zaútočit na NATO, a tím i na nás. Je lepší být připraven než překvapen. Narovinu vysvětlujeme, co by to znamenalo, jak se postarat o sebe i své blízké a jak poznat manipulaci dřív, než na ni narazíte.</p>
         <div class="akce">
           <a class="tlacitko lampa" href="/zacit">Co by to znamenalo pro nás? <span aria-hidden="true">→</span></a>
           <a class="tlacitko svetle" href="/priprav-se/rodinny-plan">Rodinný plán za 15 minut</a>
@@ -73,6 +73,16 @@ const popisy: Record<string, string> = {
       <Dlazdice href="/priprav-se/rodinny-plan" titulek="Rodinný plán na A4" popis="Místo setkání, kdo vyzvedne děti, kontakty na papíře, léky a plán bez signálu." barva="var(--salvej)" />
       <Dlazdice href="/priprav-se/kontrolni-seznam" titulek="Kontrolní seznam" popis="Co už máte a co chybí. Zaškrtáváte jen pro sebe, nic se neodesílá." barva="var(--salvej)" />
       <Dlazdice href="/manipulace/karta" titulek="Kapesní karta" popis="Šest technik manipulace a šest otázek. Do peněženky i do telefonu." barva="var(--svestka)" />
+    </div>
+  </section>
+
+  <section class="obal">
+    <h2>Co můžu udělat já</h2>
+    <p class="text">Připravená rodina je základ. Země ale potřebuje i lidi, kteří umějí pomoct ostatním.</p>
+    <div class="mrizka">
+      <Dlazdice href="/priprav-se/aktivni-zaloha" titulek="Zvažte aktivní zálohu" popis="Výcvik pár týdnů v roce vedle běžné práce. Pro koho je a jak se přihlásit." barva="var(--petrol)" />
+      <Dlazdice href="/priprav-se/co-mohu-udelat-ja" titulek="Další cesty, jak se zapojit" popis="Dobrovolní hasiči, první pomoc, Červený kříž, dárcovství krve, pomoc v obci." barva="var(--petrol)" />
+      <Dlazdice href="/priprav-se/kondice" titulek="Udržte se v kondici" popis="V krizi se chodí pěšky, nosí voda a málo spí. Jednoduchý plán pro každého." barva="var(--petrol)" />
     </div>
   </section>
 
