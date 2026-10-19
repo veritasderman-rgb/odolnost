@@ -210,6 +210,60 @@ zdroje:
   - nazev: "Polsat News: Tusk v Sejmu, nejkritičtější období války (polsky)"
     url: "https://www.polsatnews.pl/wiadomosc/2026-09-17/pilne-wystapienie-tuska-po-atakach-rosji-wskazal-najbardziej-krytyczny-moment/"
     datum: "2026-09-17"
+  - nazev: "ČTK: Hlaváč, Rusko může dílčím útokem otestovat soudržnost NATO"
+    url: "https://www.ceskenoviny.cz/zpravy/hlavac-rusko-muze-dilcim-utokem-otestovat-soudrznost-nato/2888041"
+    datum: "2026-10-15"
+  - nazev: "ČT24: Bezpečnostní situace je mnohem horší než před čtyřmi lety, říká nový šéf armády Hlaváč"
+    url: "https://ct24.ceskatelevize.cz/clanek/domaci/bezpecnostni-situace-je-mnohem-horsi-nez-pred-ctyrmi-lety-rika-novy-sef-armady-hlavac-375207"
+    datum: "2026-07-02"
+  - nazev: "ČTK: Koudelka, Rusko v příštích měsících může přistoupit k závažnějším operacím"
+    url: "https://www.ceskenoviny.cz/zpravy/koudelka-rusko-v-pristich-mesicich-muze-pristoupit-k-zavaznejsim-operacim/2886659"
+    datum: "2026-10-12"
+  - nazev: "ČT24: Rusko může přistoupit k závažnějším operacím, varuje šéf BIS"
+    url: "https://ct24.ceskatelevize.cz/clanek/domaci/rusko-muze-pristoupit-k-zavaznejsim-operacim-varuje-sef-bis-378502"
+    datum: "2026-10-12"
+  - nazev: "HlídacíPes: Rusko je největší bezpečnostní hrozbou pro Česko, říká odcházející šéf BIS"
+    url: "https://hlidacipes.org/rusko-je-nejvetsi-bezpecnostni-hrozbou-pro-cesko-rika-odchazejici-sef-bis"
+    datum: "2026-10-17"
+  - nazev: "Echo24: Babiš připomínal Koudelkovi heslo BIS"
+    url: "https://www.echo24.cz/a/HQ6Ei/zpravy-domaci-babis-pripominal-koudelkovi-heslo-bis-ten-varoval-pred-ruskem"
+    datum: "2026-10-12"
+  - nazev: "ČTK: Šéf BIS v Guardianu o možném ruském testu NATO"
+    url: "https://www.ceskenoviny.cz/zpravy/2877207"
+    datum: "2026-09-20"
+  - nazev: "ČTK: Babiš, Česko bude kolektivní obranu NATO respektovat"
+    url: "https://www.ceskenoviny.cz/zpravy/babis-cesko-bude-kolektivni-obranu-nato-respektovat/2877573"
+    datum: "2026-09-21"
+  - nazev: "ČT24: Na pomoc Pobaltí bychom v případě napadení museli vyslat dvě brigády, řekl Babiš"
+    url: "https://ct24.ceskatelevize.cz/clanek/domaci/na-pomoc-pobalti-bychom-v-pripade-napadeni-museli-vyslat-dve-brigady-rekl-babis-378093"
+    datum: "2026-09-30"
+  - nazev: "ČTK: Česko čelí ze strany Ruska hybridní válce, řekl TN.cz Babiš"
+    url: "https://www.ceskenoviny.cz/zpravy/cesko-celi-ze-strany-ruska-hybridni-valce-rekl-tncz-babis/2876096"
+    datum: "2026-09-17"
+  - nazev: "ČTK: Útok Ruska na NATO nehrozí, ale zpochybnění článku pět je nebezpečné, míní Pavel"
+    url: "https://www.ceskenoviny.cz/zpravy/utok-ruska-na-nato-nehrozi-ale-zpochybneni-clanku-pet-je-nebezpecne-mini-pavel/2877618"
+    datum: "2026-09-21"
+  - nazev: "Aktuálně.cz: Zůna varuje před hybridními operacemi"
+    url: "https://zpravy.aktualne.cz/domaci/tohle-se-okamurovi-libit-nebude-zuna-varuje-pred-hybridnimi-operacemi-ruska/r~aaa29d3d1616663b1eeb279255888a6f/"
+    datum: "2026-09"
+  - nazev: "ČTK: Metnar, Česko přijalo opatření v návaznosti na incidenty v Německu"
+    url: "https://www.ceskenoviny.cz/zpravy/metnar-cesko-prijalo-opatreni-v-navaznosti-na-incidenty-v-nemecku/2869944"
+    datum: "2026-09-04"
+  - nazev: "ČTK: Macinka si kvůli útoku na letiště v Lipsku předvolá ruskou velvyslankyni"
+    url: "https://www.ceskenoviny.cz/zpravy/macinka-si-kvuli-utoku-na-letiste-v-lipsku-predvola-ruskou-velvyslankyni/2868841"
+    datum: "2026-09-02"
+  - nazev: "NÚKIB: Zpráva o stavu kybernetické bezpečnosti ČR za rok 2025"
+    url: "https://nukib.gov.cz/cs/infoservis/aktuality/2453-nukib-vydal-zpravu-o-stavu-kyberneticke-bezpecnosti-cr-za-rok-2025-incidentu-ubylo-sofistikovanost-utocniku-roste"
+    datum: "2026-08-21"
+  - nazev: "Blesk: Šéf Vojenského zpravodajství v Hráčích (4 až 6 let, omezená operace)"
+    url: "https://www.blesk.cz/clanek/zpravy-hraci/845584/sef-vojenskeho-zpravodajstvi-v-hracich-zamiri-sem-ze-zakopu-desetitisice-ukrajincu-co-s-nimi.html"
+    datum: "2026-08-10"
+  - nazev: "Blesk: Šéf Vojenského zpravodajství exkluzivně v Hráčích (stupeň ohrožení)"
+    url: "https://www.blesk.cz/clanek/zpravy-hraci/845118/sef-vojenskeho-zpravodajstvi-exkluzivne-v-hracich-cesku-hrozil-vyssi-stupen-nebezpeci.html"
+    datum: "2026-08-03"
+  - nazev: "Echo24: Vláda schválila revizi krizové a obranné legislativy"
+    url: "https://echo24.cz/a/HBETF/vlada-krizova-legislativa-valka-blackout-povoden-armada-hasici-opatreni-pripravenost-kabinet-domaci"
+    datum: "2026-07-13"
 autor: "Redakce Víme, co dělat"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
@@ -244,13 +298,32 @@ Takový scénář je podle něj možný „v řádu měsíců, ne let“. Šlo o
 
 Ruskou taktiku popsal slovy „eskalovat za účelem deeskalace“. Rusové podle něj věří, že když budou tlačit dost silně, evropské země přestanou podporovat Ukrajinu.
 
-Premiér Andrej Babiš na to reagoval, že vláda takové informace od zpravodajských služeb nedostala a Česku bezprostřední nebezpečí nehrozí. Proč se tyto dva pohledy liší, vysvětlujeme níže.
+V Guardianu také řekl: „Teď musí zpravodajské služby vyšetřovat každý požár nebo každou poruchu jako potenciální teroristický útok.“ (překlad ČTK)
+
+### Koudelka ve Sněmovně: „nechceme a nemůžeme mlčet“
+
+Dvanáctého října 2026 vystoupil Koudelka na konferenci o bezpečnostních hrozbách v Poslanecké sněmovně. Sám ji označil za své nejspíš poslední veřejné vystoupení ve funkci. Řekl:
+
+> „Ta hrozba není aktuální teď, ale v následujících měsících, třeba po vyhlášení nějaké formy mobilizace ji nelze vyloučit.“
+
+> „Rusko je největší bezpečnostní hrozbou pro Českou republiku a ještě dlouho tomu tak bude.“
+
+Sabotáže podle něj už neprovádějí jen „primitivní telegramoví agenti“, ale „vycvičení útočníci s jasnými cíli a plány“. V krajním případě nevyloučil ani „omezenou vojenskou akci proti některé ze sousedních členských zemí aliance“. A proč o tom mluví: „Tenhle scénář už známe a teď prostě nechceme a nemůžeme mlčet.“
+
+Zároveň uklidnil: „Jsme dostatečně silní, abychom všem těmto hrozbám dokázali úspěšně a efektivně čelit. Ale musíme být na ně připraveni.“
+
+Premiér Andrej Babiš na jeho vystoupení reagoval: „Bylo by dobré, aby si pan Koudelka přečetl heslo BIS.“ A dodal: „Já nemám zapotřebí tady komunikovat informace našich služeb, ty informace jsou určené pro nás.“ Už v září řekl, že vláda nemá informaci, že by Česko „mělo být napadeno drony či raketami“. Opoziční politici se ředitele BIS zastali. Proč se pohledy liší, vysvětlujeme níže.
 
 ## Česko: Vojenské zpravodajství
 
 Vojenské zpravodajství (VZ) je vojenská rozvědka a kontrarozvědka. Je součástí Ministerstva obrany. Veřejnou výroční zprávu od roku 2024 nevydává. Na svém webu to zdůvodňuje slovy „Vzhledem k výrazně zhoršené bezpečnostní situaci ve světě od roku 2024“. Platit to má, dokud současné hrozby a rizika nepominou.
 
-Ředitel VZ Petr Bartovský v srpnu 2026 v rozhovoru pro Blesk podle tiskové zprávy VZ uvedl, že Česko zůstává bezpečnou zemí. Služby ale sledují rizika spojená hlavně s válkou na Ukrajině a s ruskými aktivitami.
+Ředitel VZ Petr Bartovský v srpnu 2026 v pořadu Hráči na Blesku řekl dvě věci, které patří k sobě:
+
+- „Česká republika je i podle mezinárodních indexů jednou z nejbezpečnějších zemí v Evropě.“
+- Rusko by podle něj mohlo „v horizontu čtyř až šesti let“ znovu dosáhnout podobného vojenského postavení a síly jako před válkou. „Může ale jít o omezenou vojenskou operaci někde na východním křídle NATO.“
+
+Prozradil také, že se za poslední rok opakovaně zvažovalo zvýšení stupně ohrožení Česka ze stupně B na vyšší.
 
 ## Česko: armáda a strategie
 
@@ -262,7 +335,9 @@ Vojenské zpravodajství (VZ) je vojenská rozvědka a kontrarozvědka. Je souč
 - Listopad 2023, velitelské shromáždění: „Je nutné se chystat na válku s protivníkem s jadernými zbraněmi.“ Kdyby došlo ke střetu Ruska s NATO, bylo by podle něj Česko jeho účastníkem hned od začátku.
 - Květen 2026, debata s vrchním velitelem NATO v Evropě na univerzitě CEVRO: „Rusko je na trajektorii k válce s námi.“ A také: „Trápí mě nedostatek pocitu naléhavosti, který v Česku panuje.“
 
-Vláda v květnu 2026 navrhla jako jeho nástupce Miroslava Hlaváče, dosavadního prvního zástupce náčelníka generálního štábu. [OVĚŘIT: veřejné výroky gen. Miroslava Hlaváče k riziku války s Ruskem od nástupu do funkce]
+**Generál Miroslav Hlaváč** vede armádu od 1. července 2026. Hned při nástupu řekl: „Bezpečnostní situace pro Českou republiku v rámci Evropy je rozhodně jiná, než byla před čtyřmi roky. Je mnohem horší.“ A: „Největší riziko jsou kybernetické útoky a ty se prakticky dějí dnes a denně.“
+
+V říjnu 2026 pro ČTK řekl, že Rusko může dílčím útokem na část území státu NATO otestovat soudržnost aliance. A dodal: „Chci zdůraznit, že my jsme připraveni a my budeme bránit Českou republiku s těmi prostředky a s tím, co máme.“ Také: „Připravenost státu je nikdy nekončící proces. Nikdy nebudete mít stoprocentní připravenost.“
 
 **Oficiální dokumenty státu** mluví střízlivěji, ale ve stejném směru:
 
@@ -270,13 +345,29 @@ Vláda v květnu 2026 navrhla jako jeho nástupce Miroslava Hlaváče, dosavadn�
 - Tamtéž, bod 20: riziko přímého vojenského ohrožení Česka „zůstává nízké“. Pravděpodobnost přímého vojenského útoku na naše území je ale „nejvyšší od konce studené války, a to zejména jako součást širšího konfliktu“.
 - Obranná strategie ČR (2023), bod 24: hlavním úkolem obranné politiky je „všestranná příprava na dlouhotrvající obrannou válku vysoké intenzity s technologicky vyspělým protivníkem vybaveným jadernými zbraněmi“.
 
+V červenci 2026 vláda schválila revizi jedenácti krizových a obranných zákonů. Návrhy mají být hotové do roka a týkají se i civilní ochrany a krizového plánování. Ministr obrany Jaromír Zůna k tomu řekl: „Dnešní úprava už neodpovídá tomu, jak dnes vypadá vývoj v bezpečnostním prostředí.“
+
 [OVĚŘIT: zda vláda od roku 2023 nepřijala novou bezpečnostní nebo obrannou strategii, vlada.gov.cz a mzv.gov.cz, těsně před publikací]
+
+## Česko: vláda a prezident
+
+I politici, kteří mluví opatrněji než BIS, ruskou hrozbu nepopírají. Liší se hlavně v tom, jak nahlas o ní mluvit.
+
+| Kdo | Kdy | Co říká |
+| --- | --- | --- |
+| **Premiér** Andrej Babiš | 30. září 2026 | Po schůzce s prezidentem o postupu pro případ ruského útoku na Pobaltí: „Podle článku pět (NATO) musíme vyslat dvě naše mechanizované brigády.“ A: „Samozřejmě, že se připravujeme.“ |
+| **Prezident** Petr Pavel | 21. září 2026 | „Já si nemyslím, že by se jednalo opravdu o riziko přímého útoku Ruska na NATO.“ Ale: „To nevylučuje, že se Rusko nemůže uchýlit k nějakému hybridnímu útoku většího rozsahu.“ Zpochybňování článku 5 označil za nebezpečné. |
+| **Ministr obrany** Jaromír Zůna | 19. září 2026 | Největší riziko pro Česko je podle něj „hybridní působení našich potenciálních protivníků“. „Stačí napadení sítí a vlak s vojenskou technikou vám místo v severním Polsku skončí v Řecku.“ A: „My můžeme být pod napadením a nemusíme to vědět.“ |
+| **Premiér** Andrej Babiš | 17. září 2026 | Po varování polského premiéra: „Naše zpravodajské služby věnují všem rizikům spojeným s aktivitami ruských zpravodajských služeb namířeným proti naší zemi největší možnou pozornost.“ |
+| **Ministr vnitra** Lubomír Metnar | 4. září 2026 | Po útoku v Lipsku: „Na aktuální vývoj reagujeme přijetím konkrétních opatření, která však z bezpečnostních důvodů není možné specifikovat.“ Policie posílila hlídky u nádraží. |
+| **Ministr zahraničí** Petr Macinka | 2. září 2026 | Kvůli Lipsku předvolal ruskou velvyslankyni: „Zjištění jsou alarmující a není možné je brát na lehkou váhu. To není nic, co by se stalo tisíc kilometrů daleko, ale je to blízko, blízko nás.“ |
+| **Ředitel NÚKIB** Lukáš Kintr | 21. srpna 2026 | „Pokles počtu incidentů rozhodně neznamená, že by se kybernetické prostředí stávalo bezpečnějším.“ |
 
 ## Co zaznělo za poslední tři měsíce
 
 Od léta 2026 se o Rusku v Evropě mluví víc a ostřeji. Důvodem jsou hlavně nové útoky. V srpnu se na letišti Lipsko/Halle našel dron s výbušninou u ukrajinského nákladního letadla a Německo ho na začátku září připsalo Rusku. V Tallinnu hořela zbrojovka, Estonsko za tím vidí ruské tajné služby. V Litvě se v říjnu někdo pokusil zapálit sklad s vybavením Starlink pro Ukrajinu. Podrobně to popisujeme na stránce [Jsme ve válce?](/scenar/jsme-ve-valce).
 
-Ze stovky výroků jsme vybrali ty nejdůležitější. Řadíme je od nejnovějších. Překlady jsou naše (volný překlad), u každého výroku najdete zdroj v sekci „Odkud to víme“ dole na stránce.
+Z téměř stovky ověřených výroků jsme vybrali ty nejdůležitější. Řadíme je od nejnovějších. Překlady jsou naše (volný překlad), u každého výroku najdete zdroj v sekci „Odkud to víme“ dole na stránce.
 
 **Ve zkratce:**
 
@@ -372,7 +463,7 @@ Pro srovnání, co zaznívalo dřív. Mnoho z toho platí dál.
 Možná vás zarazí, že ředitel BIS mluví o měsících a premiér říká, že nám nic bezprostředně nehrozí. Nemusí jít o spor o fakta. Každý z nich má jinou roli.
 
 - **Zpravodajská služba** sbírá a hodnotí informace. Podle zákona za ni odpovídá vláda, které BIS předává své poznatky. Veřejnou zprávou a rozhovory BIS zároveň mluví k lidem. Varovat je součástí její práce.
-- **Vláda** musí vážit víc věcí najednou: co ví ze zpravodajských zpráv, co smí říct veřejně a jak zabránit panice. Premiér Babiš v září 2026 uvedl, že vláda má i zpravodajské informace, o kterých nemůže mluvit veřejně. Opatrně mluvila i předchozí vláda. Když Řehka v roce 2023 řekl, že válka s Ruskem je možná, premiér Petr Fiala odpověděl, že Česku konflikt bezprostředně nehrozí, ale armáda se musí připravovat na všechny varianty.
+- **Vláda** musí vážit víc věcí najednou: co ví ze zpravodajských zpráv, co smí říct veřejně a jak zabránit panice. Premiér Babiš v říjnu 2026 řekl, že informace služeb „jsou určené pro nás“, ne pro veřejnost. Opatrně mluvila i předchozí vláda. Když Řehka v roce 2023 řekl, že válka s Ruskem je možná, premiér Petr Fiala odpověděl, že Česku konflikt bezprostředně nehrozí, ale armáda se musí připravovat na všechny varianty.
 - **Armáda** plní úkoly, které jí dá politické vedení. Náčelníka generálního štábu jmenuje prezident na návrh vlády. Vojenské zpravodajství je součástí Ministerstva obrany a jeho ředitel odpovídá ministrovi. Proto armáda veřejně mluví hlavně o tom, na co se připravuje, a méně o datech.
 
 Pro vás z toho plyne jednoduchá věc. Když dva lidé ve vysokých funkcích mluví jinak, nemusí jeden lhát. Hledejte, **o jakém** riziku mluví a **za jakých podmínek**. To je důležitější než titulek.

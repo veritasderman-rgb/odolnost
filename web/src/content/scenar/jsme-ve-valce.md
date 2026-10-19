@@ -105,6 +105,18 @@ zdroje:
   - nazev: "Kyiv Independent: Nad Litvou explodoval dron, NATO vyslalo stíhačky (anglicky)"
     url: "https://kyivindependent.com/nato-jets-scramble-as-drone-explodes-in-lithuanian-airspace/"
     datum: "2026-10-18"
+  - nazev: "NÚKIB: Mezinárodní upozornění na ruskou kybernetickou kampaň zneužívající Zimbra"
+    url: "https://nukib.gov.cz/cs/infoservis/aktuality/2447-nukib-se-pripojil-k-mezinarodnimu-upozorneni-na-ruskou-kybernetickou-kampan-zneuzivajici-zimbra-collaboration-suite"
+    datum: "2026-08-10"
+  - nazev: "NÚKIB: Ruští aktéři cílí na uživatele Signalu"
+    url: "https://nukib.gov.cz/cs/infoservis/aktuality/2456-rusti-akteri-cili-na-uzivatele-signalu-nukib-vydava-analyzu-a-doporuceni-jak-si-aplikaci-zabezpecit"
+    datum: "2026-09-04"
+  - nazev: "ČTK: Macinka si kvůli útoku na letiště v Lipsku předvolá ruskou velvyslankyni"
+    url: "https://www.ceskenoviny.cz/zpravy/macinka-si-kvuli-utoku-na-letiste-v-lipsku-predvola-ruskou-velvyslankyni/2868841"
+    datum: "2026-09-02"
+  - nazev: "Aktuálně.cz: Zůna varuje před hybridními operacemi"
+    url: "https://zpravy.aktualne.cz/domaci/tohle-se-okamurovi-libit-nebude-zuna-varuje-pred-hybridnimi-operacemi-ruska/r~aaa29d3d1616663b1eeb279255888a6f/"
+    datum: "2026-09"
 autor: "Redakce Víme, co dělat"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
@@ -145,6 +157,8 @@ V tabulce rozlišujeme dvě věci. **Potvrzeno** znamená, že Rusko jako původ
 | Červen 2024 | Praha, autobusové depo Klíčov | Pokus zapálit autobusy MHD. | **Podezření.** Soud v roce 2025 odsoudil Kolumbijce za teroristický útok na osm let. Řídil ho člověk z Telegramu. Premiér Fiala v roce 2024 řekl, že je podezření, že útok organizovalo a financovalo Rusko. Státní zástupce ale uvedl, že důkazy zadání z Ruska neprokázaly. V září 2026 obvinilo ministerstvo spravedlnosti USA skupinu napojenou na ruské zpravodajce. Jeden z obžalovaných měl podle obžaloby koordinovat platby a cesty k útokům, „včetně v Praze“. |
 | Září 2024 | Školy po celém Česku | Stovky falešných nahlášení bomb během jednoho týdne. | **Podezření.** BIS píše, že šetření „jasně naznačuje vazbu výhrůžek na ruskojazyčné prostředí“. |
 | Duben 2026 | Česko | Ruské ministerstvo obrany zveřejnilo seznam evropských firem, které vyrábějí drony pro Ukrajinu. Byly na něm i dvě firmy v Česku. Dmitrij Medveděv seznam označil za seznam možných cílů. | **Potvrzeno.** Výhrůžky byly veřejné. Ministerstvo zahraničí předvolalo ruského velvyslance a takovou rétoriku označilo za „zcela nepřípustnou“. |
+| Srpen a září 2026 | Česko | Kybernetické kampaně proti e-mailovým schránkám (systém Zimbra) a phishing na uživatele aplikace Signal. | **Potvrzeno úřady.** NÚKIB spolu s FBI a NSA varoval před kampaní aktérů „napojených na Ruskou federaci“. Phishing na Signal podle NÚKIB souvisí „zejména s aktéry napojenými na Ruskou federaci“. |
+| Září 2026 | Česko | Reakce na útok v Lipsku. Ministr zahraničí předvolal ruskou velvyslankyni a ohlásil opatření vůči ruským diplomatům. Policie posílila hlídky u nádraží. | **Potvrzeno.** Ministr zahraničí Petr Macinka: „To není nic, co by se stalo tisíc kilometrů daleko, ale je to blízko, blízko nás.“ |
 
 ### Evropa
 
@@ -171,7 +185,7 @@ U některých případů nevíme, kdo za nimi stojí. Píšeme o nich, protože 
 - **Dron nad severem Litvy (18. října 2026).** Nad okresem Pasvalys explodoval dron, lidé šli do krytů. Litevský prezident mluvil o válce, která se „přelévá na východní křídlo NATO“. Ukrajina ale uvedla, že mohlo jít o její dron, který ruské rušení odklonilo z kurzu. Přesně kvůli takovým případům je těžké útočníka rychle určit.
 - **Požár zbrojovky v Pardubicích (březen 2026).** Shořela hala firmy, která vyrábí mimo jiné drony pro Ukrajinu. K činu se přihlásila údajně protiizraelská skupina. Policie obvinila několik lidí z teroristického útoku. Bezpečnostní složky podle ČTK zvažují i to, že skupina kryje jiného aktéra, třeba stát. [OVĚŘIT: aktuální stav vyšetřování požáru LPP Holding v Pardubicích]
 
-BIS sama píše, že u žádného incidentu v Česku, který v roce 2025 prověřovala, se podezření na sabotáž řízenou z Ruska nepodařilo spolehlivě potvrdit. I to patří k poctivému obrazu. Ne každý požár nebo výpadek je ruská akce.
+Ministr obrany Jaromír Zůna v září 2026 řekl: „My můžeme být pod napadením a nemusíme to vědět.“ Zároveň platí, že BIS sama píše, že u žádného incidentu v Česku, který v roce 2025 prověřovala, se podezření na sabotáž řízenou z Ruska nepodařilo spolehlivě potvrdit. I to patří k poctivému obrazu. Ne každý požár nebo výpadek je ruská akce.
 
 ## Kdy by to byla válka i formálně
 
