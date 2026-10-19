@@ -4,7 +4,6 @@ import prirucky from '../data/prirucky.json';
 type Odkaz = { popisek: string; url: string };
 const domena = (url: string) => new URL(url).hostname.replace(/^www\./, '');
 const stitekValka = (v: string) => (v === 'ano' ? 'Mluví o válce' : v === 'ne' ? null : `Válka: ${v}`);
-const stitekManipulace = (v: string) => (v === 'ano' ? 'Manipulace' : v === 'ne' ? null : `Manipulace: ${v}`);
 ---
 <section class="prirucky" aria-labelledby="prirucky-nadpis">
   <h2 id="prirucky-nadpis">Příručky ke stažení</h2>
@@ -24,7 +23,6 @@ const stitekManipulace = (v: string) => (v === 'ano' ? 'Manipulace' : v === 'ne'
           <p class="vydavatel">{p.vydavatel}{p.jazyky && <> · <span class="jazyky">{p.jazyky}</span></>}</p>
           <p class="stitky">
             {stitekValka(p.valka) && <span class:list={['stitek', { plny: p.valka === 'ano' }]}>{stitekValka(p.valka)}</span>}
-            {stitekManipulace(p.manipulace) && <span class:list={['stitek', { plny: p.manipulace !== 'ne' && p.manipulace !== 'krátce' }]}>{stitekManipulace(p.manipulace)}</span>}
           </p>
           <p class="popis">{p.popis}</p>
           {p.ukazky.length > 0 && (
