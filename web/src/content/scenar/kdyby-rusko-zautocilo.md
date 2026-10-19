@@ -35,13 +35,19 @@ zdroje:
     datum: "znění k 2025-08-19, ověřeno 2026-10-19"
   - nazev: "Zákon č. 222/1999 Sb., o zajišťování obrany ČR (pracovní povinnost)"
     url: "https://www.zakonyprolidi.cz/cs/1999-222"
-    datum: "ověřeno 2026-10-19"
+    datum: "znění k 2025-07-01, ověřeno 2026-10-19"
   - nazev: "Ústava ČR, čl. 43 (válečný stav)"
     url: "https://www.zakonyprolidi.cz/cs/1993-1"
     datum: "ověřeno 2026-10-19"
   - nazev: "Ústavní zákon č. 110/1998 Sb., o bezpečnosti ČR, čl. 7 (stav ohrožení státu)"
     url: "https://www.zakonyprolidi.cz/cs/1998-110"
     datum: "ověřeno 2026-10-19"
+  - nazev: "Demagog.cz: Branná povinnost platí pro muže i ženy od 18 do 60 let (ověření výroku, vyjádření Ministerstva obrany)"
+    url: "https://demagog.cz/vyrok/22656"
+    datum: "2023"
+  - nazev: "Echo24: Vláda schválila revizi krizové a obranné legislativy"
+    url: "https://echo24.cz/a/HBETF/vlada-krizova-legislativa-valka-blackout-povoden-armada-hasici-opatreni-pripravenost-kabinet-domaci"
+    datum: "2026-07-13"
 autor: "Redakce Víme, co dělat"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
@@ -73,7 +79,7 @@ Obranná strategie ČR počítá s tím, že naše armáda bude připravená do 
 
 | Otázka | Co říká zákon |
 | --- | --- |
-| Kdo má brannou povinnost? | Občan ČR ode dne, kdy dosáhne 18 let, do dne, kdy dosáhne 60 let (branný zákon, § 2 a § 7). Zákon v těchto ustanoveních mluví obecně o „občanovi“. [OVĚŘIT: jak se branná povinnost a případné odvody v praxi týkají žen, Ministerstvo obrany nebo krajské vojenské velitelství] |
+| Kdo má brannou povinnost? | Občan ČR ode dne, kdy dosáhne 18 let, do dne, kdy dosáhne 60 let (branný zákon, § 2 a § 7). Týká se mužů i žen, zákon mezi nimi nedělá rozdíl. Výjimky: těhotná žena se k odvodu ani do mimořádné služby nepovolává. Žena nebo muž, kteří pečují o dítě do 3 let, jdou k odvodu jen se svým souhlasem. Žena nebo muž, kteří pečují o dítě do 8 let, se do mimořádné služby nepovolávají (§ 25). |
 | Co platí v míru? | Výkon branné povinnosti se v míru přebírá dobrovolně: jako voják z povolání, v aktivní záloze, na dobrovolném vojenském cvičení nebo předurčením (§ 4 až 5b). Odvody se v míru nekonají. |
 | Kdy by byly odvody? | Až za stavu ohrožení státu nebo válečného stavu. Vláda nařízením určí, kolik lidí a z jakých ročníků nebo profesí se odvodu podrobí (§ 18). |
 | Jak by odvod probíhal? | Krajské vojenské velitelství pošle dotazník. Ten vyplníte s praktickým lékařem a vrátíte do 30 dnů. Pak přijde povolávací rozkaz a lékařská prohlídka u odvodní komise (§ 19 až 21). |
@@ -82,7 +88,7 @@ Obranná strategie ČR počítá s tím, že naše armáda bude připravená do 
 | Můžu mimořádnou službu odmítnout? | Voják v záloze může mimořádnou službu odmítnout z důvodu svědomí nebo náboženského vyznání ve lhůtách podle zákona (§ 6). Pak podléhá pracovní povinnosti. |
 | A ti ostatní? | Za stavu ohrožení státu nebo války může být pracovní povinnost uložena všem, kdo nejsou ve službě ani od ní osvobozeni. Rozhoduje obecní úřad obce s rozšířenou působností (zákon č. 222/1999 Sb.). |
 
-Údaje platí podle znění branného zákona ze srpna 2025. [OVĚŘIT: zda branný zákon nebo zákon o zajišťování obrany od té doby neprošly další novelou, e-sbirka.gov.cz]
+Údaje platí podle znění branného zákona účinného od 19. srpna 2025 (novela č. 266/2025 Sb.). Zákon o zajišťování obrany naposledy změnila novela č. 173/2025 Sb. s účinností od 1. července 2025. Novější změny obou zákonů k 19. říjnu 2026 nejsou. Vláda ale v červenci 2026 schválila revizi krizových a obranných zákonů a návrhy změn mají být hotové do roka.
 
 **Pozor na fámy o „tajné mobilizaci“.** Mobilizace se podle zákona vyhlašuje veřejně a povolávací rozkaz posílá krajské vojenské velitelství. Zprávu z neznámého účtu, že „zítra zavřou hranice a berou všechny muže“, ověřte u zdroje. Víc na stránce [Panika a fámy](/scenar/panika).
 

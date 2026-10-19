@@ -264,6 +264,15 @@ zdroje:
   - nazev: "Echo24: Vláda schválila revizi krizové a obranné legislativy"
     url: "https://echo24.cz/a/HBETF/vlada-krizova-legislativa-valka-blackout-povoden-armada-hasici-opatreni-pripravenost-kabinet-domaci"
     datum: "2026-07-13"
+  - nazev: "MZV: Bezpečnostní strategie ČR (platná strategie z roku 2023)"
+    url: "https://mzv.gov.cz/jnp/cz/zahranicni_vztahy/bezpecnostni_politika/bezpecnostni_strategie/index.html"
+    datum: "ověřeno 2026-10-19"
+  - nazev: "Vláda ČR: Programové prohlášení vlády (kapitola Obranná politika a Armáda ČR)"
+    url: "https://vlada.gov.cz/cz/vlada/programove-prohlaseni/programove-prohlaseni-vlady-224629/"
+    datum: "ověřeno 2026-10-19"
+  - nazev: "Ekonomický deník: Armádní koncepce opět nabírá skluz, vláda ji projedná později"
+    url: "https://ekonomickydenik.cz/kvacr-2040-skluz-vlada/"
+    datum: "2026-10-19"
 autor: "Redakce Víme, co dělat"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
@@ -347,7 +356,7 @@ V říjnu 2026 pro ČTK řekl, že Rusko může dílčím útokem na část úze
 
 V červenci 2026 vláda schválila revizi jedenácti krizových a obranných zákonů. Návrhy mají být hotové do roka a týkají se i civilní ochrany a krizového plánování. Ministr obrany Jaromír Zůna k tomu řekl: „Dnešní úprava už neodpovídá tomu, jak dnes vypadá vývoj v bezpečnostním prostředí.“
 
-[OVĚŘIT: zda vláda od roku 2023 nepřijala novou bezpečnostní nebo obrannou strategii, vlada.gov.cz a mzv.gov.cz, těsně před publikací]
+Obě strategie z roku 2023 jsou dál platné. Novou bezpečnostní ani obrannou strategii vláda od té doby nepřijala (stav k 19. říjnu 2026). Vláda Andreje Babiše v programovém prohlášení slíbila revizi strategických cílů obrany a novou Koncepci výstavby Armády ČR. Tuto koncepci s výhledem do roku 2040 má podle Generálního štábu nejdřív projednat Bezpečnostní rada státu a o týden později vláda. Původně ji vláda měla projednat už 19. října 2026.
 
 ## Česko: vláda a prezident
 

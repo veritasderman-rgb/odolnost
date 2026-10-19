@@ -84,6 +84,18 @@ zdroje:
   - nazev: "ČT24: Z elektrocentrály se v bytovém domě v Kunovicích šířil oxid uhelnatý"
     url: "https://ct24.ceskatelevize.cz/regiony/3544300-z-elektrocentraly-se-v-bytovem-dome-v-kunovicich-siril-oxid-uhelnaty-v-nemocnici"
     datum: "2022-11-17"
+  - nazev: "TZB-info: Plynový kondenzační kotel nebo tepelné čerpadlo pro rodinný dům? (kotel potřebuje elektřinu na regulaci, ventilátor a čerpadlo)"
+    url: "https://vytapeni.tzb-info.cz/26965-plynovy-kondenzacni-kotel-nebo-tepelne-cerpadlo-pro-rodinny-dum"
+    datum: "2024-06-03"
+  - nazev: "SPP CZ: Blackout, jak se připravit na dlouhý výpadek elektřiny (Funguje při blackoutu plynový kotel?)"
+    url: "https://www.spp.cz/magazin/blackout-jak-se-pripravit-na-dlouhy-vypadek-elektriny"
+    datum: "2026-08-04"
+  - nazev: "HZS ČR: Nouzové přežití (plán nouzového přežití v havarijním plánu kraje, vytápěné stany)"
+    url: "https://hzscr.gov.cz/soubor/20-clanek-ucitelske-noviny-nouzove-preziti-pdf.aspx"
+    datum: "2021"
+  - nazev: "Statutární město Olomouc: Olomouc by výpadek proudu přežila bez újmy (cvičení Blackout 2026, body bezpečí)"
+    url: "https://www.olomouc.eu/aktualni-informace/aktuality/31071"
+    datum: "2026-06-16"
 autor: "Redakce Víme, co dělat"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
@@ -154,7 +166,7 @@ Hasiči upozorňují, že rozsáhlý výpadek může trvat několik hodin až dn
 
 - **Mobil a internet.** Podle státního webu 72h.gov.cz přestanou telefonní sítě do několika hodin fungovat. Vysílače mají záložní baterie, ale ty nevydrží věčně. Ukrajina proto od roku 2024 chce po operátorech, aby síť při výpadku vydržela aspoň 10 hodin.
 - **Voda.** Voda z vodovodu je dál pitná. Do vyšších pater ji ale tlačí čerpadla na elektřinu, takže tam může přestat téct jako první. Záchod spláchnete jen jednou, pak se nádržka nenaplní. V domech s dálkovým topením může být teplá voda horká až vroucí.
-- **Topení.** Ústřední topení potřebuje elektřinu na čerpadla a řídicí elektroniku. Bez proudu se zastaví, i když plyn nebo teplo dál teče. Přesně to zažili v zimě obyvatelé Kyjeva. [OVĚŘIT: český zdroj, že běžné plynové kotle bez proudu netopí, například HZS nebo výrobci kotlů]
+- **Topení.** Ústřední topení potřebuje elektřinu na čerpadla a řídicí elektroniku. Bez proudu se zastaví, i když plyn nebo teplo dál teče. Přesně to zažili v zimě obyvatelé Kyjeva. Platí to i pro běžný plynový kotel v bytě nebo v domě. Elektřinu potřebuje na regulaci, ventilátor a oběhové čerpadlo, takže bez proudu netopí.
 - **Jídlo.** Lednici otevírejte co nejméně. Plný mrazák drží potraviny bezpečné asi dva dny, poloprázdný asi den. Elektrický sporák a varná konvice nejdou.
 - **Večer a noc.** Tma. Hasiči nedoporučují svítit svíčkami. Svítilna je bezpečnější.
 
@@ -168,7 +180,7 @@ Tak dlouhý výpadek celé země Česko nezažilo. Ukrajina ano, a opakovaně.
 - **Body nezlomnosti.** Ukrajina od listopadu 2022 zřizuje ve školách a na úřadech místa s proudem, teplem, vodou, mobilním signálem a internetem. Jsou zdarma a otevřou se, když se proud nepodaří obnovit během několika hodin.
 - **Vynalézavost.** Ukrajinci si radí, jak se zahřát. Třeba stan postavený přímo v ložnici a v něm láhve s horkou vodou. Zároveň si připomínají detektory kouře a oxidu uhelnatého, protože improvizované topení je nebezpečné.
 
-V Česku by obce mohly nabízet dobíjení z dieselových agregátů. Informace hledejte u obce a v rádiu. Zda a kde by u nás vznikla vytápěná místa podobná ukrajinským, zatím nevíme. [OVĚŘIT: plány HZS a krajů na vytápěná a dobíjecí místa při dlouhém blackoutu, dotaz na HZS ČR nebo MV]
+V Česku by obce mohly nabízet dobíjení z dieselových agregátů. Informace hledejte u obce a v rádiu. Kraje mají v havarijním plánu takzvaný plán nouzového přežití. Patří do něj nouzové ubytování a nouzové dodávky energií, tedy elektřiny, plynu a tepla. Hasiči mají i vytápěné stany až pro 50 lidí. Olomouc v červnu 2026 na cvičení Blackout 2026 zkoušela takzvané body bezpečí, kde mají lidé přístup k elektřině, pití, jídlu nebo teplu. Celostátní síť vytápěných a dobíjecích míst ani jejich veřejný seznam jsme ale nenašli. Kde by taková místa byla u vás, se zeptejte na obecním úřadě. [OVĚŘIT: zda kraje a obce mají v krizových plánech určená konkrétní vytápěná a dobíjecí místa pro dlouhý blackout a zda je zveřejní, dotaz na GŘ HZS ČR (odbor ochrany obyvatelstva a krizového řízení) nebo krizové odbory krajských úřadů]
 
 ## Co by fungovalo dál
 

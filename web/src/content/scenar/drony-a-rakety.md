@@ -36,6 +36,24 @@ zdroje:
   - nazev: "Meduza: Ukrajinská SBU vyšetřuje lidi, kteří přes webkamery ukazovali práci protivzdušné obrany (anglicky)"
     url: "https://meduza.io/en/news/2023/05/17/ukraine-s-security-service-investigates-6-kyiv-residents-who-ran-webcams-showing-air-defense-systems-in-action"
     datum: "2023-05-17"
+  - nazev: "CSIS Missile Threat: Kh-101 / Kh-102 (rychlost, výška letu, navigace podle terénu; anglicky)"
+    url: "https://missilethreat.csis.org/missile/kh-101-kh-102"
+    datum: "2024-04-23"
+  - nazev: "Vikna: Čím se liší balistická raketa od střely s plochou dráhou letu (vysvětluje Taras Čmut; ukrajinsky)"
+    url: "https://vikna.tv/dlia-tebe/bezpeka/chym-vidriznyayetsya-balistychna-raketa-vid-krylatoyi/"
+    datum: "2025-07-28"
+  - nazev: "Kyiv Independent: Raketa doletí na Kyjev za 2 až 4 minuty, vysvětluje poradce ministra obrany (anglicky)"
+    url: "https://kyivindependent.com/a-missile-reaches-kyiv-in-2-4-minutes-official-explains-air-alarm-lag-during-russian-ballistic-strikes/"
+    datum: "2026-07-15"
+  - nazev: "Kyiv Independent: Ruské balistické rakety zasáhly Kyjev zároveň se sirénami (anglicky)"
+    url: "https://kyivindependent.com/russian-ballistic-missiles-slam-kyiv-right-as-air-raid-alarms-sound/"
+    datum: "2026-10-18"
+  - nazev: "HZS ČR: Varování obyvatelstva (Cell Broadcast k dispozici od konce roku 2026)"
+    url: "https://hzscr.gov.cz/varovani-obyvatelstva"
+    datum: "ověřeno 2026-10-19"
+  - nazev: "České noviny (ČTK): Systém varovných zpráv na mobily se v půlce roku začne testovat"
+    url: "https://www.ceskenoviny.cz/zpravy/system-varovnych-zprav-na-mobily-se-v-pulce-roku-zacne-testovat/2782437"
+    datum: "2026-02-05"
 autor: "Redakce Víme, co dělat"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
@@ -52,10 +70,8 @@ Proti dronu ani raketě se doma bránit nedá. Dá se ale výrazně snížit riz
 | --- | --- | --- |
 | **Útočný dron typu Shahed** (Rusko ho vyrábí pod názvem Geran) | Letadélko na jedno použití s výbušninou. Letí samo na předem zadané místo. Je pomalé a levné, a proto se jich posílá hodně najednou. | Trojúhelníkový tvar, vrtule vzadu. Hlasitě bzučí, lidé to přirovnávají k mopedu nebo motorové pile. Před dopadem zvuk zesílí a zvýší se. Letí nejvýš asi 185 km/h. |
 | **Průzkumný dron** | Menší dron, který pozoruje a hledá cíle. Nemusí nést výbušninu. | Často ho neuslyšíte. Když ho uvidíte, nenatáčejte ho a jděte dovnitř. |
-| **Střela s plochou dráhou letu** | Letí nízko nad zemí a řídí se podle terénu. Je mnohem rychlejší než dron. | Zvuk podobný proudovému letadlu, často jen krátce před dopadem. |
-| **Balistická raketa** | Vystoupá vysoko a padá po oblouku obrovskou rychlostí. Mark Rutte upozornil, že nová generace ruských raket letí mnohonásobnou rychlostí zvuku. | Předem ji obvykle neuslyšíte. Od varování k dopadu mohou uplynout jen minuty. |
-
-[OVĚŘIT: laický popis střel s plochou dráhou letu a balistických raket (zvuk, doba letu), odborný recenzent nebo Armáda ČR]
+| **Střela s plochou dráhou letu** | Letí nízko, jen desítky metrů nad zemí, a řídí se podle terénu, aby ji radary zachytily co nejpozději. Pohání ji proudový motor jako malé letadlo. Letí pomaleji než zvuk, ale mnohem rychleji než dron. Ruská střela Ch-101 letí asi 700 km/h, z velké dálky tedy i několik hodin. | Můžete zaslechnout hukot motoru. Kvůli nízkému letu ale často až krátce před dopadem. |
+| **Balistická raketa** | Vystoupá desítky kilometrů vysoko a padá po oblouku obrovskou rychlostí. Mark Rutte upozornil, že nová generace ruských raket letí mnohonásobnou rychlostí zvuku. | Předem ji obvykle neuslyšíte. Na Kyjev dopadne 2 až 4 minuty po odpálení. Při útoku v říjnu 2026 se tam první výbuchy ozvaly zároveň se sirénami. |
 
 Pro vás z toho plyne jedno: **na zvuk nečekejte.** Když přijde varování, jednejte hned.
 
@@ -68,7 +84,7 @@ Příklad z Polska: v září 2025 poškodil střechu rodinného domu ve vesnici
 ## Jak se o nebezpečí dozvíte
 
 - **Siréna.** Kolísavý tón 140 sekund je všeobecná výstraha. Znamená: jděte dovnitř a zapněte rádio.
-- **Zpráva do mobilu (Cell Broadcast).** Stát ji chystá jako doplněk sirén. [OVĚŘIT: zda už Cell Broadcast v ČR funguje, hzscr.gov.cz a mv.gov.cz, těsně před publikací]
+- **Zpráva do mobilu (Cell Broadcast).** Stát ji chystá jako doplněk sirén. Zatím nefunguje. Podle HZS ČR se systém zavádí a k dispozici má být od konce roku 2026. Do té doby se spoléhejte na sirény a rádio.
 - **Rozhlas a rádio.** Obecní rozhlas, elektronické sirény s hlasem a Radiožurnál Českého rozhlasu.
 
 Podrobně to popisujeme na stránce [Informace bez internetu](/priprav-se/informace-bez-internetu).
