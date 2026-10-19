@@ -1,7 +1,7 @@
 ---
 title: "Kdo za tím stojí"
 id: "V-03a"
-popis: "Víme, co dělat je můj osobní projekt. Žádná organizace, žádná strana. Prošel jsem zahraniční příručky a weby a pokusil se dát na jedno místo to, co jinde lidem říká stát."
+popis: "Víme, co dělat je můj osobní projekt. Prošel jsem zahraniční příručky a weby a pokusil se dát na jedno místo to, co jinde lidem říká stát."
 poradi: 1
 cteni: 4
 krok: "Přečtěte si na 72h.gov.cz jednu kapitolu, která se týká právě vaší domácnosti."
@@ -18,7 +18,7 @@ revidovano: "2026-10-19"
 stav: "navrh"
 ---
 
-Jmenuji se **Josef Pavlovic** a Víme, co dělat je můj osobní projekt. Nestojí za ním žádná organizace, nadace ani politická strana. Hlásím se k němu já a za obsah odpovídám já.
+Jmenuji se **Josef Pavlovic** a Víme, co dělat je můj osobní projekt. Hlásím se k němu já a za obsah odpovídám já.
 
 ## Proč jsem to udělal
 
@@ -55,7 +55,7 @@ Obsah je volně k použití pod licencí [CC BY 4.0](https://creativecommons.org
 
 - **Nestraším.** Každá stránka končí jedním krokem, který zvládnete ještě dnes.
 - **Neříkám vám, co si myslet o politice.** Ukazuji techniky manipulace, ne správné názory. [Nesouhlas není zrada](/manipulace/nesouhlas-neni-zrada).
-- **Nejsem napojený na žádnou stranu ani politika** a od žádné strany ani zbrojařské firmy neberu peníze. Víc na stránce [Kdo to platí](/o-nas/financovani).
+- **Nedělám tu politickou kampaň.** Web nepropaguje žádnou stranu ani politika a neříká, koho volit.
 - **Nemapuji citlivá místa.** Nepíšu o konkrétních mostech, skladech ani závodech.
 - **Nevyzývám k udávání.** Když něco vypadá jako sabotáž, volejte 158 a nikoho sami neobviňujte.
 - **Nesbírám o vás data.** Web nepoužívá cookies ani sledovací nástroje. Podrobnosti jsou v [ochraně soukromí](/o-nas/ochrana-soukromi).

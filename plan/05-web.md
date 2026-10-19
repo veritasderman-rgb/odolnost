@@ -29,7 +29,7 @@ vimecodelat.cz
 │   ├── /hra-na-strach, /falesne-dilema, … (6 technik)
 │   └── /nesouhlas-neni-zrada
 ├── /pro-obce, /pro-skoly, /pro-firmy, /pro-media
-├── /o-nas, /financovani, /redakcni-pravidla, /opravy, /kontakt
+├── /o-nas, /redakcni-pravidla, /opravy, /kontakt
 └── /lehka                     Lehká verze (jen text, < 50 kB na stránku)
 ```
 

@@ -16,7 +16,7 @@ Tento dokument je rozcestník plánu. Shrnuje, co spouštíme, v jakém pořadí
 
 ## Priorita: nejdřív ukázat, pak oslovit
 
-> **Rozhodnutí z 19. 10. 2026 (platí přednostně):** Víme, co dělat je **osobní projekt Josefa Pavlovice**. Nezakládá se spolek ani ústav, nebude správní rada, dárci ani granty. Autor se k projektu hlásí jménem, platí ho ze svého a web výslovně říká, že jde o kompilát zahraničních příkladů a veřejných zdrojů, ne o státní instituci. Části plánu o právní formě, správní radě, rozpočtu, grantech a týmu (brána B1, R4, kapitola 06) jsou tím pozastavené a berou se jen jako inspirace pro případ, že by se projekt později rozrostl.
+> **Rozhodnutí z 19. 10. 2026 (platí přednostně):** Víme, co dělat je **osobní projekt Josefa Pavlovice**. Nezakládá se spolek ani ústav, nebude správní rada, dárci ani granty. Autor se k projektu hlásí jménem. Web neuvádí financování ani politickou příslušnost (nic netvrdí ani o nadstranickosti) a výslovně říká, že jde o kompilát zahraničních příkladů a veřejných zdrojů, ne o státní instituci. Části plánu o právní formě, správní radě, rozpočtu, grantech a týmu (brána B1, R4, kapitola 06) jsou tím pozastavené a berou se jen jako inspirace pro případ, že by se projekt později rozrostl.
 
 Rozhodnutí z 19. 10. 2026: **nejdřív postavíme web, obsadíme sociální sítě a připravíme backoffice.** Správní rada, partneři a instituce přijdou na řadu, až budeme mít co ukázat (funkční web s prvním obsahem a ukázkami videí). Oslovení s hotovou ukázkou má mnohem větší šanci na úspěch než oslovení se záměrem.
 
@@ -82,7 +82,7 @@ MVP je nejmenší verze, která už lidem skutečně pomůže. Všechno ostatní
 | Poznej manipulaci | Kapesní karta, 6 technik (texty), 3 videa: Hra na strach, Falešné dilema, Falešný svědek | Zbylá 3 videa, Hesla, Koordinovaná kampaň, Ověř fotku za 2 minuty, hra |
 | Video | Úvodní video (60–90 s), 3 prebunkingová, 3 krátké sestřihy k příběhům | Ostatní videa (viz [03](03-video.md)) |
 | Násobitelé | Stránka „Pro média“ a „Pro partnery“ (CC BY, ke stažení) | Sada pro obce, sada pro školy, materiály pro firmy |
-| Transparentnost | O nás, Kdo nás financuje, Redakční pravidla, Opravy, Odkud to víme | Výroční zpráva |
+| Transparentnost | Kdo za tím stojí, Redakční pravidla, Opravy, Odkud to víme | Výroční zpráva |
 
 ## Rozhodnutí, která potřebujeme udělat (a do kdy)
 
