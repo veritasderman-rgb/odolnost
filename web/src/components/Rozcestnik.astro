@@ -2,17 +2,19 @@
 import { getCollection } from 'astro:content';
 import Zaklad from '../layouts/Zaklad.astro';
 import Dlazdice from './Dlazdice.astro';
+import Obrazek from './Obrazek.astro';
 import { PILIRE, type Pilir } from '../lib/pilire';
 interface Nastroj { href: string; titulek: string; popis: string }
-interface Props { pilir: Pilir; uvod: string; nastroje?: Nastroj[] }
-const { pilir, uvod, nastroje = [] } = Astro.props;
+interface Props { pilir: Pilir; uvod: string; nastroje?: Nastroj[]; obrazek?: string; popisObrazku?: string }
+const { pilir, uvod, nastroje = [], obrazek, popisObrazku = '' } = Astro.props;
 const info = PILIRE[pilir];
 const stranky = (await getCollection('obsah', (s) => s.id.startsWith(pilir + '/'))).sort((a, b) => a.data.poradi - b.data.poradi);
 ---
 <Zaklad title={info.nazev} popis={uvod}>
+  {obrazek && <Obrazek src={obrazek} alt={popisObrazku} />}
   <section class="obal hlava" style={`--barva-pilire: ${info.barva}`}>
-    {info.cislo && <p class="pilir">Pilíř {info.cislo}</p>}
-    <h1>{info.nazev}: {info.podtitul.toLowerCase()}</h1>
+    <p class="znacka">{info.cislo ? `0${info.cislo} · ` : ''}{info.podtitul}</p>
+    <h1>{info.nazev}</h1>
     <p class="uvod text">{uvod}</p>
     <slot />
   </section>
@@ -20,24 +22,23 @@ const stranky = (await getCollection('obsah', (s) => s.id.startsWith(pilir + '/'
     <section class="obal">
       <h2 class="vizualne-skryte">Nástroje</h2>
       <div class="mrizka">
-        {nastroje.map((n) => <Dlazdice href={n.href} titulek={n.titulek} popis={n.popis} zvyraznit />)}
+        {nastroje.map((n) => <Dlazdice href={n.href} titulek={n.titulek} popis={n.popis} zvyraznit cislo="Nástroj" />)}
       </div>
     </section>
   )}
   <section class="obal">
     <h2 class="vizualne-skryte">Stránky</h2>
     <div class="mrizka">
-      {stranky.map((s) => (
-        <Dlazdice href={`/${s.id}`} titulek={s.data.title} popis={s.data.popis} barva={info.barva} druh={s.data.druh} doplnek={s.data.cteni ? `${s.data.cteni} min čtení` : undefined} />
+      {stranky.map((s, i) => (
+        <Dlazdice href={`/${s.id}`} titulek={s.data.title} popis={s.data.popis} druh={s.data.druh} cislo={s.data.druh ? undefined : String(i + 1).padStart(2, '0')} doplnek={s.data.cteni ? `${s.data.cteni} min čtení` : undefined} />
       ))}
     </div>
     {stranky.length === 0 && <p>Obsah připravujeme.</p>}
   </section>
 </Zaklad>
 <style>
-  .hlava { padding-top: 2.5rem; padding-bottom: 1.5rem; }
-  .pilir { color: var(--barva-pilire); font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.85rem; margin: 0 0 0.5rem; }
-  .uvod { font-size: 1.2rem; color: var(--text-2); }
-  .mrizka { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr)); margin-bottom: 1.5rem; }
-  @media (prefers-color-scheme: dark) { :root:not([data-motiv='svetly']) .pilir { color: var(--akcent-text); } }
+  .hlava { padding-top: 3rem; padding-bottom: 2rem; }
+  .hlava h1 { font-size: clamp(3rem, 9vw, 6rem); margin-top: 0.8rem; }
+  .uvod { font-size: 1.25rem; line-height: 1.5; }
+  .mrizka { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr)); margin-bottom: 1.5rem; }
 </style>

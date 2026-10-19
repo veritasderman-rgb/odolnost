@@ -7,6 +7,6 @@ const { pilir } = Astro.props;
   <a href="/">Úvod</a> <span aria-hidden="true">›</span> <a href={`/${pilir}`}>{PILIRE[pilir].nazev}</a>
 </nav>
 <style>
-  .drobky { font-size: 0.9rem; color: var(--text-2); margin-bottom: 1.25rem; }
+  .drobky { font-family: var(--pismo-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-2); margin-bottom: 1.5rem; }
   .drobky a { color: var(--text-2); }
 </style>

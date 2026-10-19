@@ -16,44 +16,34 @@ const popisy: Record<string, string> = {
 ---
 <Zaklad title="Víme, co dělat">
   <section class="uvod">
-    <div class="obal mrizka-uvod">
-      <div class="text-uvodu">
-        <h1>Když víme, co dělat, máme menší strach.</h1>
-        <p class="perex">Počítáme s tím, že Rusko může zaútočit na NATO, a tím i na nás. Je lepší být připraven než překvapen. Narovinu vysvětlujeme, co by to znamenalo, jak se postarat o sebe i své blízké a jak poznat manipulaci dřív, než na ni narazíte.</p>
+    <img class="foto" src="/obrazky/hero-domov.jpg" alt="" fetchpriority="high" />
+    <span class="puvod">Ilustrační obrázek vytvořený pomocí AI</span>
+    <div class="obal">
+      <p class="znacka">Nezávislý projekt · Připravenost · Odolnost</p>
+      <h1>Počítáme s tím.<br /><span class="zlute">Připravme se.</span></h1>
+      <div class="sloupce">
+        <p class="perex">Rusko může zaútočit na NATO, a tím i na nás. Kdy a jestli vůbec, nikdo neví. Je lepší být připraven než překvapen. Narovinu vysvětlujeme, co by to znamenalo, jak se postarat o sebe i své blízké a jak poznat manipulaci dřív, než na ni narazíte.</p>
         <div class="akce">
-          <a class="tlacitko lampa" href="/zacit">Co by to znamenalo pro nás? <span aria-hidden="true">→</span></a>
-          <a class="tlacitko svetle" href="/priprav-se/rodinny-plan">Rodinný plán za 15 minut</a>
+          <a class="tlacitko lampa" href="/zacit">Co by to znamenalo pro nás <span aria-hidden="true">→</span></a>
+          <a class="tlacitko obrys" href="/priprav-se/rodinny-plan">Rodinný plán za 15 minut <span aria-hidden="true">→</span></a>
         </div>
-        <p class="poznamka">Nepoužíváme cookies ani sledování. Nic, co vyplníte, se nikam neodesílá.</p>
-      </div>
-      <div class="ilustrace" aria-hidden="true">
-        <svg viewBox="0 0 320 300" role="presentation">
-          <rect x="0" y="0" width="320" height="300" rx="18" fill="#1d2b36" />
-          <circle cx="262" cy="52" r="16" fill="#f6f1e7" opacity="0.85" />
-          <rect x="34" y="70" width="110" height="230" fill="#24343f" />
-          <rect x="164" y="110" width="122" height="190" fill="#2c4150" />
-          <g fill="#33495a">
-            <rect x="50" y="90" width="22" height="22" rx="2" /><rect x="84" y="90" width="22" height="22" rx="2" /><rect x="118" y="90" width="14" height="22" rx="2" />
-            <rect x="50" y="128" width="22" height="22" rx="2" /><rect x="84" y="128" width="22" height="22" rx="2" />
-            <rect x="50" y="166" width="22" height="22" rx="2" /><rect x="118" y="166" width="14" height="22" rx="2" />
-            <rect x="84" y="204" width="22" height="22" rx="2" /><rect x="50" y="242" width="22" height="22" rx="2" />
-            <rect x="180" y="128" width="24" height="24" rx="2" /><rect x="218" y="128" width="24" height="24" rx="2" /><rect x="256" y="128" width="18" height="24" rx="2" />
-            <rect x="218" y="168" width="24" height="24" rx="2" /><rect x="256" y="168" width="18" height="24" rx="2" />
-            <rect x="180" y="208" width="24" height="24" rx="2" /><rect x="256" y="208" width="18" height="24" rx="2" />
-            <rect x="218" y="248" width="24" height="24" rx="2" />
-          </g>
-          <rect x="180" y="168" width="24" height="24" rx="2" fill="#e8a93a" />
-          <circle cx="192" cy="180" r="30" fill="#e8a93a" opacity="0.18" />
-          <rect x="84" y="166" width="22" height="22" rx="2" fill="#e8a93a" opacity="0.75" />
-        </svg>
       </div>
     </div>
   </section>
 
   <section class="obal">
-    <h2>Čtyři části, jeden cíl</h2>
+    <h2>Čtyři části</h2>
     <div class="mrizka">
-      {pilire.map((x) => <Dlazdice href={`/${x.p}`} titulek={`${x.cislo}. ${x.nazev}`} popis={popisy[x.p]} barva={x.barva} />)}
+      {pilire.map((x) => <Dlazdice href={`/${x.p}`} titulek={x.nazev} popis={popisy[x.p]} cislo={`0${x.cislo}`} />)}
+    </div>
+  </section>
+
+  <section class="obal">
+    <h2>Co si odnesete</h2>
+    <div class="mrizka">
+      <Dlazdice href="/priprav-se/rodinny-plan" titulek="Rodinný plán na A4" popis="Místo setkání, kdo vyzvedne děti, kontakty na papíře, léky a plán bez signálu." cislo="Nástroj" zvyraznit />
+      <Dlazdice href="/priprav-se/kontrolni-seznam" titulek="Kontrolní seznam" popis="Co už máte a co chybí. Zaškrtáváte jen pro sebe, nic se neodesílá." cislo="Nástroj" zvyraznit />
+      <Dlazdice href="/manipulace/karta" titulek="Kapesní karta" popis="Šest technik manipulace a šest otázek. Do peněženky i do telefonu." cislo="Nástroj" zvyraznit />
     </div>
   </section>
 
@@ -62,27 +52,20 @@ const popisy: Record<string, string> = {
       <h2>Příběhy</h2>
       <p class="text">Modelové příběhy jsou fiktivní postavy v realistických situacích. Vždy je tak označujeme.</p>
       <div class="mrizka">
-        {pribehy.map((s) => <Dlazdice href={`/${s.id}`} titulek={s.data.title} popis={s.data.popis} barva="var(--terakota)" druh={s.data.druh} doplnek={s.data.cteni ? `${s.data.cteni} min čtení` : undefined} />)}
+        {pribehy.map((s) => <Dlazdice href={`/${s.id}`} titulek={s.data.title} popis={s.data.popis} druh={s.data.druh} doplnek={s.data.cteni ? `${s.data.cteni} min čtení` : undefined} />)}
       </div>
     </section>
   )}
 
-  <section class="obal">
-    <h2>Co si odnesete</h2>
-    <div class="mrizka">
-      <Dlazdice href="/priprav-se/rodinny-plan" titulek="Rodinný plán na A4" popis="Místo setkání, kdo vyzvedne děti, kontakty na papíře, léky a plán bez signálu." barva="var(--salvej)" />
-      <Dlazdice href="/priprav-se/kontrolni-seznam" titulek="Kontrolní seznam" popis="Co už máte a co chybí. Zaškrtáváte jen pro sebe, nic se neodesílá." barva="var(--salvej)" />
-      <Dlazdice href="/manipulace/karta" titulek="Kapesní karta" popis="Šest technik manipulace a šest otázek. Do peněženky i do telefonu." barva="var(--svestka)" />
-    </div>
-  </section>
-
-  <section class="obal">
-    <h2>Co můžu udělat já</h2>
-    <p class="text">Připravená rodina je základ. Země ale potřebuje i lidi, kteří umějí pomoct ostatním.</p>
-    <div class="mrizka">
-      <Dlazdice href="/priprav-se/aktivni-zaloha" titulek="Zvažte aktivní zálohu" popis="Výcvik pár týdnů v roce vedle běžné práce. Pro koho je a jak se přihlásit." barva="var(--petrol)" />
-      <Dlazdice href="/priprav-se/co-mohu-udelat-ja" titulek="Další cesty, jak se zapojit" popis="Dobrovolní hasiči, první pomoc, Červený kříž, dárcovství krve, pomoc v obci." barva="var(--petrol)" />
-      <Dlazdice href="/priprav-se/kondice" titulek="Udržte se v kondici" popis="V krizi se chodí pěšky, nosí voda a málo spí. Jednoduchý plán pro každého." barva="var(--petrol)" />
+  <section class="pas">
+    <div class="obal">
+      <h2>Co můžu udělat já</h2>
+      <p class="text">Připravená rodina je základ. Země ale potřebuje i lidi, kteří umějí pomoct ostatním.</p>
+      <div class="mrizka">
+        <Dlazdice href="/priprav-se/aktivni-zaloha" titulek="Zvažte aktivní zálohu" popis="Výcvik pár týdnů v roce vedle běžné práce. Pro koho je a jak se přihlásit." cislo="Zapoj se" />
+        <Dlazdice href="/priprav-se/co-mohu-udelat-ja" titulek="Další cesty, jak pomoct" popis="Dobrovolní hasiči, první pomoc, Červený kříž, dárcovství krve, pomoc v obci." cislo="Zapoj se" />
+        <Dlazdice href="/priprav-se/kondice" titulek="Udržte se v kondici" popis="V krizi se chodí pěšky, nosí voda a málo spí. Jednoduchý plán pro každého." cislo="Zapoj se" />
+      </div>
     </div>
   </section>
 
@@ -93,23 +76,28 @@ const popisy: Record<string, string> = {
   <section class="obal nezavislost">
     <h2>Nezávislí a nadstraničtí</h2>
     <p class="text">Za projektem nestojí žádná politická strana ani politik. Nebereme peníze od stran ani od zbrojařských firem. Seznam dárců, redakční pravidla i všechny opravy jsou veřejné.</p>
-    <p><a href="/o-nas/financovani">Kdo nás financuje</a> · <a href="/o-nas/redakcni-pravidla">Jak pracujeme</a> · <a href="/o-nas/opravy">Opravy</a></p>
+    <p class="odkazy"><a href="/o-nas/financovani">Kdo nás financuje →</a> <a href="/o-nas/redakcni-pravidla">Jak pracujeme →</a> <a href="/o-nas/opravy">Opravy →</a></p>
   </section>
 </Zaklad>
 
 <style>
-  .uvod { padding: 3rem 0 2rem; }
-  .mrizka-uvod { display: grid; grid-template-columns: 1.3fr 1fr; gap: 2.5rem; align-items: center; }
-  h1 { font-size: clamp(2.2rem, 6vw, 3.6rem); letter-spacing: -0.02em; }
-  .perex { font-size: 1.3rem; line-height: 1.5; color: var(--text-2); max-width: 36rem; }
-  .akce { display: flex; gap: 0.75rem; flex-wrap: wrap; margin: 1.5rem 0 1rem; }
-  .poznamka { font-size: 0.9rem; color: var(--text-2); }
-  .ilustrace svg { width: 100%; max-width: 420px; display: block; margin-left: auto; border-radius: 18px; }
-  .mrizka { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr)); }
-  .nezavislost { margin-top: 2rem; }
-  @media (max-width: 760px) {
-    .mrizka-uvod { grid-template-columns: 1fr; }
-    .ilustrace { order: -1; }
-    .ilustrace svg { max-width: 100%; max-height: 220px; margin: 0; }
+  .uvod { position: relative; overflow: hidden; background: var(--tmava); color: #fff; padding: clamp(3rem, 9vw, 7rem) 0 clamp(2.5rem, 6vw, 4.5rem); border-bottom: 8px solid var(--akcent); }
+  .uvod .obal { position: relative; z-index: 1; }
+  .foto { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
+  .uvod::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, rgb(20 23 26 / 0.92) 0%, rgb(20 23 26 / 0.75) 45%, rgb(20 23 26 / 0.35) 100%), linear-gradient(0deg, rgb(20 23 26 / 0.85) 0%, transparent 45%); }
+  .puvod { position: absolute; right: 0; bottom: 0; z-index: 2; background: rgb(0 0 0 / 0.6); font-family: var(--pismo-mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.25rem 0.5rem; }
+  .uvod h1 { font-size: clamp(3.4rem, 12vw, 9rem); line-height: 0.88; margin: 1.2rem 0 2rem; }
+  .zlute { color: var(--akcent-na-tmave); }
+  .sloupce { display: grid; grid-template-columns: 1.4fr 1fr; gap: 2.5rem; align-items: end; }
+  .perex { font-size: clamp(1.15rem, 2vw, 1.4rem); line-height: 1.5; margin: 0; max-width: 40rem; }
+  .akce { display: flex; flex-direction: column; gap: 0.75rem; align-items: stretch; }
+  .akce .tlacitko { justify-content: space-between; }
+  .tlacitko.obrys { background: transparent; color: #fff; border-color: #fff; }
+  .tlacitko.obrys:hover { background: var(--akcent); color: var(--na-akcentu); border-color: var(--akcent); }
+  .mrizka { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 16.5rem), 1fr)); }
+  .pas { background: var(--papir-2); margin-top: 3.5rem; padding: 0.5rem 0 2.5rem; border-top: 2px solid var(--linka); border-bottom: 2px solid var(--linka); }
+  .odkazy { display: flex; gap: 1.5rem; flex-wrap: wrap; font-weight: 700; }
+  @media (max-width: 800px) {
+    .sloupce { grid-template-columns: 1fr; }
   }
 </style>

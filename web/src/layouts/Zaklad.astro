@@ -1,7 +1,8 @@
 ---
-import '@fontsource/atkinson-hyperlegible-next/400.css';
-import '@fontsource/atkinson-hyperlegible-next/700.css';
-import '@fontsource-variable/source-serif-4/index.css';
+import '@fontsource/ibm-plex-sans/400.css';
+import '@fontsource/ibm-plex-sans/400-italic.css';
+import '@fontsource/ibm-plex-sans/700.css';
+import '@fontsource/ibm-plex-mono/500.css';
 import '../styles/global.css';
 import Logo from '../components/Logo.astro';
 import Odber from '../components/Odber.astro';
@@ -37,7 +38,7 @@ const menu = [
     <link rel="canonical" href={kanonicka} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/manifest.webmanifest" />
-    <meta name="theme-color" content="#1d2b36" />
+    <meta name="theme-color" content="#121212" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="cs_CZ" />
     <meta property="og:site_name" content="Víme, co dělat" />
@@ -76,7 +77,7 @@ const menu = [
         <div>
           <Logo />
           <p>Nezávislý a nadstranický projekt o připravenosti na vážnou krizi. Praktické seznamy zásob najdete na státním webu <a href="https://www.72h.gov.cz/cs">72h.gov.cz</a>, na který navazujeme.</p>
-          <p class="mensi">V nouzi volejte <strong>112</strong>. Podezření na sabotáž hlaste na <strong>158</strong>.</p>
+          <p class="tisnove">V nouzi 112<br />Sabotáž 158</p>
         </div>
         <div>
           <p class="nadpis">O projektu</p>
@@ -125,43 +126,46 @@ const menu = [
 </html>
 
 <style>
-  .hlavicka { background: var(--pozadi); border-bottom: 1px solid var(--linka); position: sticky; top: 0; z-index: 10; }
-  .radek { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 64px; }
+  .hlavicka { background: var(--plocha); border-bottom: 2px solid var(--linka); position: sticky; top: 0; z-index: 10; }
+  .radek { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 68px; }
   .domu { text-decoration: none; }
-  .menu { display: flex; gap: 0.25rem; }
-  .menu a { color: var(--text); text-decoration: none; font-weight: 700; font-size: 1rem; padding: 0.5rem 0.75rem; border-radius: 999px; }
-  .menu a:hover { background: var(--papir-2); }
-  .menu a[aria-current='page'] { background: var(--inkoust); color: var(--papir); }
+  .domu:hover { background: none; }
+  .menu { display: flex; gap: 0; align-self: stretch; }
+  .menu a { display: flex; align-items: center; color: var(--text); text-decoration: none; font-family: var(--pismo-nadpis); font-weight: 700; font-size: 1.2rem; padding: 0 0.9rem; border-bottom: 5px solid transparent; margin-bottom: -2px; }
+  .menu a:hover { background: var(--akcent); color: var(--na-akcentu); }
+  .menu a[aria-current='page'] { border-bottom-color: var(--akcent); }
   .nastroje { display: flex; gap: 0.25rem; }
-  .ikona { display: inline-grid; place-items: center; width: 44px; height: 44px; border-radius: 999px; border: 0; background: transparent; color: var(--text); font: inherit; font-weight: 700; cursor: pointer; }
-  .ikona:hover { background: var(--papir-2); }
-  .ikona[aria-pressed='true'] { background: var(--inkoust); color: var(--papir); }
+  .ikona { display: inline-grid; place-items: center; width: 46px; height: 46px; border: 2px solid transparent; background: transparent; color: var(--text); font: inherit; font-weight: 700; cursor: pointer; }
+  .ikona:hover { background: var(--akcent); color: var(--na-akcentu); }
+  .ikona[aria-pressed='true'] { border-color: var(--linka); }
   .velke { font-size: 1.3em; }
 
-  .paticka { --obrys-loga: #4a6070; background: var(--inkoust); color: #e9e2d4; margin-top: 4rem; padding: 3rem 0 6rem; font-size: 0.95rem; }
-  .paticka :global(.nazev) { color: #f6f1e7; }
-  .paticka a { color: #f0be62; }
-  .mrizka { display: grid; gap: 2rem; grid-template-columns: 2fr 1fr 1fr 2fr; }
+  .paticka { background: var(--tmava); color: #e8e4da; margin-top: 5rem; padding: 3.5rem 0 6rem; font-size: 0.95rem; border-top: 8px solid var(--akcent); }
+  .paticka a { color: #fff; }
+  .paticka a:hover { background: var(--akcent); color: var(--na-akcentu); }
+  .mrizka { display: grid; gap: 2.5rem; grid-template-columns: 2fr 1fr 1fr 2fr; }
   .paticka ul { list-style: none; padding: 0; margin: 0; }
-  .paticka li { margin: 0.4rem 0; }
-  .nadpis { font-weight: 700; color: #f6f1e7; margin-top: 0; }
+  .paticka li { margin: 0.45rem 0; }
+  .nadpis { font-family: var(--pismo-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--akcent-na-tmave); margin-top: 0; }
   .mensi { font-size: 0.9rem; }
-  .licence { border-top: 1px solid #33434f; margin-top: 2rem; padding-top: 1rem; font-size: 0.85rem; color: #b9c0c6; }
+  .tisnove { font-family: var(--pismo-nadpis); font-size: 1.5rem; font-weight: var(--nadpis-vaha); color: #fff; line-height: 1.1; }
+  .licence { border-top: 1px solid #333; margin-top: 2.5rem; padding-top: 1rem; font-size: 0.85rem; color: #a8a49b; }
 
   .spodni-lista { display: none; }
 
-  @media (max-width: 960px) {
+  @media (max-width: 1000px) {
+    .menu a { font-size: 1.05rem; padding: 0 0.55rem; }
     .mrizka { grid-template-columns: 1fr 1fr; }
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 800px) {
     .menu { display: none; }
     .mrizka { grid-template-columns: 1fr; }
-    .spodni-lista { display: grid; grid-template-columns: repeat(5, 1fr); position: fixed; bottom: 0; left: 0; right: 0; z-index: 20; background: var(--plocha); border-top: 1px solid var(--linka); padding-bottom: env(safe-area-inset-bottom); }
-    .spodni-lista a { display: flex; flex-direction: column; align-items: center; gap: 0.15rem; padding: 0.45rem 0.25rem; font-size: 0.72rem; font-weight: 700; color: var(--text); text-decoration: none; }
+    .spodni-lista { display: grid; grid-template-columns: repeat(5, 1fr); position: fixed; bottom: 0; left: 0; right: 0; z-index: 20; background: var(--tmava); border-top: 2px solid var(--akcent); padding-bottom: env(safe-area-inset-bottom); }
+    .spodni-lista a { display: flex; flex-direction: column; align-items: center; gap: 0.15rem; padding: 0.5rem 0.2rem; font-family: var(--pismo-mono); font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.02em; color: #fff; text-decoration: none; }
     .spodni-lista svg { width: 24px; height: 24px; }
-    .spodni-lista a[aria-current='page'] { color: var(--odkaz); }
-    .spodni-lista .plan { color: var(--inkoust); background: var(--lampa); }
+    .spodni-lista a[aria-current='page'] { color: var(--akcent-na-tmave); }
+    .spodni-lista .plan { color: var(--na-akcentu); background: var(--akcent); }
     .paticka { padding-bottom: 7rem; }
   }
 </style>

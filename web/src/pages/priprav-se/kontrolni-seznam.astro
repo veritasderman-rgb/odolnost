@@ -55,7 +55,7 @@ const celkem = SKUPINY.reduce((s, g) => s + g.polozky.length, 0);
 ---
 <Zaklad title="Kontrolní seznam" popis="Co už máte a co vám chybí. Zaškrtávání se ukládá jen ve vašem prohlížeči. Podrobnosti a množství najdete na 72h.gov.cz.">
   <section class="obal stranka">
-    <p class="pilir">3 · Připrav se</p>
+    <p class="znacka">03 · Připrav se</p>
     <h1>Kontrolní seznam</h1>
     <p class="perex text">Nemusíte mít všechno hned. Odškrtejte, co už máte, a každý víkend přidejte jednu věc. Podrobnosti a doporučená množství najdete na státním webu <a href="https://www.72h.gov.cz/cs">72h.gov.cz</a>.</p>
     <p class="text soukromi">Zaškrtnuté položky se ukládají jen v tomto prohlížeči. Nic se neodesílá.</p>
@@ -91,15 +91,14 @@ const celkem = SKUPINY.reduce((s, g) => s + g.polozky.length, 0);
 
 <style>
   .stranka { padding-top: 2rem; }
-  .pilir { color: var(--salvej); font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.85rem; margin: 0 0 0.5rem; }
   .perex { font-size: 1.2rem; color: var(--text-2); }
   .soukromi { font-size: 0.95rem; color: var(--text-2); }
   .postup { position: sticky; top: 64px; background: var(--pozadi); padding: 0.5rem 0; z-index: 2; }
   .postup p { margin: 0.3rem 0 0; }
-  .lista { height: 12px; background: var(--papir-2); border-radius: 999px; overflow: hidden; }
-  .lista span { display: block; height: 100%; background: var(--salvej); transition: width 0.3s ease; }
-  fieldset { border: 1px solid var(--linka); border-radius: var(--radius); background: var(--plocha); padding: 1rem 1.2rem; margin: 1rem 0; }
-  legend { font-weight: 700; font-size: 1.15rem; padding: 0 0.4rem; }
+  .lista { height: 14px; background: var(--plocha); border: 2px solid var(--linka); overflow: hidden; }
+  .lista span { display: block; height: 100%; background: var(--akcent); transition: width 0.3s ease; }
+  fieldset { border: 2px solid var(--linka); background: var(--plocha); padding: 1rem 1.2rem; margin: 1rem 0; }
+  legend { font-family: var(--pismo-nadpis); font-weight: var(--nadpis-vaha); font-size: 1.5rem; padding: 0 0.4rem; }
   .polozka { display: grid; grid-template-columns: auto 1fr auto; gap: 0.75rem; align-items: center; padding: 0.55rem 0; border-bottom: 1px solid var(--linka); }
   .polozka:last-child { border-bottom: 0; }
   .polozka input { width: 1.4rem; height: 1.4rem; accent-color: var(--salvej); }

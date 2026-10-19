@@ -24,8 +24,12 @@ ID slouží k odkazování ve výrobě, ve videích i na sítích. Fáze: **M** 
 | S-02 | Fáze krize: napětí, první dny, týdny, dlouhé období | M | 4 × 400 slov, tabulka „co funguje a co ne“ |
 | S-03 | Co by nás mohlo zasáhnout doma | M | 700 slov |
 | S-04 | Co by fungovalo dál | M | 600 slov (uklidňující realita) |
-| S-05 | Scénář podle typu lokality: velké město / malá obec / u dálnice a železnice | P | 3 × 400 slov |
-| S-06 | Časté otázky: „Bude povinná mobilizace?“, „Budou se zavírat školy?“, „Co banky?“ | P | 15 otázek, každá 80–120 slov |
+| S-00 | Co by znamenal útok Ruska na NATO pro Česko | M | 1000 slov |
+| S-05 | Drony a rakety: jak fungují a co dělat při leteckém poplachu | M | 800 slov |
+| S-06 | Na co by se útočilo | M | 800 slov |
+| S-07 | Panika a fámy | M | 700 slov |
+| S-10 | Scénář podle typu lokality: velké město / malá obec / u dálnice a železnice | P | 3 × 400 slov |
+| S-11 | Časté otázky: „Bude povinná mobilizace?“, „Budou se zavírat školy?“, „Co banky?“ | P | 15 otázek, každá 80–120 slov |
 
 ### Pilíř 2 Příběhy
 
@@ -56,6 +60,11 @@ Každý příběh vychází v šesti podobách: **text** (4–6 min čtení), **
 | K-07 | Sousedé a obec: pomoc ve vchodě, co dělá obec | P |
 | K-08 | Když jste v klíčové práci | P |
 | K-09 | Rodinná výzva: 5 víkendových úkolů | M (start 3. 3.) |
+| K-10 | Co můžu udělat já: dobrovolníci, hasiči, první pomoc | M |
+| K-11 | Aktivní záloha Armády ČR | M |
+| K-12 | Kondice | M |
+| K-13 | Kde najdete ověřené informace | M |
+| K-14 | Jak se připravují jinde | M |
 
 ### Pilíř 4 Poznej manipulaci
 
