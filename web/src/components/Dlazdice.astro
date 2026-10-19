@@ -1,12 +1,12 @@
 ---
 import StitekPribehu from './StitekPribehu.astro';
-interface Props { href: string; titulek: string; popis: string; barva?: string; druh?: 'modelovy' | 'svedectvi'; doplnek?: string; zvyraznit?: boolean; cislo?: string; obrazek?: string }
-const { href, titulek, popis, druh, doplnek, zvyraznit = false, cislo, obrazek } = Astro.props;
+interface Props { href: string; titulek: string; popis: string; barva?: string; druh?: 'modelovy' | 'svedectvi'; doplnek?: string; zvyraznit?: boolean; cislo?: string; obrazek?: string; puvod?: string }
+const { href, titulek, popis, druh, doplnek, zvyraznit = false, cislo, obrazek, puvod = 'Ilustrace AI' } = Astro.props;
 // Na dlaždici stačí malá verze obrázku, velkou načítá až článek.
 const nahled = obrazek?.replace(/\.jpg$/, '-nahled.jpg');
 ---
 <a class:list={['dlazdice', { zvyraznit, 's-obrazkem': nahled }]} href={href}>
-  {nahled && <span class="nahled"><img src={nahled} alt="" loading="lazy" decoding="async" width="640" height="360" /><span class="puvod">Ilustrace AI</span></span>}
+  {nahled && <span class="nahled"><img src={nahled} alt="" loading="lazy" decoding="async" width="640" height="360" /><span class="puvod">{puvod}</span></span>}
   {(cislo || druh) && <span class="hlavicka">{cislo && <span class="cislo">{cislo}</span>}{druh && <StitekPribehu druh={druh} />}</span>}
   <span class="titulek">{titulek}</span>
   <span class="popis">{popis}</span>

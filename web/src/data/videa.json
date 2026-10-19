@@ -1,0 +1,210 @@
+[
+  {
+    "id": "v1-valka-se-nevyhlasuje",
+    "cislo": 1,
+    "nazev": "Válka se dnes nevyhlašuje",
+    "popis": "Proč dnes válka nezačíná vyhlášením a co znamená žít v šedé zóně mezi mírem a válkou.",
+    "stranka": "/scenar/jsme-ve-valce",
+    "delka": 59,
+    "hlas": "Aneta (AI hlas)",
+    "soubory": {
+      "16x9": {
+        "mb": 6.8
+      },
+      "9x16": {
+        "mb": 6.6
+      }
+    },
+    "prepis": [
+      "Kdy začne válka? Možná čekáme na den, který nikdy nepřijde.",
+      "Dnes se válka nevyhlašuje. Rusko ji nevyhlásilo ani Ukrajině. Říkalo tomu speciální operace.",
+      "Proti Evropě Rusko nepoužívá tanky. Používá sabotáže, kybernetické útoky, propagandu, drony nad cizím územím a rušení GPS. Je to levné a dá se to popřít.",
+      "Týká se to i nás. Za výbuchy ve Vrběticích podle vlády a policie stáli ruští agenti. Bezpečnostní informační služba píše, že ruské hybridní působení proti Česku pokračuje.",
+      "Podle zákona ve válce nejsme. Ale žijeme v šedé zóně. Cílem je vyvolat strach a rozdělit nás.",
+      "Nejlepší odpověď je klid a příprava. Kdo je připravený, toho se vystrašit nedá.",
+      "Krok na dnes: přečtěte si, co se už stalo, a ověřte si to sami. vimecodelat.cz"
+    ]
+  },
+  {
+    "id": "v2-rodinny-plan",
+    "cislo": 2,
+    "nazev": "Rodinný plán za 15 minut",
+    "popis": "Jak se za patnáct minut domluvit s rodinou, kde se sejdete, když nepůjdou telefony.",
+    "stranka": "/priprav-se/rodinny-plan",
+    "delka": 58,
+    "hlas": "Kuba (AI hlas)",
+    "soubory": {
+      "16x9": {
+        "mb": 6.6
+      },
+      "9x16": {
+        "mb": 6
+      }
+    },
+    "prepis": [
+      "Telefony nejdou. Děti jsou ve škole, vy v práci. Víte, kde se sejdete?",
+      "Stačí jeden papír na lednici a patnáct minut u stolu s rodinou.",
+      "Zaprvé: kde se sejdete. Jedno místo blízko domova a jedno mimo vaši čtvrť.",
+      "Zadruhé: kdo vyzvedne děti, a kdo ho zastoupí, když nemůže.",
+      "Zatřetí: co když nejde signál. Domluvte si hodinu, kdy se sejdete, a kde necháte vzkaz.",
+      "A pak kontakty na papíře, léky, zvířata a frekvence rádia. Mobil se vybije, papír ne.",
+      "Formulář najdete na webu. Vyplníte ho v prohlížeči, nic se nikam neodesílá.",
+      "Krok na dnes: domluvte se s rodinou, kde se sejdete, když nepůjdou telefony. vimecodelat.cz"
+    ]
+  },
+  {
+    "id": "v3-kdyz-vypadne-proud",
+    "cislo": 3,
+    "nazev": "Když vypadne proud",
+    "popis": "Co se zastaví za hodinu, za den a za tři dny bez proudu a co vám doma pomůže.",
+    "stranka": "/scenar/utok-na-elektrickou-sit",
+    "delka": 59,
+    "hlas": "Aneta (AI hlas)",
+    "soubory": {
+      "16x9": {
+        "mb": 6.4
+      },
+      "9x16": {
+        "mb": 6.3
+      }
+    },
+    "prepis": [
+      "Představte si, že zhasne celé město. Co se stane během první hodiny?",
+      "Česko to zažilo 4. července 2025. Nebyl to útok, ale ukázal, co se zastaví nejdřív.",
+      "Za hodinu stojí výtahy, semafory, tramvaje a platby kartou. Mobil zatím funguje, ale síť je přetížená.",
+      "Do druhého dne může přestat fungovat mobilní síť. Ve vyšších patrech nemusí téct voda a bez proudu netopí ani plynový kotel.",
+      "Po třech dnech je největší problém teplo. To zažívají lidé na Ukrajině každou zimu.",
+      "Pomůže málo věcí: svítilna místo svíček, rádio na baterky, voda na tři dny, teplé oblečení a trochu hotovosti.",
+      "Když proud vypadne, vypněte jistič, zapněte rádio a tísňové linky volejte jen v ohrožení.",
+      "Krok na dnes: najděte doma svítilnu a zkontrolujte baterky. vimecodelat.cz"
+    ]
+  },
+  {
+    "id": "v4-sirena",
+    "cislo": 4,
+    "nazev": "Siréna: první minuta",
+    "popis": "Co znamená kolísavý tón sirény, co udělat v první minutě a jak funguje pravidlo dvou zdí.",
+    "stranka": "/priprav-se/informace-bez-internetu",
+    "delka": 59,
+    "hlas": "Kuba (AI hlas)",
+    "soubory": {
+      "16x9": {
+        "mb": 6.4
+      },
+      "9x16": {
+        "mb": 6.2
+      }
+    },
+    "prepis": [
+      "Víte, co znamená siréna? V Česku platí jediný varovný signál.",
+      "Kolísavý tón dlouhý 140 sekund znamená všeobecnou výstrahu. Rovný tón je jen zkouška. Bývá první středu v měsíci ve 12:00.",
+      "Když zazní: jděte dovnitř do nejbližší pevné budovy. Zavřete okna a dveře. Zapněte rádio nebo televizi. Hned potom uslyšíte, co se stalo a co dělat.",
+      "Při nebezpečí ze vzduchu platí pravidlo dvou zdí. Mezi vámi a ulicí mají být aspoň dvě zdi. A držte se dál od oken.",
+      "Nenatáčejte a nesdílejte, kam co dopadlo. A nejezděte pro děti do školy, učitelé se o ně postarají.",
+      "Krok na dnes: zjistěte, na jaké frekvenci u vás chytá Radiožurnál, a napište si ji na papír. vimecodelat.cz"
+    ]
+  },
+  {
+    "id": "v5-panika-a-famy",
+    "cislo": 5,
+    "nazev": "První hodiny: panika a fámy",
+    "popis": "Jak vzniká panika, proč škodí a co dělat místo ní, když kolují fámy.",
+    "stranka": "/scenar/panika",
+    "delka": 61,
+    "hlas": "Aneta (AI hlas)",
+    "soubory": {
+      "16x9": {
+        "mb": 7.2
+      },
+      "9x16": {
+        "mb": 6.7
+      }
+    },
+    "prepis": [
+      "Pošlete to dál, než to smažou. Zítra zavřou banky. Známý od armády říká…",
+      "Takhle vzniká panika. Jeden koupí víc, regál se vyprázdní a další lidé koupí ještě víc. Na začátku covidu zboží nechybělo. Obchody ho jen nestíhaly doplnit.",
+      "Panika škodí. Ucpané silnice zdrží záchranku. A kdo nakoupí deset balení léků, může je vzít někomu, kdo je potřebuje hned.",
+      "Co dělat místo toho? Zastavte se na deset minut. Zjistěte, jestli jste v bezprostředním ohrožení. Pokud ne, máte čas. Zapněte Radiožurnál nebo web hasičů. Napište rodině krátkou zprávu podle plánu. A neodjíždějte jen proto, že odjíždějí ostatní. Evakuaci by oznámily úřady.",
+      "A zeptejte se sousedů. Pár klidných vět pomůže víc než deset sdílených videí.",
+      "Krok na dnes: rozhodněte se, kde si v krizi ověříte zprávy. vimecodelat.cz"
+    ]
+  },
+  {
+    "id": "v6-poznej-manipulaci",
+    "cislo": 6,
+    "nazev": "Poznej manipulaci za minutu",
+    "popis": "Šest triků manipulace a na každý jedna otázka, kterou si stačí položit.",
+    "stranka": "/manipulace/karta",
+    "delka": 72,
+    "hlas": "Kuba (AI hlas)",
+    "soubory": {
+      "16x9": {
+        "mb": 7.1
+      },
+      "9x16": {
+        "mb": 7
+      }
+    },
+    "prepis": [
+      "Až budou lidé ve stresu, někdo toho zkusí využít. Ukážeme vám šest triků. Na každý stačí jedna otázka.",
+      "Hra na strach chce, abyste jednali dřív, než přemýšlíte. Zeptejte se: kdo to říká a odkud to ví?",
+      "Falešné dilema zúží svět na dvě možnosti. Zeptejte se: opravdu jsou jen dvě?",
+      "Falešný svědek předstírá, že byl u toho nebo že je odborník. Zeptejte se: dá se to ověřit? Kdy účet vznikl?",
+      "Obětní beránek svalí složitý problém na jednu skupinu. Zeptejte se: je to opravdu tak jednoduché?",
+      "Nikomu nevěř chce, abyste nevěřili ničemu. Zeptejte se: kdo má z mého zmatení prospěch?",
+      "Útok na osobu nadává místo argumentu. Zeptejte se: odpovídá to na věc, nebo jen uráží?",
+      "A pozor: názor a kritika nejsou manipulace. Nesouhlas není zrada.",
+      "Krok na dnes: uložte si kapesní kartu do telefonu. vimecodelat.cz"
+    ]
+  },
+  {
+    "id": "v7-co-muzu-udelat-ja",
+    "cislo": 7,
+    "nazev": "Co můžu udělat já",
+    "popis": "Hasiči, první pomoc, krev, obec nebo aktivní záloha: vyberte si jednu věc, kterou uděláte.",
+    "stranka": "/priprav-se/co-mohu-udelat-ja",
+    "delka": 48,
+    "hlas": "Aneta (AI hlas)",
+    "soubory": {
+      "16x9": {
+        "mb": 5.6
+      },
+      "9x16": {
+        "mb": 5.2
+      }
+    },
+    "prepis": [
+      "Máte rodinný plán a doma svítilnu. Co dál?",
+      "Můžete se přidat k dobrovolným hasičům. Udělat si kurz první pomoci. Darovat krev. Zapojit se v obci nebo jen znát sousedy. Kdo chce víc, může zvážit aktivní zálohu, výcvik pár týdnů v roce vedle běžné práce. A pomůže i obyčejná kondice. V krizi se chodí pěšky a nosí voda.",
+      "Odolná země nejsou jen armáda a úřady. Jsou to lidé, kteří vědí, co dělat, a pomůžou ostatním.",
+      "Nemusíte všechno. Vyberte si jednu věc.",
+      "Krok na dnes: vyberte si jednu cestu a zjistěte, kdy je nejbližší kurz nebo schůzka. vimecodelat.cz"
+    ]
+  },
+  {
+    "id": "v8-proc-tento-web",
+    "cislo": 8,
+    "nazev": "Proč tento web",
+    "popis": "Kdo za webem stojí, proč vznikl a co od něj můžete čekat.",
+    "stranka": "/o-nas/o-nas",
+    "delka": 49,
+    "hlas": null,
+    "soubory": {
+      "16x9": {
+        "mb": 6
+      },
+      "9x16": {
+        "mb": 5.6
+      }
+    },
+    "prepis": [
+      "Proč vznikl tento web?",
+      "Jmenuji se Josef Pavlovic. Víme, co dělat je můj osobní projekt.",
+      "Švédsko, Finsko, Polsko i pobaltské státy svým lidem otevřeně říkají, co dělat, když přijde krize.",
+      "U nás takové místo chybělo. Tak jsem prošel zahraniční příručky a dal je dohromady na jedno místo.",
+      "Nejsem státní instituce. V krizi se řiďte pokyny hasičů, policie, záchranky, armády a obce.",
+      "Nestraším. Každá stránka končí jedním krokem, který zvládnete ještě dnes.",
+      "Začněte rodinným plánem. vimecodelat.cz"
+    ]
+  }
+]

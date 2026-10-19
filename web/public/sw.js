@@ -45,6 +45,8 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   const req = e.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== location.origin || req.url.includes('/api/')) return;
+  // Videa nechává prohlížeči: přehrávač si je stahuje po částech a do offline mezipaměti se nevejdou.
+  if (new URL(req.url).pathname.endsWith('.mp4')) return;
   if (req.mode === 'navigate') {
     // Stránky: nejdřív síť (aktuální obsah), při výpadku uložená verze.
     e.respondWith(

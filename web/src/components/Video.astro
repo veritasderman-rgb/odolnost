@@ -1,0 +1,70 @@
+---
+// Krátké vysvětlující video ve dvou verzích. Na počítači se ukáže verze na šířku, na telefonu na výšku.
+// Soubory jsou ve /videa (odkaz na video/vystup), data generuje video/skripty/web.mjs.
+import videa from '../data/videa.json';
+
+type VideoData = (typeof videa)[number];
+
+interface Props {
+  video: VideoData;
+  // 'clanek' = video nad textem článku, 'prehled' = položka na stránce /videa s nadpisem
+  rezim?: 'clanek' | 'prehled';
+  odkaz?: { href: string; text: string };
+}
+
+const { video: v, rezim = 'clanek', odkaz } = Astro.props;
+const cesta = (format: string, pripona: string) => `/videa/${v.id}-${format}.${pripona}`;
+const delka = `${Math.floor(v.delka / 60)}:${String(v.delka % 60).padStart(2, '0')}`;
+const mb = (x: number) => String(x).replace('.', ',');
+---
+<figure class:list={['video', rezim]} id={rezim === 'prehled' ? v.id : undefined}>
+  {rezim === 'prehled' && <h2><span class="cislo">{String(v.cislo).padStart(2, '0')}</span> {v.nazev}</h2>}
+  <div class="prehravac">
+    <video class="na-sirku" controls preload="none" playsinline width="1280" height="720" poster={cesta('16x9', 'jpg')} aria-label={`Video: ${v.nazev}`}>
+      <source src={cesta('16x9', 'mp4')} type="video/mp4" />
+    </video>
+    <video class="na-vysku" controls preload="none" playsinline width="540" height="960" poster={cesta('9x16', 'jpg')} aria-label={`Video: ${v.nazev}`}>
+      <source src={cesta('9x16', 'mp4')} type="video/mp4" />
+    </video>
+  </div>
+  <figcaption>
+    <p class="meta">
+      <span>{rezim === 'clanek' ? 'Video za minutu' : 'Video'} · {delka}</span>
+      <span>{v.hlas ? `Hlas: ${v.hlas}` : 'Bez hlasu, jen titulky a hudba'}</span>
+      <span>Titulky v obraze</span>
+    </p>
+    <p class="popis">{rezim === 'clanek' ? <strong>{v.nazev}.</strong> : null} {v.popis}</p>
+    <details>
+      <summary>Přepis videa</summary>
+      <ol>{v.prepis.map((r) => <li>{r}</li>)}</ol>
+    </details>
+    <p class="stahnout">
+      Stáhnout: <a href={cesta('16x9', 'mp4')} download>na šířku ({mb(v.soubory['16x9'].mb)} MB)</a> · <a href={cesta('9x16', 'mp4')} download>na výšku pro sítě ({mb(v.soubory['9x16'].mb)} MB)</a>
+      {odkaz && <> · <a href={odkaz.href}>{odkaz.text} →</a></>}
+    </p>
+  </figcaption>
+</figure>
+
+<style>
+  .video { margin: 0 0 2.5rem; }
+  .video h2 { display: flex; gap: 0.6rem; align-items: baseline; margin: 0 0 0.9rem; }
+  .cislo { font-family: var(--pismo-mono); font-size: 0.6em; font-weight: 500; color: var(--text-2); }
+  .prehravac { background: var(--tmava); border: 2px solid var(--linka); }
+  video { display: block; width: 100%; height: auto; background: var(--tmava); }
+  .na-sirku { aspect-ratio: 16 / 9; }
+  .na-vysku { display: none; aspect-ratio: 9 / 16; }
+  figcaption { padding-top: 0.8rem; }
+  .meta { display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; margin: 0 0 0.4rem; font-family: var(--pismo-mono); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-2); }
+  .popis { margin: 0 0 0.6rem; }
+  details { margin: 0 0 0.6rem; }
+  summary { cursor: pointer; font-weight: 700; }
+  details ol { margin: 0.5rem 0 0; padding-left: 1.4rem; }
+  details li { margin: 0.3rem 0; }
+  .stahnout { margin: 0; font-size: 0.92rem; }
+
+  /* Na telefonu na výšku přehráváme verzi 9:16. Skrytý přehrávač se díky preload="none" nestahuje. */
+  @media (max-width: 640px) and (orientation: portrait) {
+    .na-sirku { display: none; }
+    .na-vysku { display: block; width: auto; max-width: 100%; max-height: 82svh; margin: 0 auto; }
+  }
+</style>

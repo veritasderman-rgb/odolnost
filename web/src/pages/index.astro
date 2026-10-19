@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Zaklad from '../layouts/Zaklad.astro';
 import Dlazdice from '../components/Dlazdice.astro';
 import KrokNaDnes from '../components/KrokNaDnes.astro';
+import videa from '../data/videa.json';
 import { PILIRE } from '../lib/pilire';
 
 const pribehy = (await getCollection('obsah', (s) => s.id.startsWith('pribehy/'))).sort((a, b) => a.data.poradi - b.data.poradi).slice(0, 3);
@@ -38,6 +39,16 @@ const popisy: Record<string, string> = {
       <Dlazdice href="/scenar/jsme-ve-valce" obrazek="/obrazky/clanky/scenar-jsme-ve-valce.jpg" titulek="Jsme ve válce?" popis="Co už se u nás a v Evropě stalo, kde je hranice a co by znamenalo, kdyby válka začala i formálně." cislo="Teď" zvyraznit />
       <Dlazdice href="/scenar/co-rikaji-zpravodajci" obrazek="/obrazky/clanky/scenar-co-rikaji-zpravodajci.jpg" titulek="Co říkají ti, kdo to vědí" popis="BIS, armáda a zahraniční zpravodajské služby jejich vlastními slovy. Kdo varuje a před čím." cislo="Zdroje" />
       <Dlazdice href="/scenar/utok-na-elektrickou-sit" obrazek="/obrazky/clanky/scenar-utok-na-elektrickou-sit.jpg" titulek="Útok na elektrickou síť" popis="Co se stane, když vypadne proud v celé zemi. První hodina, první den, třetí den." cislo="Scénář" />
+    </div>
+  </section>
+
+  <section class="obal">
+    <h2>Nemáte čas číst?</h2>
+    <p class="text">Osm videí, každé zhruba na minutu. S titulky, takže je pustíte i bez zvuku. <a href="/videa">Všechna videa →</a></p>
+    <div class="mrizka">
+      {['v1-valka-se-nevyhlasuje', 'v2-rodinny-plan', 'v4-sirena'].map((id) => videa.find((v) => v.id === id)!).map((v) => (
+        <Dlazdice href={`/videa#${v.id}`} obrazek={`/videa/${v.id}-16x9.jpg`} titulek={v.nazev} popis={v.popis} cislo="Video" puvod="Vytvořeno s pomocí AI" doplnek={`${Math.round(v.delka / 60)} min`} />
+      ))}
     </div>
   </section>
 
