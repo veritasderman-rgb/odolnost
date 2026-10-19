@@ -6,7 +6,13 @@ poradi: 2
 druh: "modelovy"
 cteni: 6
 krok: "Zaklepejte dnes u souseda, kterého skoro neznáte, a vyměňte si telefonní čísla. Napište si je na papír."
-zdroje: []
+zdroje:
+  - nazev: "Novo Nordisk: NovoRapid, souhrn údajů o přípravku a příbalová informace (EMA, česky). Načaté pero nebo pero nošené jako zásobní lze uchovávat do 30 °C nejvýše 4 týdny, neotevřené pero v chladničce při 2 až 8 °C mimo chladicí zařízení, chránit před mrazem, vysokými teplotami a světlem. Zmražený inzulin se nesmí použít."
+    url: "https://www.ema.europa.eu/cs/documents/product-information/novorapid-epar-product-information_cs.pdf"
+    datum: "2026"
+  - nazev: "Sanofi: Lantus, souhrn údajů o přípravku a příbalová informace (EMA, česky). Pero po prvním použití až 4 týdny při teplotě do 30 °C mimo přímé teplo nebo světlo, nepoužívaná pera v chladničce, chránit před mrazem a neukládat k mrazicímu boxu."
+    url: "https://www.ema.europa.eu/cs/documents/product-information/lantus-epar-product-information_cs.pdf"
+    datum: "2026"
 autor: "Redakce Víme, co dělat"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
@@ -25,7 +31,7 @@ V zemi už několik týdnů panovalo napětí kvůli konfliktu na východní hra
 
 Lednici neotevírala, aby v ní chlad vydržel co nejdéle. V sobotu odpoledne ale bylo jasné, že ani zavřená lednice nevydrží věčně. K tomu začala slábnout voda v kohoutku. V jejich domě tlačí vodu do horních pater čerpadlo a to bez proudu nejede.
 
-Paní Věra měla na papírku, co jí kdysi řekla diabetoložka. Načaté pero může být v pokoji, jak píše příbalový leták. Zásobní pera patří na chladné místo, ne na slunce a nikdy k ledu ani do mrazáku, protože zmrzlý inzulin se nesmí použít. [OVĚŘIT: doporučení k uchovávání načatého a zásobního inzulinu bez lednice, příbalové informace a SÚKL nebo Česká diabetologická společnost] Kolik dní to zásobní pera snesou, si ale nezapsala. A v sobotu večer se jí vybil telefon.
+Paní Věra měla na papírku, co jí kdysi řekla diabetoložka a co stojí v příbalovém letáku. Načaté pero může být v pokoji při teplotě do 30 °C nejvýš čtyři týdny, chráněné před sluncem a teplem. Neotevřená zásobní pera patří do lednice, nikdy ale do mrazáku ani těsně k mrazicímu boxu, protože zmrzlý inzulin se nesmí použít. Bez proudu je tedy chtěla mít aspoň v chladu a ve stínu. Jak dlouho zásobní pera vydrží mimo lednici, záleží na druhu inzulinu a stojí to v letáku. U některých jsou to stejně jako u načatého pera čtyři týdny do 30 °C. To si ale nezapsala. A v sobotu večer se jí vybil telefon.
 
 ## Proč nezaklepala
 

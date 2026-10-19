@@ -6,7 +6,13 @@ poradi: 3
 druh: "modelovy"
 cteni: 6
 krok: "Až vás příště nějaké video rozzlobí nebo vyděsí, zjistěte před sdílením, odkud pochází a kdy účet vznikl."
-zdroje: []
+zdroje:
+  - nazev: "TikTok: Pravidla komunity, Integrita a autenticita (česky). Oddíl Misinformace, tedy nepravdivý nebo zavádějící obsah."
+    url: "https://www.tiktok.com/community-guidelines/cs/integrity-authenticity"
+    datum: "2026"
+  - nazev: "TikTok: Nahlašování na TikToku, Centrum bezpečnosti (česky). Video, komentář nebo účet, který podle uživatele porušuje Pravidla komunity, lze nahlásit přímo v aplikaci."
+    url: "https://www.tiktok.com/safety/cs-cz/reporting"
+    datum: "2026"
 autor: "Redakce Víme, co dělat"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
@@ -33,7 +39,7 @@ Pak udělal ze záběru snímek obrazovky a vyhledal ho podle obrázku. Stejné 
 
 Nakonec se podíval na web Českého rozhlasu a armády. O ničem takovém tam nebyla zmínka.
 
-Video nesdílel a nekomentoval, protože i naštvaný komentář pomáhá videu k dalším lidem. Nahlásil ho přímo v aplikaci jako nepravdivé informace. [OVĚŘIT: přesný název kategorie pro nahlášení nepravdivých informací v české verzi TikToku]
+Video nesdílel a nekomentoval, protože i naštvaný komentář pomáhá videu k dalším lidem. Nahlásil ho přímo v aplikaci přes volbu Nahlásit a jako důvod vybral nepravdivé nebo zavádějící informace. Pravidla komunity TikToku takový obsah řadí pod misinformace.
 
 ## Kuba
 
