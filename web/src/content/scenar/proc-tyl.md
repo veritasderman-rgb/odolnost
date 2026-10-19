@@ -2,7 +2,7 @@
 title: "Proč Česko nebude fronta, ale týl"
 id: "S-01"
 popis: "Kdyby Rusko napadlo NATO, Česko by nebylo frontou, ale zázemím pro přesuny, zásoby a opravy. Zázemí ale není bezpečný úkryt, a proto se připravujeme."
-poradi: 1
+poradi: 3
 cteni: 5
 krok: "Domluvte se doma, kdo vyzvedne děti, když se zpomalí doprava a nepůjdou telefony."
 zdroje:
