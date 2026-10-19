@@ -83,7 +83,7 @@ Hasiči radí reagovat hned. Shrnujeme jejich doporučení:
 
 Cell Broadcast je systém, který pošle varovnou zprávu všem mobilům v ohrožené oblasti během pár vteřin. Nepotřebuje vaše telefonní číslo. Zprávy půjdou cílit na obce nebo kraje a mají obsahovat i pokyny, co dělat. Sirény tím nekončí, Cell Broadcast je doplní.
 
-**Kdy začne fungovat?** Ministerstvo vnitra v prosinci 2025 uvedlo, že spuštění plánuje na druhou polovinu roku 2026. Hasiči na svém webu v říjnu 2026 píšou, že se systém teprve zavádí a k dispozici bude od konce roku 2026. Pravidla už platí: vyhláška o systému veřejné výstrahy je účinná od 1. ledna 2026. Zpráva přijde s označením odesílatele „ALARM!“. Při vnějším napadení ji může rozeslat i armáda. [OVĚŘIT: zda bude potřeba výstrahy zapnout v nastavení telefonu, nebo budou zapnuté automaticky; zatím to nezveřejnilo MV ani HZS, zeptat se GŘ HZS ČR nebo mobilních operátorů; těsně před publikací znovu ověřit, zda už systém běží, na hzscr.gov.cz/varovani-obyvatelstva]
+**Kdy začne fungovat?** Ministerstvo vnitra v prosinci 2025 uvedlo, že spuštění plánuje na druhou polovinu roku 2026. Hasiči na svém webu v říjnu 2026 píšou, že se systém teprve zavádí a k dispozici bude od konce roku 2026. Pravidla už platí: vyhláška o systému veřejné výstrahy je účinná od 1. ledna 2026. Zpráva přijde s označením odesílatele „ALARM!“. Při vnějším napadení ji může rozeslat i armáda.
 
 Cell Broadcast potřebuje fungující mobilní síť. Při velkém výpadku proudu proto rádio na baterky zůstává nejjistější.
 

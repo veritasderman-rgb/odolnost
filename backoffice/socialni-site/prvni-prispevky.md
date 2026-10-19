@@ -21,7 +21,7 @@ Profily zveřejníme 15. 2. 2027, dva týdny před spuštěním (plán [04](../.
 | Den | Příspěvek | Poznámka |
 | --- | --- | --- |
 | Po 15. 2. | 1 Kdo jsme | Profily se zveřejní. Příspěvky 1–4 neuvádějí datum spuštění, takže mohou vyjít i před bránou B2. |
-| Út 16. 2. | 2 Kdo nás financuje | |
+| Út 16. 2. | 2 Kdo za tím stojí | |
 | St 17. 2. | 3 Naše pravidla | |
 | Čt 18. 2. | 4 Proč u nás neuvidíte odpočet | |
 | Pá 19. 2. | (nic) | **Brána B2.** Pokud splněná není, příspěvky 5–10 se posunou podle náhradního termínu 7. 4. 2027. Partneři dostávají balíček 10 dní předem. |
@@ -42,9 +42,9 @@ Profily zveřejníme 15. 2. 2027, dva týdny před spuštěním (plán [04](../.
 
 **Text**
 
-> Dobrý den, jsme Víme, co dělat.
+> Dobrý den, tady Víme, co dělat.
 >
-> Jsme nezávislý a nadstranický projekt. Chceme lidem v Česku v klidu ukázat, co by pro nás znamenala vážná krize, včetně možného vojenského konfliktu v Evropě. A hlavně, co se dá udělat dopředu.
+> Je to osobní projekt Josefa Pavlovice. Chceme lidem v Česku v klidu ukázat, co by pro nás znamenala vážná krize, včetně možného vojenského konfliktu v Evropě. A hlavně, co se dá udělat dopředu.
 >
 > Nevíme, jestli se to stane. Víme, co by pomohlo, kdyby ano.
 >
@@ -58,7 +58,7 @@ Profily zveřejníme 15. 2. 2027, dva týdny před spuštěním (plán [04](../.
 
 **Krátká verze (X, Bluesky, Threads)**
 
-> Jsme Víme, co dělat: nezávislý a nadstranický projekt o tom, jak se v klidu připravit na vážnou krizi a poznat manipulaci. Navazujeme na 72h.gov.cz.
+> Víme, co dělat je osobní projekt Josefa Pavlovice o tom, jak se v klidu připravit na vážnou krizi a poznat manipulaci. Navazujeme na 72h.gov.cz.
 >
 > Krok na dnes: přečtěte si na 72h.gov.cz jednu kapitolu, která se týká vaší domácnosti. #vimecodelat
 
@@ -68,35 +68,37 @@ Profily zveřejníme 15. 2. 2027, dva týdny před spuštěním (plán [04](../.
 
 **Krok na dnes:** Otevřete 72h.gov.cz a přečtěte si jednu kapitolu, která se týká vaší domácnosti.
 
-## 2 Kdo nás financuje
+## 2 Kdo za tím stojí
 
 **Kanály:** Facebook, Instagram (karusel), LinkedIn (připnout), Threads, Bluesky, X
 
 **Text**
 
-> Kdo nás platí? Je to dobrá otázka a měli byste ji klást každému, kdo vám radí, jak se připravit na krizi.
+> Kdo za tím stojí? Je to dobrá otázka a měli byste ji klást každému, kdo vám radí, jak se připravit na krizi.
 >
-> Naše odpověď:
-> • Seznam všech dárců nad 10 000 Kč a všech partnerů je veřejný a průběžně ho aktualizujeme.
-> • Nebereme peníze od politických stran a hnutí, od zbrojařských firem ani z dotací, které by mohly ohrozit naši nezávislost.
-> • Od jednoho dárce přijmeme nejvýš 30 % rozpočtu, aby nás nikdo nemohl ovládat penězi.
-> • Dárci nemají vliv na obsah. O textech rozhoduje redakce podle zveřejněných pravidel.
+> Víme, co dělat je můj osobní projekt. Jmenuji se Josef Pavlovic.
 >
-> Dnes nás podporují: [DOPLNIT: dárci a partneři podle stránky Kdo nás financuje ke dni zveřejnění].
+> Prošel jsem zahraniční příručky a weby, hlavně ze Švédska, Finska, Polska a pobaltských států. Pokusil jsem se dát na jedno místo to, co jiné státy říkají svým lidem.
 >
-> Krok na dnes: Vzpomeňte si na web nebo účet, který vás v poslední době vyděsil. Zkuste dohledat, kdo za ním stojí a kdo ho platí. Když to nejde zjistit, je to taky odpověď.
+> Je to kompilát zahraničních příkladů a veřejných zdrojů. U každé stránky uvádím, z čeho vycházím.
+>
+> Stát to nenahrazuje. Když přijde krize, řiďte se pokyny hasičů, policie, záchranné služby, armády a své obce.
+>
+> Proč projekt vznikl: vimecodelat.cz/o-nas/o-nas
+>
+> Krok na dnes: Vzpomeňte si na web nebo účet, který vás v poslední době vyděsil. Zkuste dohledat, kdo za ním stojí. Když to nejde zjistit, je to taky odpověď.
 
 **Krátká verze**
 
-> Kdo nás platí? Seznam dárců nad 10 000 Kč je veřejný. Nebereme od stran, zbrojařů ani z dotací ohrožujících nezávislost, od jednoho dárce nejvýš 30 %.
+> Kdo za tím stojí? Můj osobní projekt. Dal jsem na jedno místo, co lidem radí Švédsko, Finsko, Polsko a Pobaltí. V krizi platí pokyny hasičů, policie, záchranky, armády a obce. vimecodelat.cz/o-nas/o-nas
 >
-> Krok na dnes: u webu, který vás vyděsil, zjistěte, kdo ho platí. #vimecodelat
+> Krok na dnes: zjistěte, kdo stojí za webem, který vás vyděsil. #vimecodelat
 
-**Vizuál:** karusel 3 snímky na barvě Papír, jednoduchá typografie bez ilustrace. (1) „Kdo nás financuje?“ (2) Tři zásady s ikonami. (3) Krok na dnes. Bez log dárců, ta jsou na webu.
+**Vizuál:** karusel 3 snímky na barvě Papír, jednoduchá typografie bez ilustrace. (1) „Kdo za tím stojí?“ (2) Tři věty s ikonami: osobní projekt · kompilát zahraničních příkladů a veřejných zdrojů · v krizi platí pokyny hasičů, policie, záchranné služby, armády a obce. (3) Krok na dnes.
 
 **Hashtagy:** `#vimecodelat`
 
-**Krok na dnes:** U webu nebo účtu, který vás v poslední době vyděsil, zjistěte, kdo za ním stojí a kdo ho platí.
+**Krok na dnes:** U webu nebo účtu, který vás v poslední době vyděsil, zjistěte, kdo za ním stojí.
 
 ## 3 Naše pravidla
 
@@ -110,10 +112,9 @@ Profily zveřejníme 15. 2. 2027, dva týdny před spuštěním (plán [04](../.
 > 2. Každá obava končí činem. Žádný text nekončí strachem.
 > 3. Učíme techniky, ne názory. Neříkáme vám, co si myslet o politice.
 > 4. Nesouhlas není zrada. Kritika vlády a pokojný protest patří k demokracii.
-> 5. Žádná strana, žádný politik jako tvář projektu.
-> 6. Žádné citlivé informace. Nemapujeme mosty, sklady ani závody.
-> 7. Ne udávání, ale hlášení. Když něco vypadá jako sabotáž, volejte 158 a nikoho sami neobviňujte.
-> 8. Opravy viditelně. Každou chybu opravíme veřejně a s datem.
+> 5. Žádné citlivé informace. Nemapujeme mosty, sklady ani závody.
+> 6. Ne udávání, ale hlášení. Když něco vypadá jako sabotáž, volejte 158 a nikoho sami neobviňujte.
+> 7. Opravy viditelně. Každou chybu opravíme veřejně a s datem.
 >
 > Krok na dnes: Až vám dnes někdo pošle znepokojivou zprávu, zkuste se zeptat: Kdo to říká a odkud to ví?
 
@@ -123,7 +124,7 @@ Profily zveřejníme 15. 2. 2027, dva týdny před spuštěním (plán [04](../.
 >
 > Krok na dnes: u znepokojivé zprávy se zeptejte, kdo to říká a odkud to ví. #vimecodelat
 
-**Vizuál:** karusel 9 snímků: titulní „Naše pravidla“ a 8 pravidel, každé s jednou ikonou z ikonové sady. Pro Stories zkrácená verze 4 snímků.
+**Vizuál:** karusel 8 snímků: titulní „Naše pravidla“ a 7 pravidel, každé s jednou ikonou z ikonové sady. Pro Stories zkrácená verze 4 snímků.
 
 **Hashtagy:** `#vimecodelat`
 

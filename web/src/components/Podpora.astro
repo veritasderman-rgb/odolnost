@@ -1,0 +1,22 @@
+---
+import { STRIPE_ODKAZ } from '../lib/podpora';
+---
+{STRIPE_ODKAZ && (
+  <aside class="podpora netisknout" aria-labelledby="podpora-nadpis" data-pagefind-ignore>
+    <div class="obal radek">
+      <div>
+        <p class="znacka">Podpora</p>
+        <h2 id="podpora-nadpis">Chci tento projekt podpořit</h2>
+        <p>Web dělám ve svém volném čase. Pokud vám pomohl, můžete mi poslat na kafe. Platba proběhne bezpečně přes Stripe.</p>
+      </div>
+      <a class="tlacitko lampa" href={STRIPE_ODKAZ} rel="noopener">Poslat na kafe 50 Kč <span aria-hidden="true">→</span></a>
+    </div>
+  </aside>
+)}
+<style>
+  .podpora { margin-top: 4rem; background: var(--papir-2); border-top: 2px solid var(--linka); border-bottom: 2px solid var(--linka); padding: 2rem 0; }
+  .radek { display: flex; gap: 1.5rem; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+  h2 { margin: 0.6rem 0 0.4rem; font-size: clamp(1.6rem, 3vw, 2.1rem); }
+  p { margin: 0; max-width: 38rem; }
+  .podpora + :global(.paticka) { margin-top: 0; }
+</style>

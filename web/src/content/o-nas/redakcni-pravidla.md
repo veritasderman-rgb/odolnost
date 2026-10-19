@@ -31,9 +31,9 @@ Ukazujeme, jak manipulace funguje: hra na strach, falešné dilema, obětní ber
 
 Pokojný protest a kritika vlády patří k demokracii, kterou chceme chránit. Učíme rozpoznat koordinované a neautentické kampaně a sabotáž, ne názorové oponenty. Nikoho nenálepkujeme. Podrobněji na stránce [Nesouhlas není zrada](/manipulace/nesouhlas-neni-zrada).
 
-### 5. Nadstranickost
+### 5. Žádná politická kampaň
 
-Víme, co dělat je osobní projekt Josefa Pavlovice. Nejsem napojený na žádnou stranu ani politika a od stran neberu peníze ([kdo to platí](/o-nas/financovani)).
+Web nepropaguje žádnou stranu ani politika a nevyzývá, koho volit. Nejmenuje politiky jako příklady manipulace a neposuzuje volební programy.
 
 ### 6. Žádné citlivé informace
 

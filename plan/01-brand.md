@@ -15,7 +15,7 @@ Zároveň musí značka obstát pod útokem. Kampaně, proti kterým stojíme, j
 | **Poslání** | Pomáháme lidem v Česku připravit se na vážnou krizi, postarat se o své blízké a nenechat se v ní zmanipulovat. |
 | **Vize** | Země, kde většina domácností ví, co v krizi dělat, a kde je těžké lidi rozeštvat. |
 | **Slib** | Řekneme vám to narovinu, klidně a pravdivě, a vždy s krokem, který zvládnete ještě dnes. |
-| **Pozice** | Nezávislý a nadstranický průvodce. Navazuje na státní 72h.gov.cz a přidává scénář, příběhy a odolnost vůči manipulaci. |
+| **Pozice** | Osobní projekt Josefa Pavlovice, kompilát zahraničních příkladů. Navazuje na státní 72h.gov.cz a přidává scénář, příběhy a odolnost vůči manipulaci. |
 | **Hodnoty** | Klid · Pravdivost · Péče · Soudržnost · Nezávislost |
 
 ### Osobnost: kdyby značka byla člověk
@@ -29,7 +29,7 @@ Je to **zkušená sousedka, která pracuje u záchranky**. Mluví klidně, proto
 | lidští a vřelí | sentimentální |
 | upřímní, i k nejistotě | alarmističtí |
 | sebevědomí | nadřazení a moralizující |
-| nadstraničtí | bez názoru na demokracii (ta je naše hodnota) |
+| bez politické kampaně | bez názoru na demokracii (ta je naše hodnota) |
 
 ## Název
 
@@ -108,7 +108,7 @@ Víme, co dělat
 | Připrav se | Stačí pár kroků o víkendu. Plán na jedné stránce A4. | 72h.gov.cz, HZS |
 | Poznej manipulaci | Manipulace má opakující se triky. Když je znáte, nefungují. | Metaanalýza 33 experimentů, zkušenost z Česka 2022 |
 
-**Základna:** nezávislí, nadstraničtí, transparentní financování, veřejné opravy.
+**Základna:** osobní projekt se jménem autora, zdroje u každé stránky, žádná politická kampaň, veřejné opravy.
 
 ### Odpovědi na nejčastější útoky
 
@@ -266,7 +266,7 @@ Klidný ženský nebo mužský hlas (ideálně tvář projektu), krátká zvukov
 
 ## Zadání pro designéra
 
-> **Kdo jsme:** Nezávislý nadstranický projekt „Víme, co dělat“, který připravuje české domácnosti na vážnou krizi včetně možného vojenského konfliktu v Evropě a učí je rozpoznat manipulaci. Navazujeme na státní 72h.gov.cz.
+> **Kdo jsme:** Osobní projekt Josefa Pavlovice „Víme, co dělat“, který připravuje české domácnosti na vážnou krizi včetně možného vojenského konfliktu v Evropě a učí je rozpoznat manipulaci. Navazujeme na státní 72h.gov.cz.
 >
 > **Úkol:** Vizuální identita (logo, barvy, písmo, ilustrační styl, ikony, šablony, manuál) a design systém pro statický web. Spolupráce s ilustrátorem a animačním studiem.
 >

@@ -24,7 +24,7 @@
 
 ### 1. O co jde
 
-Víme, co dělat je nezávislý a nadstranický projekt. Pomáhá lidem v Česku připravit se na vážnou krizi a poznat manipulaci. Vaše svědectví nám pomůže ukázat, co lidem v krizi opravdu pomohlo a co chybělo.
+Víme, co dělat je osobní projekt Josefa Pavlovice. Pomáhá lidem v Česku připravit se na vážnou krizi a poznat manipulaci. Vaše svědectví nám pomůže ukázat, co lidem v krizi opravdu pomohlo a co chybělo.
 
 Téma rozhovoru: [DOPLNIT, např. „první dny invaze v Charkově v únoru 2022 a odchod do Česka“ nebo „povodeň v roce 2024 v obci …“]
 

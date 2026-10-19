@@ -12,11 +12,11 @@ Termíny odpovídají plánu k 19. 10. 2026. Před odesláním je zkontrolujte.
 
 Podle [zadání pro designéra](../../plan/01-brand.md#zadání-pro-designéra). Posílá koordinátor/ka 3–4 studiím, plán počítá s odesláním 3.–4. 11. 2026.
 
-**Předmět:** Poptávka: vizuální identita pro nezávislý projekt o připravenosti na krizi
+**Předmět:** Poptávka: vizuální identita pro projekt o připravenosti na krizi
 
 > Dobrý den,
 >
-> připravujeme Víme, co dělat, nezávislý a nadstranický web, který lidem v Česku v klidu ukáže, jak se připravit na vážnou krizi, včetně možného vojenského konfliktu v Evropě, a jak poznat manipulaci. Navazujeme na státní 72h.gov.cz. Spuštění plánujeme na 1. 3. 2027.
+> připravujeme web Víme, co dělat, který lidem v Česku v klidu ukáže, jak se připravit na vážnou krizi, včetně možného vojenského konfliktu v Evropě, a jak poznat manipulaci. Navazujeme na státní 72h.gov.cz. Spuštění plánujeme na 1. 3. 2027.
 >
 > Hledáme studio na vizuální identitu: logo, barvy, písmo, ilustrační styl, ikony, šablony pro sociální sítě a tisk, manuál značky a design systém pro statický web.
 >
@@ -46,11 +46,11 @@ Podle [zadání pro designéra](../../plan/01-brand.md#zadání-pro-designéra).
 
 Podle [zadání pro studio](../../plan/03-video.md#zadání-pro-studio). Posílá koordinátor/ka 3 studiím.
 
-**Předmět:** Poptávka: animovaná vzdělávací videa pro nezávislý projekt o připravenosti na krizi
+**Předmět:** Poptávka: animovaná vzdělávací videa pro projekt o připravenosti na krizi
 
 > Dobrý den,
 >
-> připravujeme Víme, co dělat, nezávislý a nadstranický web o tom, jak se v klidu připravit na vážnou krizi a poznat manipulaci. Navazujeme na státní 72h.gov.cz.
+> připravujeme web Víme, co dělat o tom, jak se v klidu připravit na vážnou krizi a poznat manipulaci. Navazujeme na státní 72h.gov.cz.
 >
 > Poptáváme:
 > • úvodní video (60–90 s, plus zkrácené verze 15 a 30 s),
@@ -83,7 +83,7 @@ Podle [spolupráce s tvůrci](../../plan/04-socialni-site.md#spolupráce-s-tvůr
 >
 > sledujeme vaši tvorbu o [téma tvůrce] a líbí se nám, jak [konkrétní věc, kterou na tvorbě oceňujeme].
 >
-> Připravujeme Víme, co dělat, nezávislý a nadstranický projekt o tom, jak se v klidu připravit na vážnou krizi a jak poznat manipulaci, která by ji provázela. Navazujeme na státní 72h.gov.cz. Web spouštíme 1. 3. 2027.
+> Připravujeme projekt Víme, co dělat o tom, jak se v klidu připravit na vážnou krizi a jak poznat manipulaci, která by ji provázela. Navazujeme na státní 72h.gov.cz. Web spouštíme 1. 3. 2027.
 >
 > Hledáme lidi, kterým jejich publikum věří a kteří by o tématu chtěli mluvit vlastním hlasem. Nedáme vám scénář. Dostanete fakta, příběhy a materiály (rodinný plán, kapesní karta proti manipulaci, krátká videa) a uděláte to po svém. My zkontrolujeme jen věcnou správnost.
 >
@@ -110,7 +110,7 @@ Podle [prvních 30 dní](../../plan/00-prehled.md#prvních-30-dní-do-18-11-2026
 
 > Dobrý den,
 >
-> připravujeme Víme, co dělat, nezávislý a nadstranický web o tom, jak se v klidu připravit na vážnou krizi a poznat manipulaci. Než ho zveřejníme, chceme ho otestovat s 30 lidmi, kteří nejsou z naší bubliny, aby nás upozornili, co je nesrozumitelné nebo co zbytečně děsí.
+> připravujeme web Víme, co dělat o tom, jak se v klidu připravit na vážnou krizi a poznat manipulaci. Než ho zveřejníme, chceme ho otestovat s 30 lidmi, kteří nejsou z naší bubliny, aby nás upozornili, co je nesrozumitelné nebo co zbytečně děsí.
 >
 > Mohli byste níže uvedenou výzvu přeposlat lidem ve vašem okolí [např. rodičům ze školy, seniorům z klubu, zaměstnancům]? Hledáme hlavně [skupina].
 >
@@ -125,7 +125,7 @@ Podle [prvních 30 dní](../../plan/00-prehled.md#prvních-30-dní-do-18-11-2026
 >
 > hledáme lidi, kteří by si přečetli a vyzkoušeli nový web dřív než ostatní a řekli nám upřímně, co si o něm myslí.
 >
-> O co jde: Víme, co dělat je nezávislý a nadstranický web o tom, jak se v klidu připravit na vážnou krizi a jak poznat manipulaci. Chceme si ověřit, že je srozumitelný, prakticky užitečný a že nikoho zbytečně neděsí.
+> O co jde: Víme, co dělat je web o tom, jak se v klidu připravit na vážnou krizi a jak poznat manipulaci. Chceme si ověřit, že je srozumitelný, prakticky užitečný a že nikoho zbytečně neděsí.
 >
 > Co by vás to stálo:
 > • [počet, např. 2–3] krátká testování online nebo osobně, každé zhruba 30–60 minut, v termínech [DOPLNIT, hlavní test 8.–19. 2. 2027],

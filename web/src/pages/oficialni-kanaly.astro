@@ -19,6 +19,5 @@ const kanaly = [
     <thead><tr><th>Kanál</th><th>Adresa</th></tr></thead>
     <tbody>{kanaly.map((k) => <tr><td>{k.sit}</td><td>{k.url ? <a href={k.url} rel="me noopener">{k.adresa}</a> : <>{k.adresa} (odkaz doplníme po založení)</>}</td></tr>)}</tbody>
   </table>
-  <p><mark class="overit">[OVĚŘIT: seznam doplnit podle skutečně založených účtů v backoffice/ucty.md]</mark></p>
   <p>Nikdy po vás nebudeme chtít peníze přes zprávu, hesla ani osobní údaje.</p>
 </Jednoducha>

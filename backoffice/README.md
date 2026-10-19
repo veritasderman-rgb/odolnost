@@ -102,7 +102,7 @@ Podrobnosti ke každému kroku jsou níže.
 | --- | --- |
 | **Kdo** | KOO založí, DEV nastaví DNS záznamy |
 | **Proč** | Účty na sítích, u registrátora a u nástrojů nesmí viset na osobních e-mailech. Když člověk odejde, schránka zůstane projektu. Adresa na doméně je také podmínkou ověření domény v Brevu a ověření stránky na LinkedInu. |
-| **Doporučený poskytovatel** | Poskytovatel se sídlem a servery v EU, s podporou vlastní domény, aliasů, sdílených schránek a 2FA. Možnosti k porovnání: **mailbox.org** (Německo; tarif Standard umožňuje 50 aliasů na vlastní doméně, Light aliasy na vlastní doméně jen v týmových účtech), **Tuta** (Německo; silné šifrování, ale bez klasického IMAP, což komplikuje sdílené schránky a nástroje) nebo **Proton Mail** (Švýcarsko, mimo EU, ale s rozhodnutím EU o odpovídající ochraně údajů). Doporučení: mailbox.org kvůli IMAP, aliasům a nízké ceně. [OVĚŘIT: aktuální ceník a podmínky pro neziskové organizace.] |
+| **Doporučený poskytovatel** | Poskytovatel se sídlem a servery v EU, s podporou vlastní domény, aliasů, sdílených schránek a 2FA. Možnosti k porovnání: **mailbox.org** (Německo; tarif Standard umožňuje 50 aliasů na vlastní doméně, Light aliasy na vlastní doméně jen v týmových účtech), **Tuta** (Německo; silné šifrování, ale bez klasického IMAP, což komplikuje sdílené schránky a nástroje) nebo **Proton Mail** (Švýcarsko, mimo EU, ale s rozhodnutím EU o odpovídající ochraně údajů). Doporučení: mailbox.org kvůli IMAP, aliasům a nízké ceně. [OVĚŘIT: aktuální ceník a podmínky.] |
 | **Adresy** | Viz tabulka níže. Každý člen týmu má osobní pracovní schránku. Sdílené adresy jsou aliasy nebo sdílené schránky s přístupem pro určené role. |
 | **Bezpečnost** | 2FA bezpečnostním klíčem u všech schránek. Žádné automatické přeposílání na osobní e-maily. Podpis e-mailu bez osobního telefonu. Phishingové školení před spuštěním (plán [06](../plan/06-tym-rozpocet-rizika.md#bezpečnost-týmu)). |
 
@@ -151,7 +151,7 @@ Podrobnosti ke každému kroku jsou níže.
 | --- | --- |
 | **Kdo** | KOO |
 | **Proč** | Pro to, co nesmí do veřejného repozitáře: podepsané souhlasy svědků, smlouvy, faktury, nabídky studií, kontakty na partnery, surová videa a zdrojové soubory grafiky. |
-| **Doporučení** | Úložiště v EU se sdílením podle složek a 2FA. Možnosti: disk u poskytovatele e-mailu (mailbox.org má vlastní úložiště), hostovaný Nextcloud u evropského poskytovatele, nebo Proton Drive. Google Workspace pro neziskové organizace je možný až po zápisu organizace a data jsou u amerického poskytovatele. [OVĚŘIT: kapacita pro videa, plán počítá s originály na dvou nezávislých úložištích.] |
+| **Doporučení** | Úložiště v EU se sdílením podle složek a 2FA. Možnosti: disk u poskytovatele e-mailu (mailbox.org má vlastní úložiště), hostovaný Nextcloud u evropského poskytovatele, nebo Proton Drive. Google Workspace pro neziskové organizace nepřichází v úvahu, projekt žádnou organizaci nemá. Data by navíc byla u amerického poskytovatele. [OVĚŘIT: kapacita pro videa, plán počítá s originály na dvou nezávislých úložištích.] |
 | **Struktura** | `01-organizace` · `02-smlouvy-a-nabidky` · `03-souhlasy` (přístup jen SR a KOO) · `04-zdrojova-data` (grafika, video) · `05-media` (tiskové materiály) · `06-pruzkumy` (jen anonymizovaná data) |
 | **Bezpečnost** | Složka `03-souhlasy` obsahuje osobní údaje svědků: přístup jen pro 2 role, žádné veřejné odkazy, zálohy šifrované. Sdílení odkazem „kdokoli s odkazem“ zakázat. |
 
