@@ -24,7 +24,7 @@ zdroje:
   - nazev: "PVK: PVK cvičily rozsáhlý výpadek v dodávkách elektrické energie (Blackout 2024)"
     url: "https://www.pvk.cz/aktuality/pvk-cvicily-rozsahly-vypadek-v-dodavkach-elektricke-energie/"
     datum: "2024-10-31"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

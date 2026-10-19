@@ -54,7 +54,7 @@ zdroje:
   - nazev: "České noviny (ČTK): Systém varovných zpráv na mobily se v půlce roku začne testovat"
     url: "https://www.ceskenoviny.cz/zpravy/system-varovnych-zprav-na-mobily-se-v-pulce-roku-zacne-testovat/2782437"
     datum: "2026-02-05"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

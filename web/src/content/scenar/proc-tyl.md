@@ -18,7 +18,7 @@ zdroje:
   - nazev: "NATO: Resilience, civil preparedness and Article 3 (anglicky; civilní připravenost je podle NATO základem společné obrany)"
     url: "https://www.nato.int/cps/en/natohq/topics_132722.htm"
     datum: "2026-09-18"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

@@ -12,7 +12,7 @@ zdroje:
   - nazev: "Roozenbeek a kol.: Psychologické očkování zlepšuje odolnost vůči dezinformacím na sociálních sítích (Science Advances)."
     url: "https://doi.org/10.1126/sciadv.abo6254"
     datum: "2022"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

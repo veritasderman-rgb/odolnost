@@ -24,7 +24,7 @@ zdroje:
   - nazev: "72h.gov.cz: Informace a komunikace"
     url: "https://www.72h.gov.cz/cs/informace-komunikace"
     datum: "ověřeno 2026-10-19"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

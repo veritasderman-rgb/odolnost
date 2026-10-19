@@ -96,7 +96,7 @@ zdroje:
   - nazev: "Statutární město Olomouc: Olomouc by výpadek proudu přežila bez újmy (cvičení Blackout 2026, body bezpečí)"
     url: "https://www.olomouc.eu/aktualni-informace/aktuality/31071"
     datum: "2026-06-16"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

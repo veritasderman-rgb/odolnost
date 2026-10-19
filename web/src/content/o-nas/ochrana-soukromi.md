@@ -9,7 +9,7 @@ zdroje:
   - nazev: "Brevo: Zásady ochrany osobních údajů (francouzsky, údaje o společnosti)"
     url: "https://www.brevo.com/fr/legal/privacypolicy/"
     datum: "2026"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na právní kontrolu"
 revidovano: "2026-10-19"
 stav: "navrh"
@@ -29,7 +29,7 @@ K nám lidé přicházejí s obavou. Proto o nich nechceme vědět víc, než je
 
 ## Kdo za vaše údaje odpovídá
 
-Správce osobních údajů: **bude doplněn po založení organizace.** [OVĚŘIT: název, sídlo a IČO spolku nebo ústavu po zápisu do rejstříku.]
+Správce osobních údajů: **Josef Pavlovic**, autor a provozovatel webu. Víme, co dělat je jeho osobní projekt, za kterým nestojí žádná organizace.
 
 Kontakt ve věcech ochrany osobních údajů: [info@vimecodelat.cz](mailto:info@vimecodelat.cz)
 

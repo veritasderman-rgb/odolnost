@@ -5,13 +5,13 @@ popis: "Osm zásad, podle kterých píšeme, a sedm kroků, kterými projde kaž
 poradi: 3
 cteni: 5
 krok: "Až vám dnes někdo pošle znepokojivou zprávu, zeptejte se: Kdo to říká a odkud to ví?"
-autor: "Redakce Víme, co dělat"
-recenze: "Čeká na kontrolu správní radou"
+autor: "Josef Pavlovic"
+recenze: "Bez externí revize"
 revidovano: "2026-10-19"
 stav: "navrh"
 ---
 
-Web, který učí poznat manipulaci, nesmí sám manipulovat. Proto máme pevná pravidla a zveřejňujeme je. Pokud uvidíte, že je porušujeme, napište nám na [opravy@vimecodelat.cz](mailto:opravy@vimecodelat.cz).
+Web, který učí poznat manipulaci, nesmí sám manipulovat. Proto máme pevná pravidla a zveřejňujeme je. Pokud uvidíte, že je porušujeme, napište mi na [info@vimecodelat.cz](mailto:info@vimecodelat.cz).
 
 ## Osm zásad
 
@@ -33,11 +33,11 @@ Pokojný protest a kritika vlády patří k demokracii, kterou chceme chránit. 
 
 ### 5. Nadstranickost
 
-Žádná strana a žádný politik nejsou tváří projektu ani jeho vedením. Nebereme peníze od politických stran ([kdo nás financuje](/o-nas/financovani)).
+Víme, co dělat je osobní projekt Josefa Pavlovice. Nejsem napojený na žádnou stranu ani politika a od stran neberu peníze ([kdo to platí](/o-nas/financovani)).
 
 ### 6. Žádné citlivé informace
 
-Nemapujeme zranitelné mosty, sklady, závody ani jiná místa, která by mohla někomu napovědět, kde zaútočit. Pracujeme jen s obecnými kategoriemi a s veřejnými zdroji. Každou stránku před zveřejněním kontroluje odborník nebo odbornice na bezpečnost.
+Nemapujeme zranitelné mosty, sklady, závody ani jiná místa, která by mohla někomu napovědět, kde zaútočit. Pracujeme jen s obecnými kategoriemi a s veřejnými zdroji. Před zveřejněním každou stránku kontroluji i z tohoto pohledu.
 
 ### 7. Ne udávání, ale hlášení
 
@@ -49,26 +49,22 @@ Každou chybu opravíme veřejně a s datem. U opravené pasáže je pruh **Opra
 
 ## Jak vzniká každá stránka
 
-Každý text projde sedmi kroky. Bez podpisu v krocích 3 až 5 se nezveřejní.
+Web píšu sám. Proto je důležité, abyste viděli, jak postupuji:
 
-| Krok | Kdo | Co kontroluje |
-| --- | --- | --- |
-| 1. Zadání | šéfredaktor/ka | Cíl, pro koho je text, Krok na dnes, zdroje |
-| 2. Text | autor/ka | Podle šablony stránky a pravidel tónu |
-| 3. Odborná revize | recenzent/ka z oboru (hasiči, krizové řízení, bezpečnost, psychologie) | Věcná správnost, praktičnost rad |
-| 4. Bezpečnostní revize | odborník/ice na bezpečnost | Že text neobsahuje citlivé informace |
-| 5. Etická a právní kontrola | šéfredaktor/ka, podle potřeby právník/ice | Nálepkování, stranickost, souhlasy, autorská práva, ochrana osobních údajů |
-| 6. Čtenářský test | 5 lidí z testovacího panelu (před spuštěním 30) | Srozumitelnost, zda text zbytečně neděsí, zda je krok jasný |
-| 7. Zveřejnění | editor/ka | Datum revize, štítky, zařazení |
+1. **Rešerše.** Vycházím ze zahraničních příruček, oficiálních dokumentů a ověřených zpráv. Seznam příruček je na stránce [Jak se připravují jinde](/priprav-se/jak-se-pripravuji-jinde).
+2. **Text.** Píšu krátce, klidně a s konkrétním krokem na konci.
+3. **Ověření.** Každé tvrzení dohledávám ve zdroji a zdroj uvádím v části „Odkud to víme“. Co ověřit nejde, výslovně označím.
+4. **Kontrola citlivých informací.** Žádná konkrétní místa ani slabiny, které by mohly pomoci útočníkovi.
+5. **Zveřejnění se stavem.** U každé stránky vidíte, kdo ji napsal, kdy byla naposledy zkontrolována a jestli ji už zkontroloval odborník z oboru.
 
-V patičce každé stránky najdete, kdo ji napsal, kdo ji zkontroloval a kdy byla naposledy revidována.
+Pokud jste hasič, zdravotník, voják, krizový manažer nebo psycholog a chcete některou stránku zkontrolovat, napište mi. Vaše jméno uvedu u stránky jen s vaším souhlasem.
 
 ## Jak často obsah kontrolujeme
 
 - **Scénář:** jednou za čtvrtletí.
 - **Praktické kroky:** jednou za půl roku, nebo hned, když se změní doporučení na 72h.gov.cz.
 - **Techniky manipulace:** jednou ročně.
-- **Hesla, která se právě šíří:** jednou měsíčně, spolu s partnery z fact-checkingu.
+- **Hesla, která se právě šíří:** jednou měsíčně.
 
 ## Odkud bereme informace
 
@@ -86,13 +82,13 @@ U každého zdroje uvádíme datum. Neodkazujeme na anonymní zdroje a nepouží
 Rozlišujeme dva druhy příběhů a vždy je jasně označujeme:
 
 - **Modelový příběh:** vymyšlená postava v realistické situaci. Ilustrujeme ho, nefotografujeme, aby nikdy nevypadal jako reportáž. Pod příběhem píšeme, jak vznikal.
-- **Skutečné svědectví:** rozhovor se skutečným člověkem. Svědek nebo svědkyně podepisuje informovaný souhlas, může zůstat v anonymitě, uvidí finální verzi před zveřejněním a může souhlas odvolat. Za čas dostane každý stejnou odměnu.
+- **Skutečné svědectví:** rozhovor se skutečným člověkem. Svědek nebo svědkyně podepisuje informovaný souhlas, může zůstat v anonymitě, uvidí finální verzi před zveřejněním a může souhlas odvolat.
 
-U svědků, kteří prožili válku nebo katastrofu, vede rozhovor člověk s psychologickou průpravou. Ukrajinským svědkům tlumočí člověk z komunity.
+U lidí, kteří prožili válku nebo katastrofu, postupuji citlivě a rozhovor kdykoli ukončíme, když o to požádají.
 
 ## Obrázky, videa a umělá inteligence
 
-- Nepoužíváme realistické obrázky lidí vytvořené umělou inteligencí, klonované hlasy ani deepfaky, a to ani „pro ukázku“.
+- Nepoužíváme realistické obrázky konkrétních lidí vytvořené umělou inteligencí, klonované hlasy ani deepfaky, a to ani „pro ukázku“.
 - Ukázky falešných videí vytváříme animací nebo zjevnou rekonstrukcí s nápisem **Ukázka**.
 - Skutečnou dezinformaci nikdy nedáváme do titulku. Lež neopakujeme, ukazujeme techniku.
 - Nepoužíváme fotografie zničených měst, raněných ani plačících dětí.

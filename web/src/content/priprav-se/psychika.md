@@ -30,7 +30,7 @@ zdroje:
   - nazev: "CNN Prima News: Ministerstvo zdravotnictví a NUDZ radí po tragédii omezit média a sociální sítě, před spaním je vynechat"
     url: "https://cnn.iprima.cz/jak-se-vyrovnat-s-tragedii-ministerstvo-radi-omezit-media-socialni-site-i-alkohol-421054"
     datum: "2023-12-22"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

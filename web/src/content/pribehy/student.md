@@ -13,7 +13,7 @@ zdroje:
   - nazev: "TikTok: Nahlašování na TikToku, Centrum bezpečnosti (česky). Video, komentář nebo účet, který podle uživatele porušuje Pravidla komunity, lze nahlásit přímo v aplikaci."
     url: "https://www.tiktok.com/safety/cs-cz/reporting"
     datum: "2026"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

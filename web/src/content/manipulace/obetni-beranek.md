@@ -15,7 +15,7 @@ zdroje:
   - nazev: "Roozenbeek a van der Linden: Hra Bad News (Palgrave Communications). Ve hře se hráči učí, jak manipulace uměle přiživuje napětí mezi skupinami."
     url: "https://doi.org/10.1057/s41599-019-0279-9"
     datum: "2019"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

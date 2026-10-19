@@ -13,7 +13,7 @@ zdroje:
   - nazev: "Sanofi: Lantus, souhrn údajů o přípravku a příbalová informace (EMA, česky). Pero po prvním použití až 4 týdny při teplotě do 30 °C mimo přímé teplo nebo světlo, nepoužívaná pera v chladničce, chránit před mrazem a neukládat k mrazicímu boxu."
     url: "https://www.ema.europa.eu/cs/documents/product-information/lantus-epar-product-information_cs.pdf"
     datum: "2026"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

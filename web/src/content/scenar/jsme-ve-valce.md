@@ -123,7 +123,7 @@ zdroje:
   - nazev: "Wikipedie: Požár průmyslové haly v Pardubicích (stav vyšetřování)"
     url: "https://cs.wikipedia.org/wiki/Po%C5%BE%C3%A1r_pr%C5%AFmyslov%C3%A9_haly_v_Pardubic%C3%ADch"
     datum: "2026-09"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

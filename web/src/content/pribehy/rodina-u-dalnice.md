@@ -7,7 +7,7 @@ druh: "modelovy"
 cteni: 5
 krok: "Domluvte se doma na dvou místech setkání, jednom blízko domu a jednom mimo čtvrť, a napište je na papír na lednici."
 zdroje: []
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

@@ -18,7 +18,7 @@ zdroje:
   - nazev: "Do armády: Co musíte zvládnout v rekrutačním procesu (rada trénovat podle fyzických testů)"
     url: "https://doarmady.mo.gov.cz/koho-hledame/vojak-v-zaloze/aktivni-zaloha/co-musite-zvladnout-v-rekrutacnim-procesu"
     datum: "ověřeno 2026-10-19"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"
