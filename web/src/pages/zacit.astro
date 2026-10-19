@@ -1,10 +1,12 @@
 ---
+import Obrazek from '../components/Obrazek.astro';
 import Zaklad from '../layouts/Zaklad.astro';
 ---
 <Zaklad title="Co by to znamenalo pro nás?" popis="Pět otázek o vaší domácnosti. Ukážeme vám, čím začít. Odpovědi se nikam neukládají ani neodesílají.">
   <section class="obal pruvodce">
     <h1>Co by to znamenalo pro nás?</h1>
     <p class="perex text">Pět krátkých otázek o vaší domácnosti. Podle odpovědí vám ukážeme, čím začít. <strong>Odpovědi se nikam neukládají ani neodesílají.</strong> Zůstávají jen na této stránce.</p>
+    <div class="text ilustrace netisknout"><Obrazek src="/obrazky/stranky/zacit.jpg" alt="Stůl u okna se zápisníkem, lístečky s otazníky a hrnkem čaje" vyska="clamp(12rem, 30vw, 20rem)" nacist="hned" /></div>
 
     <form id="pruvodce" class="text">
       <fieldset>
@@ -64,6 +66,7 @@ import Zaklad from '../layouts/Zaklad.astro';
 <style>
   .pruvodce { padding-top: 2rem; }
   .perex { font-size: 1.2rem; color: var(--text-2); }
+  .ilustrace { margin: 0 0 2rem; }
   fieldset { border: 2px solid var(--linka); background: var(--plocha); padding: 1.1rem 1.3rem 1.2rem; margin: 0 0 1rem; }
   legend { font-family: var(--pismo-nadpis); font-weight: var(--nadpis-vaha); font-size: 1.5rem; line-height: var(--nadpis-lh); padding: 0 0.4rem; display: flex; gap: 0.6rem; align-items: center; }
   .cislo { display: inline-grid; place-items: center; width: 1.8rem; height: 1.8rem; background: var(--tmava); color: var(--akcent); font-family: var(--pismo-mono); font-size: 0.95rem; flex: none; }

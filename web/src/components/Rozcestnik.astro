@@ -4,7 +4,7 @@ import Zaklad from '../layouts/Zaklad.astro';
 import Dlazdice from './Dlazdice.astro';
 import Obrazek from './Obrazek.astro';
 import { PILIRE, type Pilir } from '../lib/pilire';
-interface Nastroj { href: string; titulek: string; popis: string }
+interface Nastroj { href: string; titulek: string; popis: string; obrazek?: string }
 interface Props { pilir: Pilir; uvod: string; nastroje?: Nastroj[]; obrazek?: string; popisObrazku?: string }
 const { pilir, uvod, nastroje = [], obrazek, popisObrazku = '' } = Astro.props;
 const info = PILIRE[pilir];
@@ -22,7 +22,7 @@ const stranky = (await getCollection('obsah', (s) => s.id.startsWith(pilir + '/'
     <section class="obal">
       <h2 class="vizualne-skryte">Nástroje</h2>
       <div class="mrizka">
-        {nastroje.map((n) => <Dlazdice href={n.href} titulek={n.titulek} popis={n.popis} zvyraznit cislo="Nástroj" />)}
+        {nastroje.map((n) => <Dlazdice href={n.href} titulek={n.titulek} popis={n.popis} zvyraznit cislo="Nástroj" obrazek={n.obrazek} />)}
       </div>
     </section>
   )}
