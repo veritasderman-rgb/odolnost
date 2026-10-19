@@ -6,6 +6,7 @@ import OdkudToVime from '../components/OdkudToVime.astro';
 import Revize from '../components/Revize.astro';
 import StitekPribehu from '../components/StitekPribehu.astro';
 import KapesniKarta from '../components/KapesniKarta.astro';
+import Prirucky from '../components/Prirucky.astro';
 import Drobky from '../components/Drobky.astro';
 import Souvisejici from '../components/Souvisejici.astro';
 import { PILIRE, pilirZId } from '../lib/pilire';
@@ -38,6 +39,7 @@ const jePribeh = pilir === 'pribehy';
       <Content />
     </div>
     {stranka.id === 'manipulace/karta' && <KapesniKarta />}
+    {stranka.id === 'priprav-se/jak-se-pripravuji-jinde' && <Prirucky />}
     {d.krok && <KrokNaDnes text={d.krok} />}
     <OdkudToVime zdroje={d.zdroje} />
     <Revize autor={d.autor} recenze={d.recenze} revidovano={d.revidovano} stav={d.stav} id={d.id} />

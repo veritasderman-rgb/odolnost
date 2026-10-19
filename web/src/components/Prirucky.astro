@@ -1,0 +1,89 @@
+---
+import prirucky from '../data/prirucky.json';
+
+type Odkaz = { popisek: string; url: string };
+const domena = (url: string) => new URL(url).hostname.replace(/^www\./, '');
+const stitekValka = (v: string) => (v === 'ano' ? 'Mluví o válce' : v === 'ne' ? null : `Válka: ${v}`);
+const stitekManipulace = (v: string) => (v === 'ano' ? 'Manipulace' : v === 'ne' ? null : `Manipulace: ${v}`);
+---
+<section class="prirucky" aria-labelledby="prirucky-nadpis">
+  <h2 id="prirucky-nadpis">Příručky ke stažení</h2>
+  <p class="uvod-seznamu">Odkazujeme na oficiální weby a PDF vydavatelů. Ukázky jsou náš volný překlad. Záložní kopii u nás nabízíme jen tam, kde to licence dovoluje.</p>
+  <ul class="mrizka">
+    {prirucky.map((p) => (
+      <li class="karta" id={p.id}>
+        <div class="hlava">
+          {p.obalka
+            ? <img src={p.obalka} alt={`Obálka: ${p.nazev}`} width="360" loading="lazy" decoding="async" />
+            : <div class="bez-obalky" aria-hidden="true"><span>{p.zeme}</span></div>}
+        </div>
+        <div class="telo">
+          <p class="zeme">{p.zeme} · {p.rok}</p>
+          <h3>{p.nazev}</h3>
+          {p.preklad && <p class="preklad">{p.preklad}</p>}
+          <p class="vydavatel">{p.vydavatel}{p.jazyky && <> · <span class="jazyky">{p.jazyky}</span></>}</p>
+          <p class="stitky">
+            {stitekValka(p.valka) && <span class:list={['stitek', { plny: p.valka === 'ano' }]}>{stitekValka(p.valka)}</span>}
+            {stitekManipulace(p.manipulace) && <span class:list={['stitek', { plny: p.manipulace !== 'ne' && p.manipulace !== 'krátce' }]}>{stitekManipulace(p.manipulace)}</span>}
+          </p>
+          <p class="popis">{p.popis}</p>
+          {p.ukazky.length > 0 && (
+            <div class="ukazky">
+              <p class="mono">Ukázka · volný překlad</p>
+              {p.ukazky.map((u) => <blockquote><p>„{u}“</p></blockquote>)}
+            </div>
+          )}
+          <ul class="odkazy">
+            {p.web && <li><a href={p.web} rel="noopener">Oficiální web <span class="domena">{domena(p.web)}</span></a></li>}
+            {(p.pdf as Odkaz[]).map((o) => <li><a href={o.url} rel="noopener">{o.popisek} <span class="domena">PDF · {domena(o.url)}</span></a></li>)}
+            {(p.zrcadlo as Odkaz[]).map((o) => <li><a href={o.url} class="zaloha">{o.popisek} <span class="domena">PDF · u nás</span></a></li>)}
+            {(p.dalsi as Odkaz[]).map((o) => <li><a href={o.url} rel="noopener">{o.popisek} <span class="domena">{domena(o.url)}</span></a></li>)}
+          </ul>
+          {(p.licence || p.poznamka) && (
+            <p class="poznamka">{p.licence && <>Licence {p.licence}. </>}{p.poznamka}</p>
+          )}
+        </div>
+      </li>
+    ))}
+  </ul>
+  <p class="zaloha-info">Oficiální weby se mohou změnit nebo přestat fungovat, třeba při kybernetickém útoku. Příručku, která se vám líbí, si stáhněte do telefonu a ideálně i vytiskněte.</p>
+</section>
+
+<style>
+  .prirucky { margin-top: 3rem; }
+  .prirucky h2 { padding-top: 0.9rem; border-top: 2px solid var(--linka); scroll-margin-top: 90px; }
+  .uvod-seznamu, .zaloha-info { max-width: var(--sirka-textu); }
+  .zaloha-info { margin-top: 2rem; padding: 1rem 1.2rem; border-left: 6px solid var(--akcent); background: var(--plocha); }
+  .mrizka { list-style: none; padding: 0; margin: 1.5rem 0 0; display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 21rem), 1fr)); }
+  .karta { display: flex; flex-direction: column; border: 2px solid var(--linka); background: var(--plocha); scroll-margin-top: 90px; }
+  .karta:target { outline: 4px solid var(--akcent); }
+  .hlava { background: var(--papir-2); border-bottom: 2px solid var(--linka); height: 13rem; display: flex; align-items: flex-end; justify-content: center; overflow: hidden; padding-top: 1.25rem; }
+  .hlava img { width: 9.5rem; height: auto; box-shadow: 0 6px 18px rgb(0 0 0 / 0.25); transform: translateY(1.5rem); }
+  .bez-obalky { width: 100%; height: 100%; display: grid; place-items: center; background: var(--tmava); margin-top: -1.25rem; }
+  .bez-obalky span { font-family: var(--pismo-nadpis); font-weight: 700; font-size: 1.8rem; color: var(--akcent-na-tmave); }
+  .telo { padding: 1.1rem 1.2rem 1.3rem; display: flex; flex-direction: column; flex: 1; }
+  .zeme { font-family: var(--pismo-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; margin: 0; color: var(--text-2); }
+  h3 { font-size: 1.35rem; margin: 0.35rem 0 0.15rem; }
+  .preklad { margin: 0; font-style: italic; }
+  .vydavatel { font-size: 0.9rem; color: var(--text-2); margin: 0.5rem 0; line-height: 1.4; }
+  .stitky { display: flex; gap: 0.4rem; flex-wrap: wrap; margin: 0.3rem 0 0.6rem; }
+  .stitky .stitek { font-size: 0.7rem; }
+  .stitky .plny { background: var(--akcent); color: var(--na-akcentu); border-color: var(--akcent); }
+  .popis { font-size: 0.98rem; line-height: 1.5; margin: 0.3rem 0 0.8rem; }
+  .ukazky .mono { font-size: 0.7rem; color: var(--text-2); margin: 0 0 0.3rem; }
+  .ukazky blockquote { margin: 0 0 0.6rem; padding: 0.1rem 0 0.1rem 0.9rem; border-left-width: 4px; }
+  .ukazky blockquote p { margin: 0; font-weight: 700; line-height: 1.4; }
+  .odkazy { list-style: none; padding: 0; margin: auto 0 0; padding-top: 0.6rem; display: grid; gap: 0.4rem; }
+  .odkazy a { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; padding: 0.55rem 0.7rem; border: 2px solid var(--linka); text-decoration: none; font-weight: 700; font-size: 0.95rem; color: var(--text); }
+  .odkazy a::after { content: '↗'; margin-left: auto; }
+  .odkazy a:hover { background: var(--akcent); color: var(--na-akcentu); border-color: var(--cerna); }
+  .odkazy .zaloha { background: var(--tmava); color: var(--na-tmave); border-color: var(--tmava); }
+  .odkazy .zaloha::after { content: '↓'; }
+  .domena { font-family: var(--pismo-mono); font-weight: 500; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em; opacity: 0.75; text-align: right; }
+  .poznamka { font-size: 0.85rem; color: var(--text-2); margin: 0.7rem 0 0; }
+  @media print {
+    .mrizka { display: block; }
+    .hlava { display: none; }
+    .karta { break-inside: avoid; margin-bottom: 0.5rem; }
+  }
+</style>
