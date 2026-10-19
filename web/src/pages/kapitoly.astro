@@ -1,0 +1,87 @@
+---
+import { getCollection } from 'astro:content';
+import Zaklad from '../layouts/Zaklad.astro';
+import { PILIRE, type Pilir } from '../lib/pilire';
+
+// Rozcestník celého webu: všechny kapitoly a jejich stránky na jednom místě. Na mobilu na něj vede tlačítko Začít.
+const poradi: Pilir[] = ['scenar', 'pribehy', 'priprav-se', 'manipulace'];
+const vse = await getCollection('obsah');
+const kapitoly = poradi.map((p) => ({
+  pilir: p,
+  info: PILIRE[p],
+  stranky: vse.filter((s) => s.id.startsWith(p + '/')).sort((a, b) => a.data.poradi - b.data.poradi),
+}));
+const oNas = vse.filter((s) => s.id.startsWith('o-nas/')).sort((a, b) => a.data.poradi - b.data.poradi);
+
+const nastroje = [
+  { href: '/zacit', titulek: 'Čím začít', popis: 'Pět otázek o vaší domácnosti a doporučené pořadí kroků.' },
+  { href: '/priprav-se/rodinny-plan', titulek: 'Rodinný plán', popis: 'Jedna stránka A4, vyplníte za 15 minut.' },
+  { href: '/priprav-se/kontrolni-seznam', titulek: 'Kontrolní seznam', popis: 'Co už máte doma a co chybí.' },
+  { href: '/manipulace/karta', titulek: 'Kapesní karta', popis: 'Šest triků manipulace, šest otázek.' },
+  { href: '/videa', titulek: 'Videa za minutu', popis: 'Osm krátkých videí s titulky.' },
+];
+---
+<Zaklad title="Kapitoly" popis="Všechno, co na webu Víme, co dělat najdete: scénář, příběhy, praktická příprava a jak poznat manipulaci.">
+  <section class="obal hlava">
+    <h1>Kapitoly</h1>
+    <p class="perex text">Všechno, co na webu najdete, na jednom místě. Můžete číst popořadě, nebo skočit rovnou tam, kde vás to zajímá.</p>
+  </section>
+
+  <section class="obal">
+    <h2 class="nadpis-sekce">Nástroje</h2>
+    <ul class="nastroje">
+      {nastroje.map((n) => <li><a href={n.href}><strong>{n.titulek}</strong><span>{n.popis}</span></a></li>)}
+    </ul>
+  </section>
+
+  {kapitoly.map((k) => (
+    <section class="obal kapitola" style={`--barva-pilire: ${k.info.barva}`}>
+      <p class="znacka">0{k.info.cislo} · {k.info.podtitul}</p>
+      <h2><a href={`/${k.pilir}`}>{k.info.nazev}</a></h2>
+      <ol class="stranky">
+        {k.stranky.map((s) => (
+          <li>
+            <a href={`/${s.id}`}>{s.data.title}</a>
+            <span class="popis">{s.data.popis}</span>
+          </li>
+        ))}
+      </ol>
+      <p class="cela"><a href={`/${k.pilir}`}>Celá kapitola {k.info.nazev} →</a></p>
+    </section>
+  ))}
+
+  <section class="obal kapitola projekt">
+    <h2><a href="/o-nas">O projektu</a></h2>
+    <ul class="stranky">
+      {oNas.map((s) => <li><a href={`/${s.id}`}>{s.data.title}</a></li>)}
+    </ul>
+  </section>
+</Zaklad>
+
+<style>
+  .hlava { padding-top: 2.5rem; }
+  .perex { font-size: 1.2rem; color: var(--text-2); }
+  .nadpis-sekce { font-size: 1.3rem; }
+  .nastroje { list-style: none; padding: 0; margin: 0 0 1rem; display: grid; gap: 0.6rem; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); }
+  .nastroje a { display: flex; flex-direction: column; gap: 0.2rem; height: 100%; padding: 0.8rem 1rem; background: var(--tmava); color: #fff; border: 2px solid var(--linka); text-decoration: none; }
+  .nastroje a:hover { background: var(--akcent); color: var(--na-akcentu); }
+  .nastroje span { font-size: 0.92rem; opacity: 0.85; }
+  /* Na telefonu stačí názvy nástrojů ve dvou sloupcích, ať jsou kapitoly hned pod nimi. */
+  @media (max-width: 600px) {
+    .nastroje { grid-template-columns: 1fr 1fr; gap: 0.4rem; }
+    .nastroje a { padding: 0.6rem 0.7rem; }
+    .nastroje span { display: none; }
+  }
+  .kapitola { margin-top: 2.5rem; padding-top: 1rem; border-top: 6px solid var(--barva-pilire, var(--linka)); }
+  .kapitola h2 { margin: 0.2rem 0 0.8rem; }
+  .kapitola h2 a { text-decoration: none; color: var(--text); }
+  .kapitola h2 a:hover { background: var(--akcent); color: var(--na-akcentu); }
+  .znacka { margin: 0; font-family: var(--pismo-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-2); }
+  .stranky { max-width: var(--sirka-textu); margin: 0; padding-left: 1.6rem; }
+  .stranky li { margin: 0 0 0.75rem; }
+  .stranky li::marker { font-weight: 700; }
+  .stranky a { font-weight: 700; }
+  .stranky .popis { display: block; font-size: 0.95rem; color: var(--text-2); line-height: 1.4; }
+  .cela { margin: 0.5rem 0 0; }
+  .projekt .stranky { list-style: square; }
+</style>
