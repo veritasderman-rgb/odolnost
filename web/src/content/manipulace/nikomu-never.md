@@ -61,8 +61,8 @@ Pokud vás zpráva neinformuje, ale jen přesvědčuje, že nemá cenu věřit n
 - **Rozlišujte chybu a lež.** Kdo chybu přizná a opraví, je důvěryhodnější než ten, kdo se nikdy nemýlí.
 - **Hledejte, na čem se zdroje shodnou.** I když se liší v detailech, jádro bývá společné.
 - **Neposílejte dál zprávy typu „nikdo neví nic“.** Nic nevysvětlují, jen šíří bezmoc.
-- **Dejte si pauzu od zpráv.** Únava z informací je skutečná. Víc o tom v části [Psychika](/priprav-se/psychika). [OVĚŘIT: adresa stránky K-06]
+- **Dejte si pauzu od zpráv.** Únava z informací je skutečná. Víc o tom v části [Psychika](/priprav-se/psychika).
 
 Nevěřit všemu je zdravé. Nevěřit ničemu nás oslabuje.
 
-Techniku si brzy vyzkoušíte i ve hře „Kdo tahá za nitky?“. [OVĚŘIT: adresa stránky hry M-12, až bude hotová]
+Techniku si brzy vyzkoušíte i ve hře „Kdo tahá za nitky?“, kterou připravujeme.

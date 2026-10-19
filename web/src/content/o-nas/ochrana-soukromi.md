@@ -5,6 +5,10 @@ popis: "Nepoužíváme cookies ani sledovací nástroje. Rodinný plán a kontro
 poradi: 6
 cteni: 5
 krok: "Vyplňte rodinný plán, vytiskněte ho a potom v něm klikněte na Smazat vše. Papír na lednici vám zůstane."
+zdroje:
+  - nazev: "Brevo: Zásady ochrany osobních údajů (francouzsky, údaje o společnosti)"
+    url: "https://www.brevo.com/fr/legal/privacypolicy/"
+    datum: "2026"
 autor: "Redakce Víme, co dělat"
 recenze: "Čeká na právní kontrolu"
 revidovano: "2026-10-19"
@@ -20,7 +24,7 @@ K nám lidé přicházejí s obavou. Proto o nich nechceme vědět víc, než je
 - **Žádné cookies.** Web nepoužívá cookies, a proto se vás neptá na souhlas s nimi.
 - **Žádné sledování.** Nepoužíváme reklamní ani sledovací nástroje, sociální pluginy ani skripty a písma od třetích stran.
 - **Rodinný plán, kontrolní seznam a průvodce zůstávají jen ve vašem prohlížeči.** Nic z toho, co vyplníte, se nám neodesílá.
-- **Návštěvnost měříme jen souhrnně**, bez cookies a bez toho, abychom poznali konkrétního člověka.
+- **Návštěvnost zatím neměříme.** Pokud měření zapneme, bude jen souhrnné, bez cookies a bez toho, abychom poznali konkrétního člověka.
 - **Newsletter jen s dvojím potvrzením.** Odhlásit se můžete kdykoli jedním kliknutím.
 
 ## Kdo za vaše údaje odpovídá
@@ -49,7 +53,7 @@ Po první návštěvě si prohlížeč může uložit kopii klíčových stráne
 
 ## Co měříme
 
-Potřebujeme vědět, jestli web lidem pomáhá. Měříme proto **jen souhrnné počty**:
+Zatím na webu žádný nástroj na měření návštěvnosti neběží. Potřebujeme ale vědět, jestli web lidem pomáhá. Pokud měření zapneme, budeme sledovat **jen souhrnné počty**:
 
 - kolik lidí navštívilo jednotlivé stránky,
 - odkud přišli (například ze sociální sítě nebo z webu partnera),
@@ -57,9 +61,9 @@ Potřebujeme vědět, jestli web lidem pomáhá. Měříme proto **jen souhrnné
 - kolikrát někdo dokončil průvodce,
 - souhrnné odpovědi na otázku „Cítíte se teď klidněji, stejně, nebo víc vystrašeně?“.
 
-Nepoužíváme k tomu cookies ani jiné identifikátory a neukládáme vaši IP adresu. Nedokážeme poznat, kdo jste, ani sledovat, co děláte na jiných webech. Nástroj provozujeme [OVĚŘIT: název nástroje a kde běží, rozhodnutí do 15. 12. 2026].
+Nebudeme k tomu používat cookies ani jiné identifikátory a nebudeme ukládat vaši IP adresu. Nedokážeme poznat, kdo jste, ani sledovat, co děláte na jiných webech. Než měření zapneme, doplníme sem název nástroje a kde běží.
 
-**Záznamy serveru.** Server, na kterém web běží, může z bezpečnostních důvodů krátkodobě zaznamenávat technické údaje o přístupech (například IP adresu a čas), aby šlo odrazit útoky. [OVĚŘIT: u zvoleného hostingu, jaké údaje se zaznamenávají a jak dlouho.]
+**Záznamy serveru.** Web běží na hostingu Vercel. Server může z bezpečnostních důvodů krátkodobě zaznamenávat technické údaje o přístupech (například IP adresu a čas), aby šlo odrazit útoky. [OVĚŘIT: u Vercelu podle zvoleného tarifu, jaké údaje se zaznamenávají a jak dlouho (dashboard Vercel, Logs; smlouva o zpracování osobních údajů).]
 
 ## Newsletter
 
@@ -69,7 +73,7 @@ Pokud se přihlásíte k odběru, zpracováváme **vaši e-mailovou adresu** a z
 - **Odhlášení jedním kliknutím** v každém e-mailu. Po odhlášení vám už nic nepošleme.
 - **Právní základ:** váš souhlas.
 - **Jak dlouho:** dokud se neodhlásíte. [OVĚŘIT: lhůta pro smazání nepotvrzených adres a pro uchování záznamu o souhlasu.]
-- **Kdo e-maily rozesílá:** služba **Brevo** francouzské společnosti Sendinblue SAS se sídlem v EU, na základě smlouvy o zpracování osobních údajů. [OVĚŘIT: přesný název a sídlo zpracovatele.] Brevo vaši adresu nepoužívá pro své účely a my ji nikomu dalšímu nepředáváme.
+- **Kdo e-maily rozesílá:** služba **Brevo** francouzské společnosti Brevo SAS (dříve Sendinblue) se sídlem v Paříži, zapsané v obchodním rejstříku v Paříži pod číslem 498 019 298, na základě smlouvy o zpracování osobních údajů. Brevo vaši adresu nepoužívá pro své účely a my ji nikomu dalšímu nepředáváme.
 - **Měření e-mailů.** Brevo ve výchozím nastavení zaznamenává, kdo e-mail otevřel a na co klikl. Máme zapnuté **anonymní měření**: otevření a kliknutí se počítají jen souhrnně a nepřiřazují se ke konkrétním lidem. [OVĚŘIT: že je anonymní měření v účtu skutečně zapnuté, případně zda jde měření úplně vypnout.]
 
 Newsletter nepoužíváme k reklamě a vaši adresu neprodáváme.
@@ -80,7 +84,7 @@ Když nám pošlete e-mail nebo nahlásíte chybu, uchováme vaši zprávu a adr
 
 ## Videa a odkazy na sociální sítě
 
-- Videa přehráváme přednostně přímo z našeho webu. [OVĚŘIT: zda a jak se vkládají videa z YouTube. Pokud ano, načíst je až po kliknutí a v režimu youtube-nocookie a popsat, co se při přehrání předává službě YouTube.]
+- Na webu zatím nejsou vložená žádná videa z YouTube ani jiných služeb. Pokud je přidáme, načtou se až po vašem kliknutí a popíšeme tady, co se při přehrání předává provozovateli videa.
 - Odkazy na naše účty na sociálních sítích jsou obyčejné odkazy. Dokud na ně nekliknete, sociální sítě se o vaší návštěvě u nás nedozvědí. Na sociálních sítích pak platí jejich vlastní pravidla.
 
 ## Vaše práva

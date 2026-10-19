@@ -67,4 +67,4 @@ Pokud má problém jen jednoho viníka a ten viník je celá skupina lidí, je s
 
 Soudržnost je v krizi stejně důležitá jako zásoby. Víc o tom, proč se vyplatí znát sousedy, najdete v části [Připrav se](/priprav-se).
 
-Techniku si brzy vyzkoušíte i ve hře „Kdo tahá za nitky?“. [OVĚŘIT: adresa stránky hry M-12, až bude hotová]
+Techniku si brzy vyzkoušíte i ve hře „Kdo tahá za nitky?“, kterou připravujeme.

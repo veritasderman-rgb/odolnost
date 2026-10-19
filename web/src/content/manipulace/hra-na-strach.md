@@ -64,4 +64,4 @@ Pokud na to zpráva neodpovídá, je to signál zpomalit. Neznamená to automati
 
 Strach je normální. Pomůže, když víte, kam se podívat, a máte připravený [rodinný plán](/priprav-se/rodinny-plan). Kdo ví, co dělat, toho falešný poplach tak snadno nerozhodí.
 
-Techniku si brzy vyzkoušíte i ve hře „Kdo tahá za nitky?“. [OVĚŘIT: adresa stránky hry M-12, až bude hotová]
+Techniku si brzy vyzkoušíte i ve hře „Kdo tahá za nitky?“, kterou připravujeme.
