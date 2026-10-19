@@ -90,6 +90,21 @@ zdroje:
   - nazev: "MCF (Švédsko): Brožura In case of crisis or war (anglicky)"
     url: "https://www.mcf.se/en/advice-for-individuals/the-brochure-in-case-of-crisis-or-war/download-and-order-the-brochure-in-case-of-crisis-or-war/"
     datum: "2024-11"
+  - nazev: "NBC News: Německo viní Rusko z útoku dronem na letišti v Lipsku a zavírá konzulát (anglicky)"
+    url: "https://www.nbcnews.com/world/germany/germany-blames-russia-airport-drone-plot-shuts-consulate-rcna595574"
+    datum: "2026-09-01"
+  - nazev: "Defense News: Estonsko viní Rusko ze žhářského útoku na Milrem Robotics (anglicky)"
+    url: "https://www.defensenews.com/global/europe/2026/09/29/estonia-blames-russia-in-arson-attack-on-military-robotics-firm-milrem/"
+    datum: "2026-09-29"
+  - nazev: "NBC News: Dron nad Litvou, ruská fregata vystřelila na dánský vrtulník (anglicky)"
+    url: "https://www.nbcnews.com/world/europe/nato-drone-lithuania-russian-frigate-fires-danish-helicopter-rcna597866"
+    datum: "2026-09-15"
+  - nazev: "LRT: Pokus o žhářství ve skladu Starlinku, premiér viní Rusko (anglicky)"
+    url: "https://www.lrt.lt/en/news-in-english/19/3086054/attempted-arson-at-lithuanian-firm-storing-starlink-equipment-pm-blames-russia"
+    datum: "2026-10-18"
+  - nazev: "Kyiv Independent: Nad Litvou explodoval dron, NATO vyslalo stíhačky (anglicky)"
+    url: "https://kyivindependent.com/nato-jets-scramble-as-drone-explodes-in-lithuanian-airspace/"
+    datum: "2026-10-18"
 autor: "Redakce Víme, co dělat"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
@@ -142,6 +157,10 @@ V tabulce rozlišujeme dvě věci. **Potvrzeno** znamená, že Rusko jako původ
 | Září 2025 | Polsko | Ruské drony ve velkém narušily polský vzdušný prostor. Polsko požádalo spojence o konzultace podle článku 4. | **Potvrzeno NATO.** Severoatlantická rada uvedla, že Rusko nese „plnou odpovědnost“. |
 | 19. září 2025 | Estonsko | Tři ozbrojené ruské stíhačky MiG-31 byly přes deset minut v estonském vzdušném prostoru. Estonsko požádalo o konzultace podle článku 4. | **Potvrzeno NATO.** Stejné prohlášení Severoatlantické rady. |
 | Listopad 2025 | Polsko, trať z Varšavy do Lublinu | Výbuch zničil kus trati, po které jezdí dodávky na Ukrajinu. | **Potvrzeno.** Premiér Tusk v Sejmu řekl, že pachateli jsou dva Ukrajinci spolupracující s ruskými službami. BIS uvádí, že angažmá ruských služeb bylo potvrzeno. |
+| Srpen 2026 | Lipsko, Německo | U ukrajinského nákladního letadla na letišti Lipsko/Halle se našel dron s výbušninou. Nálož nevybuchla. | **Potvrzeno.** Německá vláda 1. září 2026 uvedla, že policejní vyšetřování, způsob provedení a zpravodajská zjištění „prokazují ruskou odpovědnost“. Německo zavřelo ruský konzulát v Bonnu. |
+| Srpen 2026 | Tallinn, Estonsko | Žhářský útok na budovu zbrojní firmy Milrem Robotics, která dodává bezpilotní vozidla Ukrajině. | **Potvrzeno.** Estonská vláda v září 2026 podle vyšetřování bezpečnostní služby KAPO označila útok za sabotáž objednanou ruskými tajnými službami. Zadrženi jsou tři lidé. |
+| Září 2026 | Baltské moře | Ruská válečná loď vystřelila světlice na dánský vojenský vrtulník. | **Potvrzeno.** Šlo přímo o ruské námořnictvo. Dánsko předvolalo ruského velvyslance. |
+| Říjen 2026 | Litva | Pokus zapálit sklad firmy, která skladuje vybavení Starlink pro Ukrajinu. Požáru se podařilo zabránit. | **Potvrzeno vládou.** Litevský premiér to označil za pokus o sabotáž, za kterým stojí „ruská strana“. Vyšetřování pokračuje. |
 
 ### Kde zatím jasno není
 
@@ -149,8 +168,8 @@ U některých případů nevíme, kdo za nimi stojí. Píšeme o nich, protože 
 
 - **Drony nad Dánskem (září 2025).** Letiště v Kodani bylo kvůli dronům na hodiny zavřené. Premiérka Mette Frederiksenová mluvila o nejvážnějším útoku na dánskou infrastrukturu a řekla, že nemůže vyloučit Rusko. Kreml to popírá.
 - **Kabely ve Finském zálivu (Vánoce 2024).** Poškozeno bylo pět podmořských kabelů, mezi nimi elektrické spojení Finska s Estonskem. Finsko stíhá posádku tankeru Eagle S, která podle obžaloby vlekla kotvu po dně. Obžalovaní úmysl popírají. Odvolací soud v roce 2026 vrátil případ k novému projednání.
+- **Dron nad severem Litvy (18. října 2026).** Nad okresem Pasvalys explodoval dron, lidé šli do krytů. Litevský prezident mluvil o válce, která se „přelévá na východní křídlo NATO“. Ukrajina ale uvedla, že mohlo jít o její dron, který ruské rušení odklonilo z kurzu. Přesně kvůli takovým případům je těžké útočníka rychle určit.
 - **Požár zbrojovky v Pardubicích (březen 2026).** Shořela hala firmy, která vyrábí mimo jiné drony pro Ukrajinu. K činu se přihlásila údajně protiizraelská skupina. Policie obvinila několik lidí z teroristického útoku. Bezpečnostní složky podle ČTK zvažují i to, že skupina kryje jiného aktéra, třeba stát. [OVĚŘIT: aktuální stav vyšetřování požáru LPP Holding v Pardubicích]
-- **Dron s výbušninou na letišti Lipsko/Halle (srpen 2026).** Ležel u ukrajinského nákladního letadla, nálož nevybuchla. Německý ministr vnitra Alexander Dobrindt řekl, že za tím mohou být i cizí mocnosti, a varoval před spekulacemi. [OVĚŘIT: zda německé úřady útok na letišti Lipsko/Halle už někomu připsaly]
 
 BIS sama píše, že u žádného incidentu v Česku, který v roce 2025 prověřovala, se podezření na sabotáž řízenou z Ruska nepodařilo spolehlivě potvrdit. I to patří k poctivému obrazu. Ne každý požár nebo výpadek je ruská akce.
 
