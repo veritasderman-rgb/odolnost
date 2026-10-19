@@ -6,6 +6,7 @@ import '@fontsource/ibm-plex-mono/500.css';
 import '../styles/global.css';
 import Logo from '../components/Logo.astro';
 import Odber from '../components/Odber.astro';
+import Podpora from '../components/Podpora.astro';
 
 interface Props {
   title: string;
@@ -18,7 +19,11 @@ const { title, popis = 'Klidně, pravdivě a prakticky: co by pro nás znamenala
 const plnyTitulek = title === 'Víme, co dělat' ? title : `${title} · Víme, co dělat`;
 const kanonicka = new URL(Astro.url.pathname, Astro.site);
 const cesta = Astro.url.pathname;
-const aktivni = (prefix: string) => (cesta === prefix || cesta.startsWith(prefix + '/') ? 'page' : undefined);
+const jinde = '/priprav-se/jak-se-pripravuji-jinde';
+const aktivni = (prefix: string) => {
+  if (prefix === '/priprav-se' && cesta.startsWith(jinde)) return undefined;
+  return cesta === prefix || cesta.startsWith(prefix + '/') ? 'page' : undefined;
+};
 
 const menu = [
   { href: '/zacit', nazev: 'Začít' },
@@ -26,6 +31,7 @@ const menu = [
   { href: '/pribehy', nazev: 'Příběhy' },
   { href: '/priprav-se', nazev: 'Připrav se' },
   { href: '/manipulace', nazev: 'Manipulace' },
+  { href: '/priprav-se/jak-se-pripravuji-jinde', nazev: 'Jak se připravují jinde' },
 ];
 ---
 <!doctype html>
@@ -48,6 +54,7 @@ const menu = [
     <meta property="og:image" content={new URL(obrazek, Astro.site)} />
     <meta name="twitter:card" content="summary_large_image" />
     <script is:inline src="/js/nastaveni.js"></script>
+    <script is:inline defer src="/_vercel/insights/script.js"></script>
   </head>
   <body>
     <a class="preskocit" href="#obsah">Přeskočit na obsah</a>
@@ -71,6 +78,8 @@ const menu = [
     <main id="obsah">
       <slot />
     </main>
+
+    <Podpora />
 
     <footer class="paticka">
       <div class="obal mrizka">
@@ -100,7 +109,7 @@ const menu = [
         {!bezOdberu && <div><Odber /></div>}
       </div>
       <div class="obal licence">
-        <p>Obsah můžete volně šířit a upravovat pod licencí <a href="https://creativecommons.org/licenses/by/4.0/deed.cs" rel="license">CC BY 4.0</a> s uvedením zdroje „Víme, co dělat“. Nepoužíváme cookies ani sledovací nástroje.</p>
+        <p>Obsah můžete volně šířit a upravovat pod licencí <a href="https://creativecommons.org/licenses/by/4.0/deed.cs" rel="license">CC BY 4.0</a> s uvedením zdroje „Víme, co dělat“. Nepoužíváme cookies, návštěvnost měříme anonymně. Při tvorbě webu jsem používal umělou inteligenci, <a href="/o-nas/o-nas#jak-web-vznikl">jak a proč</a>.</p>
       </div>
     </footer>
 
@@ -127,10 +136,10 @@ const menu = [
 <style>
   .hlavicka { background: var(--plocha); border-bottom: 2px solid var(--linka); position: sticky; top: 0; z-index: 10; }
   .radek { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 68px; }
-  .domu { text-decoration: none; }
+  .domu { text-decoration: none; white-space: nowrap; }
   .domu:hover { background: none; }
   .menu { display: flex; gap: 0; align-self: stretch; }
-  .menu a { display: flex; align-items: center; color: var(--text); text-decoration: none; font-family: var(--pismo-nadpis); font-weight: 700; font-size: 1.2rem; padding: 0 0.9rem; border-bottom: 5px solid transparent; margin-bottom: -2px; }
+  .menu a { display: flex; align-items: center; white-space: nowrap; color: var(--text); text-decoration: none; font-family: var(--pismo-nadpis); font-weight: 700; font-size: 1.2rem; padding: 0 0.9rem; border-bottom: 5px solid transparent; margin-bottom: -2px; }
   .menu a:hover { background: var(--akcent); color: var(--na-akcentu); }
   .menu a[aria-current='page'] { border-bottom-color: var(--akcent); }
   .nastroje { display: flex; gap: 0.25rem; }
@@ -158,12 +167,19 @@ const menu = [
 
   .spodni-lista { display: none; }
 
+  @media (max-width: 1240px) {
+    .menu a { font-size: 1.05rem; padding: 0 0.6rem; }
+  }
+
+  @media (max-width: 1060px) {
+    .menu a { font-size: 0.95rem; padding: 0 0.4rem; }
+  }
+
   @media (max-width: 1000px) {
-    .menu a { font-size: 1.05rem; padding: 0 0.55rem; }
     .mrizka { grid-template-columns: 1fr 1fr; }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     .menu { display: none; }
     .mrizka { grid-template-columns: 1fr; }
     .spodni-lista { display: grid; grid-template-columns: repeat(5, 1fr); position: fixed; bottom: 0; left: 0; right: 0; z-index: 20; background: var(--tmava); border-top: 2px solid var(--akcent); padding-bottom: env(safe-area-inset-bottom); }

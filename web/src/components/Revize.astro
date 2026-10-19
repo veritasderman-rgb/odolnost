@@ -4,12 +4,10 @@ interface Props { autor: string; recenze: string; revidovano?: string | Date; st
 const { autor, recenze, revidovano, stav, id } = Astro.props;
 ---
 <footer class="revize">
-  {stav !== 'schvaleno' && <p class="navrh">Pracovní verze: tato stránka zatím neprošla odbornou revizí.</p>}
-  <p>Napsal/a: {autor} · Recenze: {recenze}{revidovano && <> · Zkontrolováno {formatDatum(revidovano)}</>}{id && <> · {id}</>}</p>
-  <p><a href="/o-nas/opravy">Našli jste chybu? Napište nám.</a></p>
+  <p>Napsal: {autor}{revidovano && <> · Aktualizováno {formatDatum(revidovano)}</>}</p>
+  <p><a href="/o-nas/opravy">Našli jste chybu? Napište mi.</a></p>
 </footer>
 <style>
   .revize { max-width: var(--sirka-textu); margin-top: 3rem; font-family: var(--pismo-mono); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--text-2); }
   .revize p { margin: 0.3rem 0; }
-  .navrh { display: inline-block; background: var(--tmava); color: var(--akcent-na-tmave); padding: 0.2rem 0.5rem; }
 </style>

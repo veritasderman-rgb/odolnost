@@ -1,7 +1,7 @@
 ---
 title: "Ochrana soukromí"
 id: "V-03e"
-popis: "Nepoužíváme cookies ani sledovací nástroje. Rodinný plán a kontrolní seznam zůstávají jen ve vašem prohlížeči. Přesně popisujeme, co měříme a co se děje s e-mailem."
+popis: "Nepoužíváme cookies, návštěvnost měříme jen souhrnně. Rodinný plán a kontrolní seznam zůstávají jen ve vašem prohlížeči. Přesně popisujeme, co měříme a co se děje s e-mailem."
 poradi: 6
 cteni: 5
 krok: "Vyplňte rodinný plán, vytiskněte ho a potom v něm klikněte na Smazat vše. Papír na lednici vám zůstane."
@@ -15,16 +15,16 @@ revidovano: "2026-10-19"
 stav: "navrh"
 ---
 
-[OVĚŘIT: právní kontrola GDPR. Celý text musí před zveřejněním zkontrolovat právník nebo právnička. Musí odpovídat skutečnému technickému řešení webu, zvolenému nástroji na měření a nastavení služby Brevo.]
 
 K nám lidé přicházejí s obavou. Proto o nich nechceme vědět víc, než je nezbytně nutné. Tady je přesně, co sbíráme a co ne.
 
 ## Stručně
 
 - **Žádné cookies.** Web nepoužívá cookies, a proto se vás neptá na souhlas s nimi.
-- **Žádné sledování.** Nepoužíváme reklamní ani sledovací nástroje, sociální pluginy ani skripty a písma od třetích stran.
+- **Žádné sledování napříč weby.** Nepoužíváme reklamní nástroje, sociální pluginy ani skripty a písma od třetích stran.
 - **Rodinný plán, kontrolní seznam a průvodce zůstávají jen ve vašem prohlížeči.** Nic z toho, co vyplníte, se nám neodesílá.
-- **Návštěvnost zatím neměříme.** Pokud měření zapneme, bude jen souhrnné, bez cookies a bez toho, abychom poznali konkrétního člověka.
+- **Návštěvnost měříme jen souhrnně** přes Vercel Web Analytics, bez cookies a bez ukládání IP adresy.
+- **Podpora přes Stripe.** Pokud pošlete příspěvek, platbu zpracuje Stripe. Údaje o kartě nevidím.
 - **Newsletter jen s dvojím potvrzením.** Odhlásit se můžete kdykoli jedním kliknutím.
 
 ## Kdo za vaše údaje odpovídá
@@ -53,7 +53,7 @@ Po první návštěvě si prohlížeč může uložit kopii klíčových stráne
 
 ## Co měříme
 
-Zatím na webu žádný nástroj na měření návštěvnosti neběží. Potřebujeme ale vědět, jestli web lidem pomáhá. Pokud měření zapneme, budeme sledovat **jen souhrnné počty**:
+Potřebuji vědět, jestli web lidem pomáhá. Měřím proto **jen souhrnné počty** pomocí služby **Vercel Web Analytics**, kterou provozuje hosting webu (Vercel Inc.):
 
 - kolik lidí navštívilo jednotlivé stránky,
 - odkud přišli (například ze sociální sítě nebo z webu partnera),
@@ -61,9 +61,9 @@ Zatím na webu žádný nástroj na měření návštěvnosti neběží. Potřeb
 - kolikrát někdo dokončil průvodce,
 - souhrnné odpovědi na otázku „Cítíte se teď klidněji, stejně, nebo víc vystrašeně?“.
 
-Nebudeme k tomu používat cookies ani jiné identifikátory a nebudeme ukládat vaši IP adresu. Nedokážeme poznat, kdo jste, ani sledovat, co děláte na jiných webech. Než měření zapneme, doplníme sem název nástroje a kde běží.
+Vercel Web Analytics nepoužívá cookies a neukládá vaši IP adresu. U každého zobrazení stránky zaznamená čas, adresu stránky, odkud jste přišli, přibližné místo (zemi a region), typ zařízení, operační systém a prohlížeč. Návštěvníka rozliší jen dočasným otiskem požadavku, který se po 24 hodinách zahodí. Nedokážu tak poznat, kdo jste, ani sledovat, co děláte na jiných webech. Vidím jen souhrnná čísla.
 
-**Záznamy serveru.** Web běží na hostingu Vercel. Server může z bezpečnostních důvodů krátkodobě zaznamenávat technické údaje o přístupech (například IP adresu a čas), aby šlo odrazit útoky. [OVĚŘIT: u Vercelu podle zvoleného tarifu, jaké údaje se zaznamenávají a jak dlouho (dashboard Vercel, Logs; smlouva o zpracování osobních údajů).]
+**Záznamy serveru.** Web běží na hostingu Vercel. Server může z bezpečnostních důvodů krátkodobě zaznamenávat technické údaje o přístupech (například IP adresu a čas), aby šlo odrazit útoky.
 
 ## Newsletter
 
@@ -72,11 +72,18 @@ Pokud se přihlásíte k odběru, zpracováváme **vaši e-mailovou adresu** a z
 - **Dvojí potvrzení.** Po zadání adresy vám přijde e-mail s tlačítkem. Teprve když na něj kliknete, začneme vám posílat newsletter. Když nekliknete, nic vám posílat nebudeme.
 - **Odhlášení jedním kliknutím** v každém e-mailu. Po odhlášení vám už nic nepošleme.
 - **Právní základ:** váš souhlas.
-- **Jak dlouho:** dokud se neodhlásíte. [OVĚŘIT: lhůta pro smazání nepotvrzených adres a pro uchování záznamu o souhlasu.]
+- **Jak dlouho:** dokud se neodhlásíte.
 - **Kdo e-maily rozesílá:** služba **Brevo** francouzské společnosti Brevo SAS (dříve Sendinblue) se sídlem v Paříži, zapsané v obchodním rejstříku v Paříži pod číslem 498 019 298, na základě smlouvy o zpracování osobních údajů. Brevo vaši adresu nepoužívá pro své účely a my ji nikomu dalšímu nepředáváme.
-- **Měření e-mailů.** Brevo ve výchozím nastavení zaznamenává, kdo e-mail otevřel a na co klikl. Máme zapnuté **anonymní měření**: otevření a kliknutí se počítají jen souhrnně a nepřiřazují se ke konkrétním lidem. [OVĚŘIT: že je anonymní měření v účtu skutečně zapnuté, případně zda jde měření úplně vypnout.]
+- **Měření e-mailů.** Brevo ve výchozím nastavení zaznamenává, kdo e-mail otevřel a na co klikl. Máme zapnuté **anonymní měření**: otevření a kliknutí se počítají jen souhrnně a nepřiřazují se ke konkrétním lidem.
 
 Newsletter nepoužíváme k reklamě a vaši adresu neprodáváme.
+
+## Podpora projektu přes Stripe
+
+Pokud se rozhodnete projekt podpořit, platba proběhne na zabezpečené stránce společnosti Stripe (pro Evropu Stripe Payments Europe, Ltd., Irsko). Číslo karty ani jiné platební údaje k nám nepřicházejí, zpracovává je jen Stripe. Já od Stripe dostanu informaci o platbě: částku, datum a e-mail nebo jméno, které při platbě zadáte. Tyto údaje používám jen k evidenci příspěvků a k plnění daňových a účetních povinností a nikomu je nepředávám.
+
+- **Právní základ:** plnění vaší platby a mé zákonné povinnosti.
+- **Jak dlouho:** po dobu, kterou vyžadují účetní a daňové předpisy.
 
 ## Když nám napíšete
 

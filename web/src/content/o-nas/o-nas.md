@@ -58,8 +58,14 @@ Obsah je volně k použití pod licencí [CC BY 4.0](https://creativecommons.org
 - **Nedělám tu politickou kampaň.** Web nepropaguje žádnou stranu ani politika a neříká, koho volit.
 - **Nemapuji citlivá místa.** Nepíšu o konkrétních mostech, skladech ani závodech.
 - **Nevyzývám k udávání.** Když něco vypadá jako sabotáž, volejte 158 a nikoho sami neobviňujte.
-- **Nesbírám o vás data.** Web nepoužívá cookies ani sledovací nástroje. Podrobnosti jsou v [ochraně soukromí](/o-nas/ochrana-soukromi).
+- **Nesbírám o vás víc, než je nutné.** Web nepoužívá cookies a návštěvnost měří jen anonymně. Podrobnosti jsou v [ochraně soukromí](/o-nas/ochrana-soukromi).
 - **Chyby opravuji veřejně a s datem.** Seznam je na stránce [Opravy](/o-nas/opravy).
+
+## Jak web vznikl
+
+Při tvorbě webu jsem používal umělou inteligenci. Pomáhala mi procházet zahraniční příručky a zprávy, navrhovat a upravovat texty, dohledávat a ověřovat zdroje, programovat web a vytvářet ilustrační obrázky. Obrázky vytvořené umělou inteligencí jsou u sebe vždy označené.
+
+Umělá inteligence se plete. Proto u každého tvrzení uvádím zdroj v části „Odkud to víme“ a texty kontroluji. Za obsah odpovídám já. Pokud najdete chybu, [napište mi](/o-nas/opravy) a opravím ji.
 
 ## Kontakt
 
