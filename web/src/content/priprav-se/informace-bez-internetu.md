@@ -30,7 +30,7 @@ zdroje:
   - nazev: "Vyhláška č. 535/2025 Sb., k provozu systému veřejné výstrahy (Cell Broadcast)"
     url: "https://www.zakonyprolidi.cz/cs/2025-535"
     datum: "účinnost od 2026-01-01, ověřeno 2026-10-19"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

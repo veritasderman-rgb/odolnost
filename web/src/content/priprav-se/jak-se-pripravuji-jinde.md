@@ -17,7 +17,7 @@ zdroje:
   - nazev: "Evropská komise: Preparedness Union Strategy"
     url: "https://commission.europa.eu/topics/preparedness_en"
     datum: "2025"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

@@ -1,7 +1,7 @@
 ---
-title: "Kdo jsme"
+title: "Kdo za tím stojí"
 id: "V-03a"
-popis: "Víme, co dělat je nezávislý a nadstranický projekt. Pomáháme lidem v Česku v klidu se připravit na vážnou krizi, postarat se o blízké a nenechat se zmanipulovat."
+popis: "Víme, co dělat je můj osobní projekt. Žádná organizace, žádná strana. Prošel jsem zahraniční příručky a weby a pokusil se dát na jedno místo to, co jinde lidem říká stát."
 poradi: 1
 cteni: 4
 krok: "Přečtěte si na 72h.gov.cz jednu kapitolu, která se týká právě vaší domácnosti."
@@ -12,72 +12,57 @@ zdroje:
   - nazev: "72h.gov.cz: oficiální web projektu 72 hodin"
     url: "https://www.72h.gov.cz/cs"
     datum: "2026"
-autor: "Redakce Víme, co dělat"
-recenze: "Čeká na kontrolu správní radou"
+autor: "Josef Pavlovic"
+recenze: "Bez externí revize"
 revidovano: "2026-10-19"
 stav: "navrh"
 ---
 
-Víme, co dělat je nezávislý a nadstranický projekt. Pomáháme lidem v Česku připravit se na vážnou krizi, postarat se o své blízké a nenechat se v ní zmanipulovat.
+Jmenuji se **Josef Pavlovic** a Víme, co dělat je můj osobní projekt. Nestojí za ním žádná organizace, nadace ani politická strana. Hlásím se k němu já a za obsah odpovídám já.
 
-Mluvíme i o tom, o čem se mluví nerado: co by pro nás znamenal vojenský konflikt na východní hranici NATO. Neděláme to, abychom strašili. Nevíme, jestli se to stane. Víme, co by pomohlo, kdyby ano.
+## Proč jsem to udělal
 
-## Proč to děláme
+Uvědomuji si, v jakém riziku žijeme. Rusko vede proti Evropě nepřátelské akce už teď a zpravodajské služby otevřeně varují, že se to může zhoršit. Každý bojuje, jak může. Já jsem se rozhodl dát dohromady informace, které v jiných zemích lidem dává stát.
 
-Lidé se připravovat chtějí, ale často nevědí, na co konkrétně. Před státní kampaní 72 hodin se podle ministerstva vnitra 73 % domácností nijak nepřipravovalo. Příručku pak četly téměř 4 miliony lidí. Zájem tedy je.
+Švédsko poslalo brožuru do každé domácnosti. Finsko, Polsko a pobaltské státy svým lidem otevřeně říkají, co dělat, když přijde krize nebo válka. U nás na to zatím jednotné místo chybí. Část politiků doufá, že nás to mine, a o riziku raději nemluví. Já si myslím, že je lepší být připraven než překvapen.
 
-Chybělo nám místo, které spojí tři věci:
+Prošel jsem proto zahraniční weby a příručky a pokusil se z nich udělat jeden přehledný český zdroj. Seznam příruček, ze kterých vycházím, najdete na stránce [Jak se připravují jinde](/priprav-se/jak-se-pripravuji-jinde).
 
-- **co by se u nás pravděpodobně dělo**, popsané klidně a se zdroji,
-- **jak se o sebe a blízké postarat**, krok za krokem,
-- **jak poznat manipulaci dřív, než přijde**, protože v krizi by se šířily zprávy, které mají lidi vyděsit a rozeštvat.
+## Co tento web je a co není
 
-Připravený člověk méně panikaří, postará se o své blízké a snáz odolá kampaním, které chtějí zemi rozdělit.
+**Je to kompilát zahraničních příkladů a veřejných zdrojů.** U každé stránky najdete v části „Odkud to víme“, z čeho vycházím. Fakta ověřuji ve veřejných dokumentech a tam, kde něco ověřit nejde, to píšu.
 
-## Co děláme
+**Není to státní instituce a nenahrazuje ji.** V krizi komunikují a pomáhají státní instituce:
 
-Web stojí na čtyřech pilířích:
+- **hasiči** (Hasičský záchranný sbor ČR), tísňová linka 150 nebo 112,
+- **policie** (Policie ČR), 158,
+- **záchranná služba**, 155,
+- **armáda** (Armáda ČR),
+- **obec a kraj**, které řídí krizové štáby.
 
-1. **[Scénář](/scenar):** jak by to mohlo vypadat. Česko by v takovém konfliktu pravděpodobně nebylo frontou, ale týlem. Většina věcí by fungovala dál.
-2. **[Příběhy](/pribehy):** jak to lidé zvládli. Modelové příběhy i skutečná svědectví, vždy jasně označené.
-3. **[Připrav se](/priprav-se):** praktické kroky. Rodinný plán na jednu stranu A4, kontrolní seznam a rady, jak zvládat úzkost.
-4. **[Poznej manipulaci](/manipulace):** předběžné očkování. Šest technik, kapesní karta a krátká videa.
+Když se něco děje, řiďte se jejich pokyny. Kde je najít a jak je sledovat, popisuji na stránce [Kde najdete ověřené informace](/priprav-se/kde-najdete-informace). Na státní web [72h.gov.cz](https://www.72h.gov.cz/cs) navazuji a nekopíruji ho.
 
-Navazujeme na státní web [72h.gov.cz](https://www.72h.gov.cz/cs). Ten radí, jak zvládnout první tři dny krize: zásoby, voda, výpadek proudu. My na něj odkazujeme a nekopírujeme ho. Přidáváme scénář, příběhy a odolnost vůči manipulaci.
+## Co tu najdete
+
+1. **[Scénář](/scenar):** co by pro nás znamenal útok Ruska na NATO a co se už děje.
+2. **[Příběhy](/pribehy):** modelové příběhy, vždy jasně označené.
+3. **[Připrav se](/priprav-se):** rodinný plán, kontrolní seznam a praktické kroky.
+4. **[Poznej manipulaci](/manipulace):** jak poznat techniky, které by se v krizi šířily.
 
 Obsah je volně k použití pod licencí [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.cs). Obce, školy, firmy i média ho mohou převzít a upravit, stačí uvést zdroj.
 
-## Co neděláme
+## Na čem si zakládám
 
-- **Nestrašíme.** Neuvidíte u nás odpočty, poplašné titulky ani fotky zničených měst. Každá stránka končí jedním krokem, který zvládnete ještě dnes.
-- **Neříkáme vám, co si myslet o politice.** Učíme poznat techniky manipulace, ne správné názory. [Nesouhlas není zrada](/manipulace/nesouhlas-neni-zrada).
-- **Nejsme stát.** Nejsme ministerstvo ani úřad a nemluvíme jejich jménem. Ověřené informace v krizi dávají záchranné složky a úřady.
-- **Nemapujeme citlivá místa.** Nepíšeme o konkrétních mostech, skladech ani závodech.
-- **Nevyzýváme k udávání.** Když něco vypadá jako sabotáž, radíme volat 158 a nikoho sami neobviňovat.
-- **Nesbíráme o vás data.** Web nepoužívá cookies ani sledovací nástroje. Co vyplníte, zůstává ve vašem prohlížeči. Podrobnosti jsou v [ochraně soukromí](/o-nas/ochrana-soukromi).
-- **Nic neprodáváme.**
-
-## Nezávislost
-
-Projekt, který učí poznat manipulaci, si nemůže dovolit ani náznak manipulace. Proto:
-
-- Projekt nevede žádná politická strana ani politik. Žádný politik není jeho tváří.
-- Nebereme peníze od politických stran a hnutí, od zbrojařských firem ani z dotací, které by mohly ohrozit naši nezávislost. Od jednoho dárce přijmeme nejvýš 30 % rozpočtu. Všechno je na stránce [Kdo nás financuje](/o-nas/financovani).
-- Pracujeme podle zveřejněných [redakčních pravidel](/o-nas/redakcni-pravidla). Každou stránku kontroluje odborník nebo odbornice z oboru.
-- Chyby opravujeme veřejně a s datem. Seznam je na stránce [Opravy](/o-nas/opravy).
-
-Právní forma: [OVĚŘIT: spolek nebo zapsaný ústav, název, sídlo a IČO po zápisu do rejstříku].
-
-## Kdo za projektem stojí
-
-Tým, správní radu a odborné recenzenty představíme před spuštěním webu. U každé stránky vždy uvidíte, kdo ji napsal, kdo ji zkontroloval a kdy.
-
-[OVĚŘIT: před spuštěním doplnit tým, správní radu a recenzenty se souhlasem každého z nich a rozhodnout, jak veřejně popsat roli zakladatele (plán 06: „veřejně popsaná role“).]
+- **Nestraším.** Každá stránka končí jedním krokem, který zvládnete ještě dnes.
+- **Neříkám vám, co si myslet o politice.** Ukazuji techniky manipulace, ne správné názory. [Nesouhlas není zrada](/manipulace/nesouhlas-neni-zrada).
+- **Nejsem napojený na žádnou stranu ani politika** a od žádné strany ani zbrojařské firmy neberu peníze. Víc na stránce [Kdo to platí](/o-nas/financovani).
+- **Nemapuji citlivá místa.** Nepíšu o konkrétních mostech, skladech ani závodech.
+- **Nevyzývám k udávání.** Když něco vypadá jako sabotáž, volejte 158 a nikoho sami neobviňujte.
+- **Nesbírám o vás data.** Web nepoužívá cookies ani sledovací nástroje. Podrobnosti jsou v [ochraně soukromí](/o-nas/ochrana-soukromi).
+- **Chyby opravuji veřejně a s datem.** Seznam je na stránce [Opravy](/o-nas/opravy).
 
 ## Kontakt
 
-- Obecné dotazy a spolupráce: [info@vimecodelat.cz](mailto:info@vimecodelat.cz)
-- Média: [media@vimecodelat.cz](mailto:media@vimecodelat.cz)
-- Hlášení chyb: [opravy@vimecodelat.cz](mailto:opravy@vimecodelat.cz)
+Napište mi na [info@vimecodelat.cz](mailto:info@vimecodelat.cz). Dotazy, nápady, hlášení chyb i nabídky pomoci, třeba od odborníků, kteří by chtěli texty zkontrolovat.
 
-Naše účty na sociálních sítích najdete na stránce [Naše oficiální kanály](/oficialni-kanaly). Jiné účty, které se za nás vydávají, nejsou naše.
+Moje účty na sociálních sítích najdete na stránce [Oficiální kanály](/oficialni-kanaly). Jiné účty, které se za projekt vydávají, nejsou moje.

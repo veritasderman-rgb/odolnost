@@ -15,7 +15,7 @@ zdroje:
   - nazev: "Meta: Pravidla o neautentickém chování. Popisuje sítě falešných účtů, které předstírají, kým nejsou."
     url: "https://transparency.meta.com/policies/community-standards/inauthentic-behavior/"
     datum: "2026"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

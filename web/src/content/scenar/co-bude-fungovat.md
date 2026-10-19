@@ -39,7 +39,7 @@ zdroje:
   - nazev: "Bezpečnostní strategie České republiky 2023 (sedm oblastí odolnosti NATO)"
     url: "https://mzv.gov.cz/file/5118610/Bezpecnostni_strategie_Ceske_republiky_2023.pdf"
     datum: "2023-06"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

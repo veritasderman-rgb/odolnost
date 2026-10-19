@@ -12,7 +12,7 @@ zdroje:
   - nazev: "Roozenbeek a van der Linden: Hra Bad News (Palgrave Communications). Jednou z technik ve hře je zpochybňování kritiků místo odpovědi na kritiku."
     url: "https://doi.org/10.1057/s41599-019-0279-9"
     datum: "2019"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

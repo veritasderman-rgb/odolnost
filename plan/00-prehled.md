@@ -16,6 +16,8 @@ Tento dokument je rozcestník plánu. Shrnuje, co spouštíme, v jakém pořadí
 
 ## Priorita: nejdřív ukázat, pak oslovit
 
+> **Rozhodnutí z 19. 10. 2026 (platí přednostně):** Víme, co dělat je **osobní projekt Josefa Pavlovice**. Nezakládá se spolek ani ústav, nebude správní rada, dárci ani granty. Autor se k projektu hlásí jménem, platí ho ze svého a web výslovně říká, že jde o kompilát zahraničních příkladů a veřejných zdrojů, ne o státní instituci. Části plánu o právní formě, správní radě, rozpočtu, grantech a týmu (brána B1, R4, kapitola 06) jsou tím pozastavené a berou se jen jako inspirace pro případ, že by se projekt později rozrostl.
+
 Rozhodnutí z 19. 10. 2026: **nejdřív postavíme web, obsadíme sociální sítě a připravíme backoffice.** Správní rada, partneři a instituce přijdou na řadu, až budeme mít co ukázat (funkční web s prvním obsahem a ukázkami videí). Oslovení s hotovou ukázkou má mnohem větší šanci na úspěch než oslovení se záměrem.
 
 | Pořadí | Co | Stav |

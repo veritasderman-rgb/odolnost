@@ -15,7 +15,7 @@ zdroje:
   - nazev: "Ministerstvo vnitra ČR: Centrum proti hybridním hrozbám. Analýzy dezinformací a vlivových kampaní v Česku."
     url: "https://mv.gov.cz/chh/"
     datum: "2026"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou a právní revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

@@ -42,7 +42,7 @@ zdroje:
   - nazev: "Zákon č. 585/2004 Sb., branný zákon (§ 3, § 5 a § 7)"
     url: "https://www.zakonyprolidi.cz/cs/2004-585"
     datum: "znění k 2025-08-19, ověřeno 2026-10-19"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

@@ -36,7 +36,7 @@ zdroje:
   - nazev: "72h.gov.cz: Když vypadne elektrický proud"
     url: "https://www.72h.gov.cz/cs/bez-elektriny"
     datum: "ověřeno 2026-10-19"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

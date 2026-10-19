@@ -17,7 +17,7 @@ zdroje:
   - nazev: "Hasičský záchranný sbor ČR: oficiální web a odkazy na sociální sítě"
     url: "https://www.hzscr.cz/"
     datum: "2026"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

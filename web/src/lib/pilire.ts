@@ -5,7 +5,7 @@ export const PILIRE: Record<Pilir, { nazev: string; podtitul: string; barva: str
   pribehy: { nazev: 'Příběhy', podtitul: 'Jak to lidé zvládli', barva: 'var(--terakota)', cislo: 2 },
   'priprav-se': { nazev: 'Připrav se', podtitul: 'Praktické kroky', barva: 'var(--salvej)', cislo: 3 },
   manipulace: { nazev: 'Poznej manipulaci', podtitul: 'Předběžné očkování', barva: 'var(--svestka)', cislo: 4 },
-  'o-nas': { nazev: 'O projektu', podtitul: 'Kdo jsme a jak pracujeme', barva: 'var(--inkoust)' },
+  'o-nas': { nazev: 'O projektu', podtitul: 'Kdo za tím stojí a jak pracuji', barva: 'var(--inkoust)' },
 };
 
 export function pilirZId(id: string): Pilir {

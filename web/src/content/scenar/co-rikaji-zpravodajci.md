@@ -273,7 +273,7 @@ zdroje:
   - nazev: "Ekonomický deník: Armádní koncepce opět nabírá skluz, vláda ji projedná později"
     url: "https://ekonomickydenik.cz/kvacr-2040-skluz-vlada/"
     datum: "2026-10-19"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

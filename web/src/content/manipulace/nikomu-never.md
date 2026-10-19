@@ -15,7 +15,7 @@ zdroje:
   - nazev: "Simchon a kol.: Metaanalýza psychologického očkování (Current Opinion in Psychology). Očkování zlepšuje rozlišování zpráv, aniž by lidé začali nevěřit všemu."
     url: "https://research-information.bris.ac.uk/en/publications/a-signal-detection-theory-meta-analysis-of-psychological-inoculat/"
     datum: "2026"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

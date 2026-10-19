@@ -48,7 +48,7 @@ zdroje:
   - nazev: "Echo24: Vláda schválila revizi krizové a obranné legislativy"
     url: "https://echo24.cz/a/HBETF/vlada-krizova-legislativa-valka-blackout-povoden-armada-hasici-opatreni-pripravenost-kabinet-domaci"
     datum: "2026-07-13"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

@@ -14,7 +14,7 @@ const obsah = defineCollection({
     zdroje: z
       .array(z.object({ nazev: z.string(), url: z.string().url().optional(), datum: z.union([z.string(), z.number()]).optional() }))
       .default([]),
-    autor: z.string().default('Redakce Víme, co dělat'),
+    autor: z.string().default('Josef Pavlovic'),
     recenze: z.string().default('Čeká na odbornou revizi'),
     revidovano: z.union([z.string(), z.date()]).optional(),
     stav: z.enum(['navrh', 'revize', 'schvaleno']).default('navrh'),

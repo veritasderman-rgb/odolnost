@@ -12,7 +12,7 @@ zdroje:
   - nazev: "Simchon a kol.: Metaanalýza psychologického očkování (Current Opinion in Psychology). 33 experimentů, 37 025 účastníků: videa i hry zlepšují rozlišování spolehlivých a manipulativních zpráv."
     url: "https://research-information.bris.ac.uk/en/publications/a-signal-detection-theory-meta-analysis-of-psychological-inoculat/"
     datum: "2026"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

@@ -63,7 +63,7 @@ zdroje:
   - nazev: "Asociace samaritánů ČR: Kurzy a školení první pomoci"
     url: "https://ascr.cz/kurzy-a-skoleni-prvni-pomoci/"
     datum: "2026-02-09"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

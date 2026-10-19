@@ -45,7 +45,7 @@ zdroje:
   - nazev: "HZS ČR: Evakuace (domácí zvířata v evakuačních střediscích)"
     url: "https://hzscr.gov.cz/evakuace"
     datum: "ověřeno 2026-10-19"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

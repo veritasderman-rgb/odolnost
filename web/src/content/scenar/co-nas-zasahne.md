@@ -24,7 +24,7 @@ zdroje:
   - nazev: "BIS: Výroční zpráva za rok 2025 (kapitola Rusko, riziko sabotážních útoků)"
     url: "https://www.bis.cz/public/site/bis.cz/content/vyrocni-zpravy/2025-vz-cj.pdf"
     datum: "2026-08-27"
-autor: "Redakce Víme, co dělat"
+autor: "Josef Pavlovic"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
 stav: "navrh"

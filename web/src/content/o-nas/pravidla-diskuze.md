@@ -5,8 +5,8 @@ popis: "Kritika a nesouhlas jsou u nás vítané a nemažeme je. Mažeme jen vý
 poradi: 5
 cteni: 3
 krok: "Zeptejte se někoho, kdo má jiný názor než vy, co by v krizi udělal pro své blízké."
-autor: "Redakce Víme, co dělat"
-recenze: "Čeká na kontrolu správní radou"
+autor: "Josef Pavlovic"
+recenze: "Bez externí revize"
 revidovano: "2026-10-19"
 stav: "navrh"
 ---
