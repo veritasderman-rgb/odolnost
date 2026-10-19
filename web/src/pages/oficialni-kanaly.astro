@@ -8,13 +8,16 @@ const kanaly = [
   { sit: 'YouTube', adresa: '@vimecodelat', url: 'https://www.youtube.com/@vimecodelat' },
   { sit: 'LinkedIn', adresa: 'linkedin.com/company/vimecodelat', url: 'https://www.linkedin.com/company/vimecodelat' },
   { sit: 'Bluesky', adresa: '@vimecodelat.cz', url: 'https://bsky.app/profile/vimecodelat.cz' },
+  { sit: 'Threads', adresa: '@vimecodelat', url: 'https://www.threads.net/@vimecodelat' },
+  { sit: 'X', adresa: '@vimecodelat', url: 'https://x.com/vimecodelat' },
+  { sit: 'WhatsApp kanál', adresa: 'Víme, co dělat', url: '' },
 ];
 ---
 <Jednoducha title="Naše oficiální kanály" nadtitulek="O projektu" popis="Seznam všech oficiálních účtů Víme, co dělat. Jiné účty, které se za nás vydávají, nejsou naše.">
   <p class="perex">Toto je úplný seznam našich účtů. Pokud narazíte na jiný účet nebo web, který se za nás vydává, není náš. Dejte nám prosím vědět.</p>
   <table>
     <thead><tr><th>Kanál</th><th>Adresa</th></tr></thead>
-    <tbody>{kanaly.map((k) => <tr><td>{k.sit}</td><td><a href={k.url} rel="me noopener">{k.adresa}</a></td></tr>)}</tbody>
+    <tbody>{kanaly.map((k) => <tr><td>{k.sit}</td><td>{k.url ? <a href={k.url} rel="me noopener">{k.adresa}</a> : <>{k.adresa} (odkaz doplníme po založení)</>}</td></tr>)}</tbody>
   </table>
   <p><mark class="overit">[OVĚŘIT: seznam doplnit podle skutečně založených účtů v backoffice/ucty.md]</mark></p>
   <p>Nikdy po vás nebudeme chtít peníze přes zprávu, hesla ani osobní údaje.</p>
