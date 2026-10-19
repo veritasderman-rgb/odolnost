@@ -1,7 +1,7 @@
 ---
 title: "Co říkají ti, kdo to vědí"
 id: "S-12"
-popis: "Co o riziku ruského útoku na NATO říkají zpravodajské služby a velitelé armád, jejich vlastními slovy. Od BIS a generála Řehky po Dánsko, Německo a NATO. I s tím, kde se hodnocení liší."
+popis: "Co o riziku ruského útoku říkají zpravodajské služby, armády a vlády, jejich vlastními slovy. Výroky z posledních tří měsíců od BIS po Dánsko, Polsko, Německo a NATO. I s tím, kde se hodnocení liší."
 poradi: 2
 cteni: 9
 krok: "Ještě tento týden vyplňte doma rodinný plán. Je to stejně užitečný krok, ať se nakonec potvrdí kterýkoli z odhadů na této stránce."
@@ -93,6 +93,123 @@ zdroje:
   - nazev: "AP: Velitel NATO říká, že aliance nechce válku, ale je připravena bojovat (anglicky)"
     url: "https://www.click2houston.com/news/world/2026/10/12/nato-commander-says-the-alliance-does-not-want-war-but-is-ready-to-fight-tonight/"
     datum: "2026-10-12"
+  - nazev: "NATO: Mark Rutte, tisková konference s estonským premiérem (anglicky)"
+    url: "https://www.nato.int/en/news-and-events/events/transcripts/2026/10/14/joint-press-conference-with-nato-secretary-general-and-the-prime-minister-of-estonia"
+    datum: "2026-10-14"
+  - nazev: "Al Jazeera: Grynkewich na Varšavském bezpečnostním fóru (anglicky)"
+    url: "https://www.aljazeera.com/news/2026/10/12/nato-says-will-do-anything-and-everything-if-alliance-is-attacked"
+    datum: "2026-10-12"
+  - nazev: "Eunews: Kubilius o vojenském Schengenu (anglicky)"
+    url: "https://www.eunews.it/en/2026/10/07/defence-kubilius-urges-parliament-and-the-council-must-approve-the-military-schengen/"
+    datum: "2026-10-07"
+  - nazev: "Euronews: Ministři EU plánují reakci na hybridní útoky, Kallasová (anglicky)"
+    url: "https://www.euronews.com/2026/09/28/eu-mininsters-plan-response-to-hybrid-attacks-amid-warnings-of-russian-sabotage"
+    datum: "2026-09-28"
+  - nazev: "Anadolu: Kallasová, hybridní útoky nesou znaky státem sponzorovaného terorismu (anglicky)"
+    url: "https://www.aa.com.tr/en/politics/russian-hybrid-attacks-bear-hallmarks-of-state-sponsored-terrorism-eu-foreign-policy-chief/4044799"
+    datum: "2026-09-02"
+  - nazev: "EEAS: Projev Kaji Kallasové v Evropském parlamentu (anglicky)"
+    url: "https://www.eeas.europa.eu/eeas/statement-high-representativevice-president-kaja-kallas-european-parliament-joint-debate-russias_en"
+    datum: "2026-09-15"
+  - nazev: "NATO: Mark Rutte, tisková konference s Merzem a Jettenem (anglicky)"
+    url: "https://www.nato.int/en/news-and-events/events/transcripts/2026/10/01/joint-press-conference-with-nato-secretary-general-mark-rutte-the-federal-chancellor-of-germany-friedrich-merz-and-the-prime-minister-of-the"
+    datum: "2026-10-01"
+  - nazev: "Evropská komise: Projev o stavu Unie 2026 (anglicky)"
+    url: "https://luxembourg.representation.ec.europa.eu/actualites-et-evenements/actualites/2026-state-union-address-president-von-der-leyen-2026-09-16_en"
+    datum: "2026-09-16"
+  - nazev: "NATO: Mark Rutte, projev na konferenci vedoucích německých misí (anglicky)"
+    url: "https://www.nato.int/en/news-and-events/events/transcripts/2026/09/10/keynote-address-by-the-nato-secretary-general-at-the-conference-of-the-heads-of-german-missions"
+    datum: "2026-09-10"
+  - nazev: "USA Today přes Spokesman-Review: USA a Evropa se obávají, že Rusko testuje NATO (anglicky)"
+    url: "https://www.spokesman.com/stories/2026/sep/26/us-europe-worry-russia-is-testing-nato-with-hybrid/"
+    datum: "2026-09-26"
+  - nazev: "ODNI: Annual Threat Assessment 2026 (anglicky)"
+    url: "https://www.intelligence.senate.gov/wp-content/uploads/2026/03/ATA-2026-unclassified-16-Mar-FINAL.pdf"
+    datum: "2026-03"
+  - nazev: "LRT: Pokus o žhářství ve skladu Starlinku, premiér viní Rusko (anglicky)"
+    url: "https://www.lrt.lt/en/news-in-english/19/3086054/attempted-arson-at-lithuanian-firm-storing-starlink-equipment-pm-blames-russia"
+    datum: "2026-10-18"
+  - nazev: "SBS News: Narva se obává ruského útoku, Vseviov (anglicky)"
+    url: "https://www.sbs.com.au/news/article/estonia-border-city-of-narva-fears-russia-attack/x8p01kqgh"
+    datum: "2026-10-15"
+  - nazev: "MTV Uutiset: Supo o sabotážích v obranném průmyslu (finsky)"
+    url: "https://www.mtvuutiset.fi/artikkeli/supo-mtv-lle-puolustusalan-sabotaasikohteita-kartoitettu-suomessakin-venajan-iskujen-uhkatilanne-elaa-joka-paiva/9406176"
+    datum: "2026-10-13"
+  - nazev: "TV 2: Norský náčelník obrany Kristoffersen (norsky)"
+    url: "https://www.tv2.no/nyheter/trusselen-har-okt/19296359/"
+    datum: "2026-10-08"
+  - nazev: "Statsministeriet: Projev Mette Frederiksenové při zahájení Folketingu (dánsky)"
+    url: "https://stm.dk/statsministeren/taler/statsminister-mette-frederiksens-tale-ved-folketingets-aabning-den-6-oktober-2026/"
+    datum: "2026-10-06"
+  - nazev: "Yle: Martelius a Turunen v A-studiu (finsky)"
+    url: "https://yle.fi/a/74-20249930"
+    datum: "2026-10-05"
+  - nazev: "FE/DDIS: Hodnocení hrozby ze strany Ruska, září 2026 (dánsky)"
+    url: "https://www.fe-ddis.dk/da/nyheder/2026/vurdering-af-truslen-fra-rusland/"
+    datum: "2026-09-24"
+  - nazev: "FE/DDIS: Assessment of the threat from Russia (anglicky, PDF)"
+    url: "https://www.fe-ddis.dk/globalassets/fe/dokumenter/2026/trusselsvurderinger/-assessment-of-the-threat-from-russia-.pdf"
+    datum: "2026-09-24"
+  - nazev: "NRK: Šéf norské vojenské rozvědky Stensønes (norsky)"
+    url: "https://www.nrk.no/artikkel/ekspert-om-russiske-trusler-viktig-a-vage-a-si-ordet-krig-1528353"
+    datum: "2026-09-22"
+  - nazev: "Euromaidan Press: Stubb, Evropa na ruské hrozby přehnaně reaguje (anglicky, podle Politico)"
+    url: "https://euromaidanpress.com/2026/09/23/europe-is-overreacting-to-russian-threats-finlands-president-says-his-intelligence-sees-no-imminent-danger/"
+    datum: "2026-09-23"
+  - nazev: "LSM: Evropské tajné služby varují před ruskými provokacemi (lotyšsky)"
+    url: "https://www.lsm.lv/raksts/zinas/arzemes/21.09.2026-eiropas-izlukdienesti-bridina-par-krievijas-provokacijam.a664158/"
+    datum: "2026-09-21"
+  - nazev: "LSM: Prezident Rinkēvičs o sabotážích a invazi (lotyšsky)"
+    url: "https://www.lsm.lv/raksts/zinas/latvija/18.09.2026-valsts-prezidents-krievija-eskales-sabotazas-un-diversijas-bet-iebrukums-nato-teritorija-paslaik-nav-iespejams.a663803/"
+    datum: "2026-09-18"
+  - nazev: "Ystads Allehanda: Claesson na Ystad Summit (švédsky)"
+    url: "https://www.ystadsallehanda.se/ystad/obs-skarpa-varning-fran-ystad-rakna-inte-ut-ryssland"
+    datum: "2026-09-02"
+  - nazev: "Ritzau: PET varuje před sabotážemi proti obrannému průmyslu (dánsky)"
+    url: "https://www.dknyt.dk/ritzau/b5ec4f60-70ae-4b48-81a9-7438478f816f"
+    datum: "2026-09-02"
+  - nazev: "Radio Gdańsk: Kosiniak-Kamysz, nemáme čas nazbyt (polsky)"
+    url: "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/16/ataki-na-polskie-granice-kosiniak-kamysz-nie-mamy-czasu-do-stracenia/"
+    datum: "2026-10-16"
+  - nazev: "Euronews: Šéf MI5, Rusko zůstává agresorem číslo jedna (anglicky)"
+    url: "https://www.euronews.com/2026/10/13/russia-remains-aggressor-number-one-uks-mi5-spy-agency-chief-warns-in-threat-update"
+    datum: "2026-10-13"
+  - nazev: "Goniec: Prezident Nawrocki, hrozba ze strany Ruska nevzrostla (polsky)"
+    url: "https://www.goniec.net/2026/10/13/prezydent-nawrocki-rzad-straszy-polakow-wojna-dla-efektu-flagi-zagrozenie-ze-strony-rosji-nie-wzroslo/"
+    datum: "2026-10-13"
+  - nazev: "Polsat News: Sikorski vyzývá NATO k reakci na hybridní útok s oběťmi (polsky)"
+    url: "https://www.polsatnews.pl/wiadomosc/2026-10-12/atak-hybrydowy-w-ktorym-zgina-ludzie-sikorski-apeluje-do-nato/"
+    datum: "2026-10-12"
+  - nazev: "ZDFheute: Slyšení šéfů německých tajných služeb v Bundestagu (německy)"
+    url: "https://www.zdfheute.de/politik/nachrichtendienste-anhoerung-bnd-russland-bedrohung-100.html"
+    datum: "2026-10-05"
+  - nazev: "ORF: BND nevidí náznaky velkého ruského útoku (německy)"
+    url: "https://orf.at/stories/3444139/"
+    datum: "2026-10-05"
+  - nazev: "Bundeskanzler: Kancléř Merz v Kyjevě (německy)"
+    url: "https://www.bundeskanzler.de/bk-de/aktuelles/bundeskanzler-merz-in-kyjiw-2455606"
+    datum: "2026-10-04"
+  - nazev: "London Loves Business: Ministr obrany radí mít doma vodu a konzervy (anglicky)"
+    url: "https://londonlovesbusiness.com/defence-secretary-tells-brits-to-prepare-for-war-and-buy-water-and-food/"
+    datum: "2026-09-27"
+  - nazev: "Franceinfo: Macron popřel varování CIA, útok drony ale označil za možný (francouzsky)"
+    url: "https://www.franceinfo.fr/monde/russie/emmanuel-macron-dement-l-existence-d-une-alerte-de-la-cia-sur-une-possible-attaque-de-drones-russes-visant-le-sud-de-la-france_8208686.html"
+    datum: "2026-09-24"
+  - nazev: "Adnkronos: Crosetto ke zprávě o dronech (italsky)"
+    url: "https://www.adnkronos.com/cronaca/crosetto-droni-russia-italia-allarme-cia_1J3dI6YUMdiPJNkJIT9nCA"
+    datum: "2026-09-24"
+  - nazev: "Il Fatto Quotidiano: Crosetto pro BBC (italsky)"
+    url: "https://www.ilfattoquotidiano.it/in-edicola/articoli/2026/10/18/crosetto-se-ce-pace-la-russia-ci-invade/8542073/"
+    datum: "2026-10-18"
+  - nazev: "Bundestag: Regierungsbefragung s Borisem Pistoriem (německy)"
+    url: "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-regierungsbefragung-1154666"
+    datum: "2026-09-23"
+  - nazev: "Polsat News: Ministr vnitra o krytech (polsky)"
+    url: "https://www.polsatnews.pl/wiadomosc/2026-09-19/mieszkanka-zapytala-ministra-o-schrony-nie-ma-co-oszukiwac-nie-bedzie-z-dnia-na-dzien/"
+    datum: "2026-09-19"
+  - nazev: "Polsat News: Tusk v Sejmu, nejkritičtější období války (polsky)"
+    url: "https://www.polsatnews.pl/wiadomosc/2026-09-17/pilne-wystapienie-tuska-po-atakach-rosji-wskazal-najbardziej-krytyczny-moment/"
+    datum: "2026-09-17"
 autor: "Redakce Víme, co dělat"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
@@ -155,9 +272,87 @@ Vláda v květnu 2026 navrhla jako jeho nástupce Miroslava Hlaváče, dosavadn�
 
 [OVĚŘIT: zda vláda od roku 2023 nepřijala novou bezpečnostní nebo obrannou strategii, vlada.gov.cz a mzv.gov.cz, těsně před publikací]
 
-## Co říkají v zahraničí
+## Co zaznělo za poslední tři měsíce
 
-Překlady jsou naše. Kde je to možné, citujeme z původního dokumentu.
+Od léta 2026 se o Rusku v Evropě mluví víc a ostřeji. Důvodem jsou hlavně nové útoky. V srpnu se na letišti Lipsko/Halle našel dron s výbušninou u ukrajinského nákladního letadla a Německo ho na začátku září připsalo Rusku. V Tallinnu hořela zbrojovka, Estonsko za tím vidí ruské tajné služby. V Litvě se v říjnu někdo pokusil zapálit sklad s vybavením Starlink pro Ukrajinu. Podrobně to popisujeme na stránce [Jsme ve válce?](/scenar/jsme-ve-valce).
+
+Ze stovky výroků jsme vybrali ty nejdůležitější. Řadíme je od nejnovějších. Překlady jsou naše (volný překlad), u každého výroku najdete zdroj v sekci „Odkud to víme“ dole na stránce.
+
+**Ve zkratce:**
+
+- **Skoro všichni říkají, že velký vojenský útok na NATO bezprostředně nehrozí.** Shodně to tvrdí NATO, Finsko, Pobaltí, Norsko i německá rozvědka.
+- **Zároveň skoro všichni říkají, že sabotáží a hybridních útoků přibývá** a že už jde o útoky, při kterých mohou umírat lidé.
+- **Časový horizont se zkrátil u menších akcí.** Dánská rozvědka mluví o omezeném útoku na sousedy Ruska „v příštích měsících“, polský premiér o kritické zimě. U velké války zůstávají roky 2029 až 2031.
+- **Vlády víc mluví o přípravě obyvatel.** Dánsko, Británie i Polsko radí lidem konkrétní kroky.
+
+### NATO a Evropská unie
+
+| Kdo | Kdy | Co říká |
+| --- | --- | --- |
+| **NATO**, generální tajemník Mark Rutte | 14. října 2026 | „Bezprostřední hrozbu pro území NATO nevidíme. Kdybychom viděli shromažďování sil, zareagujeme.“ Hybridní útoky jsou podle něj „známkou slabosti“. |
+| **NATO**, vrchní velitel v Evropě Alexus Grynkewich | 12. října 2026 | „Počáteční útok zablokujeme. Pokud bude pokračovat, otupíme ho a zastavíme jakýkoli postup.“ A zároveň: „Nemyslím si, že je konflikt bezprostřední nebo nevyhnutelný.“ Lidé v alianci jsou podle něj „trochu nervózní“ a chce je ujistit, že to NATO „má pod kontrolou“. |
+| **EU**, komisař pro obranu Andrius Kubilius | 7. října 2026 | Pokud přijde „den X“, Evropa bude čelit „ruské armádě zocelené bojem, která dokáže nasadit 10 milionů dronů ročně“. |
+| **EU**, šéfka diplomacie Kaja Kallasová | září a říjen 2026 | „Ze zpravodajských informací vidíme, že Rusko plánuje další sabotáže.“ Ruské hybridní útoky podle ní mají „všechny znaky státem sponzorovaného terorismu“. A také: „Naše společnosti jsou připravenější, ostražitější a odolnější.“ |
+| **NATO**, Mark Rutte | 1. října 2026 | „Vidíme, že nás Rusko zkouší po celé Evropě.“ Bezprostřední útok nevidí, „ale musíme být připraveni, že ruská kampaň nepřátelských akcí bude pokračovat“. A vzkaz lidem: „Zachovejte klid, máme na to.“ |
+| **EU**, předsedkyně Komise Ursula von der Leyenová | 16. září 2026 | „Kybernetické útoky a sabotáže, žhářství a narušení drony. Přibývají každý den.“ A: „S rostoucí hrozbou musí růst i připravenost Evropy.“ Navrhla evropský nouzový bezpečnostní protokol. |
+| **NATO**, Mark Rutte | 10. září 2026 | „Hrozba je dlouhodobá.“ Rusko dává na obranu přes 10 % národního důchodu a i během války doplňuje zásoby. Bez zbrojení, ke kterému se NATO zavázalo, by podle něj vzniklo riziko kolem let „2029, 2030, 2031“. |
+| **USA**, ministr zahraničí Marco Rubio | září 2026 | Válka se může rozšířit hybridním útokem, sabotáží nebo omylem: „Nějaký pilot letí špatným směrem a najednou tu máme ostré boje.“ |
+| **USA**, zpravodajská komunita (výroční hodnocení hrozeb) | březen 2026 | „Pokračování války zvyšuje riziko nechtěné i záměrné eskalace do přímého konfliktu mezi Ruskem a NATO.“ |
+
+### Sever a Pobaltí
+
+Země, které s Ruskem sousedí, jsou dnes rozdělené. Dánsko varuje nejostřeji. Finsko a pobaltské státy naopak aktivně tlumí paniku. Jejich společná věta zní: nebojíme se, protože jsme připraveni.
+
+| Kdo | Kdy | Co říká |
+| --- | --- | --- |
+| **Litva**, premiér Mindaugas Sinkevičius | 18. října 2026 | O pokusu zapálit sklad s vybavením Starlink: „Jasně šlo o pokus o sabotáž nebo diverzi.“ Objednavatelem je podle něj „ruská strana“. |
+| **Estonsko**, generální tajemník ministerstva zahraničí Jonatan Vseviov | 15. října 2026 | „Akutní vojenské nebezpečí nehrozí nám ani žádné jiné zemi NATO.“ Rusko ale „zůstává strategickou výzvou naší doby“. A: „Kdybychom se vystrašili až k ochromení, sami bychom si uškodili.“ |
+| **Finsko**, bezpečnostní služba Supo | 13. října 2026 | „Hrozba sabotáže proti obrannému průmyslu je skutečná i ve Finsku.“ Bezprostřední hrozbu nevidí, „ale situace se může měnit i ze dne na den“. |
+| **Norsko**, náčelník obrany gen. Eirik Kristoffersen | 8. října 2026 | Hrozba sabotáží „vzrostla“. Útok se záborem norského území ale teď nevidí. „Víc jsem se o bezpečnost Evropy bál ve stejné době v roce 2022.“ |
+| **Dánsko**, premiérka Mette Frederiksenová | 6. října 2026 | „Budu mluvit o Rusku, které nás ohrožuje.“ A: „Všichni v Dánsku se musí připravit na různé typy hybridních útoků a jiných krizí.“ Vláda zřizuje „totální připravenost“. |
+| **Finsko**, ředitel Supo Juha Martelius a šéf vojenské rozvědky Pekka Turunen | 5. října 2026 | Martelius: „Ruské sabotáže v Evropě míří hlavně na obranný průmysl.“ A hned: „Buďme v klidu, zvládneme to.“ Turunen: „Když někdo zkoumá cíle, společnost nebo kritické systémy, je to zároveň příprava.“ |
+| **Dánsko**, vojenská zpravodajská služba FE | 24. září 2026 | Riziko, že Rusko provede „omezený vojenský útok na jednu nebo více zemí NATO, které s Ruskem sousedí“, je „nízké, ale roste“. Mohlo by k němu dojít „v příštích měsících“, i když válka na Ukrajině pokračuje. Invaze je „vysoce nepravděpodobná, ale nelze ji vyloučit“. Její příprava by trvala nejméně šest měsíců. |
+| **Norsko**, šéf vojenské rozvědky Nils Andreas Stensønes | 22. září 2026 | „Nečekáme klasický vojenský útok.“ Jde o „politické ovlivňování, kybernetické útoky a možná sabotáže“. |
+| **Finsko**, prezident Alexander Stubb | 21. září 2026 | Rozvědka vidí „aktivitu, ale žádnou bezprostřední vojenskou hrozbu“. „Kdykoli přehnaně reagujeme na hybridní útok, Rusko tu bitvu vyhrálo.“ A: „Jsme klidní, protože jsme připraveni.“ |
+| **Lotyšsko**, bezpečnostní služba VDD, Normunds Mežviets | 21. září 2026 | „Nevidíme známky bezprostředního útoku.“ Ale: „Vidíme, že se chystají útočit na železnici a na infrastrukturu podpory Ukrajiny.“ |
+| **Lotyšsko**, prezident Edgars Rinkēvičs | 18. září 2026 | Rozsáhlá ruská invaze se nečeká. „Čekají nás provokace všeho druhu? Ano.“ A: „Stoprocentní záruku nemá nikdo a nikdy.“ |
+| **Švédsko**, vrchní velitel gen. Michael Claesson | září 2026 | „Nesmíme se stát žábou, která se pomalu vaří.“ |
+| **Dánsko**, kontrarozvědka PET | 2. září 2026 | Ruské služby chystají sabotáže proti dánskému obrannému průmyslu a verbují „úplně obyčejné Dány“. „Výběr cílů a příprava jsou natolik konkrétní, že je nutné to oznámit.“ |
+
+### Německo, Polsko, Británie a další
+
+Nejostřeji varuje Polsko, Německo a Británie. Jižní Evropa je zdrženlivější.
+
+| Kdo | Kdy | Co říká |
+| --- | --- | --- |
+| **Polsko**, ministr obrany Władysław Kosiniak-Kamysz | 16. října 2026 | „První tři roky tohle nebylo, teď ano. Den za dnem přicházejí další akce, které nás mají destabilizovat. Nemáme čas nazbyt.“ |
+| **Británie**, šéf kontrarozvědky MI5 Ken McCallum | 13. října 2026 | Rusko zůstává „agresorem číslo jedna“. „Ruská armáda a tajné služby znovu stupňují své pokusy o hybridní válku.“ Kreml podle něj narychlo platí kriminálníky. |
+| **Polsko**, prezident Karol Nawrocki | 13. října 2026 | „Úroveň hrozby se podstatně nezměnila.“ Rusko „vždy bylo a je hrozbou“. Vládě vyčítá, že šíří strach. Premiér Tusk to ironicky komentoval. Ukazuje to, že ani v Polsku nemluví všichni stejně. |
+| **Polsko**, ministr zahraničí Radosław Sikorski | 12. října 2026 | NATO si má předem říct, jak odpoví na hybridní útok s mrtvými: „Dokud jde o hmotné škody, je to jedna věc, ale pokud začnou umírat lidé…“ |
+| **Německo**, prezident rozvědky BND Martin Jäger | 5. října 2026 | „Rusko proti nám vede stínovou válku.“ Rok 2029 jako orientační bod dál platí, ale „nesmíme do roku 2029 čekat“. Podle ORF zároveň řekl, že BND teď nevidí náznaky velkého ruského útoku na území NATO. |
+| **Německo**, šéf kontrarozvědky BfV Sinan Selen | 5. října 2026 | „Rusko už dnes počítá s možnými civilními oběťmi a cíleně plánuje násilné činy.“ |
+| **Německo**, kancléř Friedrich Merz | 4. října 2026 | „Pokud Rusko nezastavíme, jeho válečná mašinerie se dřív nebo později obrátí proti nám.“ |
+| **Británie**, ministr obrany Wes Streeting | září 2026 | Radí mít doma „zásobu balené vody a nějaké konzervy“. „Chci, aby lidé byli ostražití, ne vyděšení.“ |
+| **Francie**, prezident Emmanuel Macron | září 2026 | Na otázku, zda může Rusko zaútočit výbušnými drony na francouzské letiště jako v Lipsku: „Může se to stát? Moje odpověď je ano.“ |
+| **Itálie**, ministr obrany Guido Crosetto | září a říjen 2026 | Nepotvrzenou zprávu o chystaném útoku drony odmítl: „Žijeme v těžké a nervózní době, není třeba přilévat olej do ohně.“ O měsíc později: „Myslím, že Putin se nechce zastavit u Ukrajiny.“ |
+| **Německo**, ministr obrany Boris Pistorius | 23. září 2026 | „Naše bezpečnost je ohrožena tak, jak už dlouho nebyla.“ A: „Moskva zkouší naši reakci.“ |
+| **Polsko**, ministr vnitra Marcin Kierwiński | 19. září 2026 | Na otázku obyvatelky Lublinu, kde se ukrýt: kryty „nebudou ze dne na den“. Pomůže chodba nebo koupelna, „nejnižší podlaží je bezpečné“. |
+| **Polsko**, premiér Donald Tusk | 17. září 2026 | „Pozdní podzim a zima budou nejkritičtějším obdobím dosavadní rusko-ukrajinské války.“ Podle rozvědek hrozí „hybridní údery drony a raketami na státy, které podporují Ukrajinu, včetně Polska“. |
+
+### Kde se hodnocení liší
+
+Nejde o jeden hlas. Neznamená to, že se někdo mýlí. Mluví o různých věcech:
+
+- **O jakém útoku?** Sabotáž, „náhodný“ dron nebo omezený útok na pohraničí je něco jiného než velká válka. Na podzim 2026 se skoro všichni shodnou, že to první už probíhá a bude přibývat. A že to druhé teď nehrozí.
+- **Kdo mluví?** Země na hranici s Ruskem často mluví klidněji než ty dál od něj. Finsko nebo Estonsko se připravují desítky let a nechtějí, aby strach dělal práci za Rusko. Dánsko, Polsko a Německo naopak chtějí lidi probudit.
+- **Záměr, nebo schopnost?** Většina služeb popisuje, co Rusko bude **schopné** udělat. Žádná z citovaných služeb netvrdí, že Rusko už **rozhodlo** zaútočit.
+- **Domácí politika.** V Polsku se o tónu přou prezident a premiér, v Česku ředitel BIS a premiér. I to je dobré vědět, když čtete titulky.
+
+Společné mají jedno: Rusko zbrojí, považuje Západ za nepřítele a už teď proti Evropě působí pod prahem války. A čím lépe je Evropa připravená, tím méně se mu útok vyplatí.
+
+### Starší hodnocení (2025 až jaro 2026)
+
+Pro srovnání, co zaznívalo dřív. Mnoho z toho platí dál.
 
 | Kdo | Kdy | Co říká |
 | --- | --- | --- |
@@ -171,19 +366,6 @@ Překlady jsou naše. Kde je to možné, citujeme z původního dokumentu.
 | **Estonsko**, zahraniční zpravodajská služba | únor 2026 | „Není důvod k panice.“ Rusko podle ní nemá v nejbližším roce v úmyslu vojensky napadnout Estonsko ani jiný stát NATO. Důvodem je, že Evropa podnikla kroky, které Kreml nutí „velmi pečlivě počítat“. Ruská vojenská reforma ale v příštích letech posílí jeho armádu. (volný překlad) |
 | **Švédsko**, vojenská rozvědka MUST | únor 2026 | Rusko je hlavní vojenskou hrozbou „pro Švédsko a NATO“ a hrozba pravděpodobně poroste. Posilování sil u Baltu „už začalo“. Jeho tempo ale závisí na válce na Ukrajině, ruské ekonomice a vztazích s Čínou. (volný překlad) |
 | **Litva**, zpravodajské služby | březen 2026 | Dokud válka na Ukrajině pokračuje stejně intenzivně, zůstane schopnost Ruska vojensky ohrozit další státy omezená. Nejhorší varianta je mír spojený se zrušením sankcí. Pak by Rusko mohlo být do 1 až 2 let připravené na omezený konflikt u Baltu a do 6 až 10 let na rozsáhlý konflikt s NATO. |
-| **Polsko**, premiér Donald Tusk | září 2026 | Podle rozvědek chystá Rusko „hybridní údery drony a raketami na státy, které podporují Ukrajinu, včetně Polska“. Mají vypadat jako „takzvaně náhodné“. Cílem je přesvědčit státy NATO, že článek 5 je „spíš teoretický než praktický“. (volný překlad) |
-| **Lotyšsko**, bezpečnostní služba VDD, Normunds Mežviets | září 2026 | „Nevidíme žádné známky bezprostředního útoku.“ Vidí ale známky, že Moskva může chystat důraznější kroky v Evropě. (překlad Echo24) |
-| **NATO**, vrchní velitel v Evropě Alexus Grynkewich | říjen 2026 | Podle agentury AP nevidí konflikt jako bezprostřední ani nevyhnutelný. NATO je podle něj připraveno „bojovat ještě dnes v noci“, kdyby bylo napadeno. Útok by podle něj NATO viděl přicházet. (volný překlad) |
-
-### Kde se hodnocení liší
-
-Nejde o jeden hlas. Někteří varují před měsíci, jiní mluví o letech. Estonská a lotyšská služba, které jsou Rusku nejblíž, v roce 2026 bezprostřední útok nevidí. Neznamená to, že se někdo mýlí. Mluví o různých věcech:
-
-- **O jakém útoku?** Omezená provokace nebo „náhodný“ dron je něco jiného než velká válka. Koudelka a Tusk mluví spíš o tom prvním, dánský odhad na pět let o tom druhém.
-- **Za jakých podmínek?** Dánské i litevské lhůty platí hlavně pro případ, že válka na Ukrajině skončí nebo zamrzne. A dánské jen tehdy, když NATO nebude zbrojit stejně rychle.
-- **Záměr, nebo schopnost?** Většina služeb popisuje, co Rusko bude **schopné** udělat. Žádná z citovaných služeb netvrdí, že Rusko už **rozhodlo** zaútočit.
-
-Společné mají jedno: Rusko zbrojí, považuje Západ za nepřítele a už teď proti Evropě působí pod prahem války. A čím lépe je Evropa připravená, tím méně se mu útok vyplatí.
 
 ## Proč politici a armáda mluví opatrněji než BIS
 
