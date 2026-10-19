@@ -51,9 +51,9 @@ Formulář najdete na webu.
 Vyplníte ho v prohlížeči, nic se nikam neodesílá.
 
 14
-00:00:47,181 --> 00:00:54,512
+00:00:47,181 --> 00:00:53,534
 Krok na dnes: domluvte se s rodinou, kde se sejdete, když nepůjdou telefony.
 
 15
-00:00:54,512 --> 00:00:55,105
-cz
+00:00:53,534 --> 00:00:55,105
+vimecodelat.cz

@@ -51,9 +51,9 @@ Nemusíte všechno.
 Vyberte si jednu věc.
 
 14
-00:00:37,631 --> 00:00:44,878
+00:00:37,631 --> 00:00:43,990
 Krok na dnes: vyberte si jednu cestu a zjistěte, kdy je nejbližší kurz nebo schůzka.
 
 15
-00:00:44,878 --> 00:00:45,450
-cz
+00:00:43,990 --> 00:00:45,450
+vimecodelat.cz

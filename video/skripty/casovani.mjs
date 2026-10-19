@@ -36,7 +36,8 @@ const pauzyZ = (soubor) => {
   return res;
 };
 
-const vety = (text) => text.match(/[^.?!…]+[.?!…]+(\s|$)|[^.?!…]+$/g).map((s) => s.trim()).filter(Boolean);
+// Věta končí interpunkcí a mezerou, takže tečka uvnitř slova (vimecodelat.cz, 12.00) větu neukončí.
+const vety = (text) => text.split(/(?<=[.?!…])\s+/).map((s) => s.trim()).filter(Boolean);
 
 // Dlouhou větu rozdělí na kousky do MAX_ZNAKU, nejlépe u čárky nebo dvojtečky.
 const rozdel = (veta) => {

@@ -71,9 +71,9 @@ Nejlepší odpověď je klid a příprava.
 Kdo je připravený, toho se vystrašit nedá.
 
 19
-00:00:50,416 --> 00:00:56,163
+00:00:50,416 --> 00:00:55,267
 Krok na dnes: přečtěte si, co se už stalo, a ověřte si to sami.
 
 20
-00:00:56,163 --> 00:00:56,745
-cz
+00:00:55,267 --> 00:00:56,745
+vimecodelat.cz

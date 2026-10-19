@@ -59,9 +59,9 @@ Když proud vypadne, vypněte jistič,
 zapněte rádio a tísňové linky volejte jen v ohrožení.
 
 16
-00:00:50,734 --> 00:00:56,116
+00:00:50,734 --> 00:00:55,231
 Krok na dnes: najděte doma svítilnu a zkontrolujte baterky.
 
 17
-00:00:56,116 --> 00:00:56,698
-cz
+00:00:55,231 --> 00:00:56,698
+vimecodelat.cz
