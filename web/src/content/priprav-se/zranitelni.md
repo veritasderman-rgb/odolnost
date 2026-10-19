@@ -32,7 +32,7 @@ stav: "navrh"
 
 Kdo je na tom hůř, nemusí v krizi zůstat sám. Většinu toho, co pomůže, zařídíte jedním rozhovorem a jedním papírem.
 
-V krizi to mají nejtěžší lidé, kteří sami nedojdou pro vodu, potřebují léky nebo přístroj na proud. A také děti a zvířata, která si samy neporadí. Tato stránka je pro ně i pro vás, kdo se o ně staráte.
+Počítáme s tím, že by Rusko mohlo zaútočit na NATO a útoky by zasáhly i naše zázemí: proud, dopravu nebo spojení. V takové krizi to mají nejtěžší lidé, kteří sami nedojdou pro vodu, potřebují léky nebo přístroj na proud. Při siréně se navíc musí rychle ukrýt. A také děti a zvířata, která si samy neporadí. Tato stránka je pro ně i pro vás, kdo se o ně staráte.
 
 ## Senioři
 
@@ -44,6 +44,7 @@ Starší lidé se často nechtějí obtěžovat a o pomoc si neřeknou. Proto je
 - **Rádio na baterky**, které umí sami zapnout. Vyzkoušejte to spolu.
 - **Panelák.** Při výpadku proudu nejede výtah. Kdo bydlí vysoko, potřebuje vodu a jídlo doma předem.
 - **Brýle, naslouchadlo, chodítko** a náhradní baterie do naslouchadla.
+- **Siréna.** Domluvte se, kam se ukryje, když zazní siréna, a kdo jí pomůže. Ověřte, že sirénu a hlášení vůbec uslyší.
 
 Stát na 72h.gov.cz připomíná, že sousedé mohou pomoct s nákupem, přinést vodu nebo předat důležité informace. Pokud se staráte o seniora a potřebujete si promluvit, je tu **Senior telefon 800 157 157**. Podle opatruj.se funguje nonstop a zdarma.
 

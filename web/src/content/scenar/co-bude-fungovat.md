@@ -47,7 +47,7 @@ stav: "navrh"
 
 Většina věcí, na které jste zvyklí, by fungovala dál. Česko má systém, který krize zvládá pravidelně: povodně, vichřice i výpadky proudu.
 
-Když se mluví o válce, snadno zapomeneme, že stát, obce i firmy se na krize připravují roky. Tady je přehled toho, na co se můžete spolehnout.
+I kdyby Rusko zaútočilo na NATO a útoky zasáhly naše zázemí, stát by nepřestal fungovat. Nebudeme tvrdit, že by všechno šlo hladce. Některá místa by mohla být zasažena a pomoc by tam chvíli trvala. Tady je přehled toho, na co se můžete spolehnout, a kde musíte počítat sami se sebou.
 
 ## Záchranné složky
 
@@ -106,4 +106,4 @@ Nejvíc ale pomáhá to, co se nedá napsat do zákona: sousedé, rodina, spolky
 
 ## Co to znamená pro vaši domácnost
 
-Nemusíte všechno zvládnout sami. Vaším úkolem je překlenout první dny, než se věci srovnají, a pomoct těm nejbližším. Jak na to, najdete na stránce [Rodinný plán](/priprav-se/rodinny-plan).
+Nemusíte všechno zvládnout sami. Vaším úkolem je překlenout první dny, než pomoc dorazí nebo se věci srovnají, a pomoct těm nejbližším. Co konkrétně můžete udělat, shrnuje stránka [Co mohu udělat já](/priprav-se/co-mohu-udelat-ja). Základem je [rodinný plán](/priprav-se/rodinny-plan).

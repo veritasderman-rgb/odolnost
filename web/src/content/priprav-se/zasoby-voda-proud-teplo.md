@@ -29,7 +29,7 @@ stav: "navrh"
 
 Na zásoby nepotřebujete sklep ani velký rozpočet. Stačí začít vodou a pár věcmi, které doma stejně používáte.
 
-Praktické rady k zásobám připravil stát na webu [72h.gov.cz](https://www.72h.gov.cz/cs). Stojí za nimi ministerstvo vnitra a hasiči. Proto je tu nepřepisujeme. Ukážeme vám jen, kde co najdete a proč je to důležité právě ve scénáři, který popisujeme.
+Praktické rady k zásobám připravil stát na webu [72h.gov.cz](https://www.72h.gov.cz/cs). Stojí za nimi ministerstvo vnitra a hasiči. Proto je tu nepřepisujeme. Ukážeme vám jen, kde co najdete a proč je to důležité pro případ, že by Rusko zaútočilo na NATO.
 
 ## Proč 72 hodin
 
@@ -63,9 +63,10 @@ Pro odškrtávání použijte náš [kontrolní seznam](/priprav-se/kontrolni-se
 
 ## Co přidáváme k 72 hodinám my
 
-Státní web řeší první tři dny jakékoli krize, třeba povodně nebo výpadku proudu. My přidáváme, co by to znamenalo při konfliktu na východní hranici NATO:
+Státní web řeší první tři dny jakékoli krize, třeba povodně nebo výpadku proudu. My počítáme i s tím, že by Rusko zaútočilo na NATO a útoky zasáhly naše zázemí. Proto přidáváme:
 
-- Výpadky by se mohly opakovat. Zásoby proto po použití doplňujte.
+- Výpadky by se mohly opakovat nebo trvat déle než tři dny, třeba po útoku na energetiku. Zásoby proto po použití hned doplňujte. Kdo může, ať má zásoby i na déle.
+- Ukrytí berte vážně. Kdyby zazněla siréna, musíte vědět, kam doma jít. Víc na stránkách [Informace bez internetu](/priprav-se/informace-bez-internetu) a [Drony a rakety](/scenar/drony-a-rakety).
 - Nakupujte do zásoby v klidu a postupně. Když všichni nakupují najednou, regály se vyprázdní. Víc na stránce [Co by nás mohlo zasáhnout doma](/scenar/co-nas-zasahne).
 - Zásoby nepomůžou, když rodina neví, kde se sejde. Proto k nim patří [rodinný plán](/priprav-se/rodinny-plan).
 

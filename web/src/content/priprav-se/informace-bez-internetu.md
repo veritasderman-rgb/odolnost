@@ -56,7 +56,7 @@ Při velkém výpadku proudu mohou přestat fungovat i mobily a internet, proto�
 
 ## Sirény: co který signál znamená
 
-V Česku platí jediný varovný signál. Ostatní zvuky sirén varováním nejsou.
+V Česku platí jediný varovný signál. Ostatní zvuky sirén varováním nejsou. Kdyby Rusko zaútočilo na NATO, mohla by siréna varovat i před nebezpečím ze vzduchu, třeba před drony nebo raketami. Proto je dobré znát signál nazpaměť. [OVĚŘIT: jaký signál a jaké pokyny by HZS použil při hrozbě útoku ze vzduchu, zdroj HZS ČR nebo MV] Víc na stránce [Drony a rakety](/scenar/drony-a-rakety).
 
 | Signál | Jak zní | Co znamená | Co udělat |
 | --- | --- | --- | --- |

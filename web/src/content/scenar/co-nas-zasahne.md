@@ -1,7 +1,7 @@
 ---
 title: "Co by nás mohlo zasáhnout doma?"
 id: "S-03"
-popis: "V zázemí by nás spíš než boje trápily výpadky proudu a internetu, zpožděná doprava, sabotáže, prázdné regály a záplava fám. Na všechno se dá připravit."
+popis: "Kdyby Rusko zaútočilo na NATO, mohly by nás doma zasáhnout výpadky proudu a internetu, sabotáže, útoky ze vzduchu, prázdné regály a záplava fám."
 poradi: 3
 cteni: 5
 krok: "Dejte si doma na jedno místo baterku, rádio na baterky a náhradní baterie."
@@ -15,6 +15,9 @@ zdroje:
   - nazev: "72h.gov.cz: Když vypadne elektrický proud"
     url: "https://www.72h.gov.cz/cs/bez-elektriny"
     datum: "ověřeno 2026-10-19"
+  - nazev: "Bezpečnostní strategie České republiky 2023 (bod 41: ohrožení území)"
+    url: "https://mzv.gov.cz/file/5118610/Bezpecnostni_strategie_Ceske_republiky_2023.pdf"
+    datum: "2023-06"
   - nazev: "Obranná strategie České republiky 2023"
     url: "https://statnisluzba.army.cz/sites/statnisluzba/files/2024-01/26_Obranna_strategie_2023.pdf"
     datum: "2023-10-04"
@@ -27,15 +30,15 @@ revidovano: "2026-10-19"
 stav: "navrh"
 ---
 
-Většina z toho, co tu popisujeme, by byla nepříjemná, ale krátká. A skoro na všechno se dá připravit doma za jeden víkend.
+Na většinu toho, co tu popisujeme, se dá připravit doma za jeden víkend. Čím lépe připravení budeme, tím menší dopad útoky budou mít.
 
-Česko by ve válce na východní hranici NATO bylo zázemím, ne frontou (viz [Proč Česko nebude fronta, ale týl](/scenar/proc-tyl)). V zázemí se nebojuje. Zato by nás mohlo potkat pět druhů potíží.
+Kdyby Rusko zaútočilo na NATO, Česko by bylo zázemím, ne frontou (viz [Proč Česko nebude fronta, ale týl](/scenar/proc-tyl)). Zázemí ale není bezpečné. Mohlo by nás potkat sedm druhů potíží.
 
 ## 1. Výpadky proudu
 
-Proud může vypadnout kvůli technické poruše, počasí, nebo kdyby někdo zaútočil na energetiku. Výpadek nemusí znamenat útok.
+Proud může vypadnout kvůli technické poruše, počasí, nebo kvůli útoku na energetiku. Ve válce by útoky na energetiku byly reálná hrozba. Každý výpadek ale útok neznamená.
 
-Dobrý příklad je 4. července 2025. Proud tehdy vypadl v Libereckém, Ústeckém, Královéhradeckém a Středočeském kraji a v části Prahy. Podle provozovatele přenosové soustavy ČEPS se dodávky pro Prahu obnovily za 2 hodiny a ve zbytku zasaženého území zhruba do 3 hodin. Podle ČEPS nebyla zjištěna žádná indicie, že by šlo o kybernetický nebo teroristický útok. Šlo o souběh technických poruch.
+Příklad, jak to vypadá, je 4. července 2025. Proud tehdy vypadl v Libereckém, Ústeckém, Královéhradeckém a Středočeském kraji a v části Prahy. Podle provozovatele přenosové soustavy ČEPS se dodávky pro Prahu obnovily za 2 hodiny a ve zbytku zasaženého území zhruba do 3 hodin. Podle ČEPS nebyla zjištěna žádná indicie, že by šlo o kybernetický nebo teroristický útok. Šlo o souběh technických poruch.
 
 Co by to znamenalo doma: nesvítí světla, nejde lednice, elektrické topení ani sporák. V paneláku nejede výtah. Platební terminály a bankomaty mohou přestat fungovat. Stát proto radí mít doma i hotovost: mince a bankovky různé hodnoty. Dobrá zpráva: podle 72h.gov.cz výpadek proudu nemá vliv na kvalitu vody z vodovodu.
 
@@ -53,14 +56,14 @@ Co by to znamenalo doma: kolony na dálnicích, objížďky, zpožděné vlaky a
 
 ## 4. Sabotáže
 
-Sabotáž je úmyslné poškození něčeho důležitého, třeba železnice nebo skladu, aby to přestalo fungovat. BIS ve výroční zprávě za rok 2025 popisuje, jak se k sabotážím po Evropě najímají přes sociální sítě takzvaní „agenti na jedno použití“. Často jde o amatéry, kteří to dělají pro peníze.
+Sabotáž je úmyslné poškození něčeho důležitého, třeba železnice nebo skladu, aby to přestalo fungovat. BIS ve výroční zprávě za rok 2025 popisuje, jak Rusko k sabotážím po Evropě najímá přes sociální sítě takzvané „agenty na jedno použití“. Koordinuje je hlavně ruská vojenská rozvědka GRU. Často jde o amatéry, kteří to dělají pro peníze.
 
 Důležité jsou dvě věci, které BIS uvádí:
 
 - U žádného incidentu prověřovaného v Česku v roce 2025 se podezření na sabotáž řízenou z Ruska zatím nepodařilo spolehlivě potvrdit.
 - Útočníci mají často za úkol útok natočit. Záběry se pak šíří jako propaganda. Cílem je vyvolat strach a přesvědčit lidi, že pomáhat napadené zemi se nevyplácí.
 
-Sabotáž tedy míří hlavně na naše nervy. Když se jí nevyděsíme, ztrácí část své síly.
+Sabotáž tedy míří na infrastrukturu i na naše nervy. Riziko podle BIS jednoznačně přetrvává. Když se ale nenecháme vyděsit, ztrácí část své síly.
 
 Pokud uvidíte něco, co vypadá jako sabotáž, volejte 158. Nikoho sami neobviňujte a nezasahujte.
 
@@ -76,6 +79,12 @@ Tohle by nás zasáhlo nejvíc a nejdřív. Obranná strategie popisuje „nepř
 
 Co by to znamenalo doma: hádky v rodině, panika ve skupinových chatech, nákupy podle fám. Pomůže znát typické triky. Najdete je na [kapesní kartě](/manipulace/karta).
 
+## 7. Útoky ze vzduchu
+
+Bezpečnostní strategie ČR píše, že naše území mohou přímo ohrozit „zejména letectvo nepřítele, balistické rakety, bezpilotní letouny“. Česko je chráněno i protivzdušnou obranou NATO. Úplnou jistotu ale nedává žádná obrana.
+
+Co by to znamenalo doma: varování sirénou, nutnost rychle se ukrýt, škody nebo výpadky v zasaženém místě. Co dělat, když zazní siréna, je na stránce [Informace bez internetu](/priprav-se/informace-bez-internetu). Víc o hrozbě ze vzduchu najdete na stránce [Drony a rakety](/scenar/drony-a-rakety).
+
 ## Přehled
 
 | Co se může stát | Co by to znamenalo doma | Co pomůže |
@@ -86,7 +95,8 @@ Co by to znamenalo doma: hádky v rodině, panika ve skupinových chatech, náku
 | Sabotáž | Výpadek služby, strach | Ověřit zprávu, při podezření 158 |
 | Nedostatek zboží | Prázdné regály na pár dní | Malá zásoba doma předem |
 | Informační chaos | Panika, hádky, fámy | Ověřené zdroje, nesdílet neověřené |
+| Útok ze vzduchu | Siréna, škody v zasaženém místě | Vědět, co dělat při siréně, kam se ukrýt |
 
 ## Co to znamená pro vaši domácnost
 
-Nemusíte se připravovat na všechno zvlášť. Stejné věci pomáhají skoro ve všech případech: plán pro rodinu, pár zásob, rádio a klidná hlava. A co by fungovalo dál, popisujeme na stránce [Co by fungovalo dál](/scenar/co-bude-fungovat).
+Nemusíte se připravovat na všechno zvlášť. Stejné věci pomáhají skoro ve všech případech: plán pro rodinu, zásoby, rádio, znalost sirén a klidná hlava. Jak se nenechat strhnout davem, popisuje stránka [Panika](/scenar/panika). A co by fungovalo dál, popisujeme na stránce [Co by fungovalo dál](/scenar/co-bude-fungovat).
