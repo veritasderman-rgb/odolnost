@@ -14,6 +14,19 @@ Tento dokument je rozcestník plánu. Shrnuje, co spouštíme, v jakém pořadí
 | 05 | [Web a technika](05-web.md) | Struktura webu, interaktivní nástroje, technické řešení, bezpečnost |
 | 06 | [Tým, rozpočet, rizika a měření](06-tym-rozpocet-rizika.md) | Kdo co dělá, kolik to stojí, co se může pokazit, jak poznáme úspěch |
 
+## Priorita: nejdřív ukázat, pak oslovit
+
+Rozhodnutí z 19. 10. 2026: **nejdřív postavíme web, obsadíme sociální sítě a připravíme backoffice.** Správní rada, partneři a instituce přijdou na řadu, až budeme mít co ukázat (funkční web s prvním obsahem a ukázkami videí). Oslovení s hotovou ukázkou má mnohem větší šanci na úspěch než oslovení se záměrem.
+
+| Pořadí | Co | Stav |
+| --- | --- | --- |
+| 1 | Web: kostra, nástroje (rodinný plán, kontrolní seznam, karta, průvodce), první obsah | rozpracováno ve `web/` |
+| 2 | Sociální sítě: zabrat účty, profily, první příspěvky | podklady v `backoffice/socialni-site/` |
+| 3 | Backoffice: doména, e-maily, Brevo, hesla, účty, šablony | postup v `backoffice/` |
+| 4 | Videa: scénáře, výběr studia, první prebunkingová videa | scénáře ve `video/scenare/` |
+| 5 | Rešerše zahraničních příruček | `podklady/prirucky/` |
+| 6 | Správní rada, partneři, granty | až s ukázkou (brána B1 se tím posouvá) |
+
 ## Jedna věta
 
 Do 3. 3. 2027 spustíme klidný, nezávislý web s rodinným plánem, třemi příběhy, kapesní kartou a třemi prebunkingovými videy. Do konce června 2027 změříme, jestli lidem pomáhá, a teprve pak ho rozšíříme.
@@ -39,7 +52,7 @@ Do 3. 3. 2027 spustíme klidný, nezávislý web s rodinným plánem, třemi př
 
 | Fáze | Termín | Hlavní výstupy |
 | --- | --- | --- |
-| **F0 Založení** | 19. 10. – 30. 11. 2026 | Právní forma, správní rada, tvář projektu, doména a účty, redakční pravidla v návrhu, žádosti o granty, výběr designéra a video studia |
+| **F0 Založení** | 19. 10. – 30. 11. 2026 | Nejdřív web s prvním obsahem, doména, účty na sítích a backoffice. Pak s hotovou ukázkou: právní forma, správní rada, tvář projektu, granty, výběr designéra a video studia |
 | **F1 Brand a příprava** | 1. 12. 2026 – 31. 1. 2027 | Hotová vizuální identita, tón komunikace, design systém webu, scénáře a storyboardy videí, texty tří příběhů a klíčových stránek v první verzi |
 | **F2 Výroba MVP** | 1. 1. – 26. 2. 2027 (překryv s F1) | Web, rodinný plán, kontrolní seznam, kapesní karta, 3 příběhy s ilustracemi, 3 prebunkingová videa, úvodní video, materiály pro média a partnery |
 | **Spuštění** | 1.–3. 3. 2027 | 1. 3. je Světový den civilní ochrany. Ve středu 3. 3. ve 12:00 proběhne pravidelná zkouška sirén a ten den startuje Rodinná výzva |
