@@ -19,7 +19,7 @@ Formulář na webu (`src/components/Odber.astro`) posílá e-mail na funkci `api
 | `BREVO_DOI_TEMPLATE_ID` | číslo šablony z kroku 5 |
 | `SITE_URL` | `https://vimecodelat.cz` |
 
-8. V Brevu **vypnout sledování otevření a kliknutí** u kampaní (Settings → Tracking), aby platilo, co slibujeme v zásadách ochrany soukromí.
+8. V Brevu zapnout **anonymní měření** (Settings → Tracking). Úplně vypnout měření otevření Brevo podle dostupných informací neumí; anonymní režim počítá otevření a kliknutí jen souhrnně, bez přiřazení ke konkrétním lidem. Před spuštěním ověřit u podpory Brevo a podle odpovědi upravit zásady ochrany soukromí.
 
 Dokud proměnné nejsou nastavené, formulář slušně odpoví, že odběr zatím není spuštěný.
 
