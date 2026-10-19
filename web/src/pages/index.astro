@@ -1,0 +1,105 @@
+---
+import { getCollection } from 'astro:content';
+import Zaklad from '../layouts/Zaklad.astro';
+import Dlazdice from '../components/Dlazdice.astro';
+import KrokNaDnes from '../components/KrokNaDnes.astro';
+import { PILIRE } from '../lib/pilire';
+
+const pribehy = (await getCollection('obsah', (s) => s.id.startsWith('pribehy/'))).sort((a, b) => a.data.poradi - b.data.poradi).slice(0, 3);
+const pilire = (['scenar', 'pribehy', 'priprav-se', 'manipulace'] as const).map((p) => ({ p, ...PILIRE[p] }));
+const popisy: Record<string, string> = {
+  scenar: 'Proč by Česko nebylo frontou, ale týlem. Co by fungovalo dál a co by se nás mohlo dotknout doma.',
+  pribehy: 'Rodina u dálnice, paní Věra v paneláku, student a TikTok. Co jim pomohlo a co chybělo.',
+  'priprav-se': 'Rodinný plán, kontrolní seznam, informace bez internetu a péče o ty, kdo potřebují pomoc.',
+  manipulace: 'Šest triků, které by se v krizi objevily. Když je poznáte předem, přestanou fungovat.',
+};
+---
+<Zaklad title="Víme, co dělat">
+  <section class="uvod">
+    <div class="obal mrizka-uvod">
+      <div class="text-uvodu">
+        <h1>Když víme, co dělat, máme menší strach.</h1>
+        <p class="perex">Klidně a pravdivě vysvětlujeme, co by pro nás znamenala vážná krize, včetně války v Evropě. Ukážeme vám, jak se postarat o sebe i o své blízké a jak poznat manipulaci dřív, než na ni narazíte.</p>
+        <div class="akce">
+          <a class="tlacitko lampa" href="/zacit">Co by to znamenalo pro nás? <span aria-hidden="true">→</span></a>
+          <a class="tlacitko svetle" href="/priprav-se/rodinny-plan">Rodinný plán za 15 minut</a>
+        </div>
+        <p class="poznamka">Nepoužíváme cookies ani sledování. Nic, co vyplníte, se nikam neodesílá.</p>
+      </div>
+      <div class="ilustrace" aria-hidden="true">
+        <svg viewBox="0 0 320 300" role="presentation">
+          <rect x="0" y="0" width="320" height="300" rx="18" fill="#1d2b36" />
+          <circle cx="262" cy="52" r="16" fill="#f6f1e7" opacity="0.85" />
+          <rect x="34" y="70" width="110" height="230" fill="#24343f" />
+          <rect x="164" y="110" width="122" height="190" fill="#2c4150" />
+          <g fill="#33495a">
+            <rect x="50" y="90" width="22" height="22" rx="2" /><rect x="84" y="90" width="22" height="22" rx="2" /><rect x="118" y="90" width="14" height="22" rx="2" />
+            <rect x="50" y="128" width="22" height="22" rx="2" /><rect x="84" y="128" width="22" height="22" rx="2" />
+            <rect x="50" y="166" width="22" height="22" rx="2" /><rect x="118" y="166" width="14" height="22" rx="2" />
+            <rect x="84" y="204" width="22" height="22" rx="2" /><rect x="50" y="242" width="22" height="22" rx="2" />
+            <rect x="180" y="128" width="24" height="24" rx="2" /><rect x="218" y="128" width="24" height="24" rx="2" /><rect x="256" y="128" width="18" height="24" rx="2" />
+            <rect x="218" y="168" width="24" height="24" rx="2" /><rect x="256" y="168" width="18" height="24" rx="2" />
+            <rect x="180" y="208" width="24" height="24" rx="2" /><rect x="256" y="208" width="18" height="24" rx="2" />
+            <rect x="218" y="248" width="24" height="24" rx="2" />
+          </g>
+          <rect x="180" y="168" width="24" height="24" rx="2" fill="#e8a93a" />
+          <circle cx="192" cy="180" r="30" fill="#e8a93a" opacity="0.18" />
+          <rect x="84" y="166" width="22" height="22" rx="2" fill="#e8a93a" opacity="0.75" />
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="obal">
+    <h2>Čtyři části, jeden cíl</h2>
+    <div class="mrizka">
+      {pilire.map((x) => <Dlazdice href={`/${x.p}`} titulek={`${x.cislo}. ${x.nazev}`} popis={popisy[x.p]} barva={x.barva} />)}
+    </div>
+  </section>
+
+  {pribehy.length > 0 && (
+    <section class="obal">
+      <h2>Příběhy</h2>
+      <p class="text">Modelové příběhy jsou fiktivní postavy v realistických situacích. Vždy je tak označujeme.</p>
+      <div class="mrizka">
+        {pribehy.map((s) => <Dlazdice href={`/${s.id}`} titulek={s.data.title} popis={s.data.popis} barva="var(--terakota)" druh={s.data.druh} doplnek={s.data.cteni ? `${s.data.cteni} min čtení` : undefined} />)}
+      </div>
+    </section>
+  )}
+
+  <section class="obal">
+    <h2>Co si odnesete</h2>
+    <div class="mrizka">
+      <Dlazdice href="/priprav-se/rodinny-plan" titulek="Rodinný plán na A4" popis="Místo setkání, kdo vyzvedne děti, kontakty na papíře, léky a plán bez signálu." barva="var(--salvej)" />
+      <Dlazdice href="/priprav-se/kontrolni-seznam" titulek="Kontrolní seznam" popis="Co už máte a co chybí. Zaškrtáváte jen pro sebe, nic se neodesílá." barva="var(--salvej)" />
+      <Dlazdice href="/manipulace/karta" titulek="Kapesní karta" popis="Šest technik manipulace a šest otázek. Do peněženky i do telefonu." barva="var(--svestka)" />
+    </div>
+  </section>
+
+  <section class="obal">
+    <KrokNaDnes text="Domluvte se s rodinou, kde se sejdete, když nepůjdou telefony." />
+  </section>
+
+  <section class="obal nezavislost">
+    <h2>Nezávislí a nadstraničtí</h2>
+    <p class="text">Za projektem nestojí žádná politická strana ani politik. Nebereme peníze od stran ani od zbrojařských firem. Seznam dárců, redakční pravidla i všechny opravy jsou veřejné.</p>
+    <p><a href="/o-nas/financovani">Kdo nás financuje</a> · <a href="/o-nas/redakcni-pravidla">Jak pracujeme</a> · <a href="/o-nas/opravy">Opravy</a></p>
+  </section>
+</Zaklad>
+
+<style>
+  .uvod { padding: 3rem 0 2rem; }
+  .mrizka-uvod { display: grid; grid-template-columns: 1.3fr 1fr; gap: 2.5rem; align-items: center; }
+  h1 { font-size: clamp(2.2rem, 6vw, 3.6rem); letter-spacing: -0.02em; }
+  .perex { font-size: 1.3rem; line-height: 1.5; color: var(--text-2); max-width: 36rem; }
+  .akce { display: flex; gap: 0.75rem; flex-wrap: wrap; margin: 1.5rem 0 1rem; }
+  .poznamka { font-size: 0.9rem; color: var(--text-2); }
+  .ilustrace svg { width: 100%; max-width: 420px; display: block; margin-left: auto; border-radius: 18px; }
+  .mrizka { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr)); }
+  .nezavislost { margin-top: 2rem; }
+  @media (max-width: 760px) {
+    .mrizka-uvod { grid-template-columns: 1fr; }
+    .ilustrace { order: -1; }
+    .ilustrace svg { max-width: 100%; max-height: 220px; margin: 0; }
+  }
+</style>

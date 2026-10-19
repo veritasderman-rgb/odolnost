@@ -1,0 +1,19 @@
+---
+// Pracovní logo, směr A „Světlo v okně“ (plan/01-brand.md). Nahradí ho finální návrh designéra.
+interface Props { velikost?: number; sNazvem?: boolean }
+const { velikost = 36, sNazvem = true } = Astro.props;
+---
+<span class="logo">
+  <svg width={velikost} height={velikost} viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+    <rect x="3" y="3" width="42" height="42" rx="7" fill="var(--inkoust)" stroke="var(--obrys-loga, transparent)" stroke-width="2" />
+    <rect x="10" y="10" width="12.5" height="12.5" rx="2" fill="#2c4150" />
+    <rect x="25.5" y="10" width="12.5" height="12.5" rx="2" fill="#2c4150" />
+    <rect x="10" y="25.5" width="12.5" height="12.5" rx="2" fill="#e8a93a" />
+    <rect x="25.5" y="25.5" width="12.5" height="12.5" rx="2" fill="#2c4150" />
+  </svg>
+  {sNazvem && <span class="nazev">Víme, co dělat</span>}
+</span>
+<style>
+  .logo { display: inline-flex; align-items: center; gap: 0.6rem; }
+  .nazev { font-weight: 700; font-size: 1.15rem; letter-spacing: -0.01em; color: var(--text); }
+</style>

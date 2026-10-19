@@ -1,0 +1,18 @@
+---
+interface Props { text: string }
+const { text } = Astro.props;
+---
+<aside class="krok" aria-label="Krok na dnes">
+  <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <div>
+    <p class="nadpis">Krok na dnes</p>
+    <p class="obsah">{text}</p>
+  </div>
+</aside>
+<style>
+  .krok { display: flex; gap: 1rem; align-items: flex-start; background: var(--lampa); color: var(--inkoust); border-radius: var(--radius); padding: 1.25rem 1.5rem; margin: 2.5rem 0; max-width: var(--sirka-textu); }
+  .krok svg { flex: none; margin-top: 0.15rem; }
+  .nadpis { margin: 0; font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+  .obsah { margin: 0.2rem 0 0; font-size: 1.2rem; font-weight: 700; line-height: 1.4; }
+  @media print { .krok { border: 2px solid #000; background: #fff; } }
+</style>

@@ -1,0 +1,52 @@
+---
+// Přihlášení k newsletteru. Odesílá na /api/odber (funkce s Brevo, viz web/brevo/README.md).
+interface Props { svetly?: boolean }
+const { svetly = false } = Astro.props;
+---
+<form class:list={['odber', { svetly }]} method="post" action="/api/odber" data-odber>
+  <p class="nadpis">Posilující dávky do e-mailu</p>
+  <p class="popis">Dvakrát měsíčně jeden krok, jeden příběh a jedna technika manipulace. Bez reklam, odhlásit se můžete jedním kliknutím.</p>
+  <label for="odber-email" class="vizualne-skryte">E-mail</label>
+  <div class="radek">
+    <input id="odber-email" name="email" type="email" autocomplete="email" required placeholder="vas@email.cz" />
+    <button type="submit" class="tlacitko lampa">Odebírat</button>
+  </div>
+  <label class="souhlas"><input type="checkbox" name="souhlas" value="ano" required /><span>Souhlasím se zasíláním e-mailů a se <a href="/o-nas/ochrana-soukromi">zpracováním e-mailové adresy</a>.</span></label>
+  <div class="past" aria-hidden="true"><label>Nevyplňujte <input type="text" name="web" tabindex="-1" autocomplete="off" /></label></div>
+  <p class="stav" role="status" aria-live="polite"></p>
+</form>
+<style>
+  .odber { max-width: 30rem; }
+  .nadpis { font-weight: 700; margin: 0 0 0.25rem; color: #f6f1e7; }
+  .svetly .nadpis { color: var(--text); }
+  .popis { margin: 0 0 0.75rem; font-size: 0.92rem; }
+  .radek { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  input[type='email'] { flex: 1 1 12rem; min-height: 48px; font: inherit; font-size: 1rem; padding: 0 0.9rem; border-radius: 999px; border: 2px solid var(--linka); background: var(--bila); color: var(--inkoust); }
+  .souhlas { display: flex; gap: 0.5rem; align-items: flex-start; font-size: 0.85rem; margin-top: 0.6rem; }
+  .souhlas input { margin-top: 0.25rem; width: 1.1rem; height: 1.1rem; flex: none; }
+  .past { position: absolute; left: -9999px; }
+  .stav { font-weight: 700; min-height: 1.5em; }
+</style>
+<script>
+  document.querySelectorAll<HTMLFormElement>('form[data-odber]').forEach((formular) => {
+    formular.addEventListener('submit', async (udalost) => {
+      udalost.preventDefault();
+      const stav = formular.querySelector('.stav') as HTMLElement;
+      stav.textContent = 'Odesíláme…';
+      try {
+        const odpoved = await fetch(formular.action, {
+          method: 'POST',
+          headers: { Accept: 'application/json', 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams(new FormData(formular) as unknown as Record<string, string>),
+        });
+        const data = await odpoved.json().catch(() => ({}));
+        stav.textContent = odpoved.ok
+          ? 'Hotovo. Poslali jsme vám e-mail s odkazem pro potvrzení odběru.'
+          : data.chyba || 'Odběr se nepodařilo založit. Zkuste to prosím později.';
+        if (odpoved.ok) formular.reset();
+      } catch {
+        stav.textContent = 'Nepodařilo se spojit se serverem. Zkuste to prosím později.';
+      }
+    });
+  });
+</script>

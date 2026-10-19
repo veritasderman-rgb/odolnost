@@ -1,0 +1,18 @@
+---
+import { getCollection } from 'astro:content';
+import Lehka from '../../layouts/Lehka.astro';
+import { PILIRE, pilirZId, type Pilir } from '../../lib/pilire';
+const stranky = (await getCollection('obsah')).sort((a, b) => a.data.poradi - b.data.poradi);
+const poradi: Pilir[] = ['scenar', 'pribehy', 'priprav-se', 'manipulace', 'o-nas'];
+---
+<Lehka title="Obsah">
+  <h1>Víme, co dělat</h1>
+  <p>Lehká verze webu pro slabé připojení. Jen text, bez obrázků a skriptů.</p>
+  <p><a href="/priprav-se/rodinny-plan">Rodinný plán (plná verze)</a> · <a href="/priprav-se/kontrolni-seznam">Kontrolní seznam (plná verze)</a></p>
+  {poradi.map((p) => (
+    <section>
+      <h2>{PILIRE[p].nazev}</h2>
+      <ul>{stranky.filter((s) => pilirZId(s.id) === p).map((s) => <li><a href={`/lehka/${s.id}`}>{s.data.title}</a></li>)}</ul>
+    </section>
+  ))}
+</Lehka>

@@ -1,0 +1,139 @@
+---
+import Zaklad from '../../layouts/Zaklad.astro';
+import KrokNaDnes from '../../components/KrokNaDnes.astro';
+
+// Položky odkazují na 72h.gov.cz, kde jsou podrobnosti a množství. Nic z nich nekopírujeme.
+const SKUPINY = [
+  {
+    nazev: 'Rodina a domluva',
+    polozky: [
+      { id: 'plan', text: 'Máme vyplněný a vytištěný rodinný plán', odkaz: '/priprav-se/rodinny-plan' },
+      { id: 'setkani', text: 'Všichni vědí, kde se sejdeme, když nepůjdou telefony', odkaz: '/priprav-se/rodinny-plan' },
+      { id: 'kontakty', text: 'Důležitá čísla máme napsaná na papíře', odkaz: '/priprav-se/rodinny-plan' },
+      { id: 'deti', text: 'Děti vědí, kdo je vyzvedne, a škola to ví taky', odkaz: '/pribehy/rodina-u-dalnice' },
+      { id: 'soused', text: 'Známe aspoň jednoho souseda a máme na něj číslo', odkaz: '/pribehy/pani-vera' },
+    ],
+  },
+  {
+    nazev: 'Voda, jídlo, teplo',
+    polozky: [
+      { id: 'voda', text: 'Máme zásobu pitné vody na tři dny', odkaz: 'https://www.72h.gov.cz/cs' },
+      { id: 'jidlo', text: 'Máme trvanlivé jídlo na tři dny, které jde jíst i bez vaření', odkaz: 'https://www.72h.gov.cz/cs' },
+      { id: 'teplo', text: 'Máme deky a teplé oblečení pro případ, že nepůjde topení', odkaz: '/priprav-se/zasoby-voda-proud-teplo' },
+      { id: 'zvirata', text: 'Máme krmivo a vodu i pro zvířata', odkaz: '/priprav-se/zranitelni' },
+    ],
+  },
+  {
+    nazev: 'Světlo a informace',
+    polozky: [
+      { id: 'radio', text: 'Máme rádio na baterky nebo na kličku a náhradní baterie', odkaz: '/priprav-se/informace-bez-internetu' },
+      { id: 'svetlo', text: 'Máme baterku nebo čelovku pro každého', odkaz: 'https://www.72h.gov.cz/cs' },
+      { id: 'powerbanka', text: 'Máme nabitou powerbanku', odkaz: 'https://www.72h.gov.cz/cs' },
+      { id: 'sireny', text: 'Víme, co znamenají jednotlivé sirény', odkaz: '/priprav-se/informace-bez-internetu' },
+    ],
+  },
+  {
+    nazev: 'Zdraví a doklady',
+    polozky: [
+      { id: 'leky', text: 'Máme zásobu pravidelných léků (domluveno s lékařem)', odkaz: '/priprav-se/zranitelni' },
+      { id: 'lekarnicka', text: 'Máme doplněnou lékárničku', odkaz: 'https://www.72h.gov.cz/cs' },
+      { id: 'hotovost', text: 'Máme doma trochu hotovosti v menších bankovkách', odkaz: 'https://www.72h.gov.cz/cs' },
+      { id: 'doklady', text: 'Víme, kde jsou doklady, a máme jejich kopie', odkaz: 'https://www.72h.gov.cz/cs' },
+      { id: 'zavazadlo', text: 'Máme připravené evakuační zavazadlo', odkaz: 'https://www.72h.gov.cz/cs' },
+    ],
+  },
+  {
+    nazev: 'Hlava',
+    polozky: [
+      { id: 'karta', text: 'Mám v telefonu kapesní kartu Poznej manipulaci', odkaz: '/manipulace/karta' },
+      { id: 'zpravy', text: 'Vím, odkud brát ověřené informace a kdy vypnout zprávy', odkaz: '/priprav-se/psychika' },
+    ],
+  },
+];
+const celkem = SKUPINY.reduce((s, g) => s + g.polozky.length, 0);
+---
+<Zaklad title="Kontrolní seznam" popis="Co už máte a co vám chybí. Zaškrtávání se ukládá jen ve vašem prohlížeči. Podrobnosti a množství najdete na 72h.gov.cz.">
+  <section class="obal stranka">
+    <p class="pilir">3 · Připrav se</p>
+    <h1>Kontrolní seznam</h1>
+    <p class="perex text">Nemusíte mít všechno hned. Odškrtejte, co už máte, a každý víkend přidejte jednu věc. Podrobnosti a doporučená množství najdete na státním webu <a href="https://www.72h.gov.cz/cs">72h.gov.cz</a>.</p>
+    <p class="text soukromi">Zaškrtnuté položky se ukládají jen v tomto prohlížeči. Nic se neodesílá.</p>
+
+    <div class="postup text" aria-live="polite">
+      <div class="lista"><span id="lista" style="width: 0%"></span></div>
+      <p>Hotovo <strong id="hotovo">0</strong> z {celkem}</p>
+    </div>
+
+    <form id="seznam" class="text">
+      {SKUPINY.map((g) => (
+        <fieldset>
+          <legend>{g.nazev}</legend>
+          {g.polozky.map((p) => (
+            <div class="polozka">
+              <input type="checkbox" id={`k-${p.id}`} name={p.id} />
+              <label for={`k-${p.id}`}>{p.text}</label>
+              <a href={p.odkaz} class="vice" aria-label={`Více: ${p.text}`}>{p.odkaz.startsWith('http') ? '72h.gov.cz' : 'Jak na to'}</a>
+            </div>
+          ))}
+        </fieldset>
+      ))}
+    </form>
+
+    <div class="akce netisknout">
+      <button type="button" class="tlacitko svetle" id="tisk">Vytisknout seznam</button>
+      <button type="button" class="tlacitko svetle" id="vynulovat">Začít znovu</button>
+    </div>
+
+    <KrokNaDnes text="Vyberte jednu nezaškrtnutou položku a vyřešte ji ještě tento víkend." />
+  </section>
+</Zaklad>
+
+<style>
+  .stranka { padding-top: 2rem; }
+  .pilir { color: var(--salvej); font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.85rem; margin: 0 0 0.5rem; }
+  .perex { font-size: 1.2rem; color: var(--text-2); }
+  .soukromi { font-size: 0.95rem; color: var(--text-2); }
+  .postup { position: sticky; top: 64px; background: var(--pozadi); padding: 0.5rem 0; z-index: 2; }
+  .postup p { margin: 0.3rem 0 0; }
+  .lista { height: 12px; background: var(--papir-2); border-radius: 999px; overflow: hidden; }
+  .lista span { display: block; height: 100%; background: var(--salvej); transition: width 0.3s ease; }
+  fieldset { border: 1px solid var(--linka); border-radius: var(--radius); background: var(--plocha); padding: 1rem 1.2rem; margin: 1rem 0; }
+  legend { font-weight: 700; font-size: 1.15rem; padding: 0 0.4rem; }
+  .polozka { display: grid; grid-template-columns: auto 1fr auto; gap: 0.75rem; align-items: center; padding: 0.55rem 0; border-bottom: 1px solid var(--linka); }
+  .polozka:last-child { border-bottom: 0; }
+  .polozka input { width: 1.4rem; height: 1.4rem; accent-color: var(--salvej); }
+  .polozka label { cursor: pointer; }
+  .polozka input:checked + label { color: var(--text-2); text-decoration: line-through; text-decoration-color: var(--salvej); }
+  .vice { font-size: 0.85rem; white-space: nowrap; }
+  .akce { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem; }
+  @media print { .postup { position: static; } .vice { display: none; } }
+</style>
+
+<script>
+  const KLIC = 'vcd-kontrolni-seznam';
+  const formular = document.getElementById('seznam') as HTMLFormElement;
+  const boxy = Array.from(formular.querySelectorAll<HTMLInputElement>('input[type=checkbox]'));
+  const hotovo = document.getElementById('hotovo') as HTMLElement;
+  const lista = document.getElementById('lista') as HTMLElement;
+
+  let ulozene: string[] = [];
+  try { ulozene = JSON.parse(localStorage.getItem(KLIC) || '[]'); } catch {}
+  for (const b of boxy) b.checked = ulozene.includes(b.name);
+
+  function obnov() {
+    const zaskrtnute = boxy.filter((b) => b.checked).map((b) => b.name);
+    hotovo.textContent = String(zaskrtnute.length);
+    lista.style.width = `${Math.round((zaskrtnute.length / boxy.length) * 100)}%`;
+    try { localStorage.setItem(KLIC, JSON.stringify(zaskrtnute)); } catch {}
+  }
+  formular.addEventListener('change', obnov);
+  obnov();
+
+  document.getElementById('tisk')?.addEventListener('click', () => window.print());
+
+  document.getElementById('vynulovat')?.addEventListener('click', () => {
+    if (!confirm('Opravdu odškrtnout všechny položky?')) return;
+    for (const b of boxy) b.checked = false;
+    obnov();
+  });
+</script>

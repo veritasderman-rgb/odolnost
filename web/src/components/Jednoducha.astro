@@ -1,0 +1,17 @@
+---
+import Zaklad from '../layouts/Zaklad.astro';
+interface Props { title: string; popis: string; nadtitulek?: string }
+const { title, popis, nadtitulek } = Astro.props;
+---
+<Zaklad title={title} popis={popis}>
+  <article class="obal jednoducha">
+    {nadtitulek && <p class="nadtitulek">{nadtitulek}</p>}
+    <h1>{title}</h1>
+    <div class="text"><slot /></div>
+  </article>
+</Zaklad>
+<style>
+  .jednoducha { padding-top: 2rem; }
+  .nadtitulek { font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.85rem; margin: 0 0 0.5rem; color: var(--text-2); }
+  .text :global(.perex) { font-size: 1.2rem; color: var(--text-2); }
+</style>

@@ -1,0 +1,33 @@
+---
+import Jednoducha from '../../components/Jednoducha.astro';
+import KrokNaDnes from '../../components/KrokNaDnes.astro';
+const ukoly = [
+  { tyden: 1, nazev: 'Domluvte místo setkání', text: 'Sedněte si s rodinou a vyberte dvě místa: jedno blízko domova a jedno mimo vaši čtvrť. Zapište je do rodinného plánu.', odkaz: '/priprav-se/rodinny-plan', sdilet: 'Fotka lístku na lednici. Zakryjte jména a místa.' },
+  { tyden: 2, nazev: 'Napište kontakty na papír', text: 'Kolik telefonních čísel znáte zpaměti? Napište nejdůležitější čísla na papír a dejte ho do peněženky každému dospělému.', odkaz: '/priprav-se/rodinny-plan', sdilet: 'Kolik čísel jste znali zpaměti?' },
+  { tyden: 3, nazev: 'Zkuste večer bez proudu', text: 'Jeden večer vypněte hlavní světla a obrazovky. Svítí baterky? Hraje rádio? Co vám chybělo? Pro děti to může být dobrodružství.', odkaz: '/priprav-se/informace-bez-internetu', sdilet: 'Co jste hráli a co vám chybělo?' },
+  { tyden: 4, nazev: 'Zkontrolujte léky a vodu', text: 'Projděte kontrolní seznam. Zkontrolujte, jestli máte vodu a léky na několik dní a jestli nejsou prošlé.', odkaz: '/priprav-se/kontrolni-seznam', sdilet: 'Kolik položek ze seznamu už máte?' },
+  { tyden: 5, nazev: 'Seznamte se se sousedem', text: 'Zaklepejte u souseda, kterého neznáte. Vyměňte si čísla. V krizi pomáhají hlavně lidé, kteří bydlí nejblíž.', odkaz: '/pribehy/pani-vera', sdilet: 'Bez fotek sousedů, jen příběh.' },
+];
+---
+<Jednoducha title="Rodinná výzva" nadtitulek="3 · Připrav se" popis="Pět víkendových úkolů pro celou rodinu. Od místa setkání po večer bez proudu.">
+  <p class="perex">Pět víkendů, pět malých úkolů. Každý zabere méně než hodinu a dohromady z vás udělají připravenou domácnost.</p>
+  <ol class="ukoly">
+    {ukoly.map((u) => (
+      <li>
+        <p class="tyden">{u.tyden}. víkend</p>
+        <h2>{u.nazev}</h2>
+        <p>{u.text} <a href={u.odkaz}>Jak na to</a></p>
+        <p class="sdilet"><strong>Chcete se pochlubit?</strong> {u.sdilet} Použijte <strong>#vimecodelat</strong>.</p>
+      </li>
+    ))}
+  </ol>
+  <p><strong>Chraňte své soukromí:</strong> nezveřejňujte adresy, místa setkání, telefonní čísla ani jména dětí.</p>
+  <KrokNaDnes text="Tento víkend splňte první úkol: domluvte s rodinou místo setkání." />
+</Jednoducha>
+<style>
+  .ukoly { list-style: none; padding: 0; }
+  .ukoly li { background: var(--plocha); border: 1px solid var(--linka); border-left: 5px solid var(--salvej); border-radius: var(--radius); padding: 1rem 1.3rem; margin: 1rem 0; }
+  .ukoly h2 { margin: 0.2rem 0 0.4rem; font-size: 1.3rem; }
+  .tyden { margin: 0; font-weight: 700; color: var(--salvej); font-size: 0.9rem; }
+  .sdilet { font-size: 0.92rem; color: var(--text-2); }
+</style>

@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import type { Pilir } from '../lib/pilire';
+interface Props { pilir: Pilir; aktualni: string }
+const { pilir, aktualni } = Astro.props;
+const vse = (await getCollection('obsah', (s) => s.id.startsWith(pilir + '/'))).sort((a, b) => a.data.poradi - b.data.poradi);
+const i = vse.findIndex((s) => s.id === aktualni);
+const dalsi = vse[i + 1];
+---
+{dalsi && (
+  <nav class="dalsi netisknout" aria-label="Pokračovat" data-pagefind-ignore>
+    <a href={`/${dalsi.id}`}>
+      <span class="popisek">Pokračovat</span>
+      <span class="nazev">{dalsi.data.title} →</span>
+    </a>
+  </nav>
+)}
+<style>
+  .dalsi { margin-top: 2.5rem; max-width: var(--sirka-textu); }
+  .dalsi a { display: block; padding: 1.2rem 1.4rem; border: 2px solid var(--linka); border-radius: var(--radius); text-decoration: none; color: var(--text); background: var(--plocha); }
+  .dalsi a:hover { border-color: var(--barva-pilire, var(--inkoust)); }
+  .popisek { display: block; font-size: 0.85rem; color: var(--text-2); }
+  .nazev { font-weight: 700; font-size: 1.15rem; }
+</style>

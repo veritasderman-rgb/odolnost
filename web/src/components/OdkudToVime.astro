@@ -1,0 +1,24 @@
+---
+interface Zdroj { nazev: string; url?: string; datum?: string | number }
+interface Props { zdroje: Zdroj[] }
+const { zdroje } = Astro.props;
+---
+{zdroje.length > 0 && (
+  <details class="odkud">
+    <summary>Odkud to víme <span>({zdroje.length} {zdroje.length === 1 ? 'zdroj' : zdroje.length < 5 ? 'zdroje' : 'zdrojů'})</span></summary>
+    <ul>
+      {zdroje.map((z) => (
+        <li>{z.url ? <a href={z.url} rel="noopener">{z.nazev}</a> : z.nazev}{z.datum && <span class="datum"> · {z.datum}</span>}</li>
+      ))}
+    </ul>
+  </details>
+)}
+<style>
+  .odkud { max-width: var(--sirka-textu); background: var(--papir-2); border-radius: var(--radius); padding: 0.9rem 1.2rem; margin: 2rem 0; font-size: 0.95rem; }
+  summary { cursor: pointer; font-weight: 700; }
+  summary span { font-weight: 400; color: var(--text-2); }
+  ul { margin: 0.75rem 0 0; padding-left: 1.2rem; }
+  li { margin: 0.35rem 0; }
+  .datum { color: var(--text-2); }
+  @media print { .odkud { display: block; } .odkud ul { display: block; } }
+</style>
