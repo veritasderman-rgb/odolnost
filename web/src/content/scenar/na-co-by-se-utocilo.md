@@ -2,7 +2,7 @@
 title: "Na co by se útočilo a co to znamená pro vaši domácnost"
 id: "S-06"
 popis: "Na Ukrajině Rusko útočí hlavně na energetiku, železnici, spojení a na nervy lidí. V Evropě už sabotuje. Ukazujeme obecné kategorie cílů a jak se na výpadky připravit doma."
-poradi: 6
+poradi: 8
 cteni: 6
 krok: "Zjistěte, jestli vám bez proudu poteče voda a čím byste dva dny svítili a topili. Odpovědi napište do rodinného plánu."
 zdroje:

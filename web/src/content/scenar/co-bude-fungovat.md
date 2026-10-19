@@ -2,7 +2,7 @@
 title: "Co by fungovalo dál?"
 id: "S-04"
 popis: "Hasiči, záchranka i policie by jezdili dál. Obce, rozhlas, obchody a nouzové zásoby státu jsou na krize připravené. Uklidňující realita je stejně důležitá jako rizika."
-poradi: 4
+poradi: 6
 cteni: 4
 krok: "Uložte si do telefonu i na papír čísla 112, 150, 155 a 158 a vysvětlete je dětem."
 zdroje:

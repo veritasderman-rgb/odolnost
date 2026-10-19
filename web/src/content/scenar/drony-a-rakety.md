@@ -2,7 +2,7 @@
 title: "Drony a rakety: jak je poznat a co dělat při leteckém poplachu"
 id: "S-05"
 popis: "Laicky vysvětlujeme, jak fungují útočné drony a rakety, proč škodí i sestřelené a co udělat, když zazní siréna: kam se schovat a co nenatáčet ani nesdílet."
-poradi: 5
+poradi: 7
 cteni: 6
 krok: "Projděte si byt a najděte místo, kde máte mezi sebou a ulicí aspoň dvě zdi a žádné okno. Řekněte o něm celé rodině."
 zdroje:
