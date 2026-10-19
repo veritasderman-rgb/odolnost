@@ -16,7 +16,7 @@ Tón podle [01 Brand](../../plan/01-brand.md#tón-komunikace): klidně, pravdiv�
 | Odkaz „Kdo za tím stojí“ | `vimecodelat.cz/o-nas/o-nas` |
 | Odkaz na pravidla diskuze | `vimecodelat.cz/o-nas/pravidla-diskuze` |
 | Rozcestník O nás | `vimecodelat.cz/o-nas` |
-| Veřejný e-mail | `info@vimecodelat.cz`, pro novináře `media@vimecodelat.cz` |
+| Veřejný e-mail | `josef@josefpavlovic.cz` (i pro novináře) |
 | Telefon, adresa | **neuvádět** |
 | Claim | Klidně. Pravdivě. Prakticky. |
 | Hashtag | `#vimecodelat` |
@@ -38,7 +38,7 @@ Použije se na Facebooku a s úpravami na dalších sítích. Délka 684 znaků.
 >
 > Opravy zveřejňujeme s datem: vimecodelat.cz/o-nas/opravy
 > Pravidla diskuze: vimecodelat.cz/o-nas/pravidla-diskuze
-> Kontakt: info@vimecodelat.cz
+> Kontakt: josef@josefpavlovic.cz
 
 ---
 
@@ -51,7 +51,7 @@ Použije se na Facebooku a s úpravami na dalších sítích. Délka 684 znaků.
 | Krátký popis (bio, úvod pod jménem) | Jak se v klidu připravit na vážnou krizi a poznat manipulaci. Osobní projekt Josefa Pavlovice. | 94 / 101 `[OVĚŘIT]` |
 | Kategorie | Komunitní organizace, případně druhá kategorie Vzdělávání `[OVĚŘIT nabídku]` | – |
 | Web | vimecodelat.cz | – |
-| E-mail | info@vimecodelat.cz | – |
+| E-mail | josef@josefpavlovic.cz | – |
 | Podrobnosti / O nás | dlouhý popis výše | 684 |
 | Připnutý příspěvek | č. 1 „Kdo jsme“, po spuštění úvodní video (A) s odkazem na web | – |
 | Tlačítko akce | „Další informace“ → vimecodelat.cz | – |
@@ -67,7 +67,7 @@ Limit krátkého popisu: zdroje uvádějí 101 znaků, některé 155 znaků. Tex
 | Bio | Klidně. Pravdivě. Prakticky.⏎Jak se připravit na vážnou krizi a poznat manipulaci.⏎Osobní projekt Josefa Pavlovice. Kdo za tím stojí: odkaz níže | 144 / 150 |
 | Kategorie | Komunitní organizace (převezme se ze stránky Facebooku) | – |
 | Odkazy (až 5) | 1. vimecodelat.cz (název „Web“) · 2. vimecodelat.cz/o-nas/o-nas (název „Kdo za tím stojí“) · 3. vimecodelat.cz/o-nas/pravidla-diskuze (název „Pravidla diskuze“) | – |
-| Kontakt | e-mail info@vimecodelat.cz | – |
+| Kontakt | e-mail josef@josefpavlovic.cz | – |
 | Připnuté příspěvky (až 3) | č. 1 „Kdo jsme“ · č. 2 „Kdo za tím stojí“ · č. 9 „Nesouhlas není zrada a pravidla diskuze“ | – |
 | „O nás“ | Instagram nemá samostatnou sekci. Použít **trvalé zvýraznění stories** „O nás“ se 4 snímky: Kdo jsme · Čtyři pilíře · Kdo za tím stojí · Pravidla diskuze (texty z příspěvků 1, 2, 5–8 a 9) | – |
 
@@ -95,7 +95,7 @@ Bio se podle dostupných zdrojů načítá z Instagramu. `[OVĚŘIT v aplikaci, 
 | Bio | Jak se v klidu připravit na krizi a poznat manipulaci. Projekt Josefa Pavlovice. | 80 / 80 |
 | Odkaz | vimecodelat.cz/o-nas (rozcestník: kdo za tím stojí, pravidla, opravy) | – |
 | Kategorie | vzdělávání `[OVĚŘIT nabídku]` | – |
-| Kontakt | info@vimecodelat.cz | – |
+| Kontakt | josef@josefpavlovic.cz | – |
 | Připnutá videa (až 3) | 1. úvodní video (A, po spuštění) · 2. „Kdo jsme a kdo za tím stojí“ (video verze příspěvků 1 a 2, 30 s) · 3. první prebunkingové video (B01) | – |
 | „O nás“ | TikTok nemá sekci. Roli „O nás“ plní připnuté video č. 2. | – |
 
@@ -109,7 +109,7 @@ Bio má 80 znaků, víc se do něj nevejde. Odkaz v profilu vede na rozcestník 
 | Handle | `@vimecodelat` | 11 |
 | Popis kanálu | text níže | 795 / 1 000 `[OVĚŘIT]` |
 | Odkazy | Web: vimecodelat.cz · Kdo za tím stojí: vimecodelat.cz/o-nas/o-nas · Pravidla diskuze: vimecodelat.cz/o-nas/pravidla-diskuze | – |
-| E-mail pro firemní dotazy | media@vimecodelat.cz | – |
+| E-mail pro firemní dotazy | josef@josefpavlovic.cz | – |
 | Upoutávka kanálu (pro neodběratele) | úvodní video A (60–90 s) | – |
 | Playlisty | Poznej techniku · Příběhy · Krok na dnes · Zeptejte se (od pilotu) | – |
 | Kategorie videí | Vzdělávání | – |
@@ -130,7 +130,7 @@ Bio má 80 znaků, víc se do něj nevejde. Odkaz v profilu vede na rozcestník 
 > Videa smíte šířit pod licencí CC BY 4.0 (uveďte zdroj: Víme, co dělat, vimecodelat.cz).
 >
 > Pravidla diskuze: vimecodelat.cz/o-nas/pravidla-diskuze
-> Média: media@vimecodelat.cz
+> Média: josef@josefpavlovic.cz
 
 ## LinkedIn
 
@@ -163,8 +163,8 @@ Bio má 80 znaků, víc se do něj nevejde. Odkaz v profilu vede na rozcestník 
 >
 > Kdo za tím stojí a proč projekt vznikl: vimecodelat.cz/o-nas/o-nas
 >
-> Spolupráce s obcemi, školami a firmami: info@vimecodelat.cz
-> Média: media@vimecodelat.cz
+> Spolupráce s obcemi, školami a firmami: josef@josefpavlovic.cz
+> Média: josef@josefpavlovic.cz
 
 ## Bluesky
 

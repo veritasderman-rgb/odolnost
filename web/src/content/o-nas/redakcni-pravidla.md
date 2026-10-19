@@ -13,7 +13,7 @@ revidovano: "2026-10-19"
 stav: "navrh"
 ---
 
-Web, který učí poznat manipulaci, nesmí sám manipulovat. Proto máme pevná pravidla a zveřejňujeme je. Pokud uvidíte, že je porušujeme, napište mi na [info@vimecodelat.cz](mailto:info@vimecodelat.cz).
+Web, který učí poznat manipulaci, nesmí sám manipulovat. Proto máme pevná pravidla a zveřejňujeme je. Pokud uvidíte, že je porušujeme, napište mi na [josef@josefpavlovic.cz](mailto:josef@josefpavlovic.cz).
 
 ## Osm zásad
 

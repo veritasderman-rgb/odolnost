@@ -17,7 +17,7 @@ Chybovat může každý. Rozdíl je v tom, jak s chybou naložím. Opravím ji v
 
 ## Jak nahlásit chybu
 
-Napište mi na [info@vimecodelat.cz](mailto:info@vimecodelat.cz). Pomůže, když uvedete:
+Napište mi na [josef@josefpavlovic.cz](mailto:josef@josefpavlovic.cz). Pomůže, když uvedete:
 
 - **adresu stránky**, nebo název videa či příspěvku,
 - **co je podle vás špatně**,

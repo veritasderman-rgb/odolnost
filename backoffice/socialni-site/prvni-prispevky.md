@@ -325,7 +325,7 @@ Profily zveřejníme 15. 2. 2027, dva týdny před spuštěním (plán [04](../.
 > X: @vimecodelat
 > WhatsApp: kanál Víme, co dělat [DOPLNIT odkaz]
 >
-> Nikdy po vás nebudeme chtít peníze přes zprávy, hesla ani osobní údaje. Nikdy nebudeme vyzývat k rychlé akci „hned teď, než to smažou“. Když uvidíte něco takového pod naším jménem, nahlaste to síti a napište nám na info@vimecodelat.cz.
+> Nikdy po vás nebudeme chtít peníze přes zprávy, hesla ani osobní údaje. Nikdy nebudeme vyzývat k rychlé akci „hned teď, než to smažou“. Když uvidíte něco takového pod naším jménem, nahlaste to síti a napište nám na josef@josefpavlovic.cz.
 >
 > Krok na dnes: Uložte si do záložek v telefonu 72h.gov.cz a web Českého rozhlasu, ať je v krizi najdete, i když vám je nikdo nepošle.
 
@@ -557,7 +557,7 @@ Podle plánu [04](../../plan/04-socialni-site.md#týden-spuštění). V týdnu s
 > 2. [DOPLNIT otázka] … [odpověď]
 > 3. [DOPLNIT otázka] … [odpověď]
 >
-> Na další otázky odpovíme příště. Pokud jsme někde udělali chybu, napište na opravy@vimecodelat.cz. Opravíme ji veřejně a s datem.
+> Na další otázky odpovíme příště. Pokud jsme někde udělali chybu, napište na josef@josefpavlovic.cz. Opravíme ji veřejně a s datem.
 >
 > Krok na dnes: [DOPLNIT podle tématu nejčastější otázky]
 

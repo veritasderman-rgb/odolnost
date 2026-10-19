@@ -71,6 +71,6 @@ Umělá inteligence se plete. Proto u každého tvrzení uvádím zdroj v část
 
 ## Kontakt
 
-Napište mi na [info@vimecodelat.cz](mailto:info@vimecodelat.cz). Dotazy, nápady, hlášení chyb i nabídky pomoci, třeba od odborníků, kteří by chtěli texty zkontrolovat.
+Napište mi na [josef@josefpavlovic.cz](mailto:josef@josefpavlovic.cz). Dotazy, nápady, hlášení chyb i nabídky pomoci, třeba od odborníků, kteří by chtěli texty zkontrolovat.
 
 Moje účty na sociálních sítích najdete na stránce [Oficiální kanály](/oficialni-kanaly). Jiné účty, které se za projekt vydávají, nejsou moje.

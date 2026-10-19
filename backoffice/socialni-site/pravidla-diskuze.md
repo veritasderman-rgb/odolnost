@@ -121,7 +121,7 @@ Každou odpověď je možné zkrátit. Nikdy ji neprodlužujte o útok na pisate
 
 #### 6 „Mažete nepohodlné názory, jste cenzoři.“
 
-> Kritiku nemažeme, najdete ji pod našimi příspěvky. Mažeme jen výhrůžky, cizí osobní údaje, nenávist vůči skupinám, spam a podvody. Pravidla jsou veřejná: vimecodelat.cz/o-nas/pravidla-diskuze. Pokud si myslíte, že jsme smazali něco omylem, napište na info@vimecodelat.cz, podíváme se na to.
+> Kritiku nemažeme, najdete ji pod našimi příspěvky. Mažeme jen výhrůžky, cizí osobní údaje, nenávist vůči skupinám, spam a podvody. Pravidla jsou veřejná: vimecodelat.cz/o-nas/pravidla-diskuze. Pokud si myslíte, že jsme smazali něco omylem, napište na josef@josefpavlovic.cz, podíváme se na to.
 
 **Nedělat:** nemazat hromadně kritické komentáře ani během útoku. Skrývat jen to, co porušuje pravidla.
 

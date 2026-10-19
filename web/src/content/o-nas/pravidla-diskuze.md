@@ -46,7 +46,7 @@ Pokud máte podezření na sabotáž nebo jinou trestnou činnost, **volejte 158
 
 ## Když se vám něco nelíbí
 
-Myslíte si, že jsme váš komentář skryli nebo smazali neprávem? Napište na [info@vimecodelat.cz](mailto:info@vimecodelat.cz) a připojte odkaz nebo snímek obrazovky. Podíváme se na to a do 3 pracovních dnů odpovíme.
+Myslíte si, že jsme váš komentář skryli nebo smazali neprávem? Napište na [josef@josefpavlovic.cz](mailto:josef@josefpavlovic.cz) a připojte odkaz nebo snímek obrazovky. Podíváme se na to a do 3 pracovních dnů odpovíme.
 
 ## Při náhlém útoku
 

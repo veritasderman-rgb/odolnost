@@ -33,7 +33,7 @@ K nám lidé přicházejí s obavou. Proto o nich nechceme vědět víc, než je
 
 Správce osobních údajů: **Josef Pavlovic**, autor a provozovatel webu. Víme, co dělat je jeho osobní projekt, za kterým nestojí žádná organizace.
 
-Kontakt ve věcech ochrany osobních údajů: [info@vimecodelat.cz](mailto:info@vimecodelat.cz)
+Kontakt ve věcech ochrany osobních údajů: [josef@josefpavlovic.cz](mailto:josef@josefpavlovic.cz)
 
 ## Co se ukládá jen ve vašem prohlížeči
 
@@ -106,7 +106,7 @@ Máte právo:
 - kdykoli odvolat souhlas (u newsletteru odhlášením),
 - podat stížnost u [Úřadu pro ochranu osobních údajů](https://uoou.gov.cz).
 
-Stačí napsat na [info@vimecodelat.cz](mailto:info@vimecodelat.cz). Odpovíme bez zbytečného odkladu, nejpozději do jednoho měsíce.
+Stačí napsat na [josef@josefpavlovic.cz](mailto:josef@josefpavlovic.cz). Odpovíme bez zbytečného odkladu, nejpozději do jednoho měsíce.
 
 ## Změny
 
