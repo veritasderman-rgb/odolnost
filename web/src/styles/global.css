@@ -323,6 +323,21 @@ blockquote {
   transform: rotate(2deg);
 }
 
+/* Tučný text v obsahu svítí reflexní barvou, aby šlo stránky rychle projít očima. */
+main :is(p, li, td, dd, blockquote, figcaption) strong:not(a strong) {
+  background: linear-gradient(transparent 52%, var(--akcent) 52%, var(--akcent) 92%, transparent 92%);
+  padding: 0 0.12em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-motiv='svetly']) main :is(p, li, td, dd, blockquote, figcaption) strong:not(a strong) {
+    background: none;
+    color: var(--akcent-na-tmave);
+  }
+}
+
 mark.overit {
   background: #ffe08a;
   color: #3a2a00;
@@ -370,5 +385,9 @@ mark.overit {
 
   a {
     text-decoration: none;
+  }
+
+  main strong {
+    background: none !important;
   }
 }
