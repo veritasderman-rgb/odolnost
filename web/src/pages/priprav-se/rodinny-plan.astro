@@ -1,6 +1,8 @@
 ---
 import Obrazek from '../../components/Obrazek.astro';
 import Zaklad from '../../layouts/Zaklad.astro';
+import Video from '../../components/Video.astro';
+import videa from '../../data/videa.json';
 import KrokNaDnes from '../../components/KrokNaDnes.astro';
 
 const lide = [1, 2, 3, 4, 5, 6];
@@ -19,6 +21,8 @@ const kontakty = [
     <h1>Rodinný plán</h1>
     <p class="perex text">Jedna stránka A4, která v krizi ušetří hodiny nejistoty. Vyplňte ji spolu s rodinou, vytiskněte a dejte na lednici. Každý dospělý ať má kopii v peněžence nebo v autě.</p>
     <div class="text ilustrace netisknout"><Obrazek src="/obrazky/stranky/rodinny-plan.jpg" alt="Papír s nakresleným rodinným plánem připnutý magnetem na lednici" vyska="clamp(12rem, 30vw, 20rem)" nacist="hned" /></div>
+
+    <div class="text netisknout"><Video video={videa.find((v) => v.id === 'v2-rodinny-plan')!} odkaz={{ href: '/videa', text: 'Všechna videa' }} /></div>
 
     <div class="soukromi text">
       <strong>Vaše údaje zůstávají jen ve vašem zařízení.</strong> Nic se neodesílá. Rozepsaný plán se ukládá do tohoto prohlížeče, abyste se k němu mohli vrátit. Plán obsahuje citlivé údaje, proto ho nesdílejte na sítích.

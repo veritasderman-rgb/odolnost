@@ -32,6 +32,7 @@ export type Video = {
   id: string;
   cislo: number;
   nazev: string;
+  popis: string; // jedna věta pro web
   hlas: 'aneta' | 'kuba' | 'autor' | null; // 'autor' = vlastní nahrávka ve public/audio/sceny/<id>/
   hudba: 'klidna' | 'pulzni' | 'ulevna';
   odkaz: string;
@@ -59,6 +60,7 @@ export const VIDEA: Video[] = [
     id: 'v1-valka-se-nevyhlasuje',
     cislo: 1,
     nazev: 'Válka se dnes nevyhlašuje',
+    popis: 'Proč dnes válka nezačíná vyhlášením a co znamená žít v šedé zóně mezi mírem a válkou.',
     hlas: 'aneta',
     hudba: 'pulzni',
     odkaz: 'vimecodelat.cz/scenar/jsme-ve-valce',
@@ -88,6 +90,7 @@ export const VIDEA: Video[] = [
     id: 'v2-rodinny-plan',
     cislo: 2,
     nazev: 'Rodinný plán za 15 minut',
+    popis: 'Jak se za patnáct minut domluvit s rodinou, kde se sejdete, když nepůjdou telefony.',
     hlas: 'kuba',
     hudba: 'klidna',
     odkaz: 'vimecodelat.cz/priprav-se/rodinny-plan',
@@ -106,6 +109,7 @@ export const VIDEA: Video[] = [
     id: 'v3-kdyz-vypadne-proud',
     cislo: 3,
     nazev: 'Když vypadne proud',
+    popis: 'Co se zastaví za hodinu, za den a za tři dny bez proudu a co vám doma pomůže.',
     hlas: 'aneta',
     hudba: 'pulzni',
     odkaz: 'vimecodelat.cz/scenar/utok-na-elektrickou-sit',
@@ -131,6 +135,7 @@ export const VIDEA: Video[] = [
     id: 'v4-sirena',
     cislo: 4,
     nazev: 'Siréna: první minuta',
+    popis: 'Co znamená kolísavý tón sirény, co udělat v první minutě a jak funguje pravidlo dvou zdí.',
     hlas: 'kuba',
     hudba: 'klidna',
     odkaz: 'vimecodelat.cz/priprav-se/informace-bez-internetu',
@@ -151,6 +156,7 @@ export const VIDEA: Video[] = [
     id: 'v5-panika-a-famy',
     cislo: 5,
     nazev: 'První hodiny: panika a fámy',
+    popis: 'Jak vzniká panika, proč škodí a co dělat místo ní, když kolují fámy.',
     hlas: 'aneta',
     hudba: 'pulzni',
     odkaz: 'vimecodelat.cz/scenar/panika',
@@ -167,6 +173,7 @@ export const VIDEA: Video[] = [
     id: 'v6-poznej-manipulaci',
     cislo: 6,
     nazev: 'Poznej manipulaci za minutu',
+    popis: 'Šest triků manipulace a na každý jedna otázka, kterou si stačí položit.',
     hlas: 'kuba',
     hudba: 'klidna',
     odkaz: 'vimecodelat.cz/manipulace/karta',
@@ -186,6 +193,7 @@ export const VIDEA: Video[] = [
     id: 'v7-co-muzu-udelat-ja',
     cislo: 7,
     nazev: 'Co můžu udělat já',
+    popis: 'Hasiči, první pomoc, krev, obec nebo aktivní záloha: vyberte si jednu věc, kterou uděláte.',
     hlas: 'aneta',
     hudba: 'ulevna',
     odkaz: 'vimecodelat.cz/priprav-se/co-mohu-udelat-ja',
@@ -201,6 +209,7 @@ export const VIDEA: Video[] = [
     id: 'v8-proc-tento-web',
     cislo: 8,
     nazev: 'Proč tento web',
+    popis: 'Kdo za webem stojí, proč vznikl a co od něj můžete čekat.',
     hlas: null,
     hudba: 'ulevna',
     odkaz: 'vimecodelat.cz/o-nas/o-nas',

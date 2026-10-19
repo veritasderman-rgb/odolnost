@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import Jednoducha from '../components/Jednoducha.astro';
+import Video from '../components/Video.astro';
+import videa from '../data/videa.json';
+
+const stranky = await getCollection('obsah');
+const titulek = (cesta: string) => stranky.find((s) => `/${s.id}` === cesta)?.data.title ?? (cesta === '/priprav-se/rodinny-plan' ? 'Rodinný plán' : 'Celé téma');
+---
+<Jednoducha title="Videa za minutu" nadtitulek="Pro ty, kdo nemají čas" popis="Osm krátkých videí o tom, co by pro nás znamenala vážná krize a jak se připravit. Na šířku pro počítač, na výšku pro telefon, s titulky v obraze.">
+  <p class="perex">Osm krátkých videí pro ty, kdo nemají čas číst. Každé trvá zhruba minutu a končí jedním krokem, který zvládnete ještě dnes.</p>
+  <ul class="info">
+    <li><strong>Dají se pustit i bez zvuku.</strong> Titulky jsou přímo v obraze. Pod každým videem je i celý přepis.</li>
+    <li><strong>Na šířku i na výšku.</strong> Na telefonu se vám sama přehraje verze na výšku. Obě verze si můžete stáhnout.</li>
+    <li><strong>Vytvořeno s pomocí AI.</strong> Hlasy Aneta a Kuba jsou syntetické hlasy z knihovny ElevenLabs, nenapodobují žádného skutečného člověka. Z AI je i hudba a ilustrace. Ve videu je to po celou dobu označené.</li>
+    <li><strong>Sdílejte je.</strong> Videa můžete volně stáhnout, sdílet a promítat ve škole nebo na obci. Stačí uvést zdroj „Víme, co dělat“.</li>
+  </ul>
+  <nav class="obsah-videi" aria-label="Seznam videí">
+    <ol>{videa.map((v) => <li><a href={`#${v.id}`}>{v.nazev}</a></li>)}</ol>
+  </nav>
+  {videa.map((v) => <Video video={v} rezim="prehled" odkaz={{ href: v.stranka, text: titulek(v.stranka) }} />)}
+</Jednoducha>
+
+<style>
+  .info { padding-left: 1.2rem; margin: 0 0 2rem; }
+  .info li { margin: 0.5rem 0; }
+  .obsah-videi { border-top: 2px solid var(--linka); border-bottom: 2px solid var(--linka); padding: 0.8rem 0; margin: 0 0 2.5rem; }
+  .obsah-videi ol { margin: 0; padding-left: 1.6rem; columns: 2 16rem; }
+  .obsah-videi li { margin: 0.25rem 0; }
+</style>

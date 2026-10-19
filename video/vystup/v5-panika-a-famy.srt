@@ -79,9 +79,9 @@ A zeptejte se sousedů.
 Pár klidných vět pomůže víc než deset sdílených videí.
 
 21
-00:00:52,030 --> 00:00:57,715
+00:00:52,030 --> 00:00:56,780
 Krok na dnes: rozhodněte se, kde si v krizi ověříte zprávy.
 
 22
-00:00:57,715 --> 00:00:58,308
-cz
+00:00:56,780 --> 00:00:58,308
+vimecodelat.cz

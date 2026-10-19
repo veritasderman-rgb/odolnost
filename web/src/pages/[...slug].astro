@@ -10,6 +10,8 @@ import Prirucky from '../components/Prirucky.astro';
 import Drobky from '../components/Drobky.astro';
 import Souvisejici from '../components/Souvisejici.astro';
 import Obrazek from '../components/Obrazek.astro';
+import Video from '../components/Video.astro';
+import videa from '../data/videa.json';
 import { PILIRE, pilirZId } from '../lib/pilire';
 
 export async function getStaticPaths() {
@@ -23,6 +25,7 @@ const d = stranka.data;
 const pilir = pilirZId(stranka.id);
 const info = PILIRE[pilir];
 const jePribeh = pilir === 'pribehy';
+const video = videa.find((v) => v.stranka === `/${stranka.id}`);
 ---
 <Zaklad title={d.title} popis={d.popis} obrazek={`/og/${pilir}.png`}>
   <article class="obal stranka" style={`--barva-pilire: ${info.barva}`} data-pagefind-body>
@@ -37,6 +40,7 @@ const jePribeh = pilir === 'pribehy';
       <p class="perex">{d.popis}</p>
     </header>
     {d.obrazek && <div class="text ilustrace"><Obrazek src={d.obrazek} alt={d.popisObrazku} vyska="clamp(12rem, 34vw, 24rem)" nacist="hned" /></div>}
+    {video && <div class="text"><Video video={video} odkaz={{ href: '/videa', text: 'Všechna videa' }} /></div>}
     <div class:list={['text', 'telo', { cteni: jePribeh }]}>
       <Content />
     </div>

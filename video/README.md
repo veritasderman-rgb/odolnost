@@ -14,6 +14,9 @@ Krátká vysvětlující videa k webu. Obraz se skládá v [Remotionu](https://w
 | `public/audio/hudba/` | Tři hudební podkresy: `klidna`, `pulzni`, `ulevna` |
 | `public/obrazky` | Odkaz na `web/public/obrazky` (ilustrace z webu) |
 | `vystup/` | Hotová videa `<video>-16x9.mp4`, `<video>-9x16.mp4` a titulky `<video>.srt` |
+| `vystup/<video>-<formát>.jpg` | Úvodní obrázky (plakáty) pro přehrávač na webu, bez titulků |
+| `../web/public/videa` | Odkaz na `vystup/`: web videa přehrává přímo odtud, nic se nekopíruje |
+| `../web/src/data/videa.json` | Data pro web: názvy, popisy, délky, přepisy (generuje `skripty/web.mjs`) |
 
 ## Jak upravit a znovu vyrenderovat
 
@@ -31,7 +34,12 @@ node skripty/render.mjs --nahledy v2
 node skripty/render.mjs v2
 # 6. aktualizujte dokument se scénáři
 node --experimental-strip-types skripty/scenare-md.mjs
+# 7. plakáty a data pro web (stránka /videa a video nad článkem, na který video odkazuje)
+node skripty/render.mjs --plakaty
+node --experimental-strip-types skripty/web.mjs
 ```
+
+Na webu je každé video na stránce `/videa` a nad článkem, na který odkazuje (pole `odkaz` ve `videa.ts`). Krátký popis pro web je v poli `popis`, přepis se skládá z titulků.
 
 Živý náhled s časovou osou: `npx remotion studio src/index.ts`.
 

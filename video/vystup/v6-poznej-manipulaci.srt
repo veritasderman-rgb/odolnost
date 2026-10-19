@@ -71,9 +71,9 @@ A pozor: názor a kritika nejsou manipulace.
 Nesouhlas není zrada.
 
 19
-00:01:01,841 --> 00:01:08,698
+00:01:01,841 --> 00:01:07,413
 Krok na dnes: uložte si kapesní kartu do telefonu.
 
 20
-00:01:08,698 --> 00:01:09,373
-cz
+00:01:07,413 --> 00:01:09,373
+vimecodelat.cz
