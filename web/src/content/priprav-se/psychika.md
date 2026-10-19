@@ -2,6 +2,8 @@
 title: "Psychika v krizi"
 id: "K-06"
 popis: "Strach z války je normální reakce. Ukazujeme, jak zvládat úzkost, jak mluvit s dětmi, kdy vypnout zprávy a kam zavolat, když je toho moc."
+obrazek: "/obrazky/clanky/priprav-se-psychika.jpg"
+popisObrazku: "Rodič s dítětem zezadu na gauči pod dekou čtou knížku, telefon leží displejem dolů"
 poradi: 6
 cteni: 5
 krok: "Vyberte si dva pevné časy denně na zprávy a mimo ně vypněte upozornění zpravodajských aplikací."

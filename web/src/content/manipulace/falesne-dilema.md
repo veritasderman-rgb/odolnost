@@ -2,6 +2,8 @@
 title: "Falešné dilema"
 id: "M-03"
 popis: "Falešné dilema zmenší svět na dvě možnosti a jednu z nich udělá strašidelnou. Ukážeme, jak ho poznat a jak najít ty ostatní."
+obrazek: "/obrazky/clanky/manipulace-falesne-dilema.jpg"
+popisObrazku: "Lesní cesta v mlze se dělí na dvě, mezi nimi vedou další stezky"
 poradi: 3
 cteni: 4
 krok: "Až příště uslyšíte „buď, anebo“, zkuste nahlas říct aspoň tři další možnosti."

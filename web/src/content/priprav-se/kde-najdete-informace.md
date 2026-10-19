@@ -2,6 +2,8 @@
 title: "Kde najdete ověřené informace"
 id: "K-13"
 popis: "Komu věřit, když se něco děje. Kde mluví jasně zpravodajská služba, kde vysvětluje armáda a kam se dívat v první hodině krize."
+obrazek: "/obrazky/clanky/priprav-se-kde-najdete-informace.jpg"
+popisObrazku: "Obecní rozhlas na sloupu na náměstí, lidé zezadu poslouchají"
 poradi: 3
 krok: "Dejte si do záložek web BIS a HZS a začněte sledovat Armádu ČR a hasiče na síti, kterou používáte."
 zdroje:

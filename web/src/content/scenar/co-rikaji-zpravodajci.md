@@ -2,6 +2,8 @@
 title: "Co říkají ti, kdo to vědí"
 id: "S-12"
 popis: "Co o riziku ruského útoku říkají zpravodajské služby, armády a vlády, jejich vlastními slovy. Výroky z posledních tří měsíců od BIS po Dánsko, Polsko, Německo a NATO. I s tím, kde se hodnocení liší."
+obrazek: "/obrazky/clanky/scenar-co-rikaji-zpravodajci.jpg"
+popisObrazku: "Stůl v noci pod lampou se stohy zpráv, zvýrazňovačem, brýlemi a notebookem s mapou Evropy"
 poradi: 2
 cteni: 9
 krok: "Ještě tento týden vyplňte doma rodinný plán. Je to stejně užitečný krok, ať se nakonec potvrdí kterýkoli z odhadů na této stránce."

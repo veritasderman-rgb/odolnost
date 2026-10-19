@@ -2,6 +2,8 @@
 title: "Útok na elektrickou síť"
 id: "S-13"
 popis: "Co by se stalo, kdyby útok vypnul proud ve velké části Česka. Co přestane fungovat za hodinu, za den a za tři dny, co pojede dál a co udělat už dnes. Vycházíme z Ukrajiny, Španělska a z výpadku v Česku v roce 2025."
+obrazek: "/obrazky/clanky/scenar-utok-na-elektrickou-sit.jpg"
+popisObrazku: "Křižovatka v noci bez proudu, policista zezadu řídí dopravu svítící hůlkou"
 poradi: 9
 cteni: 8
 krok: "Vypněte doma na hodinu hlavní jistič, třeba v sobotu odpoledne. Zapište si, co vám chybělo, a doplňte to do rodinného plánu."

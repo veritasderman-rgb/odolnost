@@ -2,6 +2,8 @@
 title: "Pravidla diskuze"
 id: "V-03f"
 popis: "Kritika a nesouhlas jsou u nás vítané a nemažeme je. Mažeme jen výhrůžky, osobní údaje, nenávist, spam a podvody. Tady jsou pravidla celá."
+obrazek: "/obrazky/clanky/o-nas-pravidla-diskuze.jpg"
+popisObrazku: "Židle v kruhu v obecní místnosti, lidé zezadu usedají"
 poradi: 5
 cteni: 3
 krok: "Zeptejte se někoho, kdo má jiný názor než vy, co by v krizi udělal pro své blízké."

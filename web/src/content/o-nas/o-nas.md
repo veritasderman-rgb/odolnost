@@ -2,6 +2,8 @@
 title: "Kdo za tím stojí"
 id: "V-03a"
 popis: "Víme, co dělat je můj osobní projekt. Prošel jsem zahraniční příručky a weby a pokusil se dát na jedno místo to, co jinde lidem říká stát."
+obrazek: "/obrazky/clanky/o-nas-o-nas.jpg"
+popisObrazku: "Pracovní stůl v noci s notebookem, zahraničními příručkami, poznámkami a kávou"
 poradi: 1
 cteni: 4
 krok: "Přečtěte si na 72h.gov.cz jednu kapitolu, která se týká právě vaší domácnosti."

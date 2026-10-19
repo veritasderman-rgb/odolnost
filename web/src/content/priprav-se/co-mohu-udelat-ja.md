@@ -2,6 +2,8 @@
 title: "Co můžu udělat já, nejen pro rodinu"
 id: "K-10"
 popis: "Přehled cest, jak se zapojit: aktivní záloha, dobrovolní hasiči, Červený kříž, darování krve, pomoc v obci a u sousedů, nové dovednosti i vlastní kondice."
+obrazek: "/obrazky/clanky/priprav-se-co-mohu-udelat-ja.jpg"
+popisObrazku: "Dobrovolníci zezadu si v řetězu podávají pytle s pískem u řeky"
 poradi: 10
 cteni: 6
 krok: "Vyberte si jednu cestu z tohoto přehledu a ještě dnes otevřete její oficiální stránku. Zjistěte, kdy je nejbližší kurz nebo schůzka."

@@ -2,6 +2,8 @@
 title: "Hra na strach"
 id: "M-02"
 popis: "Hra na strach chce, abyste jednali dřív, než začnete přemýšlet. Ukážeme, jak ji poznat a co udělat, když na vás zpráva tlačí."
+obrazek: "/obrazky/clanky/manipulace-hra-na-strach.jpg"
+popisObrazku: "Telefon v tmavé ložnici svítí záplavou upozornění, ruka se po něm natahuje"
 poradi: 2
 cteni: 4
 krok: "Uložte si do telefonu dva ověřené zdroje pro krizi: web HZS a Český rozhlas."

@@ -30,7 +30,7 @@ const stranky = (await getCollection('obsah', (s) => s.id.startsWith(pilir + '/'
     <h2 class="vizualne-skryte">Stránky</h2>
     <div class="mrizka">
       {stranky.map((s, i) => (
-        <Dlazdice href={`/${s.id}`} titulek={s.data.title} popis={s.data.popis} druh={s.data.druh} cislo={s.data.druh ? undefined : String(i + 1).padStart(2, '0')} doplnek={s.data.cteni ? `${s.data.cteni} min čtení` : undefined} />
+        <Dlazdice href={`/${s.id}`} titulek={s.data.title} popis={s.data.popis} druh={s.data.druh} cislo={s.data.druh ? undefined : String(i + 1).padStart(2, '0')} doplnek={s.data.cteni ? `${s.data.cteni} min čtení` : undefined} obrazek={s.data.obrazek} />
       ))}
     </div>
     {stranky.length === 0 && <p>Obsah připravujeme.</p>}

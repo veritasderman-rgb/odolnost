@@ -1,9 +1,12 @@
 ---
 import StitekPribehu from './StitekPribehu.astro';
-interface Props { href: string; titulek: string; popis: string; barva?: string; druh?: 'modelovy' | 'svedectvi'; doplnek?: string; zvyraznit?: boolean; cislo?: string }
-const { href, titulek, popis, druh, doplnek, zvyraznit = false, cislo } = Astro.props;
+interface Props { href: string; titulek: string; popis: string; barva?: string; druh?: 'modelovy' | 'svedectvi'; doplnek?: string; zvyraznit?: boolean; cislo?: string; obrazek?: string }
+const { href, titulek, popis, druh, doplnek, zvyraznit = false, cislo, obrazek } = Astro.props;
+// Na dlaždici stačí malá verze obrázku, velkou načítá až článek.
+const nahled = obrazek?.replace(/\.jpg$/, '-nahled.jpg');
 ---
-<a class:list={['dlazdice', { zvyraznit }]} href={href}>
+<a class:list={['dlazdice', { zvyraznit, 's-obrazkem': nahled }]} href={href}>
+  {nahled && <span class="nahled"><img src={nahled} alt="" loading="lazy" decoding="async" width="640" height="360" /><span class="puvod">Ilustrace AI</span></span>}
   {(cislo || druh) && <span class="hlavicka">{cislo && <span class="cislo">{cislo}</span>}{druh && <StitekPribehu druh={druh} />}</span>}
   <span class="titulek">{titulek}</span>
   <span class="popis">{popis}</span>
@@ -14,6 +17,11 @@ const { href, titulek, popis, druh, doplnek, zvyraznit = false, cislo } = Astro.
   .dlazdice:hover { background: var(--akcent); color: var(--na-akcentu); }
   .zvyraznit { background: var(--tmava); color: #fff; border-color: var(--na-akcentu); }
   .zvyraznit:hover { background: var(--akcent); color: var(--na-akcentu); }
+  .s-obrazkem { padding-top: 0; }
+  .nahled { display: block; margin: 0 -1.4rem 0.2rem; aspect-ratio: 16 / 9; overflow: hidden; background: var(--tmava); border-bottom: 4px solid var(--akcent); }
+  .nahled { position: relative; }
+  .puvod { position: absolute; right: 0; bottom: 0; background: rgb(0 0 0 / 0.65); color: #fff; font-family: var(--pismo-mono); font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.2rem 0.45rem; }
+  .nahled img { width: 100%; height: 100%; object-fit: cover; display: block; filter: saturate(0.85); }
   .hlavicka { display: flex; gap: 0.6rem; align-items: center; }
   .cislo { font-family: var(--pismo-mono); font-size: 0.85rem; font-weight: 500; }
   .titulek { font-family: var(--pismo-nadpis); font-weight: var(--nadpis-vaha); font-size: 1.75rem; line-height: var(--nadpis-lh); }

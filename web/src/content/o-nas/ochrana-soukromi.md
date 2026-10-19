@@ -2,6 +2,8 @@
 title: "Ochrana soukromí"
 id: "V-03e"
 popis: "Nepoužíváme cookies, návštěvnost měříme jen souhrnně. Rodinný plán a kontrolní seznam zůstávají jen ve vašem prohlížeči. Přesně popisujeme, co měříme a co se děje s e-mailem."
+obrazek: "/obrazky/clanky/o-nas-ochrana-soukromi.jpg"
+popisObrazku: "Zalepená obálka vedle zavřeného notebooku a klíčku"
 poradi: 6
 cteni: 5
 krok: "Vyplňte rodinný plán, vytiskněte ho a potom v něm klikněte na Smazat vše. Papír na lednici vám zůstane."

@@ -2,6 +2,8 @@
 title: "Redakční pravidla"
 id: "V-03c"
 popis: "Osm zásad, podle kterých píšeme, a sedm kroků, kterými projde každá stránka, než ji zveřejníme. Včetně toho, jak kontrolujeme fakta a jak opravujeme chyby."
+obrazek: "/obrazky/clanky/o-nas-redakcni-pravidla.jpg"
+popisObrazku: "Stůl s vytištěnými stránkami, lupou a barevnými lístečky"
 poradi: 3
 cteni: 5
 krok: "Až vám dnes někdo pošle znepokojivou zprávu, zeptejte se: Kdo to říká a odkud to ví?"

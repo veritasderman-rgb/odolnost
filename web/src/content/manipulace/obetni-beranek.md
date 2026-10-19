@@ -2,6 +2,8 @@
 title: "Obětní beránek"
 id: "M-04"
 popis: "Obětní beránek svaluje složitý problém na jednu skupinu lidí. Ukážeme, proč to zní lákavě a proč to v krizi škodí nám všem."
+obrazek: "/obrazky/clanky/manipulace-obetni-beranek.jpg"
+popisObrazku: "Skupina lidí zezadu hledí na osamělou postavu pod pouliční lampou"
 poradi: 4
 cteni: 4
 krok: "Vyberte si jednu věc, která vás teď štve, a napište si tři různé příčiny, které k ní vedly."

@@ -2,6 +2,8 @@
 title: "Útok na osobu"
 id: "M-06"
 popis: "Útok na osobu nevyvrací argument, ale toho, kdo ho řekl. Ukážeme, jak rozlišit oprávněnou kritiku od nadávky a jak se vrátit k věci."
+obrazek: "/obrazky/clanky/manipulace-utok-na-osobu.jpg"
+popisObrazku: "Dvě ruce nad stolem s kávou, jedna obviňujícně ukazuje prstem"
 poradi: 6
 cteni: 4
 krok: "Až příště uvidíte ostrou výměnu názorů, zkuste jednou větou říct, jaký argument v ní zazněl."

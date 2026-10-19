@@ -2,6 +2,8 @@
 title: "Jak se připravují jinde"
 id: "K-14"
 popis: "Švédsko, Finsko, Polsko, Pobaltí a další země už svým obyvatelům otevřeně říkají, co dělat při válce. Přehled oficiálních příruček a co si z nich vzít."
+obrazek: "/obrazky/clanky/priprav-se-jak-se-pripravuji-jinde.jpg"
+popisObrazku: "Ruce listují zahraničními příručkami rozloženými na stole"
 poradi: 14
 krok: "Přečtěte si jednu zahraniční příručku, třeba polskou nebo finskou. Uvidíte, jak otevřeně o válce mluví."
 zdroje:

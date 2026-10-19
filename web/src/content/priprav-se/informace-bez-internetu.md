@@ -2,6 +2,8 @@
 title: "Informace bez internetu"
 id: "K-04"
 popis: "Když nepůjde internet ani mobil, zprávy vám přinese rádio na baterky, Český rozhlas, sirény a obecní rozhlas. Vysvětlujeme, co který signál znamená."
+obrazek: "/obrazky/clanky/priprav-se-informace-bez-internetu.jpg"
+popisObrazku: "Rádio na baterky na parapetu, za oknem siréna na střeše radnice"
 poradi: 4
 cteni: 5
 krok: "Najděte na portal.rozhlas.cz/vysilace frekvenci Radiožurnálu pro vaše bydliště a napište ji na lednici."

@@ -2,6 +2,8 @@
 title: "Den, kdy nešly telefony"
 id: "P-01"
 popis: "Rodina z krajského města u dálnice. Škola končí dřív, rodiče jsou v práci a telefony nejdou. Pomůže papír na lednici a jedenáctiletá dcera, která si plán pamatuje."
+obrazek: "/obrazky/clanky/pribehy-rodina-u-dalnice.jpg"
+popisObrazku: "Kresba: dívka se školní taškou čte plán připnutý na lednici"
 poradi: 1
 druh: "modelovy"
 cteni: 5

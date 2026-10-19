@@ -2,6 +2,8 @@
 title: "Kdyby Rusko zaútočilo na NATO: co by to znamenalo pro Česko"
 id: "S-00"
 popis: "Počítáme s tím, že Rusko může zaútočit na NATO, a tím i na nás. Vysvětlujeme proč, co by dělala armáda, co říká zákon o branné povinnosti a co by se změnilo doma."
+obrazek: "/obrazky/clanky/scenar-kdyby-rusko-zautocilo.jpg"
+popisObrazku: "Muž zezadu u okna paneláku za soumraku, na parapetu rádio na baterky"
 poradi: 0
 cteni: 7
 krok: "Dnes večer se doma domluvte, co uděláte, když zazní siréna: kam se schováte a kde se sejdete, když nepůjdou telefony."

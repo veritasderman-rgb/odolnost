@@ -2,6 +2,8 @@
 title: "Nikomu nevěř"
 id: "M-05"
 popis: "Technika „nikomu nevěř“ nechce, abyste uvěřili lži. Chce, abyste nevěřili ničemu. Ukážeme, proč je to nebezpečné a jak si udržet pevnou půdu."
+obrazek: "/obrazky/clanky/manipulace-nikomu-never.jpg"
+popisObrazku: "Člověk zezadu na mostě v husté mlze, cestu ukazují rozsvícené lampy"
 poradi: 5
 cteni: 4
 krok: "Napište si na papír tři zdroje, kterým v krizi věříte, a ke každému, proč právě jemu."

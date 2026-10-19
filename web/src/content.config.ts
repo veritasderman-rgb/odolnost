@@ -11,6 +11,8 @@ const obsah = defineCollection({
     druh: z.enum(['modelovy', 'svedectvi']).optional(),
     cteni: z.number().optional(),
     krok: z.string().optional(),
+    obrazek: z.string().optional(),
+    popisObrazku: z.string().default(''),
     zdroje: z
       .array(z.object({ nazev: z.string(), url: z.string().url().optional(), datum: z.union([z.string(), z.number()]).optional() }))
       .default([]),
