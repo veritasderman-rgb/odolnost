@@ -19,9 +19,9 @@ const popisy: Record<string, string> = {
     <img class="foto" src="/obrazky/hero-domov.jpg" alt="" fetchpriority="high" />
     <span class="puvod">Ilustrační obrázek vytvořený pomocí AI</span>
     <div class="obal">
-      <p class="znacka">Nezávislý projekt · Připravenost · Odolnost</p>
-      <h1>Počítáme s tím.<br /><span class="zlute">Připravme se.</span></h1>
-      <div class="sloupce">
+      <div class="obsah-uvodu">
+        <p class="znacka">Nezávislý projekt · Připravenost · Odolnost</p>
+        <h1>Počítáme s tím.<br /><span class="zlute">Připravme se.</span></h1>
         <p class="perex">Rusko může zaútočit na NATO, a tím i na nás. Kdy a jestli vůbec, nikdo neví. Je lepší být připraven než překvapen. Narovinu vysvětlujeme, co by to znamenalo, jak se postarat o sebe i své blízké a jak poznat manipulaci dřív, než na ni narazíte.</p>
         <div class="akce">
           <a class="tlacitko lampa" href="/zacit">Co by to znamenalo pro nás <span aria-hidden="true">→</span></a>
@@ -81,23 +81,25 @@ const popisy: Record<string, string> = {
 </Zaklad>
 
 <style>
-  .uvod { position: relative; overflow: hidden; background: var(--tmava); color: #fff; padding: clamp(3rem, 9vw, 7rem) 0 clamp(2.5rem, 6vw, 4.5rem); border-bottom: 8px solid var(--akcent); }
+  .uvod { position: relative; overflow: hidden; background: var(--tmava); color: #fff; padding: clamp(3rem, 8vw, 6.5rem) 0 clamp(2.5rem, 6vw, 4.5rem); border-bottom: 8px solid var(--akcent); }
   .uvod .obal { position: relative; z-index: 1; }
-  .foto { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
-  .uvod::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, rgb(20 23 26 / 0.92) 0%, rgb(20 23 26 / 0.75) 45%, rgb(20 23 26 / 0.35) 100%), linear-gradient(0deg, rgb(20 23 26 / 0.85) 0%, transparent 45%); }
-  .puvod { position: absolute; right: 0; bottom: 0; z-index: 2; background: rgb(0 0 0 / 0.6); font-family: var(--pismo-mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.25rem 0.5rem; }
-  .uvod h1 { font-size: clamp(3.4rem, 12vw, 9rem); line-height: 0.88; margin: 1.2rem 0 2rem; }
+  .uvod .obsah-uvodu { max-width: 46rem; }
+  .uvod h1 { font-size: clamp(2.9rem, 6.2vw, 5.4rem); line-height: 0.95; margin: 1.2rem 0 1.6rem; }
+  .foto { position: absolute; top: 0; right: 0; width: 62%; height: 100%; object-fit: cover; object-position: 62% 50%; filter: brightness(1.3) contrast(1.05); }
+  .uvod::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, var(--tmava) 0%, var(--tmava) 38%, rgb(31 35 40 / 0.55) 58%, rgb(31 35 40 / 0.1) 80%, rgb(31 35 40 / 0) 100%); }
   .zlute { color: var(--akcent-na-tmave); }
-  .sloupce { display: grid; grid-template-columns: 1.4fr 1fr; gap: 2.5rem; align-items: end; }
-  .perex { font-size: clamp(1.15rem, 2vw, 1.4rem); line-height: 1.5; margin: 0; max-width: 40rem; }
-  .akce { display: flex; flex-direction: column; gap: 0.75rem; align-items: stretch; }
-  .akce .tlacitko { justify-content: space-between; }
+  .perex { font-size: clamp(1.1rem, 1.8vw, 1.3rem); line-height: 1.5; margin: 0 0 1.6rem; max-width: 38rem; }
+  .akce { display: flex; flex-wrap: wrap; gap: 0.75rem; }
   .tlacitko.obrys { background: transparent; color: #fff; border-color: #fff; }
   .tlacitko.obrys:hover { background: var(--akcent); color: var(--na-akcentu); border-color: var(--akcent); }
+  .puvod { position: absolute; right: 0; bottom: 0; z-index: 2; background: rgb(0 0 0 / 0.6); font-family: var(--pismo-mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.25rem 0.5rem; }
   .mrizka { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 16.5rem), 1fr)); }
   .pas { background: var(--papir-2); margin-top: 3.5rem; padding: 0.5rem 0 2.5rem; border-top: 2px solid var(--linka); border-bottom: 2px solid var(--linka); }
   .odkazy { display: flex; gap: 1.5rem; flex-wrap: wrap; font-weight: 700; }
   @media (max-width: 800px) {
-    .sloupce { grid-template-columns: 1fr; }
+    .uvod { padding-top: 0; }
+    .foto { position: relative; width: 100%; height: 15rem; display: block; margin-bottom: 1.5rem; object-position: 62% 50%; }
+    .uvod::after { display: none; }
+    .puvod { top: 14rem; bottom: auto; }
   }
 </style>
