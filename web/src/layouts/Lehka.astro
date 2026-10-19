@@ -1,5 +1,7 @@
 ---
 // Lehká verze: čisté HTML bez obrázků, písem a skriptů pro slabé připojení.
+import Analytics from '@vercel/analytics/astro';
+
 interface Props { title: string }
 const { title } = Astro.props;
 ---
@@ -10,6 +12,7 @@ const { title } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title} · Víme, co dělat (lehká verze)</title>
     <meta name="robots" content="noindex" />
+    <Analytics />
     <style is:inline>
       body{font:18px/1.55 system-ui,sans-serif;max-width:40em;margin:0 auto;padding:1em;color:#1d2b36;background:#fff}
       a{color:#1f5e6b}table{border-collapse:collapse}td,th{border:1px solid #999;padding:.3em .5em;text-align:left}
