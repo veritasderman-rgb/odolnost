@@ -7,7 +7,7 @@ import '../styles/global.css';
 import Logo from '../components/Logo.astro';
 import Odber from '../components/Odber.astro';
 import Podpora from '../components/Podpora.astro';
-import { inject } from '@vercel/analytics';
+import Analytics from '@vercel/analytics/astro';
 
 interface Props {
   title: string;
@@ -54,12 +54,9 @@ const menu = [
     <meta property="og:url" content={kanonicka} />
     <meta property="og:image" content={new URL(obrazek, Astro.site)} />
     <meta name="twitter:card" content="summary_large_image" />
+    <Analytics />
     <script is:inline src="/js/nastaveni.js"></script>
     <script is:inline defer src="/_vercel/insights/script.js"></script>
-    <script>
-      import { inject } from '@vercel/analytics';
-      inject();
-    </script>
   </head>
   <body>
     <a class="preskocit" href="#obsah">Přeskočit na obsah</a>
