@@ -59,7 +59,7 @@ Plná verze je na webu: [web/src/content/o-nas/pravidla-diskuze.md](../../web/sr
 3. **Nikoho neoznačujeme** za trolla, bota, agenta ani dezoláta, ani když tak působí. Popisujeme chování, ne lidi.
 4. **Nejdřív uklidnit, pak informovat, nakonec krok.** I odpověď na útok může končit odkazem na rodinný plán.
 5. **Přiznáváme nejistotu a chyby.** „To nevíme jistě.“ „Tady jste měl/a pravdu, opravili jsme to.“
-6. **Mluvíme za projekt, ne za sebe.** Žádné osobní názory na politiku, strany, politiky ani volby.
+6. **Účet nepíše stranicko-politické názory.** Žádné hodnocení stran, politiků ani voleb a žádné rady, koho volit.
 7. **Odpověď do 24 hodin** v pracovní dny na věcné otázky. Na urážky neodpovídáme vůbec.
 8. **Opakující se otázky** zapisujeme do tabulky na sdíleném disku. Jednou za 2 týdny z nich vznikne video nebo stránka.
 9. **Nepíšeme z osobních účtů** jménem projektu a neodpovídáme na útoky na sebe samotné. To řeší šéfredaktor/ka.
@@ -85,7 +85,7 @@ Komentář
 
 ### 10 nejčastějších útoků a otázek
 
-Odpovědi vycházejí z message house v [01 Brand](../../plan/01-brand.md#message-house-co-říkáme-vždycky). **Střecha:** Když víme, co dělat, máme menší strach a víc se postaráme o sebe i o druhé. **Základna:** nezávislí, nadstraničtí, transparentní financování, veřejné opravy.
+Odpovědi vycházejí z message house v [01 Brand](../../plan/01-brand.md#message-house-co-říkáme-vždycky). **Střecha:** Když víme, co dělat, máme menší strach a víc se postaráme o sebe i o druhé. **Základna:** otevřeně řečeno, kdo za projektem stojí, uvedené zdroje, veřejné opravy, žádná politická kampaň.
 
 Každou odpověď je možné zkrátit. Nikdy ji neprodlužujte o útok na pisatele.
 
@@ -97,15 +97,15 @@ Každou odpověď je možné zkrátit. Nikdy ji neprodlužujte o útok na pisate
 
 #### 2 „Kdo vás platí?“
 
-> Dobrá otázka, ptejte se na ni každého. Seznam dárců je veřejný: vimecodelat.cz/o-nas/financovani. Od politických stran, zbrojařských firem ani z dotací, které by ohrozily naši nezávislost, peníze nebereme. Od jednoho dárce nejvýš 30 % rozpočtu.
+> Je to osobní projekt Josefa Pavlovice. Kdo za ním stojí a proč vznikl, najdete na vimecodelat.cz/o-nas/o-nas.
 
-**Nedělat:** neuvádět nic, co není na stránce financování. Při dotazu na konkrétního dárce odkázat na stránku, nespekulovat.
+**Nedělat:** nic nedomýšlet a nepřidávat nic, co není na stránce Kdo za tím stojí. Nepouštět se do debaty o penězích, odkázat na stránku.
 
-#### 3 „Jste pirátský projekt.“ / „Jste politický projekt.“
+#### 3 „Jste politický projekt.“ / „Kdo za vámi stojí?“
 
-> Projekt nevede žádný politik ani strana. Vedení, odborní recenzenti i pravidla jsou veřejné: vimecodelat.cz/o-nas. Lidé v týmu mají různé názory a pravidla nám zakazují psát, koho volit.
+> Je to osobní projekt Josefa Pavlovice. Kdo za ním stojí a proč vznikl, najdete na vimecodelat.cz/o-nas/o-nas. Účet nedělá kampaň žádné straně a neříká, koho volit.
 
-**Nedělat:** nediskutovat o minulosti konkrétních lidí v komentářích. Pokud se otázka opakuje, připraví šéfredaktor/ka jedno veřejné vysvětlení role zakladatele (plán [06](../../plan/06-tym-rozpocet-rizika.md#rizika): „veřejně popsaná role“) a správci na něj odkazují.
+**Nedělat:** nediskutovat o lidech ani o jejich politických názorech v komentářích. Nepřidávat nic, co není na stránce Kdo za tím stojí. Pokud se otázka opakuje, správci odkazují jen na tuto stránku.
 
 #### 4 „Strašíte lidi.“
 
@@ -145,9 +145,9 @@ Každou odpověď je možné zkrátit. Nikdy ji neprodlužujte o útok na pisate
 
 #### 10 „Kdo vlastně jste? Proč nevidím jména?“
 
-> Jsme nezávislý a nadstranický projekt. Tým, odborné recenzenty a pravidla najdete na vimecodelat.cz/o-nas. U každé stránky je uvedeno, kdo ji napsal a kdo ji zkontroloval.
+> Je to osobní projekt Josefa Pavlovice. Kdo za ním stojí a proč vznikl, najdete na vimecodelat.cz/o-nas/o-nas. U každé stránky je uvedeno, z jakých zdrojů vychází.
 
-**Nedělat:** neuvádět jména lidí, kteří na webu jmenovaní nejsou. Neuvádět osobní údaje kohokoli z týmu.
+**Nedělat:** neuvádět jména lidí, kteří na webu jmenovaní nejsou. Neuvádět žádné osobní údaje.
 
 ### Koordinovaný útok
 
@@ -173,7 +173,7 @@ Každou odpověď je možné zkrátit. Nikdy ji neprodlužujte o útok na pisate
 
 **Vzor veřejné reakce** (jen když útok šíří nepravdu o projektu):
 
-> V posledních hodinách se pod našimi příspěvky objevilo hodně stejných komentářů. Kritika je u nás vítaná a nemažeme ji. Skrýváme jen to, co porušuje pravidla diskuze. Kdo nás financuje a jak pracujeme, je veřejné: vimecodelat.cz/o-nas. Krok na dnes zůstává stejný: domluvte se s rodinou, kde se sejdete, když nepůjdou telefony.
+> V posledních hodinách se pod našimi příspěvky objevilo hodně stejných komentářů. Kritika je u nás vítaná a nemažeme ji. Skrýváme jen to, co porušuje pravidla diskuze. Kdo za projektem stojí a jak pracujeme, najdete na vimecodelat.cz/o-nas/o-nas. Krok na dnes zůstává stejný: domluvte se s rodinou, kde se sejdete, když nepůjdou telefony.
 
 **Nikdy:**
 

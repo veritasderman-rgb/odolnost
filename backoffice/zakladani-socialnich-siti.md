@@ -37,7 +37,7 @@ Celkem zhruba **5–6 hodin** práce, rozložené do 2–3 dnů kvůli ověřova
 
 ## Pravidla, která platí na všech sítích
 
-1. **Kategorie vždy neutrální**: komunitní, vzdělávací nebo nezisková organizace. **Nikdy** „politická organizace“, „politik“, „kandidát“, „politická strana“ ani „vládní organizace“ (nejsme stát a nesmíme tak působit).
+1. **Kategorie vždy neutrální**: komunitní nebo vzdělávací. **Nikdy** „politická organizace“, „politik“, „kandidát“, „politická strana“ ani „vládní organizace“ (nejsme stát a nesmíme tak působit). Ani „nezisková organizace“, protože projekt žádnou organizaci nemá.
 2. **2FA na každém účtu**, kde to jde hardwarovým klíčem, jinak aplikací. SMS jen jako záložní metoda, nikdy jediná.
 3. **Dva správci** s vlastními přihlášeními (KOO + SR). Nikdo nesdílí heslo.
 4. **Žádná placená propagace** příspěvků ani „boost“, dokud neproběhne test v lednu 2027 (plán [04](../plan/04-socialni-site.md#placená-podpora)). Nikdy neobcházet pravidla o reklamách na společenská témata.
@@ -55,7 +55,7 @@ Celkem zhruba **5–6 hodin** práce, rozložené do 2–3 dnů kvůli ověřova
 
 1. KOO se přihlásí svým osobním účtem a zapne si 2FA (bezpečnostní klíč nebo aplikace). Bez toho nezačínat.
 2. Vytvořit stránku: *Stránky → Vytvořit novou stránku*. Název **Víme, co dělat**.
-3. **Kategorie:** do pole napsat a vybrat neutrální kategorii. Doporučení: **Komunitní organizace** (Community organization), po zápisu organizace případně doplnit **Nezisková organizace**. Druhá kategorie může být vzdělávací. Kategorie se vybírají vyhledáváním z dlouhého seznamu, přesné české názvy ověřte v nabídce. Nevybírat nic politického ani vládního.
+3. **Kategorie:** do pole napsat a vybrat neutrální kategorii. Doporučení: **Komunitní organizace** (Community organization). Druhá kategorie může být vzdělávací. Kategorie se vybírají vyhledáváním z dlouhého seznamu, přesné české názvy ověřte v nabídce. Nevybírat nic politického ani vládního.
 4. **Uživatelské jméno stránky:** `vimecodelat` (adresa facebook.com/vimecodelat).
 5. Krátký popis (bio), kontakt `info@vimecodelat.cz`, web `vimecodelat.cz`. **Nevyplňovat** telefon ani adresu. Texty v [profily.md](socialni-site/profily.md#facebook).
 6. Stránku zatím **nezveřejňovat** nebo nechat bez obsahu. [OVĚŘIT: zda nové rozhraní stránek umožňuje stránku před zveřejněním skrýt.]
@@ -67,7 +67,7 @@ Celkem zhruba **5–6 hodin** práce, rozložené do 2–3 dnů kvůli ověřova
 2. Přidat do něj stránku Facebooku, později Instagram a WhatsApp.
 3. Lidé: KOO a SR s **plnou kontrolou**, SOC jen s **částečným přístupem** (obsah, zprávy, komentáře). Plnou kontrolu mají nejvýš 2–3 lidé. Nikdy nepřidávat agenturu s plnou kontrolou.
 4. *Nastavení → Informace o business portfoliu → Dvoufázové ověření*: nastavit **„Všichni“**, tedy vynucené 2FA pro každého, kdo do portfolia vstoupí.
-5. Ověření firmy (business verification) až po zápisu organizace, s dokumenty organizace.
+5. Ověření firmy (business verification) zatím nedělat, projekt nemá organizaci. [OVĚŘIT: zda ho Meta u osobního projektu vyžaduje a jaké doklady chce.]
 
 **Soukromí a zabezpečení**
 
@@ -97,7 +97,7 @@ Celkem zhruba **5–6 hodin** práce, rozložené do 2–3 dnů kvůli ověřova
 3. 1–2 týdny před spuštěním přepnout na **profesionální účet**: *Nastavení a aktivita → Typ účtu a nástroje → Přepnout na profesionální účet*. Zvolit **Firma** (Business), ne Autor (Creator): autor je určený pro jednotlivce a veřejné osobnosti. Pozor: přepnutím se soukromý účet stane veřejným a firemní účet nejde nastavit jako soukromý. Proto přepínat až před zveřejněním.
 4. Kategorie: při propojení se stránkou Facebooku převezme Instagram její kategorii. Štítek kategorie pod jménem lze v *Upravit profil → Zobrazení profilu* skrýt nebo zobrazit. Doporučujeme zobrazit („Komunitní organizace“).
 5. Propojit se stránkou Facebooku a přidat do business portfolia.
-6. Odkazy: Instagram umožňuje až **5 odkazů** v profilu. První: `vimecodelat.cz`, druhý: `vimecodelat.cz/o-nas/financovani`.
+6. Odkazy: Instagram umožňuje až **5 odkazů** v profilu. První: `vimecodelat.cz`, druhý: `vimecodelat.cz/o-nas/o-nas` (název „Kdo za tím stojí“).
 7. Kontaktní tlačítko: e-mail `info@`, **bez** telefonu a adresy.
 
 **Soukromí a zabezpečení**
@@ -137,7 +137,7 @@ Celkem zhruba **5–6 hodin** práce, rozložené do 2–3 dnů kvůli ověřova
 
 **Postup**
 
-1. Do služebního telefonu nainstalovat WhatsApp Business a zaregistrovat číslo organizace. Profil firmy: název **Víme, co dělat**, web, e-mail `info@`, kategorie neutrální (např. vzdělávání nebo nezisková organizace; [OVĚŘIT nabídku kategorií]).
+1. Do služebního telefonu nainstalovat WhatsApp Business a zaregistrovat číslo organizace. Profil firmy: název **Víme, co dělat**, web, e-mail `info@`, kategorie neutrální (např. vzdělávání; [OVĚŘIT nabídku kategorií]).
 2. Zapnout **dvoufázové ověření** (6místný PIN, e-mail pro obnovu `ucty@`).
 3. Založit kanál: *Aktualizace → Kanály → + → Vytvořit kanál*. Název **Víme, co dělat**, popis z [profily.md](socialni-site/profily.md#whatsapp-kanál), ikona.
 4. Přidat SR jako druhého správce kanálu. [OVĚŘIT v aplikaci: počet a práva správců kanálu.]
@@ -186,7 +186,7 @@ Celkem zhruba **5–6 hodin** práce, rozložené do 2–3 dnů kvůli ověřova
 
 1. Registrace e-mailem `ucty@vimecodelat.cz` (ne telefonem), uživatelské jméno `vimecodelat`, jméno **Víme, co dělat**.
 2. Do zveřejnění nechat účet **soukromý** jako osobní účet.
-3. 1–2 týdny před spuštěním přepnout na **firemní účet** (*Nastavení a soukromí → Účet → Přepnout na firemní účet*) a zvolit neutrální kategorii (vzdělávání, nezisková organizace; [OVĚŘIT nabídku kategorií]). Firemní účet nejde mít soukromý, proto přepínat až před zveřejněním.
+3. 1–2 týdny před spuštěním přepnout na **firemní účet** (*Nastavení a soukromí → Účet → Přepnout na firemní účet*) a zvolit neutrální kategorii (např. vzdělávání; [OVĚŘIT nabídku kategorií]). Firemní účet nejde mít soukromý, proto přepínat až před zveřejněním.
 4. Firemní účet má k dispozici jen **knihovnu komerční hudby** (Commercial Music Library). To nám nevadí: podle plánu [03](../plan/03-video.md#zásady-pro-všechna-videa) používáme jen hudbu na objednávku nebo CC0/CC BY. Pozor, licence z knihovny TikToku platí jen na TikToku, ne pro YouTube ani web.
 5. Odkaz na web v profilu (u firemního účtu dostupný) a e-mail `info@`.
 
@@ -199,7 +199,7 @@ Celkem zhruba **5–6 hodin** práce, rozložené do 2–3 dnů kvůli ověřova
 
 **Moderace a filtry:** filtr spamu a urážlivých komentářů zapnout, filtr podle klíčových slov (vlastní seznam), v týdnu spuštění zvážit „filtrovat všechny komentáře“ s ručním schválením.
 
-**Ověření:** modrý odznak uděluje TikTok jen u známých a autentických účtů. [OVĚŘIT: aktuální postup žádosti.] Pozor na pravidla TikToku pro vládní, politické a stranické účty: nejsme ani jedno z toho, a kategorie a obsah to nesmí naznačovat.
+**Ověření:** modrý odznak uděluje TikTok jen u známých a autentických účtů. [OVĚŘIT: aktuální postup žádosti.] Pozor na pravidla TikToku pro vládní, politické a stranické účty: účet se do těchto kategorií nesmí zařadit a obsah nesmí působit jako politická kampaň.
 
 **Ručně:** registrace, CAPTCHA, ověřovací kód, přepnutí na firemní účet.
 
@@ -211,7 +211,7 @@ Celkem zhruba **5–6 hodin** práce, rozložené do 2–3 dnů kvůli ověřova
 
 1. KOO na počítači otevře *Pro firmy → Vytvořit stránku společnosti* (linkedin.com/company/setup/new) a vybere typ **Společnost**.
 2. Název **Víme, co dělat**, veřejná adresa `linkedin.com/company/vimecodelat`, web `vimecodelat.cz`.
-3. **Odvětví:** občanské a sociální organizace (Civic and Social Organizations), **typ:** nezisková organizace (po zápisu organizace; do té doby zvolit nejbližší neutrální typ). Velikost 2–10 zaměstnanců. [OVĚŘIT české názvy v nabídce.]
+3. **Odvětví:** občanské a sociální organizace (Civic and Social Organizations), **typ:** nejbližší neutrální typ pro osobní projekt, ne nezisková ani vládní organizace. Velikost nejmenší možná (0–1 zaměstnanců). [OVĚŘIT české názvy v nabídce.]
 4. Zaškrtnout potvrzení, že jednáme jménem organizace. Pokud LinkedIn požádá o ověření pracoviště, ověřit e-mailem na doméně.
 5. Slogan (tagline, max. 120 znaků) a přehled (max. 2 000 znaků) z [profily.md](socialni-site/profily.md#linkedin).
 6. Přidat SR jako druhého **superadministrátora** hned po založení, aby stránka nikdy nezávisela na jednom přihlášení. SOC jako správce obsahu.
