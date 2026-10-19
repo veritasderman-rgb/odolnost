@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import vercel from '@astrojs/vercel';
 import { remarkOverit } from './src/lib/remark-overit.mjs';
 import { remarkRazitko } from './src/lib/remark-razitko.mjs';
 
@@ -12,4 +13,7 @@ export default defineConfig({
     remarkPlugins: [remarkOverit, remarkRazitko],
     smartypants: false,
   },
+  adapter: vercel({
+    webAnalytics: { enabled: true },
+  }),
 });
