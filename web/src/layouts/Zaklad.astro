@@ -77,7 +77,7 @@ const menu = [
         <div>
           <Logo />
           <p>Nezávislý a nadstranický projekt o připravenosti na vážnou krizi. Praktické seznamy zásob najdete na státním webu <a href="https://www.72h.gov.cz/cs">72h.gov.cz</a>, na který navazujeme.</p>
-          <p class="tisnove">V nouzi 112<br />Sabotáž 158</p>
+          <p class="tisnove">V nouzi <a href="tel:112" class="c112">112</a><br />Sabotáž <a href="tel:158" class="c158">158</a></p>
         </div>
         <div>
           <p class="nadpis">O projektu</p>
@@ -149,6 +149,12 @@ const menu = [
   .nadpis { font-family: var(--pismo-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--akcent-na-tmave); margin-top: 0; }
   .mensi { font-size: 0.9rem; }
   .tisnove { font-family: var(--pismo-nadpis); font-size: 1.5rem; font-weight: var(--nadpis-vaha); color: #fff; line-height: 1.1; }
+  .tisnove a { text-decoration: none; }
+  .tisnove .c112 { color: #ff7a1a; }
+  .tisnove .c158 { color: #5aa9ff; }
+  .paticka .tisnove a:hover { background: none; text-decoration: underline; }
+  .paticka .tisnove .c112:hover { color: #ff7a1a; }
+  .paticka .tisnove .c158:hover { color: #5aa9ff; }
   .licence { border-top: 1px solid #333; margin-top: 2.5rem; padding-top: 1rem; font-size: 0.85rem; color: #a8a49b; }
 
   .spodni-lista { display: none; }

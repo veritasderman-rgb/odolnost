@@ -1,0 +1,501 @@
+[
+ {
+  "id": "se-mcf",
+  "zeme": "Švédsko",
+  "nazev": "Om krisen eller kriget kommer",
+  "preklad": "Když přijde krize nebo válka",
+  "vydavatel": "MCF (dříve MSB), státní agentura civilní obrany",
+  "rok": "2024",
+  "jazyky": "SV, EN a 13 dalších jazyků, audio, znakový jazyk",
+  "valka": "ano",
+  "manipulace": "ano",
+  "obalka": null,
+  "popis": "Brožura rozeslaná do 5,2 milionu švédských domácností. Kapitoly o obraně země, náletech a krytech, psychologické obraně a digitální bezpečnosti, i o tom, jak mluvit s dětmi o válce.",
+  "ukazky": [
+   "Pokud bude Švédsko napadeno, nikdy se nevzdáme. Každá informace, že odpor má skončit, je nepravdivá."
+  ],
+  "web": "https://www.mcf.se/en/advice-for-individuals/the-brochure-in-case-of-crisis-or-war",
+  "pdf": [],
+  "poznamka": "PDF je na oficiálním webu dočasně nedostupné, brožuru lze poslouchat nebo objednat.",
+  "zrcadlo": [],
+  "dalsi": [],
+  "licence": null
+ },
+ {
+  "id": "se-mpf",
+  "zeme": "Švédsko",
+  "nazev": "Bli inte lurad",
+  "preklad": "Nenech se napálit",
+  "vydavatel": "Myndigheten för psykologiskt försvar (Agentura pro psychologickou obranu)",
+  "rok": "2023, aktualizace 2026",
+  "jazyky": "SV",
+  "valka": "okrajově",
+  "manipulace": "celá příručka",
+  "obalka": "/prirucky/se-mpf-bli-inte-lurad-sv.jpg",
+  "popis": "Příručka pro každého o tom, jak poznat dezinformace a propagandu ve čtyřech krocích: dej pozor, zamysli se, ověř zdroj, hledej potvrzené informace. Pojmenovává opakující se narativy cizí moci a znaky botů.",
+  "ukazky": [
+   "Když něco vidíte a pomyslíte si „na tom něco bude“, může to být tím, že jste cílová skupina."
+  ],
+  "web": "https://mpf.se/kunskap-och-stod/handbocker/handbok-for-privatpersoner",
+  "pdf": [
+   {
+    "popisek": "PDF švédsky",
+    "url": "https://mpf.se/download/18.4c74207b19ed44228385dbd/1785753302963/bli-inte-lurad.pdf"
+   }
+  ],
+  "zrcadlo": [],
+  "dalsi": [],
+  "licence": null,
+  "poznamka": null
+ },
+ {
+  "id": "fi",
+  "zeme": "Finsko",
+  "nazev": "Preparing for incidents and crises",
+  "preklad": "Příprava na mimořádné události a krize",
+  "vydavatel": "Ministerstvo vnitra a DVV (Suomi.fi)",
+  "rok": "2024, souhrn 2025",
+  "jazyky": "FI, SV, EN; souhrn v 15 jazycích",
+  "valka": "ano",
+  "manipulace": "ano",
+  "obalka": "/prirucky/fi-varautunut-parjaa-paremmin-en.jpg",
+  "popis": "Webový průvodce s 18 tématy od výpadku proudu po vojenský konflikt a civilní obranu. Výborná stránka o informačním vlivu: emoce, kognitivní zkreslení, únava. K tomu tištěný souhrn na 8 stran.",
+  "ukazky": [
+   "Názory jednotlivců, oficiální komunikace úřadů ani běžné omyly nejsou informační vliv.",
+   "Připravení to zvládnou lépe."
+  ],
+  "web": "https://www.suomi.fi/guides/preparedness",
+  "pdf": [
+   {
+    "popisek": "Souhrn anglicky",
+    "url": "https://cdn.verkkopalvelu.suomi.fi/files/varautunut-parjaa-paremmin_SM_englanti-8c39eb1404d4c5ae6232a7269c7c7843.pdf"
+   },
+   {
+    "popisek": "Souhrn finsky",
+    "url": "https://cdn.verkkopalvelu.suomi.fi/files/varautunut-parjaa-paremmin_SM_suomi-e093f829ad4179e1b727c8f283a3e113.pdf"
+   }
+  ],
+  "zrcadlo": [
+   {
+    "popisek": "Záložní kopie EN",
+    "url": "/prirucky/pdf/fi-varautunut-parjaa-paremmin-en.pdf"
+   },
+   {
+    "popisek": "Záložní kopie FI",
+    "url": "/prirucky/pdf/fi-varautunut-parjaa-paremmin-fi.pdf"
+   }
+  ],
+  "licence": "CC BY 4.0",
+  "dalsi": [],
+  "poznamka": null
+ },
+ {
+  "id": "fi-72",
+  "zeme": "Finsko",
+  "nazev": "72 tuntia: Home Preparedness",
+  "preklad": "72 hodin: připravená domácnost",
+  "vydavatel": "SPEK (nevládní organizace) s ministerstvem vnitra a Červeným křížem",
+  "rok": "2025",
+  "jazyky": "FI, SV, EN",
+  "valka": "ne",
+  "manipulace": "okrajově",
+  "obalka": "/prirucky/fi-spek-72-hours-home-preparedness-2025-en.jpg",
+  "popis": "Nevládní program s brožurou, kurzy a sebetestem. Ukazuje, že připravenost mohou šířit i nestátní organizace, kterým lidé věří.",
+  "ukazky": [
+   "Domácnost by měla zvládnout nejméně tři dny sama: jídlo, voda, léky a vědět, odkud brát spolehlivé informace."
+  ],
+  "web": "https://72tuntia.fi/en/",
+  "pdf": [
+   {
+    "popisek": "PDF anglicky",
+    "url": "https://72tuntia.fi/wp-content/uploads/2025/01/spek_72_hours_home_preparedness_2025_01_21_v01.pdf"
+   }
+  ],
+  "zrcadlo": [],
+  "dalsi": [],
+  "licence": null,
+  "poznamka": null
+ },
+ {
+  "id": "no",
+  "zeme": "Norsko",
+  "nazev": "Du er en del av Norges beredskap",
+  "preklad": "Jste součástí norské připravenosti",
+  "vydavatel": "DSB (Direktorát pro civilní ochranu)",
+  "rok": "2024",
+  "jazyky": "NB, NN, sámské jazyky, EN a asi 30 dalších",
+  "valka": "částečně",
+  "manipulace": "krátce",
+  "obalka": "/prirucky/no-dsb-egenberedskap-2024-en.jpg",
+  "popis": "Brožura pro všechny domácnosti. Doporučuje soběstačnost na celý týden, protože obce se musí věnovat těm, kdo to sami nezvládnou. Kapitola o krytech a sirénách.",
+  "ukazky": [
+   "Najděte si kamaráda pro připravenost: někoho, kdo pomůže vám a komu pomůžete vy.",
+   "Zvlášť podezřelé je to, co vás překvapí, vyděsí nebo rozzlobí."
+  ],
+  "web": "https://www.dsb.no/sikkerhverdag/egenberedskap/",
+  "pdf": [
+   {
+    "popisek": "PDF anglicky",
+    "url": "https://www.dsb.no/siteassets/sikkerhverdag/egenberedskap/brosjyren/dsb-egenberedskap-engelsk-web.pdf"
+   },
+   {
+    "popisek": "PDF norsky",
+    "url": "https://www.dsb.no/siteassets/sikkerhverdag/egenberedskap/brosjyren/dsb-egenberedskap-bokmal-uu-web_ny.pdf"
+   }
+  ],
+  "zrcadlo": [],
+  "dalsi": [],
+  "licence": null,
+  "poznamka": null
+ },
+ {
+  "id": "dk",
+  "zeme": "Dánsko",
+  "nazev": "Forberedt på kriser",
+  "preklad": "Připraveni na krize",
+  "vydavatel": "Styrelsen for Samfundssikkerhed",
+  "rok": "2024, PDF 2025",
+  "jazyky": "DA, EN, grónsky, znakový jazyk",
+  "valka": "ne",
+  "manipulace": "krátce",
+  "obalka": "/prirucky/dk-forberedt-paa-kriser-2025-da.jpg",
+  "popis": "Klidná příručka na tři dny soběstačnosti s kalkulačkou zásob. Mluví o zhoršené bezpečnostní situaci, sabotážích a kybernetických útocích.",
+  "ukazky": [
+   "Můžete bydlet v malém bytě, mít napjatý rozpočet nebo potíže s chůzí. Udělejte, co dává smysl. Nějaká příprava je lepší než žádná."
+  ],
+  "web": "https://samsik.dk/forberedt/",
+  "pdf": [
+   {
+    "popisek": "PDF anglicky",
+    "url": "https://samsik.dk/wp-content/uploads/2025/08/EN-prepared-for-crises.pdf"
+   },
+   {
+    "popisek": "PDF dánsky",
+    "url": "https://samsik.dk/wp-content/uploads/2025/04/forberedt-paa-kriser.pdf"
+   }
+  ],
+  "zrcadlo": [],
+  "dalsi": [],
+  "licence": null,
+  "poznamka": null
+ },
+ {
+  "id": "ee",
+  "zeme": "Estonsko",
+  "nazev": "Ole valmis!",
+  "preklad": "Buď připraven!",
+  "vydavatel": "Päästeamet (záchranná služba) a Vládní kancelář (kriis.ee)",
+  "rok": "2022, leták 2024, web 2026",
+  "jazyky": "ET, RU, EN, UA",
+  "valka": "ano",
+  "manipulace": "ano",
+  "obalka": null,
+  "popis": "Web a aplikace s velmi otevřenou stránkou o vojenském konfliktu: nálety, drony, chování na okupovaném území, právo občanů na odpor. Na kriis.ee „abeceda informační války“.",
+  "ukazky": [
+   "Nekrmte trolly. Místo odkazu na škodlivý příspěvek sdílejte snímek obrazovky.",
+   "Nesdílejte polohu vojsk."
+  ],
+  "web": "https://www.olevalmis.ee/sojaline-konflikt",
+  "pdf": [],
+  "dalsi": [
+   {
+    "popisek": "kriis.ee: informační válka",
+    "url": "https://kriis.ee/kriisideks-valmistumine-eestis/kriisideks-valmistumine-eestis/kuberturvalisus-ja-infosoda-kuidas"
+   }
+  ],
+  "zrcadlo": [],
+  "licence": null,
+  "poznamka": null
+ },
+ {
+  "id": "lv",
+  "zeme": "Lotyšsko",
+  "nazev": "Kā rīkoties krīzes gadījumā",
+  "preklad": "Jak jednat v krizi",
+  "vydavatel": "Ministerstvo obrany",
+  "rok": "2024",
+  "jazyky": "LV, EN",
+  "valka": "ano",
+  "manipulace": "ano",
+  "obalka": "/prirucky/lv-what-to-do-in-case-of-crisis-2024-en.jpg",
+  "popis": "Samostatná část o tom, jak se chovat ve válce, včetně okupovaného území a kapitoly „Odpor“. Rodinný plán a test připravenosti na konci.",
+  "ukazky": [
+   "Lotyšsko bude bráněno! Jakákoli informace o kapitulaci nebo nekladení odporu je falešná zpráva.",
+   "Kdo je autor? Kdy to vyšlo? Jaký je účel? Kde jsou zdroje?"
+  ],
+  "web": "https://www.sargs.lv/lv/tema/72stundas",
+  "pdf": [
+   {
+    "popisek": "PDF anglicky",
+    "url": "https://www.mod.gov.lv/sites/mod/files/document/72H%20buklets_ENG_WEB_2024.pdf"
+   },
+   {
+    "popisek": "PDF lotyšsky",
+    "url": "https://vugd.gov.lv/lv/media/1351/download"
+   }
+  ],
+  "zrcadlo": [],
+  "dalsi": [],
+  "licence": null,
+  "poznamka": null
+ },
+ {
+  "id": "lt",
+  "zeme": "Litva",
+  "nazev": "Ką turime žinoti apie pasirengimą ekstremaliosioms situacijoms ir karo metui",
+  "preklad": "Co musíme vědět o připravenosti na mimořádné události a válku",
+  "vydavatel": "Ministerstvo národní obrany; portál lt72.lt (hasiči)",
+  "rok": "2022",
+  "jazyky": "LT, EN, audio, znakový jazyk",
+  "valka": "ano",
+  "manipulace": "neověřeno",
+  "obalka": null,
+  "popis": "Příručka s podtitulem „Vážné rady s humorem“: humor jako záměrný tón u tématu války. Asi 30 praktických rad pro katastrofy i válku.",
+  "ukazky": [],
+  "web": "https://lt72.lt/",
+  "pdf": [],
+  "poznamka": "Oficiální weby byly při rešerši nedostupné.",
+  "zrcadlo": [],
+  "dalsi": [],
+  "licence": null
+ },
+ {
+  "id": "pl",
+  "zeme": "Polsko",
+  "nazev": "Poradnik bezpieczeństwa",
+  "preklad": "Bezpečnostní rádce",
+  "vydavatel": "Ministerstvo obrany, ministerstvo vnitra a Vládní bezpečnostní centrum",
+  "rok": "2025",
+  "jazyky": "PL, EN, UA, LT, Braillovo písmo, znakový jazyk",
+  "valka": "ano",
+  "manipulace": "ano",
+  "obalka": "/prirucky/pl-poradnik-bezpieczenstwa-2025-pl.jpg",
+  "popis": "54 stran do všech domácností: válečný stav, mobilizace, nálet, kryty. Rodinný plán se třemi místy setkání v obci a třemi mimo ni a „Deset přikázání bezpečnosti“.",
+  "ukazky": [
+   "Přečti, procvič, uschovej.",
+   "Nevěřte žádným informacím o kolapsu státu a kapitulaci.",
+   "Humanitární pomoc je vždy zdarma."
+  ],
+  "web": "https://www.gov.pl/web/poradnikbezpieczenstwa",
+  "pdf": [
+   {
+    "popisek": "PDF anglicky",
+    "url": "https://www.gov.pl/attachment/9aa63303-0c11-4756-9369-646f5ef4a595"
+   },
+   {
+    "popisek": "PDF polsky",
+    "url": "https://www.gov.pl/attachment/fa491036-8872-457c-95e4-d1292e4a8203"
+   }
+  ],
+  "zrcadlo": [],
+  "dalsi": [],
+  "licence": null,
+  "poznamka": null
+ },
+ {
+  "id": "de",
+  "zeme": "Německo",
+  "nazev": "Vorsorgen für Krisen und Katastrophen",
+  "preklad": "Připravte se na krize a katastrofy",
+  "vydavatel": "BBK (Spolkový úřad pro ochranu obyvatelstva)",
+  "rok": "2025",
+  "jazyky": "DE, EN, lehká němčina a další",
+  "valka": "částečně",
+  "manipulace": "ano",
+  "obalka": "/prirucky/de-bbk-vorsorgen-fuer-krisen-und-katastrophen-2025-de.jpg",
+  "popis": "Moderně ilustrovaná příručka: zásoby na deset dní, ukrytí a pravidlo dvou zdí, rozhodovací schéma pro důvěryhodné informace, kapitoly o strachu a lidech s postižením.",
+  "ukazky": [
+   "I válka už nepůsobí tak vyloučeně jako před pár lety.",
+   "Pokud na některou otázku odpovíte ne, informaci nesdílejte."
+  ],
+  "web": "https://www.bbk.bund.de/DE/Warnung-Vorsorge/Vorsorge/Ratgeber-Checkliste/ratgeber-checkliste_node.html",
+  "pdf": [
+   {
+    "popisek": "PDF německy",
+    "url": "https://www.bbk.bund.de/SharedDocs/Downloads/DE/Mediathek/Publikationen/Buergerinformationen/Ratgeber/BBK-Vorsorgen-fuer-Krisen-und-Katastrophen.pdf?__blob=publicationFile&v=44"
+   },
+   {
+    "popisek": "PDF anglicky",
+    "url": "https://www.bbk.bund.de/SharedDocs/Downloads/DE/Mediathek/Publikationen/Buergerinformationen/Ratgeber/Fremdsprachen/ratgeber-englisch_download.pdf?__blob=publicationFile&v=8"
+   },
+   {
+    "popisek": "Kontrolní seznamy",
+    "url": "https://www.bbk.bund.de/SharedDocs/Downloads/DE/Mediathek/Publikationen/Buergerinformationen/Ratgeber/Checklisten-zur-Vorsorge-Krisen-und-Katastrophen.pdf?__blob=publicationFile&v=19"
+   }
+  ],
+  "zrcadlo": [],
+  "dalsi": [],
+  "licence": null,
+  "poznamka": null
+ },
+ {
+  "id": "nl",
+  "zeme": "Nizozemsko",
+  "nazev": "Bereid je voor op een noodsituatie",
+  "preklad": "Připrav se na mimořádnou situaci",
+  "vydavatel": "NCTV pro vládu (kampaň Denk vooruit)",
+  "rok": "2025",
+  "jazyky": "NL, EN, DE, PL, FR, AR, TR a další",
+  "valka": "částečně",
+  "manipulace": "částečně",
+  "obalka": "/prirucky/nl-bereid-je-voor-op-een-noodsituatie-2025-nl.jpg",
+  "popis": "Brožura do 8,5 milionu domácností. Časová osa 72 hodin výpadku proudu, modelový příběh výslovně označený jako vymyšlený a vytrhávací karta rodinného plánu.",
+  "ukazky": [
+   "V Nizozemsku teď není válka, ale ani mír.",
+   "Co uděláš dnes, nás zítra posílí."
+  ],
+  "web": "https://www.denkvooruit.nl/informatieboekje",
+  "pdf": [
+   {
+    "popisek": "PDF nizozemsky",
+    "url": "https://www.denkvooruit.nl/site/binaries/site-content/collections/documents/2025/11/17/informatieboekje-bereid-je-voor-op-een-noodsituatie/informatieboekje-bereid-je-voor-op-een-noodsituatie.pdf"
+   }
+  ],
+  "zrcadlo": [],
+  "dalsi": [],
+  "licence": null,
+  "poznamka": null
+ },
+ {
+  "id": "ch",
+  "zeme": "Švýcarsko",
+  "nazev": "Alertswiss Notfallplan",
+  "preklad": "Nouzový plán Alertswiss",
+  "vydavatel": "BABS (Spolkový úřad pro ochranu obyvatelstva)",
+  "rok": "2025",
+  "jazyky": "DE, FR, IT, lehká němčina",
+  "valka": "ne",
+  "manipulace": "ne",
+  "obalka": "/prirucky/ch-alertswiss-notfallplan-de.jpg",
+  "popis": "Osobní nouzový plán: kontakty, cesta domů, místa setkání a obecní nouzová místa setkání při úplném výpadku spojení.",
+  "ukazky": [
+   "Jste v práci, děti jsou v družině a rádio hlásí, že máte zůstat doma. Co uděláte?"
+  ],
+  "web": "https://www.alert.swiss/de/vorsorge/notfallplan.html",
+  "pdf": [
+   {
+    "popisek": "PDF německy",
+    "url": "https://www.alert.swiss/content/alertswiss-internet/de/vorsorge/notfallplan/_jcr_content/contentPar/downloadlist/downloadItems/9_1655206896283.download/88_084_(506_020)_de_Alertswiss_Notfallplan.pdf"
+   }
+  ],
+  "zrcadlo": [],
+  "dalsi": [],
+  "licence": null,
+  "poznamka": null
+ },
+ {
+  "id": "uk",
+  "zeme": "Velká Británie",
+  "nazev": "Prepare",
+  "preklad": "Připrav se",
+  "vydavatel": "HM Government",
+  "rok": "2025",
+  "jazyky": "EN",
+  "valka": "ne",
+  "manipulace": "ne",
+  "obalka": null,
+  "popis": "Vládní web o rizicích, varování a zapojení do komunity. Silné stránky pro lidi s postižením a pro pečující, rodinný plán ke stažení.",
+  "ukazky": [
+   "Když teď něco uděláte, bude pro vás snazší zvládnout mimořádnou situaci, pokud nastane."
+  ],
+  "web": "https://prepare.campaign.gov.uk/",
+  "pdf": [],
+  "zrcadlo": [],
+  "dalsi": [],
+  "licence": null,
+  "poznamka": null
+ },
+ {
+  "id": "eu",
+  "zeme": "Evropská unie",
+  "nazev": "European Preparedness Union Strategy",
+  "preklad": "Strategie Unie připravenosti",
+  "vydavatel": "Evropská komise a Vysoká představitelka",
+  "rok": "2025",
+  "jazyky": "EN a další úřední jazyky",
+  "valka": "ano",
+  "manipulace": "ano",
+  "obalka": "/prirucky/eu-preparedness-union-strategy-2025-en.jpg",
+  "popis": "Strategie, která jmenuje ruskou agresivní válku, hybridní útoky a sabotáže. Slibuje pokyny pro soběstačnost obyvatel na nejméně 72 hodin a výuku připravenosti a mediální gramotnosti ve školách.",
+  "ukazky": [
+   "Obyvatelé by měli být schopni zvládnout nejméně 72 hodin sami."
+  ],
+  "web": "https://commission.europa.eu/topics/preparedness_en",
+  "pdf": [
+   {
+    "popisek": "PDF anglicky",
+    "url": "https://commission.europa.eu/document/download/526806b6-c4e1-43d1-81b7-947308efbab1_en?filename=Joint%20Communication.pdf"
+   }
+  ],
+  "zrcadlo": [],
+  "dalsi": [],
+  "licence": null,
+  "poznamka": null
+ },
+ {
+  "id": "cz",
+  "zeme": "Česko",
+  "nazev": "72 hodin",
+  "preklad": "Jak se připravit na krizové situace a společně je zvládnout",
+  "vydavatel": "Ministerstvo vnitra ČR",
+  "rok": "2025",
+  "jazyky": "CS, EN, UA, znakový jazyk",
+  "valka": "ne",
+  "manipulace": "částečně",
+  "obalka": "/prirucky/cz-72-hodin-prirucka-cs.jpg",
+  "popis": "Česká státní příručka, kterou si přečetly téměř 4 miliony lidí. Výborná pro zásoby, vodu, výpadek proudu a evakuaci. Válku nezmiňuje, proto na ni navazujeme. K tomu karty pro starosty.",
+  "ukazky": [
+   "Pravidlo 72 hodin se týká situací, kdy nám nehrozí vážné nebezpečí."
+  ],
+  "web": "https://www.72h.gov.cz/cs/ke-stazeni",
+  "pdf": [
+   {
+    "popisek": "Příručka",
+    "url": "https://www.72h.gov.cz/public/files/2025-09/72-hodin-Jak-se-pripravit-na-krizove-situace-a-spolecne-je-zvladnout_.pdf"
+   },
+   {
+    "popisek": "Co si připravit",
+    "url": "https://www.72h.gov.cz/public/files/2025-09/Co-si-pripravit-na-72-hodin-krizove-situace_.pdf"
+   },
+   {
+    "popisek": "Karta pro starosty: varování",
+    "url": "https://www.72h.gov.cz/public/files/2025-09/KPS-Varovani-pred-hrozicim-nebezpecim-v1.0.pdf"
+   },
+   {
+    "popisek": "Karta pro starosty: eskalace nenávisti",
+    "url": "https://www.72h.gov.cz/public/files/2025-09/KPS-Eskalace-projevu-nenavisti-a-nasili-v1.1.pdf"
+   }
+  ],
+  "zrcadlo": [],
+  "dalsi": [],
+  "licence": null,
+  "poznamka": null
+ },
+ {
+  "id": "tw",
+  "zeme": "Tchaj-wan",
+  "nazev": "In Case of Crisis: National Public Safety Guide",
+  "preklad": "V případě krize: národní bezpečnostní příručka",
+  "vydavatel": "Ministerstvo národní obrany",
+  "rok": "2025",
+  "jazyky": "ZH, EN",
+  "valka": "ano",
+  "manipulace": "ano",
+  "obalka": "/prirucky/tw-national-public-safety-guide-2025-en.jpg",
+  "popis": "Pro srovnání mimo Evropu: příručka do 11 milionů domácností. Začíná otázkami místo příkazů a pojmenovává taktiky protivníka: falešné účty, deepfake videa, informace vytržené z kontextu.",
+  "ukazky": [
+   "V případě vojenské invaze je jakékoli tvrzení, že se vláda vzdala nebo že je země poražena, nepravdivé."
+  ],
+  "web": "https://adma.mnd.gov.tw/uniten/100004/7974",
+  "pdf": [
+   {
+    "popisek": "PDF anglicky",
+    "url": "https://adma.mnd.gov.tw/files/web/191/file_up/100004/1390/National_Public_Safety_Guide.pdf"
+   }
+  ],
+  "zrcadlo": [],
+  "dalsi": [],
+  "licence": null,
+  "poznamka": null
+ }
+]
