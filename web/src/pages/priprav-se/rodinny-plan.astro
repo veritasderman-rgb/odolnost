@@ -14,7 +14,7 @@ const kontakty = [
 ---
 <Zaklad title="Rodinný plán" popis="Kde se sejdete, kdo vyzvedne děti, kontakty na papíře a plán bez signálu. Vyplníte za 15 minut, vytisknete na jednu stránku A4.">
   <section class="obal plan-stranka netisknout">
-    <p class="pilir">3 · Připrav se</p>
+    <p class="znacka">03 · Připrav se</p>
     <h1>Rodinný plán</h1>
     <p class="perex text">Jedna stránka A4, která v krizi ušetří hodiny nejistoty. Vyplňte ji spolu s rodinou, vytiskněte a dejte na lednici. Každý dospělý ať má kopii v peněžence nebo v autě.</p>
 
@@ -164,13 +164,12 @@ const kontakty = [
 
 <style>
   .plan-stranka { padding-top: 2rem; }
-  .pilir { color: var(--salvej); font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.85rem; margin: 0 0 0.5rem; }
   .perex { font-size: 1.2rem; color: var(--text-2); }
   .soukromi { background: var(--papir-2); border-radius: var(--radius); padding: 1rem 1.2rem; font-size: 0.98rem; }
   .akce { display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; margin: 1.25rem 0; }
   .formular { max-width: 52rem; }
-  fieldset { border: 1px solid var(--linka); border-radius: var(--radius); background: var(--plocha); padding: 1.1rem 1.3rem 1.3rem; margin: 0 0 1rem; }
-  legend { font-weight: 700; font-size: 1.2rem; padding: 0 0.4rem; }
+  fieldset { border: 2px solid var(--linka); background: var(--plocha); padding: 1.1rem 1.3rem 1.3rem; margin: 0 0 1rem; }
+  legend { font-family: var(--pismo-nadpis); font-weight: var(--nadpis-vaha); font-size: 1.5rem; padding: 0 0.4rem; }
   label { display: block; font-weight: 700; margin: 0.75rem 0 0; }
   .napoveda, small { font-weight: 400; color: var(--text-2); font-size: 0.92rem; }
   small { display: block; }

@@ -122,67 +122,69 @@ Víme, co dělat
 
 ## Vizuální identita
 
-### Výchozí myšlenka: světlo v okně
+> **Změna směru (19. 10. 2026):** První návrh (teplý papír, zaoblené prvky, roztomilé okýnko) působil jako generický web a k vážnosti tématu se nehodil. Nový směr vychází z oficiálních webů o připravenosti a psychologické obraně: [MPF](https://mpf.se/) (Švédsko), [olevalmis.ee](https://www.olevalmis.ee/) (Estonsko), [Prepare](https://prepare.campaign.gov.uk/) (Velká Británie), [Suomi.fi](https://www.suomi.fi/guides/preparedness) (Finsko). Snímky srovnání jsou v pracovních podkladech.
 
-Večer ve tmě, celé sídliště bez proudu, ale v jednom okně svítí lampa. Je tam někdo, kdo ví, co dělat, a postará se o své blízké i o sousedy. **Teplé světlo v klidné tmě** je hlavní vizuální motiv: klid, domov, připravenost a soudržnost. Je to opak sirén, maskáčů a červených výstrah.
+### Co jsme se naučili ze zahraničí
 
-Druhý motiv je **lístek na lednici**: ručně vyplněný rodinný plán, papír, tužka, magnet. Funguje i bez proudu a vyjadřuje lidský rozměr připravenosti.
+| Web | Co funguje |
+| --- | --- |
+| MPF (Švédsko) | Obří zúžené písmo verzálkami, černá a signální žlutá, štítky strojovým písmem, dokumentární fotografie za soumraku, odkazy se šipkou, časté otázky jako rozbalovací seznam |
+| olevalmis.ee (Estonsko) | Jednoduchá kampaňová značka (žlutá + červená), velká hesla, skutečné děti a rodiny, praktické dlaždice s ikonami |
+| Prepare (UK) | Černý úvodní blok jen s typografií, krátká a přímá věta, žádné ilustrace |
+| Suomi.fi (Finsko) | Úřední čitelnost, jasné seznamy, fotografie obyčejných lidí |
+| Denk vooruit (NL) | Žlutý blok s textem přes fotografii, srozumitelná struktura |
 
-### Co do vizuálu nepatří
+Společné: vážnost, vysoký kontrast, ostré hrany, typografie nese sdělení. Žádné roztomilé ilustrace, žádné zaoblené dlaždice, žádné pastelové barvy.
 
-- maskáčové vzory, khaki, helmy, zbraně, vojenská technika v detailu, siluety vojáků,
-- poplašná červená a černá, výstražné pruhy, symbol radiace, „glitch“ efekty,
-- odpočty, hodiny, „breaking news“ estetika,
-- státní symboly a vzhled gov.cz (nejsme stát) a barvy politických stran (viz kontrolu níže),
-- fotografie zničených měst, raněných a pláčících dětí,
-- realistické obrázky lidí generované AI (projekt o manipulaci si to nemůže dovolit).
+### Barvy
 
-> **Kontrola stranických barev:** Než se paleta schválí, porovnat ji s barvami všech parlamentních a velkých mimoparlamentních stran a hnutí. Žádná hlavní barva se nesmí shodovat s barvou strany.
+| Role | Název | HEX | Použití |
+| --- | --- | --- | --- |
+| Hlavní | Černá | `#121212` | Text, úvodní bloky, patička, tlačítka |
+| Signální | Žlutá | `#FFD100` | Zvýraznění, Krok na dnes, aktivní stav, štítky. Na černé 12,8 : 1. Nikdy jako text na světlém pozadí. |
+| Pozadí | Papír | `#F2F0EB` | Pozadí stránek |
+| Plocha | Bílá | `#FFFFFF` | Dlaždice, formuláře |
+| Doplňková | Šedá | `#555555` | Méně důležitý text (6,5 : 1 na papíru) |
+| Výstraha | Červená | `#C8102E` | Jen pro skutečná varování, nikdy dekorativně |
 
-### Barvy (výchozí návrh pro designéra)
-
-Paleta je postavená na tmavém inkoustu, teplém papíru a světle lampy. Každý ze čtyř pilířů má vlastní barvu, aby se v obsahu snadno orientovalo.
-
-| Role | Název | HEX | Kontrast na papíru | Použití |
-| --- | --- | --- | --- | --- |
-| Text, tmavé pozadí | Inkoust | `#1D2B36` | 12,9 : 1 | Hlavní text, tmavý režim, večerní scény |
-| Pozadí | Papír | `#F6F1E7` | — | Pozadí webu a tisku |
-| Akcent „Krok na dnes“ | Lampa | `#E8A93A` | 1,8 : 1 ⚠ | **Jen jako plocha nebo na tmavém** (7,0 : 1 na inkoustu). Nikdy jako text na papíře. |
-| Akcent pro text | Tmavá lampa | `#8A5A0B` | 5,3 : 1 | Odkazy a zvýraznění na světlém pozadí |
-| Pilíř Scénář | Petrolejová | `#1F5E6B` | 6,5 : 1 | Zároveň hlavní barva značky |
-| Pilíř Příběhy | Terakota | `#A4492E` | 5,2 : 1 | Teplá, lidská |
-| Pilíř Připrav se | Šalvěj | `#3F6B4E` | 5,5 : 1 | Praktické kroky, zaškrtnuto |
-| Pilíř Poznej manipulaci | Švestka | `#5E3A6E` | 8,1 : 1 | Odlišná, „pozor“ bez poplachu |
-
-Kontrasty jsou spočítané podle WCAG 2.2. Všechny barvy pro text splňují úroveň AA (4,5 : 1). Odstíny jsou výchozí bod, designér je může doladit, ale kontrast se musí zachovat. Ověřit také čitelnost pro lidi s poruchou barvocitu (švestka proti petrolejové).
+Pilíře se už neodlišují barvou, ale číslem (01–04) ve štítku. Pozor: nepoužíváme mezinárodní znak civilní obrany (modrý trojúhelník na oranžovém poli), jeho užití upravují Ženevské úmluvy.
 
 ### Písmo
 
-Požadavky: plná česká diakritika (ř, ů, ě, ď, ť), výborná čitelnost i pro seniory a lidi se slabším zrakem, volná licence (obce a školy musí materiály upravovat bez poplatků) a vlastní hosting (žádné načítání z Google Fonts).
+| Role | Písmo | Licence |
+| --- | --- | --- |
+| Nadpisy, hesla, tlačítka | **Barlow Condensed** ExtraBold, verzálky | OFL |
+| Text | **IBM Plex Sans** | OFL |
+| Štítky, metadata, čísla | **IBM Plex Mono** | OFL |
 
-| Role | Doporučení | Licence | Proč |
-| --- | --- | --- | --- |
-| Nadpisy a texty rozhraní | **Atkinson Hyperlegible Next** | OFL | Navrženo pro čitelnost se slabým zrakem, výrazně odlišené znaky (I l 1). Před výběrem ověřit kresbu české diakritiky. |
-| Dlouhé čtení (příběhy) | **Source Serif 4** | OFL | Klidná patková pro příběhy, výborná v tisku, plná čeština. |
-| Rukopisné poznámky (lístek na lednici) | Volné rukopisné písmo s češtinou, nebo ručně kreslené popisky | OFL / vlastní | Jen jako akcent, nikdy na dlouhý text. |
+Všechna tři písma mají plnou českou diakritiku, jsou volně licencovaná a hostujeme je sami.
 
-Náhradní varianta: Inter + Literata. Základní velikost textu na webu je 18 px, s volbou „Větší písmo“ (22 px) pro seniory.
+### Prvky
 
-### Logo: tři směry k vypracování
+- **Ostré hrany** všude, rámečky 2 px černě.
+- **Tlačítka** obdélníková, verzálky, se šipkou →. Primární žluté, sekundární obrysové.
+- **Štítky** strojovým písmem na žlutém poli („01 · Jak by to mohlo vypadat“).
+- **Krok na dnes**: žlutý blok s černým rámečkem a posunutým stínem, text verzálkami.
+- **Úvodní blok**: černý, jen typografie, dvě věty, jedna z nich žlutě.
 
-| Směr | Popis | Plusy | Rizika |
-| --- | --- | --- | --- |
-| **A. Světlo v okně** (doporučeno) | Jednoduchý čtverec okna, v něm teplý bod nebo pruh světla. Slovní značka „Víme, co dělat“ v klidném bezpatkovém písmu. | Nese hlavní motiv, funguje jako ikona aplikace i v jedné barvě, nemá politický ani vojenský význam. | Může být příliš obecné. Musí se vyhnout podobě s realitními a energetickými firmami. |
-| B. Lístek s fajfkou | Čtvereček papíru s magnetem a ručně tažená fajfka. | Spojení s rodinným plánem, lidské, „hotovo“. | Fajfka je velmi běžná (aplikace na úkoly). |
-| C. Uzel | Dvě či tři propojené smyčky, které drží pohromadě. | Soudržnost, komunita. | Abstraktní, hrozí podobnost s logy bank a neziskovek. |
+### Logo (pracovní)
 
-Požadavky na logo: čitelné ve 16 px (favicon) i na plakátu, funkční v jedné barvě (tisk ve zpravodaji obce, razítko), verze pro tmavé pozadí, ochranná zóna, zakázaná použití.
+Slovní značka „VÍME, CO DĚLAT“ v Barlow Condensed se svislým žlutým blokem (stylizovaný zápis „hladina připravenosti“). Finální logo navrhne designér podle tohoto směru.
+
+### Co do vizuálu nepatří
+
+- maskáčové vzory, khaki, helmy, zbraně, vojenská technika v detailu,
+- odpočty, hodiny, „breaking news“ estetika, glitch efekty,
+- státní symboly, znak civilní obrany a barvy politických stran,
+- fotografie zničených měst, raněných a plačících dětí,
+- realistické obrázky lidí generované AI,
+- pastelové barvy, zaoblené „aplikační“ dlaždice, roztomilé ilustrace.
 
 ### Ilustrace
 
 Modelové příběhy **ilustrujeme, nefotografujeme**. Je to etické pravidlo: fiktivní postava nesmí vypadat jako reportáž.
 
-- **Styl:** plošné tvary s jemnou texturou papíru, teplé večerní světlo, omezená paleta značky. Postavy jsou realistické v proporcích, ale ne fotorealistické.
+- **Styl:** kresba ve stylu reportážního komiksu (inspirace: finská kampaň 72 tuntia), černá linka, omezená paleta černá, šedá a signální žlutá. Postavy realistické v proporcích, ne fotorealistické. Pro skutečná svědectví a kampaň dokumentární fotografie (MPF, Suomi.fi).
 - **Prostředí:** česká každodennost, tedy panelák, krajské město, sjezd z dálnice, vesnická náves, dílna, třída, kuchyň s rádiem na baterky. Rozpoznatelné, ale bez skutečných míst, která by šlo zneužít (žádné konkrétní mosty, sklady ani závody).
 - **Lidé:** různý věk, postava i původ, senioři a lidé s postižením jako aktivní postavy, ne jako oběti.
 - **Emoce:** obava je dovolená, panika ne. Každá série ilustrací končí obrazem úlevy nebo spolupráce.
@@ -193,13 +195,13 @@ Modelové příběhy **ilustrujeme, nefotografujeme**. Je to etické pravidlo: f
 
 Přirozené světlo, lidé v jejich prostředí, důstojnost, žádné inscenované slzy. Každá fotka má písemný souhlas, popisek a datum. Pokud svědek chce anonymitu, použijeme siluetu, ruce, detail prostředí nebo ilustraci podle rozhovoru s viditelným štítkem „Ilustrace podle skutečného svědectví“.
 
-### Ikony a prvky rozhraní, které nesou důvěru
+### Prvky rozhraní, které nesou důvěru
 
 Tyto prvky jsou součást značky, ne jen designu. Musí být na webu i v tisku na první pohled rozpoznatelné.
 
 | Prvek | Podoba | Kde |
 | --- | --- | --- |
-| **Krok na dnes** | Rámeček v barvě lampy s ikonou fajfky. Jeden úkon do 15 minut. | Konec každé stránky, videa, příspěvku |
+| **Krok na dnes** | Žlutý blok s černým rámečkem, text verzálkami. Jeden úkon do 15 minut. | Konec každé stránky, videa, příspěvku |
 | **Odkud to víme** | Šedý rozbalovací štítek se seznamem zdrojů a datem | Každá stránka scénáře a každé tvrzení s číslem |
 | **Modelový příběh** | Štítek s ikonou tužky a ilustrací | Hlavička a sdílecí obrázek příběhu |
 | **Skutečné svědectví** | Štítek s ikonou mikrofonu a fotografií | Hlavička a sdílecí obrázek |
@@ -207,7 +209,7 @@ Tyto prvky jsou součást značky, ne jen designu. Musí být na webu i v tisku 
 | **Opraveno** | Žlutý pruh s datem a popisem opravy | U opravené pasáže a v seznamu oprav |
 | **Ověř u zdroje** | Ikona lupy | Prebunking, hra, karta |
 
-Ikonový soubor: lineární ikony s tloušťkou čáry 2 px a zakulacenými konci, 24px mřížka. Sada zhruba 40 ikon (voda, světlo, rádio, léky, dítě, senior, zvíře, auto, setkání, telefon bez signálu, siréna, lupa, kalendář…).
+Ikonový soubor: lineární ikony s tloušťkou čáry 2 px a ostrými konci, 24px mřížka. Sada zhruba 40 ikon (voda, světlo, rádio, léky, dítě, senior, zvíře, auto, setkání, telefon bez signálu, siréna, lupa, kalendář…).
 
 ### Tiskové formáty
 
@@ -255,7 +257,7 @@ Klidný ženský nebo mužský hlas (ideálně tvář projektu), krátká zvukov
 >
 > **Cílové skupiny:** rodiče, senioři a jejich dospělé děti, mladí 15–25, zaměstnanci logistiky a výroby, starostové a učitelé.
 >
-> **Pocit, který chceme vyvolat:** Klid, důvěra, domov, „zvládneme to“. Teplé světlo v okně, lístek na lednici.
+> **Pocit, který chceme vyvolat:** Vážnost, důvěra, odhodlání, „víme, co dělat“. Vzory: MPF (Švédsko), olevalmis.ee, Prepare (UK). Pracovní směr: černá a signální žlutá, zúžené verzálky, ostré hrany.
 >
 > **Čemu se vyhnout:** vojenská a prepperská estetika, poplašná červená, odpočty, vzhled státních webů, stranické barvy, AI generované tváře.
 >

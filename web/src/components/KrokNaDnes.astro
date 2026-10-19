@@ -3,16 +3,13 @@ interface Props { text: string }
 const { text } = Astro.props;
 ---
 <aside class="krok" aria-label="Krok na dnes">
-  <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-  <div>
-    <p class="nadpis">Krok na dnes</p>
-    <p class="obsah">{text}</p>
-  </div>
+  <p class="nadpis">Krok na dnes</p>
+  <p class="obsah">{text}</p>
 </aside>
 <style>
-  .krok { display: flex; gap: 1rem; align-items: flex-start; background: var(--lampa); color: var(--inkoust); border-radius: var(--radius); padding: 1.25rem 1.5rem; margin: 2.5rem 0; max-width: var(--sirka-textu); }
-  .krok svg { flex: none; margin-top: 0.15rem; }
-  .nadpis { margin: 0; font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
-  .obsah { margin: 0.2rem 0 0; font-size: 1.2rem; font-weight: 700; line-height: 1.4; }
-  @media print { .krok { border: 2px solid #000; background: #fff; } }
+  .krok { background: var(--akcent); color: var(--na-akcentu); border: 2px solid var(--text); box-shadow: 8px 8px 0 var(--text); padding: 1.3rem 1.5rem 1.4rem; margin: 3rem 0; max-width: var(--sirka-textu); }
+  .nadpis { margin: 0 0 0.4rem; font-family: var(--pismo-mono); font-weight: 500; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .nadpis::before { content: '→ '; }
+  .obsah { margin: 0; font-family: var(--pismo-nadpis); font-weight: var(--nadpis-vaha); font-size: clamp(1.5rem, 3vw, 1.9rem); line-height: var(--nadpis-lh); }
+  @media print { .krok { box-shadow: none; background: #fff; } }
 </style>

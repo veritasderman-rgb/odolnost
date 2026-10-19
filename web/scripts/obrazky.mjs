@@ -9,22 +9,28 @@ import { TECHNIKY } from './karta-data.mjs';
 const require = createRequire(import.meta.url);
 const { chromium } = require(process.env.PW || 'playwright');
 const koren = new URL('..', import.meta.url).pathname;
-const font = (soubor) => `file://${koren}node_modules/@fontsource/atkinson-hyperlegible-next/files/${soubor}`;
+const font = (balik, soubor) => `file://${koren}node_modules/@fontsource/${balik}/files/${soubor}`;
 const zaklad = `
-  @font-face { font-family: A; font-weight: 400; src: url(${font('atkinson-hyperlegible-next-latin-ext-400-normal.woff2')}); }
-  @font-face { font-family: A; font-weight: 700; src: url(${font('atkinson-hyperlegible-next-latin-ext-700-normal.woff2')}); }
-  @font-face { font-family: A; font-weight: 400; src: url(${font('atkinson-hyperlegible-next-latin-400-normal.woff2')}); unicode-range: U+0000-00FF; }
-  @font-face { font-family: A; font-weight: 700; src: url(${font('atkinson-hyperlegible-next-latin-700-normal.woff2')}); unicode-range: U+0000-00FF; }
-  * { box-sizing: border-box; } body { margin: 0; font-family: A, sans-serif; }`;
-const okno = (v) => `<svg width="${v}" height="${v}" viewBox="0 0 48 48"><rect x="3" y="3" width="42" height="42" rx="7" fill="#1d2b36" stroke="#4a6070" stroke-width="1.5"/><rect x="10" y="10" width="12.5" height="12.5" rx="2" fill="#2c4150"/><rect x="25.5" y="10" width="12.5" height="12.5" rx="2" fill="#2c4150"/><rect x="10" y="25.5" width="12.5" height="12.5" rx="2" fill="#e8a93a"/><rect x="25.5" y="25.5" width="12.5" height="12.5" rx="2" fill="#2c4150"/></svg>`;
+  @font-face { font-family: N; font-weight: 800; src: url(${font('barlow-condensed', 'barlow-condensed-latin-ext-800-normal.woff2')}); }
+  @font-face { font-family: N; font-weight: 800; src: url(${font('barlow-condensed', 'barlow-condensed-latin-800-normal.woff2')}); unicode-range: U+0000-00FF; }
+  @font-face { font-family: T; font-weight: 400; src: url(${font('ibm-plex-sans', 'ibm-plex-sans-latin-ext-400-normal.woff2')}); }
+  @font-face { font-family: T; font-weight: 400; src: url(${font('ibm-plex-sans', 'ibm-plex-sans-latin-400-normal.woff2')}); unicode-range: U+0000-00FF; }
+  @font-face { font-family: T; font-weight: 700; src: url(${font('ibm-plex-sans', 'ibm-plex-sans-latin-ext-700-normal.woff2')}); }
+  @font-face { font-family: T; font-weight: 700; src: url(${font('ibm-plex-sans', 'ibm-plex-sans-latin-700-normal.woff2')}); unicode-range: U+0000-00FF; }
+  @font-face { font-family: M; font-weight: 500; src: url(${font('ibm-plex-mono', 'ibm-plex-mono-latin-ext-500-normal.woff2')}); }
+  @font-face { font-family: M; font-weight: 500; src: url(${font('ibm-plex-mono', 'ibm-plex-mono-latin-500-normal.woff2')}); unicode-range: U+0000-00FF; }
+  * { box-sizing: border-box; } body { margin: 0; font-family: T, sans-serif; }
+  .n { font-family: N, sans-serif; font-weight: 800; text-transform: uppercase; line-height: .9; }
+  .m { font-family: M, monospace; font-weight: 500; text-transform: uppercase; letter-spacing: .06em; }`;
+const blok = (v) => `<span style="display:inline-block;width:${v * 0.47}px;height:${v}px;background:#ffd100;box-shadow:inset 0 -${v * 0.29}px 0 #121212;outline:${Math.max(2, v / 24)}px solid #ffd100"></span>`;
 
 const OG = {
-  vychozi: { barva: '#1d2b36', nad: 'Klidně. Pravdivě. Prakticky.', titul: 'Když víme, co dělat, máme menší strach.' },
-  scenar: { barva: '#1f5e6b', nad: '1 · Scénář', titul: 'Jak by to mohlo vypadat' },
-  pribehy: { barva: '#a4492e', nad: '2 · Příběhy', titul: 'Jak to lidé zvládli' },
-  'priprav-se': { barva: '#3f6b4e', nad: '3 · Připrav se', titul: 'Praktické kroky pro vaši rodinu' },
-  manipulace: { barva: '#5e3a6e', nad: '4 · Poznej manipulaci', titul: 'Když triky znáte předem, nefungují' },
-  'o-nas': { barva: '#1d2b36', nad: 'O projektu', titul: 'Nezávislí a nadstraničtí' },
+  vychozi: { nad: 'Nezávislý projekt · Připravenost · Odolnost', titul: 'Počítáme s tím.<br><em>Připravme se.</em>' },
+  scenar: { nad: '01 · Jak by to mohlo vypadat', titul: 'Scénář' },
+  pribehy: { nad: '02 · Jak to lidé zvládli', titul: 'Příběhy' },
+  'priprav-se': { nad: '03 · Praktické kroky', titul: 'Připrav se' },
+  manipulace: { nad: '04 · Předběžné očkování', titul: 'Poznej manipulaci' },
+  'o-nas': { nad: 'O projektu', titul: 'Nezávislí a nadstraničtí' },
 };
 
 const b = await chromium.launch();
@@ -39,35 +45,34 @@ const vykresli = async (html) => {
 
 for (const v of [192, 512]) {
   await p.setViewportSize({ width: v, height: v });
-  await vykresli(`<style>${zaklad} body{background:#1d2b36;display:grid;place-items:center;height:100vh}</style>${okno(Math.round(v * 0.8))}`);
+  await vykresli(`<style>${zaklad} body{background:#121212;display:grid;place-items:center;height:100vh}</style>${blok(Math.round(v * 0.62))}`);
   await p.screenshot({ path: `${koren}public/ikony/ikona-${v}.png` });
 }
 
 await p.setViewportSize({ width: 1200, height: 630 });
 for (const [klic, o] of Object.entries(OG)) {
   await vykresli(`<style>${zaklad}
-    body{width:1200px;height:630px;background:#f6f1e7;color:#1d2b36;padding:70px 80px;display:flex;flex-direction:column;justify-content:space-between;border-top:24px solid ${o.barva}}
-    .nad{font-weight:700;font-size:30px;color:${o.barva};text-transform:uppercase;letter-spacing:.06em}
-    h1{font-size:78px;line-height:1.08;margin:18px 0 0;max-width:980px}
-    .pata{display:flex;align-items:center;gap:22px;font-size:34px;font-weight:700}
-    .pata span.url{margin-left:auto;font-weight:400;color:#5b6670}</style>
-    <div><div class="nad">${o.nad}</div><h1>${o.titul}</h1></div>
-    <div class="pata">${okno(72)}<span>Víme, co dělat</span><span class="url">vimecodelat.cz</span></div>`);
+    body{width:1200px;height:630px;background:#121212;color:#fff;padding:64px 72px;display:flex;flex-direction:column;justify-content:space-between;border-bottom:18px solid #ffd100}
+    .nad{display:inline-block;background:#ffd100;color:#121212;font-size:24px;padding:6px 12px}
+    h1{font-size:120px;margin:28px 0 0;letter-spacing:-.005em} h1 em{font-style:normal;color:#ffd100}
+    .pata{display:flex;align-items:center;gap:18px} .pata .n{font-size:46px} .url{margin-left:auto;font-size:24px;color:#b5b0a6}</style>
+    <div><span class="m nad">${o.nad}</span><h1 class="n">${o.titul}</h1></div>
+    <div class="pata">${blok(56)}<span class="n">Víme, co dělat</span><span class="m url">vimecodelat.cz</span></div>`);
   await p.screenshot({ path: `${koren}public/og/${klic}.png` });
 }
 
 await p.setViewportSize({ width: 1080, height: 1920 });
 await vykresli(`<style>${zaklad}
-  body{width:1080px;height:1920px;background:#5e3a6e;color:#fff;padding:150px 90px 120px;display:flex;flex-direction:column}
-  .hlava{display:flex;align-items:center;gap:30px}.male{font-size:36px;opacity:.85;margin:0}.titul{font-size:76px;font-weight:700;margin:0;line-height:1.05}
-  ol{list-style:none;padding:0;margin:80px 0 0;counter-reset:k}
-  li{counter-increment:k;margin:0 0 70px;padding-left:96px;position:relative}
-  li::before{content:counter(k);position:absolute;left:0;top:4px;width:66px;height:66px;border-radius:50%;background:#e8a93a;color:#1d2b36;font-weight:700;font-size:38px;display:grid;place-items:center}
-  .n{font-size:54px;font-weight:700;display:block}.o{font-size:44px;opacity:.95;display:block;margin-top:6px}
-  .pata{margin-top:auto;font-size:36px;opacity:.9;border-top:2px solid rgb(255 255 255 / .35);padding-top:36px}</style>
-  <div class="hlava">${okno(120)}<div><p class="male">Víme, co dělat</p><p class="titul">Poznej manipulaci</p></div></div>
-  <ol>${TECHNIKY.map((t) => `<li><span class="n">${t.nazev}</span><span class="o">${t.otazka}</span></li>`).join('')}</ol>
-  <div class="pata">Než něco pošlete dál: zastavte se, ověřte, zeptejte se.<br><strong>vimecodelat.cz</strong></div>`);
+  body{width:1080px;height:1920px;background:#121212;color:#fff;padding:140px 90px 110px;display:flex;flex-direction:column;border-top:28px solid #ffd100}
+  .male{font-size:30px;color:#ffd100;margin:0}.titul{font-size:150px;margin:18px 0 0}
+  ol{list-style:none;padding:0;margin:90px 0 0;counter-reset:k}
+  li{counter-increment:k;margin:0 0 50px;padding-left:110px;position:relative}
+  li::before{content:'0' counter(k);position:absolute;left:0;top:6px;font-family:M,monospace;font-weight:500;font-size:40px;color:#ffd100}
+  .t{font-size:66px;display:block}.o{font-size:44px;color:#d9d5cc;display:block;margin-top:10px;line-height:1.25}
+  .pata{margin-top:auto;font-size:28px;color:#b5b0a6;border-top:3px solid #ffd100;padding-top:34px;line-height:1.5}</style>
+  <p class="m male">Víme, co dělat · Kapesní karta</p><p class="n titul">Poznej<br>manipulaci</p>
+  <ol>${TECHNIKY.map((t) => `<li><span class="n t">${t.nazev}</span><span class="o">${t.otazka}</span></li>`).join('')}</ol>
+  <div class="m pata">Než něco pošlete dál: zastavte se, ověřte, zeptejte se.<br>vimecodelat.cz</div>`);
 await p.screenshot({ path: `${koren}public/karta/poznej-manipulaci-telefon.png` });
 
 await b.close();

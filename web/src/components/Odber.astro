@@ -16,16 +16,21 @@ const { svetly = false } = Astro.props;
   <p class="stav" role="status" aria-live="polite"></p>
 </form>
 <style>
-  .odber { max-width: 30rem; }
-  .nadpis { font-weight: 700; margin: 0 0 0.25rem; color: #f6f1e7; }
+  .odber { max-width: 30rem; color: #e8e4da; }
+  .odber a { color: #fff; }
+  .odber a:hover { color: var(--na-akcentu); }
+  .svetly { color: var(--text); }
+  .svetly a { color: var(--odkaz); }
+  .nadpis { font-family: var(--pismo-nadpis); font-weight: var(--nadpis-vaha); font-size: 1.6rem; line-height: var(--nadpis-lh); margin: 0 0 0.5rem; color: #fff; }
   .svetly .nadpis { color: var(--text); }
   .popis { margin: 0 0 0.75rem; font-size: 0.92rem; }
   .radek { display: flex; gap: 0.5rem; flex-wrap: wrap; }
-  input[type='email'] { flex: 1 1 12rem; min-height: 48px; font: inherit; font-size: 1rem; padding: 0 0.9rem; border-radius: 999px; border: 2px solid var(--linka); background: var(--bila); color: var(--inkoust); }
+  input[type='email'] { flex: 1 1 12rem; min-height: 52px; font: inherit; font-size: 1rem; padding: 0 0.9rem; border: 2px solid #fff; background: var(--bila); color: var(--na-akcentu); }
   .souhlas { display: flex; gap: 0.5rem; align-items: flex-start; font-size: 0.85rem; margin-top: 0.6rem; }
   .souhlas input { margin-top: 0.25rem; width: 1.1rem; height: 1.1rem; flex: none; }
   .past { position: absolute; left: -9999px; }
-  .stav { font-weight: 700; min-height: 1.5em; }
+  .stav { font-weight: 700; min-height: 1.5em; color: var(--akcent); }
+  .svetly .stav { color: var(--text); }
 </style>
 <script>
   document.querySelectorAll<HTMLFormElement>('form[data-odber]').forEach((formular) => {

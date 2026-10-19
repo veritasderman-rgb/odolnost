@@ -1,33 +1,81 @@
-/* Design tokeny podle plan/01-brand.md. Pracovní verze do dodání manuálu značky. */
+/*
+  Design tokeny. Směr podle oficiálních webů o připravenosti a psychologické obraně
+  (MPF Švédsko, olevalmis.ee, Prepare UK): černá a signální žlutá, zúžené nadpisy
+  verzálkami, ostré hrany, štítky strojovým písmem. Viz plan/01-brand.md.
+*/
 :root {
-  --inkoust: #1d2b36;
-  --papir: #f6f1e7;
-  --papir-2: #ece4d3;
-  --bila: #fffdf8;
-  --lampa: #e8a93a;
-  --lampa-tmava: #8a5a0b;
-  --petrol: #1f5e6b;
-  --terakota: #a4492e;
-  --salvej: #3f6b4e;
-  --svestka: #5e3a6e;
-  --seda: #5b6670;
-  --linka: #d8cfbd;
+  /* Inkoust a papír */
+  --cerna: #1b1b1b;
+  --bila: #ffffff;
+  --papir: #f4f1ea;
+  --seda: #555555;
+  --seda-svetla: #d9d5cc;
+  --cervena: #b42318;
+
+  /* Sémantické tokeny, které mění varianty vzhledu */
+  --akcent: #c2361f;
+  --na-akcentu: #ffffff;
+  --akcent-na-tmave: #ff8a70;
+  --tmava: #1b1b1b;
+  --na-tmave: #ffffff;
 
   --pozadi: var(--papir);
   --plocha: var(--bila);
-  --text: var(--inkoust);
+  --text: var(--cerna);
   --text-2: var(--seda);
-  --odkaz: var(--petrol);
-  --akcent-text: var(--lampa-tmava);
+  --odkaz: var(--cerna);
+  --akcent-text: var(--akcent);
+  --linka: var(--cerna);
+  --linka-jemna: var(--seda-svetla);
+  --papir-2: #e9e4d8;
 
-  --pismo: 'Atkinson Hyperlegible Next', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --pismo-cteni: 'Source Serif 4 Variable', Georgia, 'Times New Roman', serif;
+  /* Aliasy pro starší komponenty */
+  --inkoust: var(--cerna);
+  --lampa: var(--akcent);
+  --zluta: var(--akcent);
+
+  --pismo: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --pismo-nadpis: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --pismo-mono: 'IBM Plex Mono', ui-monospace, 'Courier New', monospace;
+  --pismo-cteni: var(--pismo);
+  --nadpis-vaha: 700;
+  --nadpis-transform: none;
+  --nadpis-lh: 1.04;
+  --nadpis-tracking: -0.018em;
   --zakladni: 1.125rem;
-  --sirka: 72rem;
-  --sirka-textu: 40rem;
-  --radius: 10px;
+  --sirka: 76rem;
+  --sirka-textu: 42rem;
+  --radius: 0;
   --mezera: clamp(1rem, 3vw, 2rem);
   color-scheme: light;
+}
+
+/* Varianta B: grafit a reflexní žlutozelená (bezpečnostní vesta) */
+:root[data-varianta='reflex'] {
+  --cerna: #1f2328;
+  --papir: #f3f4f2;
+  --akcent: #c8f560;
+  --na-akcentu: #1f2328;
+  --akcent-na-tmave: #c8f560;
+  --tmava: #1f2328;
+  --papir-2: #e4e7e2;
+  --pismo-nadpis: 'IBM Plex Sans', system-ui, sans-serif;
+  --nadpis-tracking: -0.025em;
+  --nadpis-lh: 1.02;
+}
+
+/* Varianta C: civilní ochrana, výstražná oranžová a tmavá břidlice */
+:root[data-varianta='civilni'] {
+  --cerna: #1d2526;
+  --papir: #eef0ed;
+  --akcent: #ff6a1a;
+  --na-akcentu: #1d2526;
+  --akcent-na-tmave: #ff8a4c;
+  --tmava: #1d2526;
+  --papir-2: #e0e4df;
+  --pismo-nadpis: 'IBM Plex Sans', system-ui, sans-serif;
+  --nadpis-tracking: -0.025em;
+  --nadpis-lh: 1.02;
 }
 
 :root[data-pismo='velke'] {
@@ -36,14 +84,15 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-motiv='svetly']) {
-    --pozadi: #141f27;
-    --plocha: #1d2b36;
-    --text: #f1ebdf;
-    --text-2: #b9c0c6;
-    --odkaz: #8fc6d1;
-    --akcent-text: #f0be62;
-    --linka: #33434f;
-    --papir-2: #24343f;
+    --pozadi: #161616;
+    --plocha: #202020;
+    --text: #f2f0eb;
+    --text-2: #b5b0a6;
+    --odkaz: #f2f0eb;
+    --akcent-text: var(--akcent-na-tmave);
+    --linka: #f2f0eb;
+    --linka-jemna: #3a3a3a;
+    --papir-2: #262626;
     color-scheme: dark;
   }
 }
@@ -78,39 +127,45 @@ video {
 
 a {
   color: var(--odkaz);
+  text-decoration-thickness: 2px;
   text-underline-offset: 0.18em;
 }
 
 a:hover {
-  text-decoration-thickness: 2px;
+  background: var(--akcent);
+  color: var(--na-akcentu);
 }
 
 :focus-visible {
-  outline: 3px solid var(--lampa);
+  outline: 3px solid var(--akcent);
   outline-offset: 2px;
-  border-radius: 4px;
+  box-shadow: 0 0 0 6px var(--cerna);
 }
 
 h1,
-h2,
-h3 {
-  line-height: 1.2;
-  font-weight: 700;
+h2 {
+  font-family: var(--pismo-nadpis);
+  font-weight: var(--nadpis-vaha);
+  text-transform: var(--nadpis-transform);
+  line-height: var(--nadpis-lh);
+  letter-spacing: var(--nadpis-tracking);
   text-wrap: balance;
 }
 
 h1 {
-  font-size: clamp(2rem, 5vw, 3rem);
-  margin: 0 0 0.75rem;
+  font-size: clamp(2.6rem, 7vw, 4.6rem);
+  margin: 0 0 1rem;
 }
 
 h2 {
-  font-size: clamp(1.4rem, 3vw, 1.8rem);
-  margin: 2.2rem 0 0.75rem;
+  font-size: clamp(1.9rem, 4vw, 2.7rem);
+  margin: 2.6rem 0 0.9rem;
 }
 
 h3 {
   font-size: 1.2rem;
+  line-height: 1.25;
+  font-weight: 700;
   margin: 1.6rem 0 0.5rem;
 }
 
@@ -133,18 +188,22 @@ td {
   text-align: left;
   vertical-align: top;
   padding: 0.6rem 0.75rem;
-  border-bottom: 1px solid var(--linka);
+  border-bottom: 1px solid var(--linka-jemna);
 }
 
 th {
-  background: var(--papir-2);
+  font-family: var(--pismo-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 2px solid var(--linka);
 }
 
 blockquote {
   margin: 1.5rem 0;
-  padding: 0.25rem 0 0.25rem 1.25rem;
-  border-left: 4px solid var(--lampa);
-  color: var(--text-2);
+  padding: 0.2rem 0 0.2rem 1.25rem;
+  border-left: 6px solid var(--akcent);
 }
 
 .obal {
@@ -158,22 +217,46 @@ blockquote {
 }
 
 .cteni {
-  font-family: var(--pismo-cteni);
-  font-size: 1.08em;
-  line-height: 1.7;
+  font-size: 1.06em;
+  line-height: 1.72;
 }
 
-.cteni h2,
-.cteni h3 {
-  font-family: var(--pismo);
+/* Štítek strojovým písmem: rubriky, metadata, označení příběhů */
+.mono,
+.stitek {
+  font-family: var(--pismo-mono);
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.stitek {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0.5rem;
+  border: 1.5px solid currentColor;
+}
+
+.znacka {
+  display: inline-block;
+  font-family: var(--pismo-mono);
+  font-weight: 500;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: var(--akcent);
+  color: var(--na-akcentu);
+  padding: 0.25rem 0.55rem;
 }
 
 .preskocit {
   position: absolute;
   left: -999px;
   top: 0;
-  background: var(--inkoust);
-  color: var(--papir);
+  background: var(--akcent);
+  color: var(--na-akcentu);
   padding: 0.75rem 1rem;
   z-index: 100;
 }
@@ -185,52 +268,54 @@ blockquote {
 .tlacitko {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  font: inherit;
+  gap: 0.6rem;
+  font-family: var(--pismo);
   font-weight: 700;
-  font-size: 1rem;
-  padding: 0.8rem 1.2rem;
-  border-radius: 999px;
-  border: 2px solid var(--inkoust);
-  background: var(--inkoust);
-  color: var(--papir);
+  font-size: 1.05rem;
+  padding: 0.7rem 1.2rem;
+  border: 2px solid var(--cerna);
+  background: var(--cerna);
+  color: var(--bila);
   text-decoration: none;
   cursor: pointer;
-  min-height: 48px;
+  min-height: 52px;
+}
+
+.tlacitko:hover {
+  background: var(--akcent);
+  color: var(--na-akcentu);
 }
 
 .tlacitko.svetle {
   background: transparent;
   color: var(--text);
-  border-color: currentColor;
+  border-color: var(--linka);
+}
+
+.tlacitko.svetle:hover {
+  background: var(--akcent);
+  color: var(--na-akcentu);
+  border-color: var(--cerna);
 }
 
 .tlacitko.lampa {
-  background: var(--lampa);
-  border-color: var(--lampa);
-  color: var(--inkoust);
+  background: var(--akcent);
+  border-color: var(--akcent);
+  color: var(--na-akcentu);
 }
 
-.stitek {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  padding: 0.25rem 0.6rem;
-  border-radius: 999px;
-  border: 1.5px solid currentColor;
+.tlacitko.lampa:hover {
+  background: var(--bila);
+  border-color: var(--bila);
+  color: var(--cerna);
 }
 
 mark.overit {
   background: #ffe08a;
   color: #3a2a00;
   padding: 0 0.2em;
-  border-radius: 3px;
-  font-family: var(--pismo);
-  font-size: 0.85em;
+  font-family: var(--pismo-mono);
+  font-size: 0.8em;
 }
 
 .vizualne-skryte {
