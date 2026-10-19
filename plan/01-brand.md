@@ -136,40 +136,54 @@ Víme, co dělat
 
 Společné: vážnost, vysoký kontrast, ostré hrany, typografie nese sdělení. Žádné roztomilé ilustrace, žádné zaoblené dlaždice, žádné pastelové barvy.
 
-### Barvy
+### Barvy (zvolená varianta Reflex, 19. 10. 2026)
 
-| Role | Název | HEX | Použití |
-| --- | --- | --- | --- |
-| Hlavní | Černá | `#121212` | Text, úvodní bloky, patička, tlačítka |
-| Signální | Žlutá | `#FFD100` | Zvýraznění, Krok na dnes, aktivní stav, štítky. Na černé 12,8 : 1. Nikdy jako text na světlém pozadí. |
-| Pozadí | Papír | `#F2F0EB` | Pozadí stránek |
-| Plocha | Bílá | `#FFFFFF` | Dlaždice, formuláře |
-| Doplňková | Šedá | `#555555` | Méně důležitý text (6,5 : 1 na papíru) |
-| Výstraha | Červená | `#C8102E` | Jen pro skutečná varování, nikdy dekorativně |
+Reflexní žlutozelená je barva výstražných vest a bezpečnostních prvků: znamená „pozor, ale jsme připravení“. Žádná česká politická strana ji nepoužívá. Původní černo-žlutá kombinace se zúženými verzálkami byla odmítnuta, protože se shodovala s vizuálem Pirátů (`#fec934`, Bebas Neue).
 
-Pilíře se už neodlišují barvou, ale číslem (01–04) ve štítku. Pozor: nepoužíváme mezinárodní znak civilní obrany (modrý trojúhelník na oranžovém poli), jeho užití upravují Ženevské úmluvy.
+| Role | Název | HEX | Kontrast | Použití |
+| --- | --- | --- | --- | --- |
+| Hlavní | Grafit | `#1F2328` | | Text, úvodní bloky, patička, tlačítka |
+| Signální | Reflexní žlutozelená | `#C8F560` | 12,6 : 1 na grafitu | Zvýraznění, Krok na dnes, štítky, aktivní stav. Nikdy jako text na světlém pozadí. |
+| Text akcentu | Tmavá olivová | `#3D5A00` | 7,2 : 1 na papíru | Akcentový text na světlém pozadí |
+| Pozadí | Papír | `#F3F4F2` | | Pozadí stránek |
+| Plocha | Bílá | `#FFFFFF` | | Dlaždice, formuláře |
+| Doplňková | Šedá | `#555A5F` | 6,3 : 1 na papíru | Méně důležitý text |
+| Výstraha | Červená | `#B42318` | | Jen pro skutečná varování |
+
+Pilíře se neodlišují barvou, ale číslem (01–04) ve štítku. Nepoužíváme mezinárodní znak civilní obrany (modrý trojúhelník na oranžovém poli), jeho užití upravují Ženevské úmluvy.
 
 ### Písmo
 
 | Role | Písmo | Licence |
 | --- | --- | --- |
-| Nadpisy, hesla, tlačítka | **Barlow Condensed** ExtraBold, verzálky | OFL |
-| Text | **IBM Plex Sans** | OFL |
+| Nadpisy a text | **IBM Plex Sans** (nadpisy tučně, normální velikost písmen, těsnější prostrkání) | OFL |
 | Štítky, metadata, čísla | **IBM Plex Mono** | OFL |
 
-Všechna tři písma mají plnou českou diakritiku, jsou volně licencovaná a hostujeme je sami.
+Žádné zúžené verzálky (shoda s politickým vizuálem). Obě písma mají plnou českou diakritiku a hostujeme je sami.
 
 ### Prvky
 
-- **Ostré hrany** všude, rámečky 2 px černě.
-- **Tlačítka** obdélníková, verzálky, se šipkou →. Primární žluté, sekundární obrysové.
-- **Štítky** strojovým písmem na žlutém poli („01 · Jak by to mohlo vypadat“).
-- **Krok na dnes**: žlutý blok s černým rámečkem a posunutým stínem, text verzálkami.
-- **Úvodní blok**: černý, jen typografie, dvě věty, jedna z nich žlutě.
+- **Ostré hrany** všude, rámečky 2 px grafitově.
+- **Tlačítka** obdélníková, se šipkou →. Primární reflexní, sekundární obrysová.
+- **Štítky** strojovým písmem na reflexním poli („01 · Jak by to mohlo vypadat“).
+- **Krok na dnes**: reflexní blok s rámečkem a posunutým stínem.
+- **Úvodní blok**: grafitový, text vlevo, fotografie vpravo s přechodem do tmy.
+
+### Fotografie a obrázky
+
+Emoce nesou velké dokumentární fotografie (vzor: MPF, Suomi.fi, Denk vooruit). Do doby, než budou skutečné fotografie, používáme obrázky vytvořené pomocí AI, ale jen za těchto podmínek:
+
+- **Žádné rozpoznatelné tváře.** Siluety, pohled zezadu, ruce, prostředí, věci. Web o manipulaci nesmí ukazovat vymyšlené lidi jako skutečné.
+- **Vždy viditelné označení** „Ilustrační obrázek vytvořený pomocí AI“ přímo v obrázku.
+- **České reálie:** paneláky, koruny, české dálnice. Kontrolovat detaily (cizí měna, nápisy, značky).
+- Žádné zbraně v detailu, zranění, zničená města, vojenské symboly.
+- Postupně nahradit skutečnými fotografiemi (nafocené, se souhlasem) a skutečnými svědectvími.
+
+Aktuální sada (ElevenLabs, model Seedream 5 Pro, 19. 10. 2026): panelák se světlem v okně (úvod), kolona na dálnici v mlze (Scénář), ruce seniorky s rádiem (Příběhy), stůl s nouzovou výbavou (Připrav se), dospívající s telefonem zezadu (Manipulace). Zdrojové soubory jsou v `web/public/obrazky/`.
 
 ### Logo (pracovní)
 
-Slovní značka „VÍME, CO DĚLAT“ v Barlow Condensed se svislým žlutým blokem (stylizovaný zápis „hladina připravenosti“). Finální logo navrhne designér podle tohoto směru.
+Slovní značka „Víme, co dělat“ v IBM Plex Sans tučně se čtvercem v reflexní barvě. Finální logo navrhne designér podle tohoto směru.
 
 ### Co do vizuálu nepatří
 
@@ -178,7 +192,8 @@ Slovní značka „VÍME, CO DĚLAT“ v Barlow Condensed se svislým žlutým b
 - státní symboly, znak civilní obrany a barvy politických stran,
 - fotografie zničených měst, raněných a plačících dětí,
 - realistické obrázky lidí generované AI,
-- pastelové barvy, zaoblené „aplikační“ dlaždice, roztomilé ilustrace.
+- pastelové barvy, zaoblené „aplikační“ dlaždice, roztomilé ilustrace,
+- kombinace barev a písem, které používá některá politická strana (černá se žlutou a zúžené verzálky = Piráti).
 
 ### Ilustrace
 
@@ -257,7 +272,7 @@ Klidný ženský nebo mužský hlas (ideálně tvář projektu), krátká zvukov
 >
 > **Cílové skupiny:** rodiče, senioři a jejich dospělé děti, mladí 15–25, zaměstnanci logistiky a výroby, starostové a učitelé.
 >
-> **Pocit, který chceme vyvolat:** Vážnost, důvěra, odhodlání, „víme, co dělat“. Vzory: MPF (Švédsko), olevalmis.ee, Prepare (UK). Pracovní směr: černá a signální žlutá, zúžené verzálky, ostré hrany.
+> **Pocit, který chceme vyvolat:** Vážnost, důvěra, odhodlání, „víme, co dělat“. Vzory: MPF (Švédsko), olevalmis.ee, Prepare (UK). Pracovní směr: grafit a reflexní žlutozelená, IBM Plex, ostré hrany, dokumentární fotografie. Pozor na shodu s barvami a písmy politických stran.
 >
 > **Čemu se vyhnout:** vojenská a prepperská estetika, poplašná červená, odpočty, vzhled státních webů, stranické barvy, AI generované tváře.
 >
