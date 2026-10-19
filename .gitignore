@@ -4,3 +4,7 @@ dist/
 .vercel/
 .DS_Store
 podklady/prirucky/pdf/
+video/vystup/nahledy/
+video/vystup/render.log
+video/vystup/.*.mp4
+video/public/audio/hlas/
