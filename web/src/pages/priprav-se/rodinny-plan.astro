@@ -1,4 +1,5 @@
 ---
+import Obrazek from '../../components/Obrazek.astro';
 import Zaklad from '../../layouts/Zaklad.astro';
 import KrokNaDnes from '../../components/KrokNaDnes.astro';
 
@@ -17,6 +18,7 @@ const kontakty = [
     <p class="znacka">03 · Připrav se</p>
     <h1>Rodinný plán</h1>
     <p class="perex text">Jedna stránka A4, která v krizi ušetří hodiny nejistoty. Vyplňte ji spolu s rodinou, vytiskněte a dejte na lednici. Každý dospělý ať má kopii v peněžence nebo v autě.</p>
+    <div class="text ilustrace netisknout"><Obrazek src="/obrazky/stranky/rodinny-plan.jpg" alt="Papír s nakresleným rodinným plánem připnutý magnetem na lednici" vyska="clamp(12rem, 30vw, 20rem)" nacist="hned" /></div>
 
     <div class="soukromi text">
       <strong>Vaše údaje zůstávají jen ve vašem zařízení.</strong> Nic se neodesílá. Rozepsaný plán se ukládá do tohoto prohlížeče, abyste se k němu mohli vrátit. Plán obsahuje citlivé údaje, proto ho nesdílejte na sítích.
@@ -165,6 +167,7 @@ const kontakty = [
 <style>
   .plan-stranka { padding-top: 2rem; }
   .perex { font-size: 1.2rem; color: var(--text-2); }
+  .ilustrace { margin: 0 0 2rem; }
   .soukromi { background: var(--papir-2); border-radius: var(--radius); padding: 1rem 1.2rem; font-size: 0.98rem; }
   .akce { display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; margin: 1.25rem 0; }
   .formular { max-width: 52rem; }

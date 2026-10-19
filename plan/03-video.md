@@ -9,7 +9,7 @@ Video je hlavní vstup pro mladé, pro rodiče na Instagramu a pro všechny, kdo
 1. **Prvních 2 s rozhoduje.** Začínáme situací nebo otázkou, ne logem.
 2. **Bez zvuku musí dávat smysl.** Většina lidí sleduje videa na sítích potichu. Titulky jsou vypálené do obrazu a k tomu je soubor `.srt` pro YouTube a web.
 3. **Konec je vždy Krok na dnes.** Poslední 3–5 s: jeden krok a adresa `vimecodelat.cz`.
-4. **Žádné syntetické tváře a hlasy.** Nepoužíváme AI generované realistické lidi, klonované hlasy ani deepfake parodie, a to ani „pro ukázku“. Ukázky falešných videí vytváříme animací nebo zjevnou rekonstrukcí s nápisem „Ukázka“.
+4. **Žádné syntetické tváře, AI hlas jen označený.** Nepoužíváme AI generované realistické lidi, klony hlasů skutečných lidí ani deepfake parodie, a to ani „pro ukázku“. Hlas vytvořený pomocí AI (hotový hlas z knihovny ElevenLabs, ne klon konkrétního člověka) používat smíme, ale video musí mít po celou dobu viditelný štítek „Vytvořeno s pomocí AI“. Ukázky falešných videí vytváříme animací nebo zjevnou rekonstrukcí s nápisem „Ukázka“. (Upraveno 19. 10. 2026 podle rozhodnutí autora.)
 5. **Žádná skutečná dezinformace jako titulek.** Lež neopakujeme. Ukazujeme techniku na neškodném, vymyšleném příkladu.
 6. **Nepolitické příklady.** V prebunkingových videích nevystupují skuteční politici, strany ani konkrétní státníci. Příklady jsou z jiných oblastí (sport, nákupy, počasí, film) nebo jsou zjevně vymyšlené.
 7. **Hudba a zvuky jen s licencí pro další šíření** (na objednávku, CC0 nebo CC BY). Videa budou šířit obce a školy pod CC BY.

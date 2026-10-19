@@ -1,17 +1,20 @@
 ---
 import Zaklad from '../layouts/Zaklad.astro';
-interface Props { title: string; popis: string; nadtitulek?: string }
-const { title, popis, nadtitulek } = Astro.props;
+import Obrazek from './Obrazek.astro';
+interface Props { title: string; popis: string; nadtitulek?: string; obrazek?: string; popisObrazku?: string }
+const { title, popis, nadtitulek, obrazek, popisObrazku = '' } = Astro.props;
 ---
 <Zaklad title={title} popis={popis}>
   <article class="obal jednoducha">
     {nadtitulek && <p class="nadtitulek">{nadtitulek}</p>}
     <h1>{title}</h1>
+    {obrazek && <div class="text ilustrace netisknout"><Obrazek src={obrazek} alt={popisObrazku} vyska="clamp(12rem, 30vw, 20rem)" nacist="hned" /></div>}
     <div class="text"><slot /></div>
   </article>
 </Zaklad>
 <style>
   .jednoducha { padding-top: 2rem; }
+  .ilustrace { margin: 0.5rem 0 2rem; }
   .nadtitulek { font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.85rem; margin: 0 0 0.5rem; color: var(--text-2); }
   .text :global(.perex) { font-size: 1.2rem; color: var(--text-2); }
 </style>

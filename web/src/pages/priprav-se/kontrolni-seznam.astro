@@ -1,4 +1,5 @@
 ---
+import Obrazek from '../../components/Obrazek.astro';
 import Zaklad from '../../layouts/Zaklad.astro';
 import KrokNaDnes from '../../components/KrokNaDnes.astro';
 
@@ -58,6 +59,7 @@ const celkem = SKUPINY.reduce((s, g) => s + g.polozky.length, 0);
     <p class="znacka">03 · Připrav se</p>
     <h1>Kontrolní seznam</h1>
     <p class="perex text">Nemusíte mít všechno hned. Odškrtejte, co už máte, a každý víkend přidejte jednu věc. Podrobnosti a doporučená množství najdete na státním webu <a href="https://www.72h.gov.cz/cs">72h.gov.cz</a>.</p>
+    <div class="text ilustrace netisknout"><Obrazek src="/obrazky/stranky/kontrolni-seznam.jpg" alt="Kontrolní seznam na stole vedle baterky, vody, lékárničky a rádia" vyska="clamp(12rem, 30vw, 20rem)" nacist="hned" /></div>
     <p class="text soukromi">Zaškrtnuté položky se ukládají jen v tomto prohlížeči. Nic se neodesílá.</p>
 
     <div class="postup text" aria-live="polite">
@@ -92,6 +94,7 @@ const celkem = SKUPINY.reduce((s, g) => s + g.polozky.length, 0);
 <style>
   .stranka { padding-top: 2rem; }
   .perex { font-size: 1.2rem; color: var(--text-2); }
+  .ilustrace { margin: 0 0 2rem; }
   .soukromi { font-size: 0.95rem; color: var(--text-2); }
   .postup { position: sticky; top: 64px; background: var(--pozadi); padding: 0.5rem 0; z-index: 2; }
   .postup p { margin: 0.3rem 0 0; }

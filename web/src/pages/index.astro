@@ -44,15 +44,15 @@ const popisy: Record<string, string> = {
   <section class="obal">
     <h2>Čtyři části</h2>
     <div class="mrizka">
-      {pilire.map((x) => <Dlazdice href={`/${x.p}`} titulek={x.nazev} popis={popisy[x.p]} cislo={`0${x.cislo}`} />)}
+      {pilire.map((x) => <Dlazdice href={`/${x.p}`} titulek={x.nazev} popis={popisy[x.p]} cislo={`0${x.cislo}`} obrazek={`/obrazky/hero-${x.p}.jpg`} />)}
     </div>
   </section>
 
   <section class="obal">
     <h2>Co si odnesete</h2>
     <div class="mrizka">
-      <Dlazdice href="/priprav-se/rodinny-plan" titulek="Rodinný plán na A4" popis="Místo setkání, kdo vyzvedne děti, kontakty na papíře, léky a plán bez signálu." cislo="Nástroj" zvyraznit />
-      <Dlazdice href="/priprav-se/kontrolni-seznam" titulek="Kontrolní seznam" popis="Co už máte a co chybí. Zaškrtáváte jen pro sebe, nic se neodesílá." cislo="Nástroj" zvyraznit />
+      <Dlazdice href="/priprav-se/rodinny-plan" obrazek="/obrazky/stranky/rodinny-plan.jpg" titulek="Rodinný plán na A4" popis="Místo setkání, kdo vyzvedne děti, kontakty na papíře, léky a plán bez signálu." cislo="Nástroj" zvyraznit />
+      <Dlazdice href="/priprav-se/kontrolni-seznam" obrazek="/obrazky/stranky/kontrolni-seznam.jpg" titulek="Kontrolní seznam" popis="Co už máte a co chybí. Zaškrtáváte jen pro sebe, nic se neodesílá." cislo="Nástroj" zvyraznit />
       <Dlazdice href="/manipulace/karta" obrazek="/obrazky/clanky/manipulace-karta.jpg" titulek="Kapesní karta" popis="Šest technik manipulace a šest otázek. Do peněženky i do telefonu." cislo="Nástroj" zvyraznit />
     </div>
   </section>

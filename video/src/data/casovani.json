@@ -1,0 +1,985 @@
+{
+ "v1-valka-se-nevyhlasuje": {
+  "delka": 59.145,
+  "hlasOd": 0,
+  "sceny": [
+   {
+    "od": 0,
+    "do": 5.088
+   },
+   {
+    "od": 5.088,
+    "do": 12.12
+   },
+   {
+    "od": 12.12,
+    "do": 23.802
+   },
+   {
+    "od": 23.802,
+    "do": 35.431
+   },
+   {
+    "od": 35.431,
+    "do": 44.135
+   },
+   {
+    "od": 44.135,
+    "do": 49.966
+   },
+   {
+    "od": 49.966,
+    "do": 59.145
+   }
+  ],
+  "titulky": [
+   {
+    "od": 0.7,
+    "do": 1.745,
+    "text": "Kdy začne válka?"
+   },
+   {
+    "od": 1.745,
+    "do": 4.888,
+    "text": "Možná čekáme na den, který nikdy nepřijde."
+   },
+   {
+    "od": 5.538,
+    "do": 7.266,
+    "text": "Dnes se válka nevyhlašuje."
+   },
+   {
+    "od": 7.266,
+    "do": 9.526,
+    "text": "Rusko ji nevyhlásilo ani Ukrajině."
+   },
+   {
+    "od": 9.526,
+    "do": 11.92,
+    "text": "Říkalo tomu speciální operace."
+   },
+   {
+    "od": 12.57,
+    "do": 15.034,
+    "text": "Proti Evropě Rusko nepoužívá tanky."
+   },
+   {
+    "od": 15.034,
+    "do": 18.525,
+    "text": "Používá sabotáže, kybernetické útoky, propagandu,"
+   },
+   {
+    "od": 18.525,
+    "do": 21.089,
+    "text": "drony nad cizím územím a rušení GPS."
+   },
+   {
+    "od": 21.089,
+    "do": 23.602,
+    "text": "Je to levné a dá se to popřít."
+   },
+   {
+    "od": 24.252,
+    "do": 25.316,
+    "text": "Týká se to i nás."
+   },
+   {
+    "od": 25.316,
+    "do": 29.448,
+    "text": "Za výbuchy ve Vrběticích podle vlády a policie stáli ruští agenti."
+   },
+   {
+    "od": 29.448,
+    "do": 31.728,
+    "text": "Bezpečnostní informační služba píše,"
+   },
+   {
+    "od": 31.728,
+    "do": 35.231,
+    "text": "že ruské hybridní působení proti Česku pokračuje."
+   },
+   {
+    "od": 35.881,
+    "do": 38.32,
+    "text": "Podle zákona ve válce nejsme."
+   },
+   {
+    "od": 38.32,
+    "do": 40.255,
+    "text": "Ale žijeme v šedé zóně."
+   },
+   {
+    "od": 40.255,
+    "do": 43.935,
+    "text": "Cílem je vyvolat strach a rozdělit nás."
+   },
+   {
+    "od": 44.585,
+    "do": 46.791,
+    "text": "Nejlepší odpověď je klid a příprava."
+   },
+   {
+    "od": 46.791,
+    "do": 49.766,
+    "text": "Kdo je připravený, toho se vystrašit nedá."
+   },
+   {
+    "od": 50.416,
+    "do": 56.163,
+    "text": "Krok na dnes: přečtěte si, co se už stalo, a ověřte si to sami."
+   },
+   {
+    "od": 56.163,
+    "do": 56.745,
+    "text": "cz"
+   }
+  ]
+ },
+ "v2-rodinny-plan": {
+  "delka": 57.505,
+  "hlasOd": 0,
+  "sceny": [
+   {
+    "od": 0,
+    "do": 6.498
+   },
+   {
+    "od": 6.498,
+    "do": 11.754
+   },
+   {
+    "od": 11.754,
+    "do": 18.42
+   },
+   {
+    "od": 18.42,
+    "do": 24.564
+   },
+   {
+    "od": 24.564,
+    "do": 31.884
+   },
+   {
+    "od": 31.884,
+    "do": 39.386
+   },
+   {
+    "od": 39.386,
+    "do": 46.731
+   },
+   {
+    "od": 46.731,
+    "do": 57.505
+   }
+  ],
+  "titulky": [
+   {
+    "od": 0.7,
+    "do": 1.923,
+    "text": "Telefony nejdou."
+   },
+   {
+    "od": 1.923,
+    "do": 4.293,
+    "text": "Děti jsou ve škole, vy v práci."
+   },
+   {
+    "od": 4.293,
+    "do": 6.298,
+    "text": "Víte, kde se sejdete?"
+   },
+   {
+    "od": 6.948,
+    "do": 11.554,
+    "text": "Stačí jeden papír na lednici a patnáct minut u stolu s rodinou."
+   },
+   {
+    "od": 12.204,
+    "do": 13.974,
+    "text": "Zaprvé: kde se sejdete."
+   },
+   {
+    "od": 13.974,
+    "do": 18.22,
+    "text": "Jedno místo blízko domova a jedno mimo vaši čtvrť."
+   },
+   {
+    "od": 18.87,
+    "do": 24.364,
+    "text": "Zadruhé: kdo vyzvedne děti, a kdo ho zastoupí, když nemůže."
+   },
+   {
+    "od": 25.014,
+    "do": 27.201,
+    "text": "Zatřetí: co když nejde signál."
+   },
+   {
+    "od": 27.201,
+    "do": 31.684,
+    "text": "Domluvte si hodinu, kdy se sejdete, a kde necháte vzkaz."
+   },
+   {
+    "od": 32.334,
+    "do": 36.789,
+    "text": "A pak kontakty na papíře, léky, zvířata a frekvence rádia."
+   },
+   {
+    "od": 36.789,
+    "do": 39.186,
+    "text": "Mobil se vybije, papír ne."
+   },
+   {
+    "od": 39.836,
+    "do": 41.963,
+    "text": "Formulář najdete na webu."
+   },
+   {
+    "od": 41.963,
+    "do": 46.531,
+    "text": "Vyplníte ho v prohlížeči, nic se nikam neodesílá."
+   },
+   {
+    "od": 47.181,
+    "do": 54.512,
+    "text": "Krok na dnes: domluvte se s rodinou, kde se sejdete, když nepůjdou telefony."
+   },
+   {
+    "od": 54.512,
+    "do": 55.105,
+    "text": "cz"
+   }
+  ]
+ },
+ "v3-kdyz-vypadne-proud": {
+  "delka": 59.098,
+  "hlasOd": 0,
+  "sceny": [
+   {
+    "od": 0,
+    "do": 5.61
+   },
+   {
+    "od": 5.61,
+    "do": 13.53
+   },
+   {
+    "od": 13.53,
+    "do": 21.163
+   },
+   {
+    "od": 21.163,
+    "do": 29.972
+   },
+   {
+    "od": 29.972,
+    "do": 35.75
+   },
+   {
+    "od": 35.75,
+    "do": 43.618
+   },
+   {
+    "od": 43.618,
+    "do": 50.284
+   },
+   {
+    "od": 50.284,
+    "do": 59.098
+   }
+  ],
+  "titulky": [
+   {
+    "od": 0.7,
+    "do": 3.016,
+    "text": "Představte si, že zhasne celé město."
+   },
+   {
+    "od": 3.016,
+    "do": 5.41,
+    "text": "Co se stane během první hodiny?"
+   },
+   {
+    "od": 6.06,
+    "do": 7.587,
+    "text": "Česko to zažilo 4."
+   },
+   {
+    "od": 7.587,
+    "do": 8.774,
+    "text": "července 2025."
+   },
+   {
+    "od": 8.774,
+    "do": 13.33,
+    "text": "Nebyl to útok, ale ukázal, co se zastaví nejdřív."
+   },
+   {
+    "od": 13.98,
+    "do": 17.826,
+    "text": "Za hodinu stojí výtahy, semafory, tramvaje a platby kartou."
+   },
+   {
+    "od": 17.826,
+    "do": 20.963,
+    "text": "Mobil zatím funguje, ale síť je přetížená."
+   },
+   {
+    "od": 21.613,
+    "do": 24.704,
+    "text": "Do druhého dne může přestat fungovat mobilní síť."
+   },
+   {
+    "od": 24.704,
+    "do": 29.772,
+    "text": "Ve vyšších patrech nemusí téct voda a bez proudu netopí ani plynový kotel."
+   },
+   {
+    "od": 30.422,
+    "do": 32.786,
+    "text": "Po třech dnech je největší problém teplo."
+   },
+   {
+    "od": 32.786,
+    "do": 35.55,
+    "text": "To zažívají lidé na Ukrajině každou zimu."
+   },
+   {
+    "od": 36.2,
+    "do": 39.828,
+    "text": "Pomůže málo věcí: svítilna místo svíček, rádio na baterky,"
+   },
+   {
+    "od": 39.828,
+    "do": 43.418,
+    "text": "voda na tři dny, teplé oblečení a trochu hotovosti."
+   },
+   {
+    "od": 44.068,
+    "do": 46.302,
+    "text": "Když proud vypadne, vypněte jistič,"
+   },
+   {
+    "od": 46.302,
+    "do": 50.084,
+    "text": "zapněte rádio a tísňové linky volejte jen v ohrožení."
+   },
+   {
+    "od": 50.734,
+    "do": 56.116,
+    "text": "Krok na dnes: najděte doma svítilnu a zkontrolujte baterky."
+   },
+   {
+    "od": 56.116,
+    "do": 56.698,
+    "text": "cz"
+   }
+  ]
+ },
+ "v4-sirena": {
+  "delka": 59.036,
+  "hlasOd": 0,
+  "sceny": [
+   {
+    "od": 0,
+    "do": 5.924
+   },
+   {
+    "od": 5.924,
+    "do": 17.971
+   },
+   {
+    "od": 17.971,
+    "do": 28.869
+   },
+   {
+    "od": 28.869,
+    "do": 37.756
+   },
+   {
+    "od": 37.756,
+    "do": 45.52
+   },
+   {
+    "od": 45.52,
+    "do": 59.036
+   }
+  ],
+  "titulky": [
+   {
+    "od": 0.7,
+    "do": 2.549,
+    "text": "Víte, co znamená siréna?"
+   },
+   {
+    "od": 2.549,
+    "do": 5.724,
+    "text": "V Česku platí jediný varovný signál."
+   },
+   {
+    "od": 6.374,
+    "do": 11.781,
+    "text": "Kolísavý tón dlouhý 140 sekund znamená všeobecnou výstrahu."
+   },
+   {
+    "od": 11.781,
+    "do": 14.072,
+    "text": "Rovný tón je jen zkouška."
+   },
+   {
+    "od": 14.072,
+    "do": 17.771,
+    "text": "Bývá první středu v měsíci ve 12:00."
+   },
+   {
+    "od": 18.421,
+    "do": 21.953,
+    "text": "Když zazní: jděte dovnitř do nejbližší pevné budovy."
+   },
+   {
+    "od": 21.953,
+    "do": 23.379,
+    "text": "Zavřete okna a dveře."
+   },
+   {
+    "od": 23.379,
+    "do": 25.281,
+    "text": "Zapněte rádio nebo televizi."
+   },
+   {
+    "od": 25.281,
+    "do": 28.669,
+    "text": "Hned potom uslyšíte, co se stalo a co dělat."
+   },
+   {
+    "od": 29.319,
+    "do": 32.718,
+    "text": "Při nebezpečí ze vzduchu platí pravidlo dvou zdí."
+   },
+   {
+    "od": 32.718,
+    "do": 35.561,
+    "text": "Mezi vámi a ulicí mají být aspoň dvě zdi."
+   },
+   {
+    "od": 35.561,
+    "do": 37.556,
+    "text": "A držte se dál od oken."
+   },
+   {
+    "od": 38.206,
+    "do": 41.015,
+    "text": "Nenatáčejte a nesdílejte, kam co dopadlo."
+   },
+   {
+    "od": 41.015,
+    "do": 45.32,
+    "text": "A nejezděte pro děti do školy, učitelé se o ně postarají."
+   },
+   {
+    "od": 45.97,
+    "do": 53.257,
+    "text": "Krok na dnes: zjistěte, na jaké frekvenci u vás chytá Radiožurnál,"
+   },
+   {
+    "od": 53.257,
+    "do": 56.017,
+    "text": "a napište si ji na papír."
+   },
+   {
+    "od": 56.017,
+    "do": 56.636,
+    "text": "cz"
+   }
+  ]
+ },
+ "v5-panika-a-famy": {
+  "delka": 60.708,
+  "hlasOd": 0,
+  "sceny": [
+   {
+    "od": 0,
+    "do": 6.733
+   },
+   {
+    "od": 6.733,
+    "do": 18.546
+   },
+   {
+    "od": 18.546,
+    "do": 27.067
+   },
+   {
+    "od": 27.067,
+    "do": 45.697
+   },
+   {
+    "od": 45.697,
+    "do": 51.58
+   },
+   {
+    "od": 51.58,
+    "do": 60.708
+   }
+  ],
+  "titulky": [
+   {
+    "od": 0.7,
+    "do": 3.029,
+    "text": "Pošlete to dál, než to smažou."
+   },
+   {
+    "od": 3.029,
+    "do": 4.503,
+    "text": "Zítra zavřou banky."
+   },
+   {
+    "od": 4.503,
+    "do": 6.533,
+    "text": "Známý od armády říká…"
+   },
+   {
+    "od": 7.183,
+    "do": 8.661,
+    "text": "Takhle vzniká panika."
+   },
+   {
+    "od": 8.661,
+    "do": 13.233,
+    "text": "Jeden koupí víc, regál se vyprázdní a další lidé koupí ještě víc."
+   },
+   {
+    "od": 13.233,
+    "do": 15.625,
+    "text": "Na začátku covidu zboží nechybělo."
+   },
+   {
+    "od": 15.625,
+    "do": 18.346,
+    "text": "Obchody ho jen nestíhaly doplnit."
+   },
+   {
+    "od": 18.996,
+    "do": 19.805,
+    "text": "Panika škodí."
+   },
+   {
+    "od": 19.805,
+    "do": 21.735,
+    "text": "Ucpané silnice zdrží záchranku."
+   },
+   {
+    "od": 21.735,
+    "do": 26.867,
+    "text": "A kdo nakoupí deset balení léků, může je vzít někomu, kdo je potřebuje hned."
+   },
+   {
+    "od": 27.517,
+    "do": 28.839,
+    "text": "Co dělat místo toho?"
+   },
+   {
+    "od": 28.839,
+    "do": 30.623,
+    "text": "Zastavte se na deset minut."
+   },
+   {
+    "od": 30.623,
+    "do": 33.796,
+    "text": "Zjistěte, jestli jste v bezprostředním ohrožení."
+   },
+   {
+    "od": 33.796,
+    "do": 35.051,
+    "text": "Pokud ne, máte čas."
+   },
+   {
+    "od": 35.051,
+    "do": 37.431,
+    "text": "Zapněte Radiožurnál nebo web hasičů."
+   },
+   {
+    "od": 37.431,
+    "do": 40.207,
+    "text": "Napište rodině krátkou zprávu podle plánu."
+   },
+   {
+    "od": 40.207,
+    "do": 43.313,
+    "text": "A neodjíždějte jen proto, že odjíždějí ostatní."
+   },
+   {
+    "od": 43.313,
+    "do": 45.497,
+    "text": "Evakuaci by oznámily úřady."
+   },
+   {
+    "od": 46.147,
+    "do": 47.546,
+    "text": "A zeptejte se sousedů."
+   },
+   {
+    "od": 47.546,
+    "do": 51.38,
+    "text": "Pár klidných vět pomůže víc než deset sdílených videí."
+   },
+   {
+    "od": 52.03,
+    "do": 57.715,
+    "text": "Krok na dnes: rozhodněte se, kde si v krizi ověříte zprávy."
+   },
+   {
+    "od": 57.715,
+    "do": 58.308,
+    "text": "cz"
+   }
+  ]
+ },
+ "v6-poznej-manipulaci": {
+  "delka": 71.773,
+  "hlasOd": 0,
+  "sceny": [
+   {
+    "od": 0,
+    "do": 9.659
+   },
+   {
+    "od": 9.659,
+    "do": 17.658
+   },
+   {
+    "od": 17.658,
+    "do": 24.141
+   },
+   {
+    "od": 24.141,
+    "do": 31.905
+   },
+   {
+    "od": 31.905,
+    "do": 39.459
+   },
+   {
+    "od": 39.459,
+    "do": 47.275
+   },
+   {
+    "od": 47.275,
+    "do": 54.542
+   },
+   {
+    "od": 54.542,
+    "do": 61.391
+   },
+   {
+    "od": 61.391,
+    "do": 71.773
+   }
+  ],
+  "titulky": [
+   {
+    "od": 0.7,
+    "do": 4.796,
+    "text": "Až budou lidé ve stresu, někdo toho zkusí využít."
+   },
+   {
+    "od": 4.796,
+    "do": 6.719,
+    "text": "Ukážeme vám šest triků."
+   },
+   {
+    "od": 6.719,
+    "do": 9.459,
+    "text": "Na každý stačí jedna otázka."
+   },
+   {
+    "od": 10.109,
+    "do": 14.205,
+    "text": "Hra na strach chce, abyste jednali dřív, než přemýšlíte."
+   },
+   {
+    "od": 14.205,
+    "do": 17.458,
+    "text": "Zeptejte se: kdo to říká a odkud to ví?"
+   },
+   {
+    "od": 18.108,
+    "do": 21.078,
+    "text": "Falešné dilema zúží svět na dvě možnosti."
+   },
+   {
+    "od": 21.078,
+    "do": 23.941,
+    "text": "Zeptejte se: opravdu jsou jen dvě?"
+   },
+   {
+    "od": 24.591,
+    "do": 28.427,
+    "text": "Falešný svědek předstírá, že byl u toho nebo že je odborník."
+   },
+   {
+    "od": 28.427,
+    "do": 30.282,
+    "text": "Zeptejte se: dá se to ověřit?"
+   },
+   {
+    "od": 30.282,
+    "do": 31.705,
+    "text": "Kdy účet vznikl?"
+   },
+   {
+    "od": 32.355,
+    "do": 36.013,
+    "text": "Obětní beránek svalí složitý problém na jednu skupinu."
+   },
+   {
+    "od": 36.013,
+    "do": 39.259,
+    "text": "Zeptejte se: je to opravdu tak jednoduché?"
+   },
+   {
+    "od": 39.909,
+    "do": 43.213,
+    "text": "Nikomu nevěř chce, abyste nevěřili ničemu."
+   },
+   {
+    "od": 43.213,
+    "do": 47.075,
+    "text": "Zeptejte se: kdo má z mého zmatení prospěch?"
+   },
+   {
+    "od": 47.725,
+    "do": 50.431,
+    "text": "Útok na osobu nadává místo argumentu."
+   },
+   {
+    "od": 50.431,
+    "do": 54.342,
+    "text": "Zeptejte se: odpovídá to na věc, nebo jen uráží?"
+   },
+   {
+    "od": 54.992,
+    "do": 58.888,
+    "text": "A pozor: názor a kritika nejsou manipulace."
+   },
+   {
+    "od": 58.888,
+    "do": 61.191,
+    "text": "Nesouhlas není zrada."
+   },
+   {
+    "od": 61.841,
+    "do": 68.698,
+    "text": "Krok na dnes: uložte si kapesní kartu do telefonu."
+   },
+   {
+    "od": 68.698,
+    "do": 69.373,
+    "text": "cz"
+   }
+  ]
+ },
+ "v7-co-muzu-udelat-ja": {
+  "delka": 47.85,
+  "hlasOd": 0,
+  "sceny": [
+   {
+    "od": 0,
+    "do": 3.834
+   },
+   {
+    "od": 3.834,
+    "do": 26.226
+   },
+   {
+    "od": 26.226,
+    "do": 33.676
+   },
+   {
+    "od": 33.676,
+    "do": 37.181
+   },
+   {
+    "od": 37.181,
+    "do": 47.85
+   }
+  ],
+  "titulky": [
+   {
+    "od": 0.7,
+    "do": 2.801,
+    "text": "Máte rodinný plán a doma svítilnu."
+   },
+   {
+    "od": 2.801,
+    "do": 3.634,
+    "text": "Co dál?"
+   },
+   {
+    "od": 4.284,
+    "do": 7.401,
+    "text": "Můžete se přidat k dobrovolným hasičům."
+   },
+   {
+    "od": 7.401,
+    "do": 9.639,
+    "text": "Udělat si kurz první pomoci."
+   },
+   {
+    "od": 9.639,
+    "do": 10.678,
+    "text": "Darovat krev."
+   },
+   {
+    "od": 10.678,
+    "do": 13.876,
+    "text": "Zapojit se v obci nebo jen znát sousedy."
+   },
+   {
+    "od": 13.876,
+    "do": 20.59,
+    "text": "Kdo chce víc, může zvážit aktivní zálohu, výcvik pár týdnů v roce vedle běžné práce."
+   },
+   {
+    "od": 20.59,
+    "do": 22.828,
+    "text": "A pomůže i obyčejná kondice."
+   },
+   {
+    "od": 22.828,
+    "do": 26.026,
+    "text": "V krizi se chodí pěšky a nosí voda."
+   },
+   {
+    "od": 26.676,
+    "do": 29.291,
+    "text": "Odolná země nejsou jen armáda a úřady."
+   },
+   {
+    "od": 29.291,
+    "do": 33.476,
+    "text": "Jsou to lidé, kteří vědí, co dělat, a pomůžou ostatním."
+   },
+   {
+    "od": 34.126,
+    "do": 35.224,
+    "text": "Nemusíte všechno."
+   },
+   {
+    "od": 35.224,
+    "do": 36.981,
+    "text": "Vyberte si jednu věc."
+   },
+   {
+    "od": 37.631,
+    "do": 44.878,
+    "text": "Krok na dnes: vyberte si jednu cestu a zjistěte, kdy je nejbližší kurz nebo schůzka."
+   },
+   {
+    "od": 44.878,
+    "do": 45.45,
+    "text": "cz"
+   }
+  ]
+ },
+ "v8-proc-tento-web": {
+  "delka": 49,
+  "hlasOd": 0,
+  "sceny": [
+   {
+    "od": 0,
+    "do": 4.5
+   },
+   {
+    "od": 4.5,
+    "do": 11.5
+   },
+   {
+    "od": 11.5,
+    "do": 19.5
+   },
+   {
+    "od": 19.5,
+    "do": 27.5
+   },
+   {
+    "od": 27.5,
+    "do": 35.5
+   },
+   {
+    "od": 35.5,
+    "do": 42.5
+   },
+   {
+    "od": 42.5,
+    "do": 49
+   }
+  ],
+  "titulky": [
+   {
+    "od": 0.5,
+    "do": 4.5,
+    "text": "Proč vznikl tento web?"
+   },
+   {
+    "od": 5,
+    "do": 7.517,
+    "text": "Jmenuji se Josef Pavlovic."
+   },
+   {
+    "od": 7.517,
+    "do": 11.5,
+    "text": "Víme, co dělat je můj osobní projekt."
+   },
+   {
+    "od": 12,
+    "do": 17.051,
+    "text": "Švédsko, Finsko, Polsko i pobaltské státy svým lidem otevřeně říkají,"
+   },
+   {
+    "od": 17.051,
+    "do": 19.5,
+    "text": "co dělat, když přijde krize."
+   },
+   {
+    "od": 20,
+    "do": 21.976,
+    "text": "U nás takové místo chybělo."
+   },
+   {
+    "od": 21.976,
+    "do": 27.5,
+    "text": "Tak jsem prošel zahraniční příručky a dal je dohromady na jedno místo."
+   },
+   {
+    "od": 28,
+    "do": 29.893,
+    "text": "Nejsem státní instituce."
+   },
+   {
+    "od": 29.893,
+    "do": 35.5,
+    "text": "V krizi se řiďte pokyny hasičů, policie, záchranky, armády a obce."
+   },
+   {
+    "od": 36,
+    "do": 36.847,
+    "text": "Nestraším."
+   },
+   {
+    "od": 36.847,
+    "do": 42.5,
+    "text": "Každá stránka končí jedním krokem, který zvládnete ještě dnes."
+   },
+   {
+    "od": 43,
+    "do": 48.169,
+    "text": "Začněte rodinným plánem."
+   },
+   {
+    "od": 48.169,
+    "do": 49,
+    "text": "cz"
+   }
+  ]
+ }
+}
