@@ -27,6 +27,9 @@ zdroje:
   - nazev: "MV ČR: Ministerstvo vnitra dokončuje potřebné kroky pro přípravu systému Cell Broadcast"
     url: "https://archiv.mv.gov.cz/clanek/ministerstvo-vnitra-dokoncuje-potrebne-kroky-pro-pripravu-systemu-cell-broadcast-spusten-bude-v-druhe-polovine-roku-2026.aspx"
     datum: "2025-12-04"
+  - nazev: "Vyhláška č. 535/2025 Sb., k provozu systému veřejné výstrahy (Cell Broadcast)"
+    url: "https://www.zakonyprolidi.cz/cs/2025-535"
+    datum: "účinnost od 2026-01-01, ověřeno 2026-10-19"
 autor: "Redakce Víme, co dělat"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
@@ -56,7 +59,7 @@ Při velkém výpadku proudu mohou přestat fungovat i mobily a internet, proto�
 
 ## Sirény: co který signál znamená
 
-V Česku platí jediný varovný signál. Ostatní zvuky sirén varováním nejsou. Kdyby Rusko zaútočilo na NATO, mohla by siréna varovat i před nebezpečím ze vzduchu, třeba před drony nebo raketami. Proto je dobré znát signál nazpaměť. [OVĚŘIT: jaký signál a jaké pokyny by HZS použil při hrozbě útoku ze vzduchu, zdroj HZS ČR nebo MV] Víc na stránce [Drony a rakety](/scenar/drony-a-rakety).
+V Česku platí jediný varovný signál. Ostatní zvuky sirén varováním nejsou. Kdyby Rusko zaútočilo na NATO, mohla by siréna varovat i před nebezpečím ze vzduchu, třeba před drony nebo raketami. I tehdy by zazněla všeobecná výstraha. Zvláštní signál pro útok ze vzduchu Česko nemá. Hasiči i v říjnu 2026 uvádějí jen tento jeden varovný signál. Po něm následuje tísňová informace: co se stalo a co máte dělat. Uslyšíte ji z elektronických sirén, rádia, televize nebo obecního rozhlasu. Proto je dobré znát signál nazpaměť. Víc na stránce [Drony a rakety](/scenar/drony-a-rakety).
 
 | Signál | Jak zní | Co znamená | Co udělat |
 | --- | --- | --- | --- |
@@ -80,7 +83,7 @@ Hasiči radí reagovat hned. Shrnujeme jejich doporučení:
 
 Cell Broadcast je systém, který pošle varovnou zprávu všem mobilům v ohrožené oblasti během pár vteřin. Nepotřebuje vaše telefonní číslo. Zprávy půjdou cílit na obce nebo kraje a mají obsahovat i pokyny, co dělat. Sirény tím nekončí, Cell Broadcast je doplní.
 
-**Kdy začne fungovat?** Ministerstvo vnitra v prosinci 2025 uvedlo, že spuštění plánuje na druhou polovinu roku 2026. Hasiči na svém webu píšou, že systém bude k dispozici od konce roku 2026. [OVĚŘIT: zda už Cell Broadcast v ČR běží a zda je potřeba zapnout výstrahy v nastavení telefonu, zdroj hzscr.gov.cz/varovani-obyvatelstva a mv.gov.cz, těsně před publikací]
+**Kdy začne fungovat?** Ministerstvo vnitra v prosinci 2025 uvedlo, že spuštění plánuje na druhou polovinu roku 2026. Hasiči na svém webu v říjnu 2026 píšou, že se systém teprve zavádí a k dispozici bude od konce roku 2026. Pravidla už platí: vyhláška o systému veřejné výstrahy je účinná od 1. ledna 2026. Zpráva přijde s označením odesílatele „ALARM!“. Při vnějším napadení ji může rozeslat i armáda. [OVĚŘIT: zda bude potřeba výstrahy zapnout v nastavení telefonu, nebo budou zapnuté automaticky; zatím to nezveřejnilo MV ani HZS, zeptat se GŘ HZS ČR nebo mobilních operátorů; těsně před publikací znovu ověřit, zda už systém běží, na hzscr.gov.cz/varovani-obyvatelstva]
 
 Cell Broadcast potřebuje fungující mobilní síť. Při velkém výpadku proudu proto rádio na baterky zůstává nejjistější.
 

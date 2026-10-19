@@ -24,6 +24,27 @@ zdroje:
   - nazev: "opatruj.se (NUDZ): Okamžitá pomoc, krizové linky"
     url: "https://opatruj.se/pomoc"
     datum: "ověřeno 2026-10-19"
+  - nazev: "Zákon č. 378/2007 Sb., o léčivech, § 81f odst. 7 a 8 (papírový recept při technickém výpadku)"
+    url: "https://www.zakonyprolidi.cz/cs/2007-378"
+    datum: "znění k 2026-01-01, ověřeno 2026-10-19"
+  - nazev: "Vyhláška č. 329/2019 Sb., o předepisování léčivých přípravků, § 13 (na papírový recept jen 1 lék)"
+    url: "https://www.zakonyprolidi.cz/cs/2019-329"
+    datum: "znění k 2026-01-01, ověřeno 2026-10-19"
+  - nazev: "Česká lékárnická komora: Lékárníci bojovali s historicky nejdelším výpadkem centrálního úložiště eReceptů"
+    url: "https://lekarnici.cz/lekarnici-napric-republikou-bojovali-s-historicky-nejdelsim-vypadkem-centralniho-uloziste-ereceptu-trval-vice-nez-pet-hodin-ve-vetsine-pripadu-nemohli-pacientum-vydavat-predepsane-leky/"
+    datum: "2022-01-19"
+  - nazev: "Energetický zákon č. 458/2000 Sb., § 29 až 29c (zranitelná osoba a zranitelný zákazník)"
+    url: "https://www.zakonyprolidi.cz/cs/2000-458"
+    datum: "znění k 2026-08-01, ověřeno 2026-10-19"
+  - nazev: "ERÚ: Zranitelný zákazník (podmínky, přístroje, vzory potvrzení)"
+    url: "https://eru.gov.cz/zranitelny-zakaznik"
+    datum: "aktualizováno 2026-10-05, ověřeno 2026-10-19"
+  - nazev: "ČEZ: Energetici a hasiči podepsali dohodu o spolupráci (seznam osob vedený u HZS krajů)"
+    url: "https://www.cez.cz/cs/pro-media/tiskove-zpravy/energetici-a-hasici-podepsali-dohodu-o-spolupraci-95573"
+    datum: "2020-03-11"
+  - nazev: "HZS ČR: Evakuace (domácí zvířata v evakuačních střediscích)"
+    url: "https://hzscr.gov.cz/evakuace"
+    datum: "ověřeno 2026-10-19"
 autor: "Redakce Víme, co dělat"
 recenze: "Čeká na odbornou revizi"
 revidovano: "2026-10-19"
@@ -53,7 +74,8 @@ Stát na 72h.gov.cz připomíná, že sousedé mohou pomoct s nákupem, přinés
 - **Mějte zásobu.** Stát doporučuje mít v lékárničce pravidelné léky na týden. Domluvte se s lékařem, jak si zásobu průběžně udržovat.
 - **Seznam léků.** Napište název, sílu a dávkování. Hodí se, kdyby vás ošetřoval jiný lékař.
 - **Léky z lednice.** Zeptejte se lékárníka nebo lékaře, jak dlouho lék vydrží mimo lednici. Odpověď napište na papír k léku. Řiďte se také příbalovým letákem.
-- **Recepty.** Kdyby nefungoval internet, nemusí jít vydat elektronický recept. [OVĚŘIT: jak lékárny postupují při výpadku systému eRecept, zdroj SÚKL nebo Ministerstvo zdravotnictví]
+- **Recepty.** Když lékař kvůli výpadku proudu nebo internetu nemůže vystavit elektronický recept, zákon mu dovoluje vystavit papírový. Na jeden papírový recept ale napíše jen jeden lék. Lékárna na něj lék vydá.
+- **Kód eReceptu.** Když vypadne systém eRecept, lékárna nemusí lék na eRecept vydat. Při velkém výpadku v roce 2022 šlo podle lékárnické komory vydávat jen na kód eReceptu nebo na papírový recept, ne na občanku. Kód z SMS nebo z papíru si proto schovávejte. Nejjistější je ale zásoba léků na týden.
 
 ## Lidé na přístrojích na proud
 
@@ -64,7 +86,13 @@ Někdo potřebuje doma přístroj, bez kterého se neobejde: třeba koncentráto
 - **Napište to na papír** a dejte k přístroji: telefon na lékaře, na dodavatele a co dělat při výpadku.
 - **Když jde o život, volejte 155.**
 
-[OVĚŘIT: zda distributoři elektřiny v ČR vedou evidenci odběratelů závislých na zdravotnických přístrojích a zda se dá přihlásit, zdroj ERÚ nebo distributoři]
+**Zranitelný zákazník.** Kdo doma používá přístroj, který potřebuje nepřetržitý proud a bez kterého nepřežije, může mít u dodavatele elektřiny zvláštní práva. Zákon tomu říká zranitelný zákazník. Týká se to třeba domácí plicní ventilace, kyslíkové terapie, aktivní antidekubitní matrace, přístroje na spánkovou apnoe nebo domácí dialýzy.
+
+- **Jak na to.** Pošlete svému dodavateli elektřiny potvrzení od praktického lékaře nebo od lékaře, který přístroj předepsal. Potvrzení platí nejvýš 2 roky. Vzory potvrzení najdete u [Energetického regulačního úřadu](https://eru.gov.cz/zranitelny-zakaznik).
+- **Co získáte.** Dodavatel dá vědět distributorovi a ten vede vaše odběrné místo v evidenci. Plánovanou odstávku vám pak musí zdarma oznámit nejméně 15 dní předem. Upozornit vás má i na přerušení dodávky kvůli poruše.
+- **Co to neřeší.** Přednostní obnovení proudu mezi těmito právy není. Záložní plán proto potřebujete i tak.
+
+Hasiči a distributoři elektřiny se v roce 2020 dohodli na sdílení údajů o výpadcích. Hasiči tak vidí i ohrožení lidí, kteří požádali o zápis na seznam osob závislých na přístrojích. Seznam podle tehdejší tiskové zprávy vedou krajské hasičské sbory. Jestli a jak se na něj dnes zapsat, se zeptejte HZS svého kraje.
 
 ## Děti
 
@@ -80,7 +108,7 @@ Zvíře je člen rodiny. Když se na něj zapomene, lidé pak riskují, aby se p
 
 - **Krmivo a voda** na několik dní. Stát ho uvádí v seznamu nouzových zásob.
 - **Do evakuačního zavazadla** patří podle 72h.gov.cz krmivo, léky, misky, přepravka, náhubek a vodítko.
-- **Kam se zvířetem?** Domluvte se předem s příbuznými nebo známými, kde byste mohli být i se zvířetem. [OVĚŘIT: zda a jak evakuační střediska v ČR přijímají domácí zvířata, zdroj HZS]
+- **Kam se zvířetem?** Podle hasičů se evakuace týká i domácích zvířat. V evakuačních střediscích je pro ně provizorní místo, kapacita ale může být omezená. Mějte proto pro každé zvíře přepravku, nebo aspoň vodítko a náhubek. Pro jistotu se domluvte i s příbuznými nebo známými, kde byste mohli být se zvířetem.
 - **Očkovací průkaz** a fotku zvířete mějte u dokladů.
 
 ## Seznam ve vchodě
