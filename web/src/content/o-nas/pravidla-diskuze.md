@@ -2,6 +2,8 @@
 title: "Pravidla diskuze"
 id: "V-03f"
 popis: "Kritika a nesouhlas jsou u nás vítané a nemažeme je. Mažeme jen výhrůžky, osobní údaje, nenávist, spam a podvody. Tady jsou pravidla celá."
+obrazek: "/obrazky/clanky/o-nas-pravidla-diskuze.jpg"
+popisObrazku: "Židle v kruhu v obecní místnosti, lidé zezadu usedají"
 poradi: 5
 cteni: 3
 krok: "Zeptejte se někoho, kdo má jiný názor než vy, co by v krizi udělal pro své blízké."
@@ -44,7 +46,7 @@ Pokud máte podezření na sabotáž nebo jinou trestnou činnost, **volejte 158
 
 ## Když se vám něco nelíbí
 
-Myslíte si, že jsme váš komentář skryli nebo smazali neprávem? Napište na [info@vimecodelat.cz](mailto:info@vimecodelat.cz) a připojte odkaz nebo snímek obrazovky. Podíváme se na to a do 3 pracovních dnů odpovíme.
+Myslíte si, že jsme váš komentář skryli nebo smazali neprávem? Napište na [josef@josefpavlovic.cz](mailto:josef@josefpavlovic.cz) a připojte odkaz nebo snímek obrazovky. Podíváme se na to a do 3 pracovních dnů odpovíme.
 
 ## Při náhlém útoku
 

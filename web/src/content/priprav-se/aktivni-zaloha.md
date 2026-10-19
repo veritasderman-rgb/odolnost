@@ -2,6 +2,8 @@
 title: "Zvažte aktivní zálohu"
 id: "K-11"
 popis: "Aktivní záloha je cesta, jak se připravit na obranu země a zůstat ve svém civilním životě. Kdo se může přihlásit, kolik času to stojí, co získáte a jak začít."
+obrazek: "/obrazky/clanky/priprav-se-aktivni-zaloha.jpg"
+popisObrazku: "Člověk zezadu si na prahu domu šněruje boty, vedle sbalený batoh"
 poradi: 11
 cteni: 6
 krok: "Otevřete doarmady.mo.gov.cz, přečtěte si podmínky aktivní zálohy a promluvte si o nich doma. Rozhodovat se dnes nemusíte."

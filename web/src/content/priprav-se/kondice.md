@@ -2,6 +2,8 @@
 title: "Kondice: proč se v krizi vyplatí mít sílu a dech"
 id: "K-12"
 popis: "V krizi se chodí pěšky, nosí voda a děti, stojí se ve frontách a málo se spí. Jednoduchý týdenní program pro běžného člověka i pro seniory, bez zázračných slibů."
+obrazek: "/obrazky/clanky/priprav-se-kondice.jpg"
+popisObrazku: "Žena a starší muž zezadu stoupají po lesní cestě s batůžky"
 poradi: 12
 cteni: 5
 krok: "Napište si na lednici týdenní cíl: třikrát půl hodiny svižné chůze, z toho jednou s batohem. Každý splněný den odškrtněte."

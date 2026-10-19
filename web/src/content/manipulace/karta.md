@@ -2,6 +2,8 @@
 title: "Kapesní karta: Poznej manipulaci"
 id: "M-01"
 popis: "Šest technik a šest otázek na jedné kartě. Vytiskněte si ji do peněženky nebo uložte do telefonu a v klidu se podívejte, když vás zpráva rozhodí."
+obrazek: "/obrazky/clanky/manipulace-karta.jpg"
+popisObrazku: "Peněženka s kartičkou, mincemi a telefonem na stole"
 poradi: 1
 cteni: 1
 krok: "Uložte si kartu jako obrázek do telefonu a pošlete ji jednomu blízkému člověku."

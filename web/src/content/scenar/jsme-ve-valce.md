@@ -2,6 +2,8 @@
 title: "Jsme ve válce?"
 id: "S-14"
 popis: "Dnes se válka nevyhlašuje, ale stejně v ní už můžeme být. Rusko vede proti Česku a Evropě nepřátelské akce těsně pod hranicí ozbrojeného útoku. Ukazujeme, co se už stalo a kdy by šlo o válku i podle zákona."
+obrazek: "/obrazky/clanky/scenar-jsme-ve-valce.jpg"
+popisObrazku: "Vylomená skříň zabezpečovacího zařízení u venkovské trati, přestřižené kabely a páska"
 poradi: 1
 cteni: 8
 krok: "Ukažte tabulku „Co už se stalo“ někomu blízkému. Pak se spolu domluvte na jedné věci, kterou uděláte ještě tento týden, třeba vyplníte rodinný plán."

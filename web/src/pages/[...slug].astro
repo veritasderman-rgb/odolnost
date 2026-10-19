@@ -9,6 +9,7 @@ import KapesniKarta from '../components/KapesniKarta.astro';
 import Prirucky from '../components/Prirucky.astro';
 import Drobky from '../components/Drobky.astro';
 import Souvisejici from '../components/Souvisejici.astro';
+import Obrazek from '../components/Obrazek.astro';
 import { PILIRE, pilirZId } from '../lib/pilire';
 
 export async function getStaticPaths() {
@@ -35,6 +36,7 @@ const jePribeh = pilir === 'pribehy';
       </div>
       <p class="perex">{d.popis}</p>
     </header>
+    {d.obrazek && <div class="text ilustrace"><Obrazek src={d.obrazek} alt={d.popisObrazku} vyska="clamp(12rem, 34vw, 24rem)" nacist="hned" /></div>}
     <div class:list={['text', 'telo', { cteni: jePribeh }]}>
       <Content />
     </div>
@@ -50,6 +52,7 @@ const jePribeh = pilir === 'pribehy';
 <style>
   .stranka { padding-top: 1.5rem; }
   header h1 { margin-top: 0.9rem; }
+  .ilustrace { margin: -0.5rem 0 2rem; }
   .meta { display: flex; gap: 1rem; align-items: center; font-family: var(--pismo-mono); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-2); margin-bottom: 1rem; flex-wrap: wrap; }
   .perex { font-size: 1.3rem; line-height: 1.45; font-weight: 700; margin: 0 0 2rem; padding-left: 1rem; border-left: 6px solid var(--akcent); }
   .telo :global(h2) { padding-top: 0.9rem; border-top: 2px solid var(--linka); }

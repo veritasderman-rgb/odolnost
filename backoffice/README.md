@@ -42,7 +42,7 @@ Kroky jsou seřazené tak, aby každý další stavěl na předchozím. Odhad č
 - [ ] **0. Objednat hardwarové bezpečnostní klíče** (dodání trvá několik dní)
 - [ ] **1. Zaregistrovat doménu a obranné varianty**
 - [ ] **2. Nastavit DNS: DNSSEC, zámek, záznamy pro e-mail**
-- [ ] **3. Zřídit e-maily na doméně** (`info@`, `media@`, `opravy@`, `redakce@`, `ucty@`)
+- [ ] **3. Zřídit e-maily na doméně** (jen technická `ucty@`; veřejný kontakt je `josef@josefpavlovic.cz`)
 - [ ] **4. Založit správce hesel organizace a uložit do něj vše z kroků 1–3**
 - [ ] **5. Zabrat uživatelská jména na sítích** (podle [zakladani-socialnich-siti.md](zakladani-socialnich-siti.md))
 - [ ] **6. Založit organizaci na GitHubu a nastavit práva k repozitáři**
@@ -108,10 +108,7 @@ Podrobnosti ke každému kroku jsou níže.
 
 | Adresa | K čemu | Kdo čte | Kdo je záloha | Zveřejnit? |
 | --- | --- | --- | --- | --- |
-| `info@vimecodelat.cz` | Obecné dotazy, partneři, veřejnost | KOO | SR | Ano (web, profily) |
-| `media@vimecodelat.cz` | Novináři, žádosti o rozhovor | PR / KOO | SR | Ano (stránka Pro média) |
-| `opravy@vimecodelat.cz` | Hlášení chyb v obsahu, lhůta odpovědi 3 pracovní dny | SR | autor/ka podle tématu | Ano (stránka Opravy) |
-| `redakce@vimecodelat.cz` | Autoři, recenzenti, svědci, tvůrci | SR | KOO | Jen v komunikaci s autory |
+| `josef@josefpavlovic.cz` | Oficiální veřejný kontakt: dotazy, média, hlášení chyb, partneři, autoři | Josef Pavlovic | – | Ano (web, profily, stránky Pro média a Opravy) |
 | `ucty@vimecodelat.cz` | Registrace u sítí a služeb, obnova přístupů | KOO | SR | **Ne**, nikde nezveřejňovat |
 
 `ucty@` je technická adresa, na kterou se registrují všechny služby. Nesmí být nikde veřejně, aby ji útočník nemohl použít k obnově hesla nebo k cílenému phishingu.
@@ -193,7 +190,7 @@ Postup:
 
 - [ ] **Vlastní účet organizace.** Založit na `ucty@vimecodelat.cz`, ne na osobní e-mail a ne pod účtem jiné organizace či agentury. Zapnout 2FA. Přidat SR jako druhého uživatele s vlastním přihlášením.
 - [ ] **Ověření domény.** V Brevu: *Settings → Senders, Domains, IPs → Domains → Add a domain*. Brevo vyžaduje záznamy **Brevo code** (TXT), **DKIM** (1 TXT nebo 2 CNAME podle stáří účtu) a **DMARC** (TXT). Doporučujeme **ruční ověření**: záznamy zkopíruje DEV do DNS sám. Automatické ověření by vyžadovalo zadat do Brevu přihlašovací údaje k DNS, a to nechceme. Pokud už doména DMARC má (z kroku 2), Brevo nabídne jeho nahrazení: **nenahrazovat**, ponechat vlastní DMARC. Doména smí mít jen jeden DMARC záznam. SPF nastavujeme kvůli poskytovateli e-mailu; záznam pro Brevo přidat jen tehdy, když ho Brevo na stránce Domains vyžaduje. Ověření může trvat až 48 hodin.
-- [ ] **Odesílatel na doméně.** Např. „Víme, co dělat“ `<novinky@vimecodelat.cz>` (alias, odpovědi chodí na `info@`). Nikdy neodesílat z adresy na Gmailu nebo Seznamu.
+- [ ] **Odesílatel na doméně.** Např. „Víme, co dělat“ `<novinky@vimecodelat.cz>` (alias, odpovědi chodí na `josef@josefpavlovic.cz`). Nikdy neodesílat z adresy na Gmailu nebo Seznamu.
 - [ ] **Seznam „Newsletter“.** Jeden hlavní seznam. Protože formulář je na našem webu (`/api/odber`), potřebujeme ještě dočasný seznam pro nepotvrzené adresy, nebo použít volání API pro double opt-in, které adresu zařadí do seznamu „Newsletter“ až po potvrzení. Postup techniky domluví DEV (viz `web/brevo/` a dokumentace Brevo k double opt-in pro formuláře mimo Brevo).
 - [ ] **Šablona double opt-in.** V *Marketing → Templates* vytvořit šablonu „DOI potvrzení“. Bez personalizace (údaje kontaktu ještě nejsou uložené), bez reklamy a propagace. Obsahuje text souhlasu shodný s textem zaškrtávacího pole na webu a tlačítko s odkazem typu *Double opt-in link* (u formuláře vytvořeného v Brevu), nebo s proměnnou `{{ params.DOIurl }}` (při volání API). Návrh textu je níže.
 - [ ] **Anonymní měření.** Brevo ve výchozím stavu měří otevření a kliknutí u každého příjemce. Úplně vypnout měření podle odpovědí podpory z roku 2024 nejde. Zapnout proto **anonymní měření (anonymous email tracking)**: otevření a kliknutí se počítají jen souhrnně a nepřiřazují se ke konkrétním lidem. To musíme správně popsat i na stránce [Ochrana soukromí](../web/src/content/o-nas/ochrana-soukromi.md). [OVĚŘIT: zda nejde měření úplně vypnout přes podporu Brevo. Rozhodnutí R5 počítalo s „bez sledování otevření“.]
@@ -237,7 +234,7 @@ Postup:
 | --- | --- |
 | **Kdo** | DEV nastaví, SR odpovídá |
 | **Proč** | Opravy viditelně: chybu může nahlásit kdokoli, odpověď do 3 pracovních dnů (plán [02](../plan/02-obsah.md#redakční-proces)). |
-| **Doporučení pro MVP** | 1) Odkaz `mailto:opravy@vimecodelat.cz` na každé stránce, s předvyplněným předmětem a adresou stránky. 2) Jednoduchý formulář na webu bez povinných osobních údajů (pole: adresa stránky, co je špatně, zdroj, nepovinný e-mail pro odpověď), odesílaný buď vlastní funkcí na hostingu do schránky `opravy@`, nebo přes službu v EU (např. Tally, Belgie, data uložená v EU). 3) Pro technicky zdatné odkaz na GitHub issues. |
+| **Doporučení pro MVP** | 1) Odkaz `mailto:josef@josefpavlovic.cz` na každé stránce, s předvyplněným předmětem a adresou stránky. 2) Jednoduchý formulář na webu bez povinných osobních údajů (pole: adresa stránky, co je špatně, zdroj, nepovinný e-mail pro odpověď), odesílaný buď vlastní funkcí na hostingu na `josef@josefpavlovic.cz`, nebo přes službu v EU (např. Tally, Belgie, data uložená v EU). 3) Pro technicky zdatné odkaz na GitHub issues. |
 | **Bezpečnost** | Ochrana proti spamu bez reCAPTCHA (skryté pole, omezení počtu odeslání). Nepovinný e-mail mazat po vyřízení opravy. Hlášení s osobními údaji třetích osob nepublikovat. |
 
 ## Na co nezapomenout

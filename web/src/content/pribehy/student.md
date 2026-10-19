@@ -2,6 +2,8 @@
 title: "Video, které Ondra neposlal dál"
 id: "P-03"
 popis: "Ondrovi je sedmnáct. Jednoho večera mu TikTok zaplaví videa, která mají vyděsit. Dvě minuty ověřování, soukromý vzkaz kamarádovi a rozhovor s mámou v kuchyni."
+obrazek: "/obrazky/clanky/pribehy-student.jpg"
+popisObrazku: "Kresba: kluk zezadu u kuchyňského stolu s telefonem displejem dolů, naproti máma s hrnkem"
 poradi: 3
 druh: "modelovy"
 cteni: 6

@@ -2,6 +2,8 @@
 title: "Péče o zranitelné"
 id: "K-05"
 popis: "Senioři, lidé na lécích a přístrojích na proud, děti a domácí zvířata potřebují v krizi víc. S trochou přípravy to zvládnete."
+obrazek: "/obrazky/clanky/priprav-se-zranitelni.jpg"
+popisObrazku: "Ruce staršího muže chystají léky do dávkovače, u stolu leží pes"
 poradi: 5
 cteni: 5
 krok: "Zavolejte dnes jednomu staršímu člověku z rodiny nebo vchodu a domluvte se, jak se spojíte bez telefonu."

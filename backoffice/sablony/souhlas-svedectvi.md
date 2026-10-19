@@ -18,7 +18,7 @@
 
 **Projekt:** Víme, co dělat (vimecodelat.cz)
 **Správce osobních údajů:** [DOPLNIT: název organizace, sídlo, IČO po zápisu do rejstříku]
-**Kontakt pro tento souhlas:** redakce@vimecodelat.cz [DOPLNIT: telefon organizace, ne osobní]
+**Kontakt pro tento souhlas:** josef@josefpavlovic.cz [DOPLNIT: telefon organizace, ne osobní]
 
 **Svědek / svědkyně:** jméno a příjmení ………………………… datum narození ……………… (slouží jen k identifikaci souhlasu, nezveřejňuje se)
 
@@ -103,7 +103,7 @@ Před zveřejněním vám ukážeme finální verzi (text, sestřih videa, zvuk,
 
 - **Do zveřejnění** můžete souhlas odvolat kdykoli a bez udání důvodu. Záznamy smažeme.
 - **Po zveřejnění** můžete souhlas také odvolat. Svědectví do [DOPLNIT, např. 14] dnů stáhneme z webu, ze sociálních sítí a z newsletteru a požádáme partnery, o kterých víme, že ho převzali, aby ho stáhli také. Kopie, které už vznikly podle licence CC BY 4.0, ale zastavit nedokážeme (viz bod 4).
-- Odvolání stačí poslat e-mailem na redakce@vimecodelat.cz nebo říct člověku, který s vámi rozhovor vedl.
+- Odvolání stačí poslat e-mailem na josef@josefpavlovic.cz nebo říct člověku, který s vámi rozhovor vedl.
 
 [OVĚŘIT: vztah k § 87 občanského zákoníku (odvolání svolení k použití podobizny a záznamu) a případné náhradě škody.]
 

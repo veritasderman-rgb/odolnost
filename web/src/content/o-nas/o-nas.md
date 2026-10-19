@@ -2,6 +2,8 @@
 title: "Kdo za tím stojí"
 id: "V-03a"
 popis: "Víme, co dělat je můj osobní projekt. Prošel jsem zahraniční příručky a weby a pokusil se dát na jedno místo to, co jinde lidem říká stát."
+obrazek: "/obrazky/clanky/o-nas-o-nas.jpg"
+popisObrazku: "Pracovní stůl v noci s notebookem, zahraničními příručkami, poznámkami a kávou"
 poradi: 1
 cteni: 4
 krok: "Přečtěte si na 72h.gov.cz jednu kapitolu, která se týká právě vaší domácnosti."
@@ -69,6 +71,6 @@ Umělá inteligence se plete. Proto u každého tvrzení uvádím zdroj v část
 
 ## Kontakt
 
-Napište mi na [info@vimecodelat.cz](mailto:info@vimecodelat.cz). Dotazy, nápady, hlášení chyb i nabídky pomoci, třeba od odborníků, kteří by chtěli texty zkontrolovat.
+Napište mi na [josef@josefpavlovic.cz](mailto:josef@josefpavlovic.cz). Dotazy, nápady, hlášení chyb i nabídky pomoci, třeba od odborníků, kteří by chtěli texty zkontrolovat.
 
 Moje účty na sociálních sítích najdete na stránce [Oficiální kanály](/oficialni-kanaly). Jiné účty, které se za projekt vydávají, nejsou moje.

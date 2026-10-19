@@ -181,6 +181,8 @@ Emoce nesou velké dokumentární fotografie (vzor: MPF, Suomi.fi, Denk vooruit)
 
 Aktuální sada (ElevenLabs, model Seedream 5 Pro, 19. 10. 2026): panelák se světlem v okně (úvod), kolona na dálnici v mlze (Scénář), ruce seniorky s rádiem (Příběhy), stůl s nouzovou výbavou (Připrav se), dospívající s telefonem zezadu (Manipulace). Zdrojové soubory jsou v `web/public/obrazky/`.
 
+Ke každému článku je navíc jeden ilustrační obrázek (ElevenLabs, Seedream 5 Pro, 19. 10. 2026; 36 kusů): dokumentární fotografie bez rozpoznatelných tváří, u modelových příběhů komiksová kresba v černé, šedé a limetkové. Velká verze je v záhlaví článku, malá (`-nahled.jpg`) na dlaždicích. Cesty a popisy jsou ve frontmatteru článku (`obrazek`, `popisObrazku`), soubory ve `web/public/obrazky/clanky/`.
+
 ### Logo (pracovní)
 
 Slovní značka „Víme, co dělat“ v IBM Plex Sans tučně se čtvercem v reflexní barvě. Finální logo navrhne designér podle tohoto směru.

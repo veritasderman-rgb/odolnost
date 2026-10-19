@@ -2,6 +2,8 @@
 title: "Opravy"
 id: "V-03d"
 popis: "Našli jste chybu? Napište mi. Odpovím do 3 pracovních dnů a každou opravu zveřejním s datem přímo u textu i v tomto seznamu."
+obrazek: "/obrazky/clanky/o-nas-opravy.jpg"
+popisObrazku: "Ruka opravuje vytištěný text červenou tužkou"
 poradi: 4
 cteni: 2
 krok: "U jedné stránky, kterou jste u nás četli, si rozbalte štítek Odkud to víme a podívejte se, z čeho vycházíme."
@@ -15,7 +17,7 @@ Chybovat může každý. Rozdíl je v tom, jak s chybou naložím. Opravím ji v
 
 ## Jak nahlásit chybu
 
-Napište mi na [info@vimecodelat.cz](mailto:info@vimecodelat.cz). Pomůže, když uvedete:
+Napište mi na [josef@josefpavlovic.cz](mailto:josef@josefpavlovic.cz). Pomůže, když uvedete:
 
 - **adresu stránky**, nebo název videa či příspěvku,
 - **co je podle vás špatně**,

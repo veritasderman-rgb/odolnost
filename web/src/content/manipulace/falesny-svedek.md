@@ -2,6 +2,8 @@
 title: "Falešný svědek"
 id: "M-07"
 popis: "Falešný svědek předstírá, že byl u toho nebo že je odborník. Ukážeme, jak během dvou minut zjistit, jestli se zdroj dá ověřit."
+obrazek: "/obrazky/clanky/manipulace-falesny-svedek.jpg"
+popisObrazku: "Ruka drží telefon s rozmazaným videem člověka v bílém plášti"
 poradi: 7
 cteni: 5
 krok: "Otevřete si u jednoho účtu, který sledujete, informace o profilu a zjistěte, kdy vznikl."

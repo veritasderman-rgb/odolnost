@@ -2,6 +2,8 @@
 title: "Panika a fámy: jak se nenechat strhnout v prvních hodinách"
 id: "S-07"
 popis: "V prvních hodinách krize vznikají fronty na benzín, u bankomatů a v obchodech. Vysvětlujeme, proč se to děje, proč to škodí a co udělat místo toho."
+obrazek: "/obrazky/clanky/scenar-panika.jpg"
+popisObrazku: "Kolona aut v noci a v dešti před čerpací stanicí"
 poradi: 10
 cteni: 5
 krok: "Napište do rodinného plánu tři zdroje, kterým budete v krizi věřit, a větu: „Nejdřív se zastavím, pak ověřím.“"

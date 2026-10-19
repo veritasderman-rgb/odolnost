@@ -35,9 +35,9 @@ const popisy: Record<string, string> = {
     <h2>Válka se dnes nevyhlašuje</h2>
     <p class="text">Rusko proti Česku i Evropě už teď vede nepřátelské operace: sabotáže, kybernetické útoky, dezinformace. Čím dřív si to připustíme, tím líp se připravíme.</p>
     <div class="mrizka">
-      <Dlazdice href="/scenar/jsme-ve-valce" titulek="Jsme ve válce?" popis="Co už se u nás a v Evropě stalo, kde je hranice a co by znamenalo, kdyby válka začala i formálně." cislo="Teď" zvyraznit />
-      <Dlazdice href="/scenar/co-rikaji-zpravodajci" titulek="Co říkají ti, kdo to vědí" popis="BIS, armáda a zahraniční zpravodajské služby jejich vlastními slovy. Kdo varuje a před čím." cislo="Zdroje" />
-      <Dlazdice href="/scenar/utok-na-elektrickou-sit" titulek="Útok na elektrickou síť" popis="Co se stane, když vypadne proud v celé zemi. První hodina, první den, třetí den." cislo="Scénář" />
+      <Dlazdice href="/scenar/jsme-ve-valce" obrazek="/obrazky/clanky/scenar-jsme-ve-valce.jpg" titulek="Jsme ve válce?" popis="Co už se u nás a v Evropě stalo, kde je hranice a co by znamenalo, kdyby válka začala i formálně." cislo="Teď" zvyraznit />
+      <Dlazdice href="/scenar/co-rikaji-zpravodajci" obrazek="/obrazky/clanky/scenar-co-rikaji-zpravodajci.jpg" titulek="Co říkají ti, kdo to vědí" popis="BIS, armáda a zahraniční zpravodajské služby jejich vlastními slovy. Kdo varuje a před čím." cislo="Zdroje" />
+      <Dlazdice href="/scenar/utok-na-elektrickou-sit" obrazek="/obrazky/clanky/scenar-utok-na-elektrickou-sit.jpg" titulek="Útok na elektrickou síť" popis="Co se stane, když vypadne proud v celé zemi. První hodina, první den, třetí den." cislo="Scénář" />
     </div>
   </section>
 
@@ -53,7 +53,7 @@ const popisy: Record<string, string> = {
     <div class="mrizka">
       <Dlazdice href="/priprav-se/rodinny-plan" titulek="Rodinný plán na A4" popis="Místo setkání, kdo vyzvedne děti, kontakty na papíře, léky a plán bez signálu." cislo="Nástroj" zvyraznit />
       <Dlazdice href="/priprav-se/kontrolni-seznam" titulek="Kontrolní seznam" popis="Co už máte a co chybí. Zaškrtáváte jen pro sebe, nic se neodesílá." cislo="Nástroj" zvyraznit />
-      <Dlazdice href="/manipulace/karta" titulek="Kapesní karta" popis="Šest technik manipulace a šest otázek. Do peněženky i do telefonu." cislo="Nástroj" zvyraznit />
+      <Dlazdice href="/manipulace/karta" obrazek="/obrazky/clanky/manipulace-karta.jpg" titulek="Kapesní karta" popis="Šest technik manipulace a šest otázek. Do peněženky i do telefonu." cislo="Nástroj" zvyraznit />
     </div>
   </section>
 
@@ -62,7 +62,7 @@ const popisy: Record<string, string> = {
       <h2>Příběhy</h2>
       <p class="text">Modelové příběhy jsou fiktivní postavy v realistických situacích. Vždy je tak označujeme.</p>
       <div class="mrizka">
-        {pribehy.map((s) => <Dlazdice href={`/${s.id}`} titulek={s.data.title} popis={s.data.popis} druh={s.data.druh} doplnek={s.data.cteni ? `${s.data.cteni} min čtení` : undefined} />)}
+        {pribehy.map((s) => <Dlazdice href={`/${s.id}`} titulek={s.data.title} popis={s.data.popis} druh={s.data.druh} doplnek={s.data.cteni ? `${s.data.cteni} min čtení` : undefined} obrazek={s.data.obrazek} />)}
       </div>
     </section>
   )}
@@ -72,9 +72,9 @@ const popisy: Record<string, string> = {
       <h2>Co můžu udělat já</h2>
       <p class="text">Připravená rodina je základ. Země ale potřebuje i lidi, kteří umějí pomoct ostatním.</p>
       <div class="mrizka">
-        <Dlazdice href="/priprav-se/aktivni-zaloha" titulek="Zvažte aktivní zálohu" popis="Výcvik pár týdnů v roce vedle běžné práce. Pro koho je a jak se přihlásit." cislo="Zapoj se" />
-        <Dlazdice href="/priprav-se/co-mohu-udelat-ja" titulek="Další cesty, jak pomoct" popis="Dobrovolní hasiči, první pomoc, Červený kříž, dárcovství krve, pomoc v obci." cislo="Zapoj se" />
-        <Dlazdice href="/priprav-se/kondice" titulek="Udržte se v kondici" popis="V krizi se chodí pěšky, nosí voda a málo spí. Jednoduchý plán pro každého." cislo="Zapoj se" />
+        <Dlazdice href="/priprav-se/aktivni-zaloha" obrazek="/obrazky/clanky/priprav-se-aktivni-zaloha.jpg" titulek="Zvažte aktivní zálohu" popis="Výcvik pár týdnů v roce vedle běžné práce. Pro koho je a jak se přihlásit." cislo="Zapoj se" />
+        <Dlazdice href="/priprav-se/co-mohu-udelat-ja" obrazek="/obrazky/clanky/priprav-se-co-mohu-udelat-ja.jpg" titulek="Další cesty, jak pomoct" popis="Dobrovolní hasiči, první pomoc, Červený kříž, dárcovství krve, pomoc v obci." cislo="Zapoj se" />
+        <Dlazdice href="/priprav-se/kondice" obrazek="/obrazky/clanky/priprav-se-kondice.jpg" titulek="Udržte se v kondici" popis="V krizi se chodí pěšky, nosí voda a málo spí. Jednoduchý plán pro každého." cislo="Zapoj se" />
       </div>
     </div>
   </section>

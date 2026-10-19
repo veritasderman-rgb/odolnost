@@ -2,6 +2,8 @@
 title: "Fáze krize: jak by se situace mohla vyvíjet?"
 id: "S-02"
 popis: "Kdyby Rusko zaútočilo na NATO, krize by měla čtyři fáze: napětí, první dny, týdny a dlouhé období. Ukazujeme, co by se dělo, co by fungovalo a co ne."
+obrazek: "/obrazky/clanky/scenar-faze-krize.jpg"
+popisObrazku: "Prázdná silnice mezi podzimními poli mizí v mlze"
 poradi: 4
 cteni: 5
 krok: "Napište si na papír tři telefonní čísla blízkých a dejte ho do peněženky."

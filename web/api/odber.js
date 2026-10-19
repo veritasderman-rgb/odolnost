@@ -5,7 +5,7 @@
 //   BREVO_API_KEY          API klíč Brevo (jen na serveru, nikdy do repozitáře)
 //   BREVO_LIST_ID          číslo seznamu „Newsletter“
 //   BREVO_DOI_TEMPLATE_ID  číslo šablony potvrzovacího e-mailu (musí obsahovat {{ doubleoptin }})
-//   SITE_URL               např. https://vimecodelat.cz
+//   SITE_URL               např. https://www.vimecodelat.cz
 
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
@@ -43,7 +43,7 @@ export default async function handler(req, res) {
     return res.end();
   }
 
-  const { BREVO_API_KEY, BREVO_LIST_ID, BREVO_DOI_TEMPLATE_ID, SITE_URL = 'https://vimecodelat.cz' } = process.env;
+  const { BREVO_API_KEY, BREVO_LIST_ID, BREVO_DOI_TEMPLATE_ID, SITE_URL = 'https://www.vimecodelat.cz' } = process.env;
   if (!BREVO_API_KEY || !BREVO_LIST_ID || !BREVO_DOI_TEMPLATE_ID) {
     return odpovez(req, res, 503, { chyba: 'Odběr zatím není spuštěný. Zkuste to prosím později.' });
   }

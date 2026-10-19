@@ -3,7 +3,7 @@ import { remarkOverit } from './src/lib/remark-overit.mjs';
 import { remarkRazitko } from './src/lib/remark-razitko.mjs';
 
 export default defineConfig({
-  site: 'https://vimecodelat.cz',
+  site: 'https://www.vimecodelat.cz',
   trailingSlash: 'ignore',
   build: { format: 'directory' },
   // Žádné vložené skripty, aby platila přísná Content-Security-Policy (vercel.json).

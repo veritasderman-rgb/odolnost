@@ -2,6 +2,8 @@
 title: "Redakční pravidla"
 id: "V-03c"
 popis: "Osm zásad, podle kterých píšeme, a sedm kroků, kterými projde každá stránka, než ji zveřejníme. Včetně toho, jak kontrolujeme fakta a jak opravujeme chyby."
+obrazek: "/obrazky/clanky/o-nas-redakcni-pravidla.jpg"
+popisObrazku: "Stůl s vytištěnými stránkami, lupou a barevnými lístečky"
 poradi: 3
 cteni: 5
 krok: "Až vám dnes někdo pošle znepokojivou zprávu, zeptejte se: Kdo to říká a odkud to ví?"
@@ -11,7 +13,7 @@ revidovano: "2026-10-19"
 stav: "navrh"
 ---
 
-Web, který učí poznat manipulaci, nesmí sám manipulovat. Proto máme pevná pravidla a zveřejňujeme je. Pokud uvidíte, že je porušujeme, napište mi na [info@vimecodelat.cz](mailto:info@vimecodelat.cz).
+Web, který učí poznat manipulaci, nesmí sám manipulovat. Proto máme pevná pravidla a zveřejňujeme je. Pokud uvidíte, že je porušujeme, napište mi na [josef@josefpavlovic.cz](mailto:josef@josefpavlovic.cz).
 
 ## Osm zásad
 

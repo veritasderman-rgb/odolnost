@@ -2,6 +2,8 @@
 title: "Zásoby, voda, proud, teplo"
 id: "K-03"
 popis: "Rozcestník na ověřené rady státního webu 72h.gov.cz. Nic nekopírujeme, jen vám ukážeme, kam kliknout a čím začít."
+obrazek: "/obrazky/clanky/priprav-se-zasoby-voda-proud-teplo.jpg"
+popisObrazku: "Spíž s lahvemi vody, konzervami, svíčkami, baterkou a vařičem"
 poradi: 3
 cteni: 3
 krok: "Postavte doma na jedno místo tolik balené vody, kolik vaše rodina vypije za tři dny."

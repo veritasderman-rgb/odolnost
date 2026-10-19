@@ -2,6 +2,8 @@
 title: "Nesouhlas není zrada"
 id: "M-11"
 popis: "Názor, protest a kritika vlády patří k demokracii. Ukážeme, jak je odlišit od koordinované falešné kampaně a sabotáže a proč nikoho nenálepkovat."
+obrazek: "/obrazky/clanky/manipulace-nesouhlas-neni-zrada.jpg"
+popisObrazku: "Pokojná demonstrace na náměstí, lidé zezadu s prázdnými transparenty"
 poradi: 11
 cteni: 5
 krok: "Vyberte si jeden názor, se kterým nesouhlasíte, a zkuste ho jednou větou popsat tak, aby s tím jeho zastánce souhlasil."

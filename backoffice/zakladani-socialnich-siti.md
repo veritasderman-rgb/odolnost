@@ -57,7 +57,7 @@ Celkem zhruba **5–6 hodin** práce, rozložené do 2–3 dnů kvůli ověřova
 2. Vytvořit stránku: *Stránky → Vytvořit novou stránku*. Název **Víme, co dělat**.
 3. **Kategorie:** do pole napsat a vybrat neutrální kategorii. Doporučení: **Komunitní organizace** (Community organization). Druhá kategorie může být vzdělávací. Kategorie se vybírají vyhledáváním z dlouhého seznamu, přesné české názvy ověřte v nabídce. Nevybírat nic politického ani vládního.
 4. **Uživatelské jméno stránky:** `vimecodelat` (adresa facebook.com/vimecodelat).
-5. Krátký popis (bio), kontakt `info@vimecodelat.cz`, web `vimecodelat.cz`. **Nevyplňovat** telefon ani adresu. Texty v [profily.md](socialni-site/profily.md#facebook).
+5. Krátký popis (bio), kontakt `josef@josefpavlovic.cz`, web `vimecodelat.cz`. **Nevyplňovat** telefon ani adresu. Texty v [profily.md](socialni-site/profily.md#facebook).
 6. Stránku zatím **nezveřejňovat** nebo nechat bez obsahu. [OVĚŘIT: zda nové rozhraní stránek umožňuje stránku před zveřejněním skrýt.]
 7. Přidat SR jako druhého správce s plnou kontrolou (*Nastavení → Přístup ke stránce*).
 

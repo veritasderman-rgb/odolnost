@@ -2,6 +2,8 @@
 title: "Paní Věra a seznam ve vchodě"
 id: "P-02"
 popis: "Paní Věře je 78 let a bydlí sama v sedmém patře. Tři dny nejde proud, výtah stojí a inzulin je v lednici. Pomůže sousedka z druhého patra a seznam, který Věra sama sepíše."
+obrazek: "/obrazky/clanky/pribehy-pani-vera.jpg"
+popisObrazku: "Kresba: starší paní zezadu u stolu při svíčce, sousedka ve dveřích nese tašku a termosku"
 poradi: 2
 druh: "modelovy"
 cteni: 6

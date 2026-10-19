@@ -2,6 +2,8 @@
 title: "Co by nás mohlo zasáhnout doma?"
 id: "S-03"
 popis: "Kdyby Rusko zaútočilo na NATO, mohly by nás doma zasáhnout výpadky proudu a internetu, sabotáže, útoky ze vzduchu, prázdné regály a záplava fám."
+obrazek: "/obrazky/clanky/scenar-co-nas-zasahne.jpg"
+popisObrazku: "Panelák večer při výpadku proudu, jen pár oken svítí svíčkami"
 poradi: 5
 cteni: 5
 krok: "Dejte si doma na jedno místo baterku, rádio na baterky a náhradní baterie."
