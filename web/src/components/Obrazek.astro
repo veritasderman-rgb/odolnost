@@ -1,0 +1,15 @@
+---
+// Velký ilustrační obrázek s povinným označením původu (AI / fotografie).
+interface Props { src: string; alt?: string; puvod?: 'ai' | 'foto'; autor?: string; vyska?: string }
+const { src, alt = '', puvod = 'ai', autor, vyska = 'clamp(14rem, 38vw, 26rem)' } = Astro.props;
+const popisek = puvod === 'ai' ? 'Ilustrační obrázek vytvořený pomocí AI' : `Foto: ${autor ?? ''}`;
+---
+<figure class="obrazek" style={`--vyska: ${vyska}`}>
+  <img src={src} alt={alt} loading="lazy" decoding="async" />
+  <figcaption>{popisek}</figcaption>
+</figure>
+<style>
+  .obrazek { position: relative; margin: 0; height: var(--vyska); overflow: hidden; background: var(--tmava); border-bottom: 6px solid var(--akcent); }
+  img { width: 100%; height: 100%; object-fit: cover; display: block; filter: saturate(0.85); }
+  figcaption { position: absolute; right: 0; bottom: 0; background: rgb(0 0 0 / 0.65); color: #fff; font-family: var(--pismo-mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.25rem 0.5rem; }
+</style>

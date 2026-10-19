@@ -2,14 +2,16 @@
 import { getCollection } from 'astro:content';
 import Zaklad from '../layouts/Zaklad.astro';
 import Dlazdice from './Dlazdice.astro';
+import Obrazek from './Obrazek.astro';
 import { PILIRE, type Pilir } from '../lib/pilire';
 interface Nastroj { href: string; titulek: string; popis: string }
-interface Props { pilir: Pilir; uvod: string; nastroje?: Nastroj[] }
-const { pilir, uvod, nastroje = [] } = Astro.props;
+interface Props { pilir: Pilir; uvod: string; nastroje?: Nastroj[]; obrazek?: string; popisObrazku?: string }
+const { pilir, uvod, nastroje = [], obrazek, popisObrazku = '' } = Astro.props;
 const info = PILIRE[pilir];
 const stranky = (await getCollection('obsah', (s) => s.id.startsWith(pilir + '/'))).sort((a, b) => a.data.poradi - b.data.poradi);
 ---
 <Zaklad title={info.nazev} popis={uvod}>
+  {obrazek && <Obrazek src={obrazek} alt={popisObrazku} />}
   <section class="obal hlava" style={`--barva-pilire: ${info.barva}`}>
     <p class="znacka">{info.cislo ? `0${info.cislo} · ` : ''}{info.podtitul}</p>
     <h1>{info.nazev}</h1>

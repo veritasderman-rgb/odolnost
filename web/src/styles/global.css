@@ -1,22 +1,22 @@
 /*
   Design tokeny. Směr podle oficiálních webů o připravenosti a psychologické obraně
-  (MPF Švédsko, olevalmis.ee, Prepare UK): černá a signální žlutá, zúžené nadpisy
-  verzálkami, ostré hrany, štítky strojovým písmem. Viz plan/01-brand.md.
+  (MPF Švédsko, olevalmis.ee, Prepare UK, Suomi.fi): grafit a reflexní žlutozelená,
+  ostré hrany, výrazná typografie, štítky strojovým písmem. Viz plan/01-brand.md.
 */
 :root {
-  /* Inkoust a papír */
-  --cerna: #1b1b1b;
+  /* Grafit a reflexní žlutozelená: barva výstražných vest a bezpečnostních prvků. */
+  --cerna: #1f2328;
   --bila: #ffffff;
-  --papir: #f4f1ea;
-  --seda: #555555;
-  --seda-svetla: #d9d5cc;
+  --papir: #f3f4f2;
+  --seda: #555a5f;
+  --seda-svetla: #d5d9d3;
   --cervena: #b42318;
 
-  /* Sémantické tokeny, které mění varianty vzhledu */
-  --akcent: #c2361f;
-  --na-akcentu: #ffffff;
-  --akcent-na-tmave: #ff8a70;
-  --tmava: #1b1b1b;
+  /* Sémantické tokeny */
+  --akcent: #c8f560;
+  --na-akcentu: #1f2328;
+  --akcent-na-tmave: #c8f560;
+  --tmava: #1f2328;
   --na-tmave: #ffffff;
 
   --pozadi: var(--papir);
@@ -24,10 +24,10 @@
   --text: var(--cerna);
   --text-2: var(--seda);
   --odkaz: var(--cerna);
-  --akcent-text: var(--akcent);
+  --akcent-text: #3d5a00;
   --linka: var(--cerna);
   --linka-jemna: var(--seda-svetla);
-  --papir-2: #e9e4d8;
+  --papir-2: #e4e7e2;
 
   /* Aliasy pro starší komponenty */
   --inkoust: var(--cerna);
@@ -35,47 +35,19 @@
   --zluta: var(--akcent);
 
   --pismo: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --pismo-nadpis: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --pismo-nadpis: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --pismo-mono: 'IBM Plex Mono', ui-monospace, 'Courier New', monospace;
   --pismo-cteni: var(--pismo);
   --nadpis-vaha: 700;
   --nadpis-transform: none;
-  --nadpis-lh: 1.04;
-  --nadpis-tracking: -0.018em;
+  --nadpis-lh: 1.02;
+  --nadpis-tracking: -0.025em;
   --zakladni: 1.125rem;
   --sirka: 76rem;
   --sirka-textu: 42rem;
   --radius: 0;
   --mezera: clamp(1rem, 3vw, 2rem);
   color-scheme: light;
-}
-
-/* Varianta B: grafit a reflexní žlutozelená (bezpečnostní vesta) */
-:root[data-varianta='reflex'] {
-  --cerna: #1f2328;
-  --papir: #f3f4f2;
-  --akcent: #c8f560;
-  --na-akcentu: #1f2328;
-  --akcent-na-tmave: #c8f560;
-  --tmava: #1f2328;
-  --papir-2: #e4e7e2;
-  --pismo-nadpis: 'IBM Plex Sans', system-ui, sans-serif;
-  --nadpis-tracking: -0.025em;
-  --nadpis-lh: 1.02;
-}
-
-/* Varianta C: civilní ochrana, výstražná oranžová a tmavá břidlice */
-:root[data-varianta='civilni'] {
-  --cerna: #1d2526;
-  --papir: #eef0ed;
-  --akcent: #ff6a1a;
-  --na-akcentu: #1d2526;
-  --akcent-na-tmave: #ff8a4c;
-  --tmava: #1d2526;
-  --papir-2: #e0e4df;
-  --pismo-nadpis: 'IBM Plex Sans', system-ui, sans-serif;
-  --nadpis-tracking: -0.025em;
-  --nadpis-lh: 1.02;
 }
 
 :root[data-pismo='velke'] {
