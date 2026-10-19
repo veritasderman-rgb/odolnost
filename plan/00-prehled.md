@@ -64,7 +64,7 @@ Do 3. 3. 2027 spustíme klidný, nezávislý web s rodinným plánem, třemi př
 | Brána | Kdy | Podmínka splnění | Když splněno není |
 | --- | --- | --- | --- |
 | **B1 Můžeme začít utrácet** | 30. 11. 2026 | Podaný návrh na zápis spolku nebo ústavu. Aspoň 3 členové správní rady z různých oborů. Potvrzená tvář projektu (nebo dva finalisté). Zajištěno aspoň 1,5 mil. Kč na MVP (přislíbeno nebo na účtu). Registrovaná doména a účty. | Výroba se posune. Do té doby se dělá jen to, co nestojí peníze: texty, rešerše, oslovování partnerů. |
-| **B2 Můžeme spustit** | 19. 2. 2027 | Test s 30 čtenáři: aspoň 80 % uvede, že je obsah nevyděsil víc, než čekali, a že vědí, co mají udělat. Odborná revize všech MVP stránek. Bezpečnostní revize. Žádná kritická chyba na webu. | Spuštění se posune o 2–4 týdny (náhradní termín středa 7. 4. 2027, zkouška sirén). Spouštíme až s opraveným obsahem. |
+| **B2 Můžeme spustit** | 19. 2. 2027 | Test s 30 čtenáři: aspoň 80 % uvede, že je obsah nevyděsil víc, než čekali, a že vědí, co mají udělat. Odborná revize všech MVP stránek. Bezpečnostní revize. Žádná kritická chyba na webu. | Spuštění se posune na nejbližší další zkoušku sirén, středu 7. 4. 2027 (o 5 týdnů). Spouštíme až s opraveným obsahem. |
 | **B3 Můžeme rozšířit** | 30. 6. 2027 | Výsledky průzkumu před a po. Statisticky významné zlepšení v poznávání manipulace. Většina respondentů se necítí vyděšeněji. Aspoň 3 z 5 pilotních obcí a škol by sadu doporučily. | Rozšíření se nezastaví úplně. Nejdřív se ale přepracuje to, co nefungovalo, a teprve potom se pokračuje. |
 
 ## Rozsah MVP: co přesně spouštíme

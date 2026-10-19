@@ -233,7 +233,7 @@ Ikonový soubor: lineární ikony s tloušťkou čáry 2 px a zakulacenými konc
 
 ### Zvuková identita
 
-Klidný ženský nebo mužský hlas (ideálně tvář projektu), krátká zvuková značka 2–3 s (teplý akord, žádný úder ani siréna). Hudba je **zakázaná na objednávku nebo s licencí CC0/CC BY**. Obsah šíříme pod CC BY, takže běžná licence hudebních knihoven, která zakazuje další šíření, nestačí.
+Klidný ženský nebo mužský hlas (ideálně tvář projektu), krátká zvuková značka 2–3 s (teplý akord, žádný úder ani siréna). Hudba je **zakázková (na objednávku) nebo s licencí CC0/CC BY**. Obsah šíříme pod CC BY, takže běžná licence hudebních knihoven, která zakazuje další šíření, nestačí.
 
 ## Výstupy brandové práce (F1)
 

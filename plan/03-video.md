@@ -125,12 +125,12 @@ Původní rozpočet počítal s 400–900 tis. Kč. Vyšší částka se dá sn�
 
 > **Projekt:** Víme, co dělat. Nezávislý web o připravenosti domácností na vážnou krizi a o odolnosti vůči manipulaci.
 >
-> **Poptáváme:** Úvodní video (60–90 s) a 3 prebunkingová videa (45–60 s) v MVP s opcí na další 3 prebunkingová a 6–8 příběhových videí. Animace v ilustračním stylu značky (ilustrace dodá náš ilustrátor, nebo je vytvoříte ve spolupráci).
+> **Poptáváme:** Pro MVP úvodní video (60–90 s), 3 prebunkingová videa (45–60 s) a 3 příběhová videa (60–90 s, animace z ilustrací). Opce na další 3 prebunkingová a 5 příběhových videí. Animace v ilustračním stylu značky (ilustrace dodá náš ilustrátor, nebo je vytvoříte ve spolupráci).
 >
 > **Tón:** klidný, vřelý, s lehkým humorem v prebunkingu. Žádný strach, žádná vojenská estetika, žádné AI generované tváře ani hlasy.
 >
 > **Formáty:** 9:16, 4:5, 16:9. Titulky vypálené i zvlášť. Hudba s licencí umožňující další šíření pod CC BY.
 >
-> **Co od vás chceme:** showreel s podobnými projekty (vzdělávání, veřejné zdraví, neziskovky), návrh postupu, harmonogram, cenu za úvodní video, za 1 prebunkingové video a za 1 příběhové video, licenční podmínky (potřebujeme práva v rozsahu, který nám umožní videa zveřejnit pod CC BY 4.0, a zdrojové soubory).
+> **Co od vás chceme:** showreel s podobnými projekty (vzdělávání, veřejné zdraví, neziskovky), návrh postupu, harmonogram, cenu za úvodní video, za 1 prebunkingové video a za 1 příběhové video (MVP = 1 + 3 + 3 kusy), licenční podmínky (potřebujeme práva v rozsahu, který nám umožní videa zveřejnit pod CC BY 4.0, a zdrojové soubory).
 >
 > **Termín nabídky:** 18. 11. 2026 · **Výběr:** 25. 11. 2026 · **Hotová MVP videa:** 19. 2. 2027
